@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8d4c7df5-126d-4479-8419-2b67b98eddc6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GL_CB_IRPMPage"
+	namespace="Sid_FCGAProject.GL_Product">
+	</codegen>
+	<variables>
+		<var
+		id="4accb82a-21ce-4cdf-be60-c0e03b62670c"
+		name="GL_CB_IRPM">
+			1.56
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="16f15457-e3af-42a3-b461-dfc944771ebf"
+		sx="1686"
+		sy="481"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="357fad8e-5950-4513-bdc5-23e82c92a819"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="1594,465,178,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control multiirpm
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtCBIRPM
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control multiirpm
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0.85
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						5
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						irpm
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0.85
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtCBIRPM']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0c566200-aa07-4b1e-b2d7-94cc4dd80abc">
+				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
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="6ad51237-ac81-41bb-8a00-a91c911cb73f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="GL_CB_IRPM">
+				</binding>
+			</bindings>
+			<info
+			id="357fad8e-5950-4513-bdc5-23e82c92a819"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="1"
+				prefcap="inputtag"
+				rect="1594,465,178,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control multiirpm
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtCBIRPM
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control multiirpm
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						156
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						5
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						irpm
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						156
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//input[#'txtCBIRPM']
+				</path>
+			</info>
+			<AttributeValue>
+				156
+			</AttributeValue>
+		</setvaluerecorditem>
+	</recorditems>
+	<repository
+	id="b4f2e0a2-1262-4076-a527-db4d78527b23"
+	name="Sid_FCGAProjectRepository"
+	relativepath="..\Project Repository\Sid_FCGAProjectRepository.rxrep">
+		<codegen
+		classname="Sid_FCGAProjectRepository"
+		namespace="Sid_FCGAProject.Project_Repository">
+		</codegen>
+		<rootfolder
+		id="230ffb59-4dfa-42e8-b608-b33df22bb096"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GL_CB_IRPMPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

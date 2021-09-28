@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="1.2m"
+		durationms="73921"
+		type="root"
+		rid="190f2e6018a6f369"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SMishra"
+		rxversion="9.3.3.0"
+		host="SMISHRA-VM-W10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/8/2021 5:26:49 AM"
+		timestampiso="2021-09-08T09:26:49"
+		endtime="9/8/2021 5:28:03 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="PradipCode">
+		<detail>
+			PradipCode
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.002"
+			timeRelativeToTestModuleStartTime="00:18.002"
+			timeWallClock="05:27:07"
+			time="00:18.002"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>XYZ
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.177"
+			timeRelativeToTestModuleStartTime="00:50.177"
+			timeWallClock="05:27:39"
+			time="00:50.177"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'labeltagInfo' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[1]/td[7]/?/?/label[@innertext='No']"
+				itempath=".//table[#'myTable']/tbody/tr[1]/td[7]/?/?/label[@innertext='No']"
+				fullname="Sid_FCGAProjectRepository.ApplicationUnderTest.Class_Specific_Selection.N91111.Class_Specific_Q1No"
+				id="87144625e6d34c4988f847ac43d16e6d"
+				timeout="60000"
+				codefile="C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master V 2.0\Frankcrum-Project-master\Sid_FCGAProject\User Collection\PradipCode.UserCode.cs"
+				codeline="73"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.440"
+			timeRelativeToTestModuleStartTime="00:55.440"
+			timeWallClock="05:27:44"
+			time="00:55.440"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'labeltagInfo2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[8]/td[7]/?/?/label[@innertext='No']"
+				itempath=".//table[#'myTable']/tbody/tr[8]/td[7]/?/?/label[@innertext='No']"
+				fullname="Sid_FCGAProjectRepository.ApplicationUnderTest.Class_Specific_Selection.N91111.Class_Specific_Q2No"
+				id="821846e5053e42d7af6fbc3e007ddd25"
+				timeout="60000"
+				codefile="C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master V 2.0\Frankcrum-Project-master\Sid_FCGAProject\User Collection\PradipCode.UserCode.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.012"
+			timeRelativeToTestModuleStartTime="01:00.012"
+			timeWallClock="05:27:49"
+			time="01:00.012"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'labeltagInfo4' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[10]/td[7]/?/?/label[@innertext='No']"
+				itempath=".//table[#'myTable']/tbody/tr[10]/td[7]/?/?/label[@innertext='No']"
+				fullname="Sid_FCGAProjectRepository.ApplicationUnderTest.Class_Specific_Selection.N91111.Class_Specific_Q3No"
+				id="b8ae9865f2b34b008fad6ef6491612d0"
+				timeout="60000"
+				codefile="C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master V 2.0\Frankcrum-Project-master\Sid_FCGAProject\User Collection\PradipCode.UserCode.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.948"
+			timeRelativeToTestModuleStartTime="01:06.948"
+			timeWallClock="05:27:56"
+			time="01:06.948"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'labeltagInfo6' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[12]/td[7]/?/?/label[@innertext='No']"
+				itempath=".//table[#'myTable']/tbody/tr[12]/td[7]/?/?/label[@innertext='No']"
+				fullname="Sid_FCGAProjectRepository.ApplicationUnderTest.Class_Specific_Selection.N91111.Class_Specific_Q4No"
+				id="f5c3e3278ca84c39b3aaa853e41fe9c7"
+				timeout="60000"
+				codefile="C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master V 2.0\Frankcrum-Project-master\Sid_FCGAProject\User Collection\PradipCode.UserCode.cs"
+				codeline="140"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.207"
+			timeRelativeToTestModuleStartTime="01:13.207"
+			timeWallClock="05:28:02"
+			time="01:13.207"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'labeltagInfo8' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qawinston.fwcins.com']//table[#'myTable']/tbody/tr[14]/td[7]/?/?/label[@innertext='No']"
+				itempath=".//table[#'myTable']/tbody/tr[14]/td[7]/?/?/label[@innertext='No']"
+				fullname="Sid_FCGAProjectRepository.ApplicationUnderTest.Class_Specific_Selection.N91127.Class_Specific_Q5No"
+				id="9005398e86d941aabddc4d2db1ca81d7"
+				timeout="60000"
+				codefile="C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master V 2.0\Frankcrum-Project-master\Sid_FCGAProject\User Collection\PradipCode.UserCode.cs"
+				codeline="162"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

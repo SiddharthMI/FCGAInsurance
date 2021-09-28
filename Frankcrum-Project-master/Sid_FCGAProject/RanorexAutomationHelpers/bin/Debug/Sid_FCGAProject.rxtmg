@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Sid_FCGAProject"
+      id="41f048d1-0580-4475-89c5-8740f3c49468"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Sid_FCGAProject"
+      id="41f048d1-0580-4475-89c5-8740f3c49468"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

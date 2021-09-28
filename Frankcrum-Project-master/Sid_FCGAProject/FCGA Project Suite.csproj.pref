@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="FCGA_Insurance.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Sid_FCGAProject.User_Collection.Latest_Excel_Write.TestExcelWrite(String TCID, String Product, String TestScenario, String ClassCode, String ClassDescription, String ClassGroup, String InsuredName, String ReferralReason, String InsuredAddress, String SmartyStreet, String QuoteNo, String CarrierName, String MIPolicyNo, String XSPolicyNo, String Status, String StartTime, String EndTime)" />
+      <Element value="Sid_FCGAProject.User_Collection.Latest_Excel_Write.TestExcelWrite(String TCID, String Product, String TestScenario, String ClassCode, String ClassDescription, String ClassGroup, String InsuredName, String ReferralReason, String InsuredAddress, String SmartyStreet, String QuoteNo, String CarrierName, String MIPolicyNo, String XSPolicyNo, String Status, String StartTime, String EndTime)" />
+      <Element value="Sid_FCGAProject.UWOpen_Browser.RestorePageClose(RepoItemInfo buttonInfo, RepoItemInfo buttonInfo1)" />
+      <Element value="Sid_FCGAProject.Common.CloseBrowser.Hardclosebrowser()" />
+      <Element value="Sid_FCGAProject.Common.AgentOpenBrowser.RestorePageClose(RepoItemInfo buttonInfo, RepoItemInfo buttonInfo1)" />
+      <Element value="Sid_FCGAProject.Common.AgentOpenBrowser.MergedUserCodeMethod(RepoItemInfo buttonInfo, RepoItemInfo buttonInfo1)" />
+    </Array>
+  </Properties>
+</Properties>

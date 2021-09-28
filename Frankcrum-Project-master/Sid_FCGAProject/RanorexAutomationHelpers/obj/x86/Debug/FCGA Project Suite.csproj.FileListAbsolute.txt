@@ -1,0 +1,2 @@
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V3.0\Frankcrum-Project-master\Sid_FCGAProject\obj\x86\Debug\FCGA Project Suite.csprojAssemblyReference.cache
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V3.0\Frankcrum-Project-master\Sid_FCGAProject\obj\x86\Debug\FCGA Project Suite.csproj.CoreCompileInputs.cache

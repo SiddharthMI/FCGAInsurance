@@ -87,24 +87,24 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.BtnDownloadDisc.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfGoogleChrome' at Center.", repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfGoogleChromeInfo, new RecordItemIndex(2));
-            repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfGoogleChrome.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfClose' at Center.", repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfCloseInfo, new RecordItemIndex(2));
+            repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfClose.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Accept' at Center.", repo.AcceptInfo, new RecordItemIndex(3));
             repo.Accept.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.Email' at Center.", repo.ApplicationUnderTest.MainContentHolder.EmailInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.MainContentHolder.Email.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.Email' at Center.", repo.ApplicationUnderTest.MainContentHolder.EmailInfo, new RecordItemIndex(4));
+            //repo.ApplicationUnderTest.MainContentHolder.Email.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.CellPhone' at Center.", repo.ApplicationUnderTest.MainContentHolder.CellPhoneInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.MainContentHolder.CellPhone.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.CellPhone' at Center.", repo.ApplicationUnderTest.MainContentHolder.CellPhoneInfo, new RecordItemIndex(5));
+            //repo.ApplicationUnderTest.MainContentHolder.CellPhone.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDisclaimerClose1' at 4;15.", repo.ApplicationUnderTest.BtnDisclaimerClose1Info, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.BtnDisclaimerClose1.Click("4;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDisclaimerClose1' at Center.", repo.ApplicationUnderTest.BtnDisclaimerClose1Info, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.BtnDisclaimerClose1.Click();
             Delay.Milliseconds(0);
             
         }

@@ -83,14 +83,17 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.FWCIBPlusPlus.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave' at Center.", repo.ApplicationUnderTest.BtnSaveInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave' at Center.", repo.ApplicationUnderTest.BtnSaveInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.BtnSave.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CLOSE2' at Center.", repo.ApplicationUnderTest.CLOSE2Info, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CLOSE2' at Center.", repo.ApplicationUnderTest.CLOSE2Info, new RecordItemIndex(4));
             repo.ApplicationUnderTest.CLOSE2.Click();
             Delay.Milliseconds(0);
             

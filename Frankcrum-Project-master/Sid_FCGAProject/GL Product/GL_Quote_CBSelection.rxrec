@@ -164,6 +164,15 @@ UeyfcPr0exLRUX9pXX99P+/Sf4Uf2ldf30/79J/hR7J9w+vR7EtFRf2ldf30/wC/Sf4Uf2ldf30/
 UUUUAFFFFABRRRQAUUUUAFFFFAH/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"

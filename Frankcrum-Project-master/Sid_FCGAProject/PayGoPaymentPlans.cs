@@ -90,8 +90,8 @@ namespace Sid_FCGAProject
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfGoogleChrome' at Center.", repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfGoogleChromeInfo, new RecordItemIndex(3));
-            repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfGoogleChrome.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfClose' at Center.", repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfCloseInfo, new RecordItemIndex(3));
+            repo.PayGoDisclaimerPdfGoogleChrome.PayGoDisclaimerPdfClose.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Accept' at Center.", repo.AcceptInfo, new RecordItemIndex(4));

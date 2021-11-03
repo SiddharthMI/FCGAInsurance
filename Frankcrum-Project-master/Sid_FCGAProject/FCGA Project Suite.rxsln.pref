@@ -16,6 +16,6 @@
       <string>9f8139ee-fe21-4159-9b9d-1e233886b5a1</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution FCGA Project Suite[FCGA Project Suite[bin[]Common[AgentOpenBrowser.rxrec[]]User Collection[]FCGA_Insurance.rxtst[]UW_SubmitandRerate.rxrec[]]]]&#xD;&#xA;Solution FCGA Project Suite&#xD;&#xA;Solution FCGA Project Suite" />
+  <ProjectBrowserState value="[Solution FCGA Project Suite[FCGA Project Suite[bin[Debug[]]Common[AgentOpenBrowser.rxrec[]]User Collection[]FCGA_Insurance.rxtst[]UW_SubmitandRerate.rxrec[]]]]&#xD;&#xA;Solution FCGA Project Suite\FCGA Project Suite&#xD;&#xA;Solution FCGA Project Suite\FCGA Project Suite" />
   <StartupProject value="{7FE7AB79-E677-4150-8D36-4D44BA0C686A}" />
 </Properties>

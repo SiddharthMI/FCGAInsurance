@@ -915,7 +915,7 @@ UUAFFFFAH//Z
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1015,7 +1015,7 @@ AFFFFABTW7UUUAJRRRQAUUUUAf/Z
 		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -1026,8 +1026,8 @@ AFFFFABTW7UUUAJRRRQAUUUUAf/Z
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
-		loc="Center"
+		enabled="False"
+		loc="CenterRight"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="abccd29c-e1b0-49a3-a64d-1437359ae868"

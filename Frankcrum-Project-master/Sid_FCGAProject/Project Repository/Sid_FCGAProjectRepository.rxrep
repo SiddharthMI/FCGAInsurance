@@ -5517,6 +5517,15 @@ name="Sid_FCGAProjectRepository">
 			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
+			id="8b3a29c2-09cb-4f75-b140-0603d3f4a906"
+			name="TxtFTEmployee1"
+			refimgid="b5ca2263-e0a3-4539-be85-66df29008ff9"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtFTEmployee1']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
 			id="9431edda-330a-4875-bf03-7e067c724124"
 			name="TxtFirstName1"
 			refimgid="e5adda97-1dca-4b56-a20f-4cded6120764"
@@ -5558,15 +5567,6 @@ name="Sid_FCGAProjectRepository">
 			refimgid="58c19853-1592-4f85-a86e-8ad6d04f52f0"
 			searchtimeout="30000ms">
 				/dom[@domain&lt;'winston.fwcins.com']//textarea[#'txtDescriptionOfOprations']
-			</item>
-			<item
-			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
-			id="8b3a29c2-09cb-4f75-b140-0603d3f4a906"
-			name="TxtFTEmployee1"
-			refimgid="b5ca2263-e0a3-4539-be85-66df29008ff9"
-			searchtimeout="30000ms">
-				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtFTEmployee1']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -5804,15 +5804,6 @@ name="Sid_FCGAProjectRepository">
 					/dom[@domain&lt;'winston.fwcins.com']/body/div[10]/div/div[3]/a[@innertext='Use as is']
 				</item>
 				<item
-				addcaps="unknown,webelement,atag"
-				capname="atag"
-				id="b4880b40-e004-4513-91ff-1f1ccd2908d6"
-				name="DropdownToggleNavLink"
-				refimgid="63ebf6f8-34c2-411c-8f03-1f7cbdd8d1ad"
-				searchtimeout="30000ms">
-					/dom[@domain&lt;'winston.fwcins.com']/body/div[10]//a
-				</item>
-				<item
 				addcaps="unknown,webelement,inputtag"
 				capname="inputtag"
 				id="23d9a41d-bb90-45fd-ad2d-b96a306c9403"
@@ -5856,15 +5847,6 @@ name="Sid_FCGAProjectRepository">
 				refimgid="68c791f3-1272-4ae6-929f-5884258702ed"
 				searchtimeout="30000ms">
 					/dom[@domain&lt;'winston.fwcins.com']/body/div[10]/div[7]/div/div//label[@innertext='Yes']
-				</item>
-				<item
-				addcaps="unknown,webelement,labeltag"
-				capname="labeltag"
-				id="09129d46-bb4d-415b-814c-4e4aa9984d68"
-				name="IAgree"
-				refimgid="6ad6af60-0a95-420b-a718-8c8bac8aebb7"
-				searchtimeout="30000ms">
-					/dom[@domain&lt;'winston.fwcins.com']/body/div[10]/div[@id='pgBody']/div[2]/div/div[6]/div[2]/div[2]//label[@innertext='I Agree']
 				</item>
 				<item
 				addcaps="unknown,webelement,labeltag"
@@ -5937,6 +5919,15 @@ name="Sid_FCGAProjectRepository">
 				refimgid="0f3140f8-fbae-4c86-91f1-5634bf1e8ec0"
 				searchtimeout="30000ms">
 					/dom[@domain&lt;'winston.fwcins.com']/body/div[10]/div[6]//input[@name='txtZipCodeCG2011']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="a2fa8929-37b5-4d63-97e5-6260d6db6b32"
+				name="SomeATag"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']/body/div/div/div/a"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']/body/div[10]//a
 				</item>
 				<basepath>
 					/dom[@domain&lt;'winston.fwcins.com']/body/div[10]
@@ -6173,7 +6164,7 @@ name="Sid_FCGAProjectRepository">
 			name="CLOSE"
 			refimgid="301f5376-4b05-4563-89b6-b7632197dcc4"
 			searchtimeout="30000ms">
-				/dom[@domain&lt;'winston.fwcins.com']/body/div[8]/div/div/div[3]/input[@name='CLOSE']
+				/dom[@domain&lt;'winston.fwcins.com']/body/div[9]/div/div/div[3]/input[@name='CLOSE']
 			</item>
 			<item
 			addcaps="unknown,webelement,itag"
@@ -6234,6 +6225,15 @@ name="Sid_FCGAProjectRepository">
 			capname="inputtag"
 			id="d4fb7e05-fd06-4b21-9193-863ac7d7be65"
 			name="TxtSearch1"
+			refimgid="6d0ce558-ca1a-4718-b0cd-98f2a79c1aeb"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtSearch']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="61b0b0d1-9303-4549-bf4b-ed80785bd375"
+			name="TxtSearch12"
 			refimgid="6d0ce558-ca1a-4718-b0cd-98f2a79c1aeb"
 			searchtimeout="30000ms">
 				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtSearch']
@@ -6400,7 +6400,7 @@ name="Sid_FCGAProjectRepository">
 			id="e040cea8-37fc-4216-8fef-f7a46ef90db4"
 			name="NPFPolicySubmit"
 			searchtimeout="30000ms">
-				/dom[@domain&lt;'winston.fwcins.com']//div[#'divSendCheck']/input[@value&gt;'REQUEST ISSUANCE &amp; MAKE P']
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'divSendCheck']/input[@tagvalue&gt;'SEND CHECK']
 			</item>
 			<item
 			addcaps="unknown,webelement,buttontag"
@@ -8150,6 +8150,7 @@ name="Sid_FCGAProjectRepository">
 				capname="selecttag"
 				id="6a00194c-bf5d-438a-afe5-e544797e0e13"
 				name="Agent_RecordTypeLink"
+				refimgid="1d6bcf0b-63ba-45f6-8faa-73950c2ce97b"
 				searchtimeout="30000ms">
 					/dom[@domain&lt;'winston.fwcins.com']//select[#'drpType']
 				</item>
@@ -9352,7 +9353,7 @@ name="Sid_FCGAProjectRepository">
 			name="CLOSE2"
 			refimgid="1a3cce11-aa50-4664-82fd-af6b261fc70c"
 			searchtimeout="30000ms">
-				/dom[@domain&lt;'winston.fwcins.com']/body/div[9]/div/div/div[3]/input[@name='CLOSE']
+				/dom[@domain&lt;'winston.fwcins.com']/body/div[10]/div/div/div[3]/input[@name='CLOSE']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -9388,7 +9389,7 @@ name="Sid_FCGAProjectRepository">
 			name="UseAsIs"
 			refimgid="bab0fc6d-853c-4bd9-93f2-b2457dece26a"
 			searchtimeout="30000ms">
-				/dom[@domain&lt;'winston.fwcins.com']/body/div[13]/div/div[3]/a[@innertext='Use as is']
+				/dom[@domain&lt;'winston.fwcins.com']/body/div[14]//a[@innertext='Use as is']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -9727,12 +9728,12 @@ name="Sid_FCGAProjectRepository">
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
-			capname="spantag"
+			capname="button"
 			id="31acb4d7-02a1-43e6-9b6b-ad3d07af9bcf"
 			name="BtnDisclaimerClose1"
 			refimgid="e6bfada1-44f0-454b-89b0-d49e2846c74b"
 			searchtimeout="30000ms">
-				/dom[@domain&lt;'winston.fwcins.com']//span[#'BtnDisclaimerClose']
+				/dom[@domain&lt;'winston.fwcins.com']//button[#'BtnDisclaimerClose']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -9777,7 +9778,7 @@ name="Sid_FCGAProjectRepository">
 			name="EvidencePage"
 			refimgid="b3f3b697-f208-47d5-835f-9fdb693984b4"
 			searchtimeout="30000ms">
-				/dom[@domain&lt;'winston.fwcins.com']/body/div[2]/?/?/form[@title&gt;'https://qawinston.fwcins.']/element[@controlid='34860416']
+				/dom[@domain&lt;'winston.fwcins.com']/body/div[2]/?/?/form[@title&gt;'https://']/element[@controlid='34860416']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -13082,6 +13083,1099 @@ name="Sid_FCGAProjectRepository">
 			searchtimeout="30000ms">
 				/dom[@domain&lt;'winston.fwcins.com']//table[#'myTable']/tbody/tr[123]/td[@innertext&lt;'exterior or interior of a building)?']
 			</item>
+			<item
+			capname="labeltag"
+			id="b8deeeb5-6ce9-4ce6-9944-be3a5528c946"
+			name="LabelTag_Yes6"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'divClassPayroll']/div[2]/div/div//label[@innertext='Yes']
+			</item>
+			<item
+			capname="labeltag"
+			id="3d53fcdf-f0fc-4a5f-a4e8-3495d1e2ae88"
+			name="LabelTag_Yes7"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'divClassPayroll']/div[4]/div/div//label[@innertext='Yes']
+			</item>
+			<item
+			capname="labeltag"
+			id="3482286b-64ac-4528-b7da-f821a51f9488"
+			name="LabelTag_Yes8"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'divClassPayroll']/div[6]/div/div//label[@innertext='Yes']
+			</item>
+			<item
+			capname="labeltag"
+			id="861f502d-bd89-453e-a946-5bf9ddb2dc14"
+			name="LabelTag_Yes9"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'divClassPayroll']/div[7]/div/div//label[@innertext='Yes']
+			</item>
+			<item
+			capname="atag"
+			id="4df459f2-4a64-4511-b483-1602a6070ad4"
+			name="EndorsementRequest"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'dvAction']/?/?/a[@innertext='Endorsement Request']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="7e67a98a-0b3e-4a35-be38-156ec289bb2c"
+			isrooted="True"
+			name="Border0CardRounded0"
+			refpath="/dom[@domain='qawinston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[3]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="715b10e4-85bb-4a3a-955a-84df5886206e"
+				name="TxtAddress1"
+				refimgid="89479c89-2cb6-4bd9-affd-d2ee12ff6cdf"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[3]/div[2]/div[2]/div[1]/div[1]/input[@name='txtAddress1']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[3]//input[@name='txtAddress1']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="8636e206-6a91-4611-bd22-b35540fa11bf"
+				name="TxtAddress2"
+				refimgid="4cbb34ad-7775-4839-8a23-d186c22340ca"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/input[@name='txtAddress2']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[3]//input[@name='txtAddress2']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="10950a6c-5551-427e-a5f0-0647706d7b21"
+				name="PrimaryPhysical"
+				refimgid="f4c4727a-b242-4859-82ed-9191a8561ee2"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[3]/div[2]/div[1]/div/p/label[@innertext='Primary / Physical']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[3]//label[@innertext='Primary / Physical']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="20834b6f-5646-4a7b-94a9-0142a8cbee01"
+				name="MailingBillingAddress"
+				refimgid="1e0b28b7-2c4e-4472-bbce-1d4aa01b630a"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[3]/div[2]/div[1]/div/p/label[@innertext='Mailing / Billing']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[3]//label[@innertext='Mailing / Billing']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="b1abbe99-3cd3-4fbe-9f29-2f9158d32c44"
+				name="BothAddress"
+				refimgid="b0fee0da-a768-41b2-a46e-e6786fe42a08"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[3]/div[2]/div[1]/div/p/label[@innertext='Both']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[3]//label[@innertext='Both']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[3]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="de93c6ad-dd1c-49e9-94e1-98a67ca1e052"
+			name="FCG1003AutomaticAI"
+			refimgid="ce6a009e-8be7-43f5-a60d-36c004a6ee36"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[4]/div[2]/div/div/p/label[@innertext>'FCG 1003 Automatic ISO CG2037']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[4]//label[@innertext&gt;'FCG 1003 Automatic ISO CG2037']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="b585a4b5-0aaa-4de1-a648-45336a96eeff"
+			name="FCG1004AutomaticAI"
+			refimgid="d76345cd-bf24-4b3e-9f00-af4cdc7d0c68"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[4]/div[2]/div/div/p/label[@innertext>'FCG 1004 Automatic Waiver']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[4]//label[@innertext&gt;'FCG 1004 Automatic Waiver']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="9047cad8-fcff-43fb-a359-5a379d575271"
+			name="FCG1001OmnibusAutomaticAI"
+			refimgid="7312ea47-c840-4a18-bf4c-442d3dd66e6c"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[4]/div[2]/div/div/p/label[@innertext>'FCG 1001 Omnibus Automatic']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[4]//label[@innertext&gt;'FCG 1001 Omnibus Automatic']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5f1417e7-f4a8-4076-8615-59dc1bf47995"
+			name="TxtAIFirstName"
+			refimgid="230f6d9f-0f60-4531-80c8-4db7b20e9947"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAIFirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAIFirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="925c391e-50de-41c7-a684-ac10fd4d66cc"
+			name="TxtAILasstName"
+			refimgid="3c45c8a8-a8de-464c-87f4-6afe1f3a8962"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAILasstName']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAILasstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2952cca7-1b8b-49ee-bea1-0672a5940301"
+			name="TxtAICity"
+			refimgid="b9eb4d0c-1712-471c-87b4-56e9669e9829"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAICity']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAICity']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="adba0cf6-8e56-4c67-ae16-9a05c71431f2"
+			name="UseAsIs1"
+			refimgid="45eb8861-4510-4568-a600-6dcee38a10e5"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']/body/div[12]/div/div[3]/a[@innertext='Use as is']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']/body/div[12]/div/div[3]/a[@innertext='Use as is']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bcb90030-dad0-4fac-a31f-84e5d17df15f"
+			name="TxtAIZipCode"
+			refimgid="9111e6ae-73b2-42ad-94bf-6c6908bebe7c"
+			refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAIZipCode']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAIZipCode']
+			</item>
+			<folder
+			capname="divtag"
+			id="84e02212-ae03-4a1f-b8d9-a31b03c92896"
+			isrooted="True"
+			name="BgGreyBorderBorderBottomBorderWhi2"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="67cc9555-cd89-44d0-8b7b-a9bcffa1caa2"
+				name="IndividualCG2010AI"
+				refimgid="789d9c28-5ae0-435f-8503-cc65574b8baa"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]/div/p/label[@innertext>'Individual ISO CG2010 AI']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]//label[@innertext&gt;'Individual ISO CG2010 AI']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="0e7c6024-feca-431f-95aa-1832d0e385c7"
+				name="TxtAIAddress2"
+				refimgid="2a47e76c-ad89-4f21-905a-db8f90dea815"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[2]/div[2]/div[2]/input[@name='txtAIAddress2']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[2]//input[@name='txtAIAddress2']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="inputtag"
+				id="8e0089f6-2c68-4570-98d6-b45a35766366"
+				name="TxtAIAddress1"
+				refimgid="deb89884-9db9-45e9-bd69-0dcdf5e63271"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div/div[2]/?/?/input[@name='txtAIAddress1']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="736e3bc4-cd84-4db4-8b2b-f74f12f25b5a"
+				name="SpanTagSelect2"
+				refimgid="a0122cbc-5e43-4e43-8c5e-c0597638c8e6"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[2]/div[3]/div[2]/span/span[1]/span/span[@title='-Select-']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[2]/div[3]/div[2]//span[@title='-Select-']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="0dab454c-321c-4cbd-a1cc-a6b91eb6528a"
+				name="IndividualCG2037AI"
+				refimgid="2a5308f3-93dc-4e83-91a5-ab0564823228"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]/div/p/label[@innertext>'Individual ISO CG2037 AI']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]//label[@innertext&gt;'Individual ISO CG2037 AI']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="c55db6a0-6565-485c-aeef-0881a33d5dc9"
+				name="IndividualFCG1019AI"
+				refimgid="fd9a874c-ed75-4917-837f-a383a316bd2c"
+				refpath="/dom[@domain='qawinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]/div/p/label[@innertext>'Individual FCG 1019 (PNC)']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]//label[@innertext&gt;'Individual FCG 1019 (PNC)']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="d7a739ab-9fe5-4962-86f5-3b2ab71d136f"
+				name="IndividualCG2404WaiverAI"
+				refimgid="c464ed7d-37f0-4212-b60d-e446eb5d1b5b"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]/div/p/label[@innertext>'Individual CG2404 Waiver']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]/div[1]//label[@innertext&gt;'Individual CG2404 Waiver']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[5]/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c442d488-88fa-4199-91e4-503f5e815a46"
+			name="BtnAISave"
+			refimgid="b21b4717-7784-4fe0-b6b0-3755c945e2fd"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'btnAIAddAnother']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'btnAIAddAnother']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bee8e6a7-55fe-498d-922d-f67f4df911fc"
+			name="TxtAEFirstName"
+			refimgid="1c347588-2f0c-4dd2-9967-d34e239ecb1e"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAEFirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAEFirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="27538050-df4a-4df4-bd20-d863a351f7e4"
+			name="TxtAELastName"
+			refimgid="4d399179-5d56-4625-bdf2-bc0a310c5530"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAELastName']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAELastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8471fef3-5fd2-4b5d-aae9-fc6c507077d4"
+			name="TxtAECity"
+			refimgid="ba5fd060-0a3f-4915-bd58-fd407e171195"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAECity']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAECity']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="802d1b2f-6596-40a0-b9ef-fbd3efb52251"
+			name="TxtAEZipCode"
+			refimgid="97001125-77d1-4d95-b935-9352b215304e"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAEZipCode']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAEZipCode']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="32a231b2-8986-43eb-8330-691e1bc2d7fe"
+			name="BtnAddAggExt"
+			refimgid="207a0b31-a2a0-4849-b8d3-08586bc1736d"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'btnAddAggExt']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'btnAddAggExt']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d708560b-affb-4786-933e-1baff593734d"
+			isrooted="True"
+			name="BgGreyBorderBorderBottomBorderWhi3"
+			refpath="/dom[@domain='uatwinston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[6]/div[2]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="0c699850-d9b7-42b6-972c-fc2dd3481964"
+				name="PerProjectAggregateExtension"
+				refimgid="262768ad-977b-467d-b43d-05f4d19d4f39"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[1]/div/p/label[@innertext>'Per project aggregate extension']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[1]//label[@innertext&gt;'Per project aggregate extension']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="a9c252d0-a4ef-46a4-b39c-12a677d81b19"
+				name="TxtAEAddress1"
+				refimgid="2254715f-61cb-4bbc-ac19-28cf8fa325be"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[2]/div[2]/div[1]/input[@name='txtAEAddress1']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[2]//input[@name='txtAEAddress1']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="55b31af2-da2d-42b9-aa90-abcdc1b09ebd"
+				name="TxtAEAddress2"
+				refimgid="30cece39-8616-42f4-8bf2-9ed440acb7e5"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[2]/div[2]/div[2]/input[@name='txtAEAddress2']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[2]//input[@name='txtAEAddress2']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="847d3d92-a775-4e92-8039-39df9c5d3523"
+				name="PerLocationAggregateExtensionDollar"
+				refimgid="c8c91903-baee-4af3-8cae-ca940d66b58d"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[1]/div/p/label[@innertext>'Per location aggregate extension']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[1]//label[@innertext&gt;'Per location aggregate extension']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[6]/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="88785074-db0b-482a-a3b0-e473700d8774"
+			name="SpanTagSelect2"
+			refimgid="c134b0eb-3641-408b-960a-7a308fc69eaa"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[7]/div[2]/div/div/div[1]/span/span[1]/span/span[@title='-Select-']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[7]/div[2]//span//span[@title='-Select-']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="94d5f9e5-1576-42da-a84e-8616b1900a65"
+			name="SpanTagSelect21"
+			refimgid="531f0471-9f47-4717-af1c-1548fabcd568"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//span[#'select2-ddlAggregateLiabilityLimit-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="0d331cb5-7c0a-4aa0-91a8-828bd15075a4"
+			name="SpanTagSelect22"
+			refimgid="531f0471-9f47-4717-af1c-1548fabcd568"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[6]/div[2]/div[2]/div[3]/div[2]//span[@title='-Select-']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="02bdcd47-6bef-4c52-9c13-cfbaa12ef22e"
+			name="TxtAnnualPayroll"
+			refimgid="d96eed27-7543-4dfd-b4b0-8086f795c83b"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'txtAnnualPayroll']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAnnualPayroll']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7dcfaf5c-e3a5-4cfe-968c-1794e0ea58a4"
+			name="BtnAddClassification1"
+			refimgid="36e366d8-30a3-4c7e-99da-0bad19adf81d"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'BtnAddClassification']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'BtnAddClassification']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="975fca9e-2662-4a56-9bb0-0c2bf0264622"
+			name="TxtDescribeAdditionalOperations"
+			refimgid="1b4597bf-965a-4779-8f6b-cce124004251"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//textarea[#'txtDescribeAdditionalOperations']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//textarea[#'txtDescribeAdditionalOperations']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="2692e3ad-dd53-4903-8297-c192180de3bb"
+			name="Labelcheckbox11"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//tbody[#'tblContractorClassCode']/tr/td[1]/div/label"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//tbody[#'tblContractorClassCode']/tr/td[1]/?/?/label
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="ecb5c06c-8062-48eb-a251-5ba7043f8755"
+			name="TxtDescribeChange"
+			refimgid="f3fcfe09-7588-451b-b17e-c13d41797833"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//textarea[#'txtDescribeChange']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//textarea[#'txtDescribeChange']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e73d337d-8d3a-4b3d-a5fd-5400c9cc3a68"
+			name="BtnSubmit1"
+			refimgid="19224dc6-e8d6-4870-b4df-4014238f0a49"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//input[#'btnSubmit']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'btnSubmit']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="de14b85a-9953-476e-ab68-c62418be8241"
+			name="UWRequest"
+			refimgid="966626b5-59ca-4bc4-9501-a5a13c3a5dea"
+			refpath="/dom[@domain='uatwinston.fwcins.com']/body/span/span/span[2]/ul/li[@innertext='UW Request']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']/body/span//ul/li[@innertext='UW Request']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ff97afde-e592-4fe6-877a-8a8c33570c83"
+			name="TxtEndtPolicyNo"
+			refimgid="8d69923a-2da5-4ead-a2e7-232ed94252d8"
+			refpath="/dom[@domain='uatwinston.fwcins.com']//input[#'txtEndtPolicyNo']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtEndtPolicyNo']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ec1b12c1-40d2-43aa-b480-2b808ac419e1"
+			name="BtnReqSearch"
+			refimgid="f0234850-df63-46bd-9591-21097e903c17"
+			refpath="/dom[@domain='uatwinston.fwcins.com']//input[#'btnReqSearch']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'btnReqSearch']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3b436efa-075a-4a9d-9084-60798bfc5b97"
+			name="TxtPolicyNoSelect"
+			refimgid="dc79fe9f-6dbd-432d-b741-34b3a1254840"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//table[#'tblEndorsementReq']/tbody/tr[1]/td[3]/a[@onclick&gt;'OpenRequestPage']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="d0063a86-516d-46d6-866a-8e56a50a67c4"
+			name="Rbapprovedtxt"
+			refimgid="cbd32213-8b07-4132-9d3f-59a7f6a28eba"
+			refpath="/dom[@domain='uatwinston.fwcins.com']//label[#'rbapprovedtxt']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//label[#'rbapprovedtxt']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8110c430-ad3a-4f16-8ff3-50f6dee58d0d"
+			name="CLOSE3"
+			refimgid="79d7cdb1-1c56-4e6e-b462-534d29c9b68b"
+			refpath="/dom[@domain='uatwinston.fwcins.com']/body/div[13]/div/div/div[3]/input[@name='CLOSE']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']/body/div[13]/div/div/div[3]/input[@name='CLOSE']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9c487c2b-3caa-437c-b32c-a16558c04248"
+			name="UWRequest1"
+			refimgid="fc82c20f-1af1-4310-9420-496b2c08d979"
+			refpath="/dom[@domain='uatwinston.fwcins.com']//div[#'navbar1']/ul/li[2]/div/span/span[1]/span/span[@title='UW Request']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'navbar1']/ul/li[2]//span[@title='UW Request']
+			</item>
+			<item
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="83bec048-bda7-48cb-857b-92a56ef4899e"
+			name="Select2ResultsOptions"
+			refimgid="2dca41ee-d657-4481-8a5e-27f995e090e9"
+			refpath="/dom[@domain='uatwinston.fwcins.com']/body/span/span/span[2]/ul"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']/body/span//ul
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="bf0832f7-296b-4848-9512-03201aae6a19"
+			name="OPRequest"
+			refimgid="9444cf21-c312-429e-9822-fa0a45833739"
+			refpath="/dom[@domain='uatwinston.fwcins.com']/body/span/span/span[2]/ul/li[@innertext='OP Request']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']/body/span//ul/li[@innertext='OP Request']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="690d5a89-9790-4510-8a84-4c4a045100a4"
+			name="DivTagRow3"
+			refimgid="f87682f5-74d2-49e8-b42c-73bb7c39249b"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'GL Endorsement Request Fo']//form[#'frmGlRequest']/div[2]/div[2]/div[2]/div"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmGlRequest']/div[2]/div[2]/div[2]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="4e6e255b-0307-474a-94b3-e84e7a95b41d"
+			name="CurrentExpiringPolicy"
+			refimgid="4db454f0-7925-4400-ba93-cdd2cd832ca3"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[2]/div[2]/div/div[2]/div/p/label[@innertext='Current / Expiring Policy']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[2]/div[2]/div/div[2]//label[@innertext='Current / Expiring Policy']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="c20283c2-8b6b-4ded-913e-7e93d0949df0"
+			name="Renewal"
+			refimgid="0d9c4b82-948a-4ec4-abae-0cd36def115b"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[2]/div[2]/div/div[2]/div/p/label[@innertext='Renewal']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[2]/div[2]/div/div[2]//label[@innertext='Renewal']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="e7c849bf-9b86-4404-8b20-97e4dcbebc4b"
+			name="Both"
+			refimgid="c93b1cc3-b380-43da-a0c0-42f56fb15369"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[2]/div[2]/div/div[2]/div/p/label[@innertext='Both']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[2]/div[2]/div/div[2]//label[@innertext='Both']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5957cbee-3bca-43b4-a005-203e18a78d55"
+			name="TxtContactName"
+			refimgid="37ca9533-82c8-41cd-90e4-708e4aa32e99"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtContactName']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtContactName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ce69e136-2036-4598-92be-27206f13e3b9"
+			name="TxtPhone"
+			refimgid="d3284f7a-d8db-4805-bdea-400630af245b"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtPhone']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtPhone']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7d844a91-eecd-407c-b027-eece863ee9b0"
+			name="TxtEmail"
+			refimgid="26cd4c72-065a-459a-ab58-3fef74a6d75d"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtEmail']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtEmail']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f21d2756-be94-4bfc-9d21-b8e9f8c50a7b"
+			name="TxtAddress1"
+			refimgid="d4a6a000-04bb-4dda-8127-f850e68d56ab"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[3]/div[2]/div/div[2]/div[1]/input[@name='txtAddress1']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[3]/div[2]/div/div[2]/?/?/input[@name='txtAddress1']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="7aa8fc5f-6994-4346-b703-cd93832ca735"
+			name="UseAsIs2"
+			refimgid="70ee15a8-fe65-4099-9a43-e77b40296af0"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']/body/div[13]/div/div[3]/a[@innertext='Use as is']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']/body/div[13]/div/div[3]/a[@innertext='Use as is']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a54ea491-ee77-472e-9b77-6b392079ffef"
+			name="TxtAddress2"
+			refimgid="843786e1-b881-4239-a2a2-6bface3f0187"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[3]/div[2]/div/div[2]/div[2]/input[@name='txtAddress2']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[3]/div[2]/div/div[2]/?/?/input[@name='txtAddress2']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b5c5b532-8c3d-4acb-af76-f1d62f0275db"
+			name="Select2DdlStateAmendContainer"
+			refimgid="b26fcee9-f604-4412-b2ef-8e429739adcf"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//span[#'select2-ddlStateAmend-container']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//span[#'select2-ddlStateAmend-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6b561547-53a8-4725-9205-64e673216e74"
+			name="TxtAddtypeCity"
+			refimgid="78238dad-0662-49b8-b9c5-212ac7a7f824"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtAddtypeCity']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAddtypeCity']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="710696c6-f8aa-48b9-b0ba-a150398a0a69"
+			isrooted="True"
+			name="BgGreyBorderBorderBottomBorderWhi4"
+			refpath="/dom[@domain='uatwinston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="ed777474-7b3b-4f5b-9ecf-400e39705a47"
+				name="TxtAddressAddtype1"
+				refimgid="3a94a171-39eb-4dc0-b5bc-68552b065b2d"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[4]/div[2]/div[2]/div[1]/div[1]/input[@name='txtAddressAddtype1']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]//input[@name='txtAddressAddtype1']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="3e428170-d542-474f-b3a3-2b55f236f701"
+				name="TxtAddressAddtype2"
+				refimgid="adf41581-fcb1-41a7-a22c-e3480554bb31"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[4]/div[2]/div[2]/div[1]/div[2]/input[@name='txtAddressAddtype2']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]//input[@name='txtAddressAddtype2']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="7d708c9f-2b2d-4b9c-aa98-14c70a1e569c"
+				name="PrimaryPhysical"
+				refimgid="016d994f-a3a4-4188-896f-b9deceac85ac"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[4]/div[2]/div[1]/div/p/label[@innertext='Primary / Physical']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]//label[@innertext='Primary / Physical']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="a9b30f99-ce77-41b6-b635-afa8efa95fd8"
+				name="Col5ColLg5ColMd5ColSm5"
+				refimgid="5630cfed-a17d-4671-820c-533b9490dbc9"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[4]/div[2]/div[2]/div[2]/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]/div[2]/div[2]/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="12330914-9400-4432-9835-0cae44dd06e6"
+				name="MailingBilling"
+				refimgid="6ee7b2c0-6f01-41a4-abd8-5341b7ab95b2"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[4]/div[2]/div[1]/div/p/label[@innertext='Mailing / Billing']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]//label[@innertext='Mailing / Billing']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="fca16189-bb6e-40b0-b25d-f225ec066a3d"
+				name="Both"
+				refimgid="c05616b6-b280-446b-a0b4-0174388e941c"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[4]/div[2]/div[1]/div/p/label[@innertext='Both']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]//label[@innertext='Both']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[4]/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f678cf41-9895-4469-8462-cb436d56d80e"
+			name="Select2DdlStateAddChangeContainer"
+			refimgid="4b1b0947-6865-4671-a975-6a1d3a256d25"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//span[#'select2-ddlStateAddChange-container']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//span[#'select2-ddlStateAddChange-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="93890de9-b675-4811-aab0-b5c44813c60a"
+			name="TxtAddtypeZipCode"
+			refimgid="6088fe56-6545-4b4c-b100-a3f61f3f59bd"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtAddtypeZipCode']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAddtypeZipCode']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="451b277a-57d1-4b46-9427-507e00d645e1"
+			name="TxtNameLocType"
+			refimgid="ec7464ca-83e0-4a5c-b49c-f7aa1eda1afd"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtNameLocType']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtNameLocType']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="74c7a613-fab4-44d9-a47b-3a74183a01bb"
+			name="TxtCityLocType"
+			refimgid="e00ab895-713f-448f-b11c-e587d5084f0e"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtCityLocType']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtCityLocType']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c3f42af5-996a-49e6-87ef-3ac04edfe304"
+			name="Select2DdlStateLocationContainer"
+			refimgid="8184b87d-e5e5-4ea7-b7b2-3c509e889ec5"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//span[#'select2-ddlStateLocation-container']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//span[#'select2-ddlStateLocation-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="59988aa9-6981-4982-9f20-a0614010994e"
+			name="TxtZipCodeLocType"
+			refimgid="b3f268e1-1ef4-4b9b-a04d-9809b4b11b91"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtZipCodeLocType']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtZipCodeLocType']
+			</item>
+			<folder
+			capname="divtag"
+			id="4794033f-b7e4-4133-b5fd-90c14279636c"
+			isrooted="True"
+			name="BgGreyBorderBorderBottomBorderWhi5"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="99c7e1f3-9492-4551-8299-9076b9109012"
+				name="LabelTagDBA"
+				refimgid="30eac463-dded-4a0c-95d2-3b5c4163b7df"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[6]/div[2]/div[1]/div/p/label[@innertext='DBA']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[6]/div[2]/div[1]//label[@innertext='DBA']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="87f22346-66e4-45f8-b294-3422b3ed3dc6"
+				name="TxtAddressLocType1"
+				refimgid="8990e3dc-b16e-4fb8-aa7c-4c6fd34df2d3"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[6]/div[2]/div[2]/div[2]/div[1]/input[@name='txtAddressLocType1']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[6]/div[2]/div[2]//input[@name='txtAddressLocType1']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="fdbf9892-0244-41a7-981f-d4985d0b22f1"
+				name="TxtAddressLocType2"
+				refimgid="d688de13-c84d-4332-86ed-8eeae8218822"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[6]/div[2]/div[2]/div[2]/div[2]/input[@name='txtAddressLocType2']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[6]/div[2]/div[2]//input[@name='txtAddressLocType2']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="d945764e-7aa5-471e-aa41-c73fd22bc482"
+				name="Secondary"
+				refimgid="8c02350b-60e5-4857-ab67-e3f6e859f84f"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[6]/div[2]/div[1]/div/p/label[@innertext='Secondary']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[6]/div[2]/div[1]//label[@innertext='Secondary']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="e0376e3c-d844-4836-bc5f-765ddd2886ef"
+				name="AdditionalNamedInsuredERM14Require"
+				refimgid="9d07c8a6-c779-4e65-b415-3c9277467fbb"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[6]/div[2]/div[1]/div/p/label[@innertext>'Additional Named Insured (ERM-14']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[6]/div[2]/div[1]//label[@innertext&gt;'Additional Named Insured (ERM-14']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[6]/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c6928b40-748b-4dfb-9aa9-2f169f03ec9b"
+			name="TxtFein"
+			refimgid="ada21492-5c8c-4597-b66f-1427d1465258"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtFein']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtFein']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="ba95bd6b-b5a6-408f-9b7a-e5a5eda3c830"
+			name="Blanket"
+			refimgid="703c505b-9a8e-4a34-b71b-3df72207da2e"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[1]/div[1]/p/label[@innertext='Blanket']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[1]//label[@innertext='Blanket']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="56953488-1ac9-4582-a6d1-98c65d418cb7"
+			name="TxtNameWaiver"
+			refimgid="00362c53-80bc-4272-9e3a-69547bcf80d5"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtNameWaiver']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtNameWaiver']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0080b9c5-de73-4158-a246-076b853d02a7"
+			isrooted="True"
+			name="DivTagRow4"
+			refpath="/dom[@domain='uatwinston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="78bab950-c0e4-401e-8304-06b6ba927638"
+				name="Specific"
+				refimgid="0c602fd4-278b-41b9-ae11-a56006630822"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[1]/div[1]/p/label[@innertext='Specific']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[1]//label[@innertext='Specific']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="2edba045-e8a0-41e3-a7ad-891fe946e5fa"
+				name="TxtAddressWaiver1"
+				refimgid="8c1d9df7-024c-4772-84ed-fb0443dcca98"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[3]/div[1]/input[@name='txtAddressWaiver1']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[3]/?/?/input[@name='txtAddressWaiver1']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="943037e6-ccaa-4330-bafb-a4271c443d5e"
+				name="TxtAddressWaiver2"
+				refimgid="c6077f83-a667-4d99-9994-994f0de64fa5"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[3]/div[2]/input[@name='txtAddressWaiver2']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[3]/?/?/input[@name='txtAddressWaiver2']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="936b7954-99df-4dc6-8ce9-c4d751a37c0b"
+				name="DivTagRow"
+				refimgid="ff6200b8-30c9-4eb6-88f4-d664d602ab04"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[7]/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="a7d576cb-bebe-4a52-8eb1-bb0e1492a3f9"
+				name="Both"
+				refimgid="cd5e7937-b66d-42a5-ac27-68ee503f4f63"
+				refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[1]/div[1]/p/label[@innertext='Both']"
+				searchtimeout="30000ms">
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div/div[1]//label[@innertext='Both']
+				</item>
+				<basepath>
+					/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[7]/div[2]/div
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ada00fce-d960-4508-b363-ebad218e29fd"
+			name="TxtCityWaiver"
+			refimgid="4311288f-0cb7-4e07-9936-48cc5fc60563"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtCityWaiver']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtCityWaiver']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="af8f1291-ee67-4c46-bc74-2e738eae059b"
+			name="Select2DdlStateWaiverContainer"
+			refimgid="0e8d82f4-df14-41ce-bc48-87eb1ce64397"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//span[#'select2-ddlStateWaiver-container']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//span[#'select2-ddlStateWaiver-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ed3ac8b3-18b7-48d5-972e-9b4ae385d2fa"
+			name="TxtZipCodeWaiver"
+			refimgid="e52d6dee-cce9-4575-84c2-4fedae174262"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtZipCodeWaiver']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtZipCodeWaiver']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="b21b6a0a-b844-425b-8f52-17910d8ade74"
+			name="LabelTagDollar100000Dollar500000Doll"
+			refimgid="69c7aa4a-a784-497b-8f24-fb523faec328"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[8]/div[2]/div/div/div/p/label[@innertext>'$100,000/$500,000/$100,00']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[8]/div[2]//p/label[@innertext&gt;'$100,000/$500,000/$100,00']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="ac6c6d72-43a0-4c7b-b16d-401ea86c5a71"
+			name="LabelTagDollar500000Dollar500000Doll"
+			refimgid="eadffd33-30c2-4f41-bcf2-6eccef44590f"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[8]/div[2]/div/div/div/p/label[@innertext>'$500,000/$500,000/$500,00']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[8]/div[2]//p/label[@innertext&gt;'$500,000/$500,000/$500,00']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="b53dd47b-6427-45a7-94ad-0b1f0565f554"
+			name="LabelTagDollar1000000Dollar10000001"
+			refimgid="43236446-7a75-4419-a297-e5bc28d410d9"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//form[#'frmWCRequest']/div/div[8]/div[2]/div/div/div/p/label[@innertext>'$1,000,000/$1,000,000/$1,']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//form[#'frmWCRequest']/div/div[8]/div[2]//p/label[@innertext&gt;'$1,000,000/$1,000,000/$1,']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="41ed337d-fcc5-4315-9bf7-a1f6a6ce0e9b"
+			name="Border0Pb3"
+			refimgid="76bc6de8-f499-477b-b652-39ef6a01d364"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//div[#'ownercontainer']/table/tbody/tr/td[1]"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//div[#'ownercontainer']/table/tbody/tr/td[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="560ed129-6a1d-46de-9192-df99e18741d9"
+			name="TxtDescofResp1"
+			refimgid="9e2cb00f-b076-4ffc-babc-c5f806fb6e46"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtDescofResp1']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtDescofResp1']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c63b3519-c4f7-4e3c-aaba-cb2857ad56e3"
+			name="TxtDescAddOp"
+			refimgid="18140756-7c32-4b27-b853-cdd468fb4cec"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtDescAddOp']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtDescAddOp']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="02c4b224-419c-4f87-b569-e7b792c84fa0"
+			name="SpanTagSelect3"
+			refimgid="34bef9f0-769b-4c62-a750-3bec64c3ba63"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//tr[#'stateCodetr1']/td[1]/span/span[1]/span/span[@title='-Select-']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//tr[#'stateCodetr1']/td[1]//span[@title='-Select-']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d58102d7-9bec-46d0-b8d7-c9851187bc61"
+			name="SpanTagSelect4"
+			refimgid="9051116e-e150-4b4e-b46d-c68386400fe3"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//tr[#'stateCodetr1']/td[2]/span/span[1]/span/span[@title='-Select-']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//tr[#'stateCodetr1']/td[2]//span[@title='-Select-']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="96a5d52a-3a30-4172-986e-b359a7e2320e"
+			name="TxtAmendGrossPayroll1"
+			refimgid="9865330c-4535-48fc-9e50-e095347e25c2"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//input[#'txtAmendGrossPayroll1']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//input[#'txtAmendGrossPayroll1']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="d4b7b0b4-5277-4c92-91cf-0d4a0ba79b4f"
+			name="TxtReasonAmend"
+			refimgid="cfc3492f-a143-4385-bef9-346e2d0fa68c"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//textarea[#'txtReasonAmend']"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//textarea[#'txtReasonAmend']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="a9251e1a-3acd-417a-90bd-21f0a7013d6d"
+			name="Labelcheckbox12"
+			refpath="/dom[@domain='uatwinston.fwcins.com' and @caption>'WC Endorsement Request Fo']//tbody[#'tblWCDeleteClassCode']/tr/td[1]/div/label"
+			searchtimeout="30000ms">
+				/dom[@domain&lt;'winston.fwcins.com']//tbody[#'tblWCDeleteClassCode']/tr/td[1]/?/?/label
+			</item>
 			<basepath>
 				/dom[@domain&lt;'winston.fwcins.com']
 			</basepath>
@@ -13102,13 +14196,22 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<item
+		addcaps="unknown,webelement,labeltag"
+		capname="labeltag"
+		id="09129d46-bb4d-415b-814c-4e4aa9984d68"
+		name="IAgree"
+		refimgid="6ad6af60-0a95-420b-a718-8c8bac8aebb7"
+		searchtimeout="30000ms">
+			/dom[@domain&lt;'winston.fwcins.com']//div[#'mainContentHolder']/div[@id='pgBody']/div[2]/div/div[6]/div[2]/div[2]//label[@innertext='I Agree']
+		</item>
+		<item
 		addcaps="unknown,webelement,spantag"
 		capname="spantag"
 		id="8e92d084-f0a0-4d37-a581-5aea09070740"
 		name="AgentMessageCloseLink"
 		refimgid="ebc20d83-b804-4eca-8251-5e0b17bd73c1"
 		searchtimeout="30000ms">
-			/dom[@domain='qawinston.fwcins.com']//div[#'notesMessages']/div/div/div/div[1]/div/div[2]/a[1]/span
+			/dom[@domain&lt;'winston.fwcins.com']//div[#'notesMessages']/div/div/div/div[1]/div/div[2]/a[1]/span
 		</item>
 		<appfolder
 		addcaps="form,nativewindow"
@@ -13221,7 +14324,7 @@ gg==
 			name="Close"
 			refimgid="74210d5b-f094-48e3-8fd4-a6da811afc03"
 			searchtimeout="30000ms">
-				/form[@title&gt;'https://qawinston.fwcins.']/container[@accessiblename&gt;'https://qawinston.fwcins.']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename&gt;'https://qawinston.fwcins.']/button[@accessiblename='Close']
+				/form[@title&gt;'https://']/container[@accessiblename&gt;'https://']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename&gt;'https://']/button[@accessiblename='Close']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -13230,7 +14333,7 @@ gg==
 			name="None"
 			refimgid="5aa44c50-241e-4ea5-987f-772712930288"
 			searchtimeout="30000ms">
-				/form[@title&gt;'https://qawinston.fwcins.']/container[@accessiblename='FCGA - WC - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage/button
+				/form[@title&gt;'https://']/container[@accessiblename='FCGA - WC - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage/button
 			</item>
 			<item
 			addcaps="titlebar,accessible"
@@ -13239,7 +14342,7 @@ gg==
 			name="HttpsQawinstonFwcinsComFWCPortalP"
 			refimgid="691061e4-bc05-47ad-9de2-cb35fc6d9ae3"
 			searchtimeout="30000ms">
-				/form[@title&gt;'https://qawinston.fwcins.']/titlebar[@accessiblerole='TitleBar']
+				/form[@title&gt;'https://']/titlebar[@accessiblerole='TitleBar']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -13248,7 +14351,7 @@ gg==
 			name="Close1"
 			refimgid="638a102b-a6c9-495c-88c1-380992ebff1c"
 			searchtimeout="30000ms">
-				/form[@title&gt;'https://qawinston.fwcins.']/container[@accessiblename&gt;'Billing Statement - Google']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename='Billing Statement']/button[@accessiblename='Close']
+				/form[@title&gt;'https://']/container[@accessiblename&gt;'Billing Statement - Google']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename='Billing Statement']/button[@accessiblename='Close']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -13257,7 +14360,7 @@ gg==
 			name="Close2"
 			refimgid="72cb4fec-0dea-466c-b024-500ac765e8d9"
 			searchtimeout="30000ms">
-				/form[@title&gt;'https://qawinston.fwcins.']/container[@accessiblename&gt;'https://qawinston.fwcins.']/container[@accessiblename='Google Chrome']//button[@accessiblename='Close']
+				/form[@title&gt;'https://']/container[@accessiblename&gt;'https://']/container[@accessiblename='Google Chrome']//button[@accessiblename='Close']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -13266,17 +14369,17 @@ gg==
 			name="Close3"
 			refimgid="dd2d2e60-0def-4710-abab-1eff87282cc4"
 			searchtimeout="30000ms">
-				/form[@title&gt;'https://qawinston.fwcins.']/container[@accessiblename&gt;'https://qawinston.fwcins.']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename&gt;'https://qawinston.fwcins.']/button[@accessiblename='Close']
+				/form[@title&gt;'https://']/container[@accessiblename&gt;'https://']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename&gt;'https://']/button[@accessiblename='Close']
 			</item>
 			<item
 			capname="button"
 			id="03a6bd3d-4cbe-4daf-b221-576ce5b31ee5"
 			name="Carrier_Close_btn"
 			searchtimeout="30000ms">
-				/form[@title&gt;'https://qawinston.fwcins.']//container/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage/button[@accessiblename='Close']
+				/form[@title&gt;'https://']//container/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage/button[@accessiblename='Close']
 			</item>
 			<basepath>
-				/form[@title&gt;'https://qawinston.fwcins.']
+				/form[@title&gt;'https://']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
@@ -13410,7 +14513,7 @@ g2g5OIhIbugRZMPMhqYsiHECrRWw4wS7rPP4V2tKsIIZ6vsLAN7KFwD0vRdUwI4JTmKCG34LSCYc
 			addcaps="titlebar,accessible"
 			capname="button"
 			id="1e83c09f-33ab-4b36-8dad-d2c484f8bd0e"
-			name="PayGoDisclaimerPdfGoogleChrome"
+			name="PayGoDisclaimerPdfClose"
 			refimgid="ea391200-292f-4540-820b-8f581fd9d78f"
 			searchtimeout="30000ms">
 				/form[@title&gt;'PayGoDisclaimer.pdf - Google']/container[@accessiblename&gt;'PayGoDisclaimer.pdf - Google']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename='PayGoDisclaimer.pdf']/button[@accessiblename='Close']
@@ -13824,10 +14927,10 @@ VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
 			name="Close"
 			refimgid="a3f14a75-d947-4dd5-8423-58caab6132cf"
 			searchtimeout="30000ms">
-				/form[@title&gt;'QDC_']/container[@accessiblename&gt;'QDC_']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename&gt;'QDC_']/button[@accessiblename='Close']
+				/form[@title&gt;'https://']/container[@accessiblename&gt;'https://']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename&gt;'https://']/button[@accessiblename='Close']
 			</item>
 			<basepath>
-				/form[@title&gt;'QDC_']
+				/form[@title&gt;'https://']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
@@ -13935,6 +15038,37 @@ IiIDNMwlA3beK7eZLxsels+bERxKCVtSIy9hNClcDEpAT2MhRFHnqvpCMPUKyV/W4NN5tGDSzK7Q
 n964jIbpyJHZ4dLEleHV0lJGo8Ie0VDwdXFDgTdWn+/X3hf5XBaBxz/I+043WzgnKo+tiS9JSpob
 okOhdnuBIjUyQqdIX3RJVsWozn2UdFk8bDLyHB+6UPPnXrRuwsKXB5uT/oH/DrWeCzSiqCVqYRzz
 LLa+nfrr5/WJ8UMtiTGdNdvmh26FgiB/APT7zBBRwL1lAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="2cb8e4f3-2093-456f-a096-8e052e953bac"
+		isrooted="True"
+		name="Feeds"
+		refpath="/winapp[@packagename='Microsoft.Windows.Search']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="form,uiautomation"
+			capname="form"
+			id="35d52ba9-f2ea-4e43-ac08-30b06f8f0b0d"
+			name="RootGrid"
+			refimgid="0b22ae32-f31f-48bf-938c-c4a2febf1cfa"
+			refpath="/winapp[@packagename='Microsoft.Windows.Search']/form[@automationid='RootGrid']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.Windows.Search']/form[@automationid='RootGrid']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.Windows.Search']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADRSURBVDhPnZI9DoJAEEa5iRfxHl7DkiN4BAtr
+WwuPYWFlaCxs1FiRUEgU3IU3ZJNhM0sikzxg95tv9mfIsrzwUyy3N1/WrSec8/5wqcY5o0FE8+sd
+fexOpYx1sdX+PuRpgwbz++tMbbG5ShHeZgFWIiwtsD6+hhxLZJth21MkC4hgzMdIniVw2xzD0jTJ
+ArSKY1iaJlkACLllQwO6dH7U6QKfdvgHuO1Yw8wxZRyLQP8h9DsOWTnkayMEczyfRA/+NkP4mGUG
+HrPN8Kya+ea88B01Y6BrLx+ROwAAAABJRU5ErkJggg==
 			</icon>
 		</appfolder>
 		<basepath>

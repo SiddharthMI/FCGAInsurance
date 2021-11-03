@@ -110,16 +110,16 @@ namespace Sid_FCGAProject.GL_Product
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(4));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LnkSignOut' at Center.", repo.ApplicationUnderTest.LnkSignOutInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.LnkSignOut.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LnkSignOut' at Center.", repo.ApplicationUnderTest.LnkSignOutInfo, new RecordItemIndex(5));
+            //repo.ApplicationUnderTest.LnkSignOut.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(6));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(6));
+            //Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close2' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close2Info, new RecordItemIndex(7));
-            repo.HttpsQawinstonFwcinsComFWCPortalP.Close2.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close2' at CenterRight.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close2Info, new RecordItemIndex(7));
+            //repo.HttpsQawinstonFwcinsComFWCPortalP.Close2.Click(Location.CenterRight);
+            //Delay.Milliseconds(0);
             
         }
 

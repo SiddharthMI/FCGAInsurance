@@ -83,8 +83,8 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.BtnSubmitRI.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(1));
+            Delay.Duration(20000, false);
             
         }
 

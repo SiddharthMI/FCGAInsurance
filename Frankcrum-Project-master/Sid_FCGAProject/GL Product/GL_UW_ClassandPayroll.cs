@@ -313,233 +313,229 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.DropdownToggleNavLink' at Center.", repo.ApplicationUnderTest.MainContentHolder.DropdownToggleNavLinkInfo, new RecordItemIndex(0));
-            //repo.ApplicationUnderTest.MainContentHolder.DropdownToggleNavLink.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectGLClassificationContainer' at Center.", repo.ApplicationUnderTest.SelectGLClassificationContainerInfo, new RecordItemIndex(1));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectGLClassificationContainer' at Center.", repo.ApplicationUnderTest.SelectGLClassificationContainerInfo, new RecordItemIndex(0));
             //repo.ApplicationUnderTest.SelectGLClassificationContainer.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(2));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(1));
             //repo.ApplicationUnderTest.Search.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWContractorClassCode' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(3));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWContractorClassCode' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(2));
             //repo.ApplicationUnderTest.Search.PressKeys(GLUWContractorClassCode);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(4));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(3));
             //repo.ApplicationUnderTest.Search.EnsureVisible();
             //Keyboard.Press("{Return}");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAddClassification' at Center.", repo.ApplicationUnderTest.BtnAddClassificationInfo, new RecordItemIndex(5));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAddClassification' at Center.", repo.ApplicationUnderTest.BtnAddClassificationInfo, new RecordItemIndex(4));
             //repo.ApplicationUnderTest.BtnAddClassification.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Percentage' at Center.", repo.ApplicationUnderTest.PercentageInfo, new RecordItemIndex(6));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Percentage' at Center.", repo.ApplicationUnderTest.PercentageInfo, new RecordItemIndex(5));
             //repo.ApplicationUnderTest.Percentage.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWContractorPercent' with focus on 'ApplicationUnderTest.Percentage'.", repo.ApplicationUnderTest.PercentageInfo, new RecordItemIndex(7));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWContractorPercent' with focus on 'ApplicationUnderTest.Percentage'.", repo.ApplicationUnderTest.PercentageInfo, new RecordItemIndex(6));
             //repo.ApplicationUnderTest.Percentage.PressKeys(GLUWContractorPercent);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BorderTop0' at Center.", repo.ApplicationUnderTest.BorderTop0Info, new RecordItemIndex(8));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BorderTop0' at Center.", repo.ApplicationUnderTest.BorderTop0Info, new RecordItemIndex(7));
             //repo.ApplicationUnderTest.BorderTop0.Click();
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ExpectedGrossReceipts' at Center.", repo.ApplicationUnderTest.ExpectedGrossReceiptsInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ExpectedGrossReceipts' at Center.", repo.ApplicationUnderTest.ExpectedGrossReceiptsInfo, new RecordItemIndex(8));
             repo.ApplicationUnderTest.ExpectedGrossReceipts.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWExpectedGrossReceipt' with focus on 'ApplicationUnderTest.ExpectedGrossReceipts'.", repo.ApplicationUnderTest.ExpectedGrossReceiptsInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWExpectedGrossReceipt' with focus on 'ApplicationUnderTest.ExpectedGrossReceipts'.", repo.ApplicationUnderTest.ExpectedGrossReceiptsInfo, new RecordItemIndex(9));
             repo.ApplicationUnderTest.ExpectedGrossReceipts.EnsureVisible();
             Keyboard.Press(GLUWExpectedGrossReceipt);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'ApplicationUnderTest.InsuredSubcontractorsCost' at Center.", repo.ApplicationUnderTest.InsuredSubcontractorsCostInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'ApplicationUnderTest.InsuredSubcontractorsCost' at Center.", repo.ApplicationUnderTest.InsuredSubcontractorsCostInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.InsuredSubcontractorsCost.DoubleClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWInsuredSubContratorCost' with focus on 'ApplicationUnderTest.InsuredSubcontractorsCost'.", repo.ApplicationUnderTest.InsuredSubcontractorsCostInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWInsuredSubContratorCost' with focus on 'ApplicationUnderTest.InsuredSubcontractorsCost'.", repo.ApplicationUnderTest.InsuredSubcontractorsCostInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.InsuredSubcontractorsCost.PressKeys(GLUWInsuredSubContratorCost);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InsuredSubcontractorsOperations' at Center.", repo.ApplicationUnderTest.InsuredSubcontractorsOperationsInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InsuredSubcontractorsOperations' at Center.", repo.ApplicationUnderTest.InsuredSubcontractorsOperationsInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.InsuredSubcontractorsOperations.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.InsuredSubcontractorsOperations'.", repo.ApplicationUnderTest.InsuredSubcontractorsOperationsInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.InsuredSubcontractorsOperations'.", repo.ApplicationUnderTest.InsuredSubcontractorsOperationsInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.InsuredSubcontractorsOperations.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWSubcontractorDesc' with focus on 'ApplicationUnderTest.InsuredSubcontractorsOperations'.", repo.ApplicationUnderTest.InsuredSubcontractorsOperationsInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWSubcontractorDesc' with focus on 'ApplicationUnderTest.InsuredSubcontractorsOperations'.", repo.ApplicationUnderTest.InsuredSubcontractorsOperationsInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.InsuredSubcontractorsOperations.PressKeys(GLUWSubcontractorDesc);
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectClassCodesContainer' at Center.", repo.ApplicationUnderTest.SelectClassCodesContainerInfo, new RecordItemIndex(16));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectClassCodesContainer' at Center.", repo.ApplicationUnderTest.SelectClassCodesContainerInfo, new RecordItemIndex(15));
             //repo.ApplicationUnderTest.SelectClassCodesContainer.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(17));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(16));
             //repo.ApplicationUnderTest.Search.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWSubContractorClassCode' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(18));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWSubContractorClassCode' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(17));
             //repo.ApplicationUnderTest.Search.PressKeys(GLUWSubContractorClassCode);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(19));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(18));
             //repo.ApplicationUnderTest.Search.PressKeys("{Return}");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAddClassCode' at Center.", repo.ApplicationUnderTest.BtnAddClassCodeInfo, new RecordItemIndex(20));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAddClassCode' at Center.", repo.ApplicationUnderTest.BtnAddClassCodeInfo, new RecordItemIndex(19));
             //repo.ApplicationUnderTest.BtnAddClassCode.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Percentage1' at Center.", repo.ApplicationUnderTest.Percentage1Info, new RecordItemIndex(21));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Percentage1' at Center.", repo.ApplicationUnderTest.Percentage1Info, new RecordItemIndex(20));
             //repo.ApplicationUnderTest.Percentage1.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWSubcontractorPercent' with focus on 'ApplicationUnderTest.Percentage1'.", repo.ApplicationUnderTest.Percentage1Info, new RecordItemIndex(22));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWSubcontractorPercent' with focus on 'ApplicationUnderTest.Percentage1'.", repo.ApplicationUnderTest.Percentage1Info, new RecordItemIndex(21));
             //repo.ApplicationUnderTest.Percentage1.PressKeys(GLUWSubcontractorPercent);
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullAdmEmp' at Center.", repo.ApplicationUnderTest.FullAdmEmpInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullAdmEmp' at Center.", repo.ApplicationUnderTest.FullAdmEmpInfo, new RecordItemIndex(22));
             repo.ApplicationUnderTest.FullAdmEmp.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullAdmEmp'.", repo.ApplicationUnderTest.FullAdmEmpInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullAdmEmp'.", repo.ApplicationUnderTest.FullAdmEmpInfo, new RecordItemIndex(23));
             repo.ApplicationUnderTest.FullAdmEmp.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullAdmEmp' with focus on 'ApplicationUnderTest.FullAdmEmp'.", repo.ApplicationUnderTest.FullAdmEmpInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullAdmEmp' with focus on 'ApplicationUnderTest.FullAdmEmp'.", repo.ApplicationUnderTest.FullAdmEmpInfo, new RecordItemIndex(24));
             repo.ApplicationUnderTest.FullAdmEmp.PressKeys(GLUWFullAdmEmp);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartAdmEmp' at Center.", repo.ApplicationUnderTest.PartAdmEmpInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartAdmEmp' at Center.", repo.ApplicationUnderTest.PartAdmEmpInfo, new RecordItemIndex(25));
             repo.ApplicationUnderTest.PartAdmEmp.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartAdmEmp'.", repo.ApplicationUnderTest.PartAdmEmpInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartAdmEmp'.", repo.ApplicationUnderTest.PartAdmEmpInfo, new RecordItemIndex(26));
             repo.ApplicationUnderTest.PartAdmEmp.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartAdmEmp' with focus on 'ApplicationUnderTest.PartAdmEmp'.", repo.ApplicationUnderTest.PartAdmEmpInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartAdmEmp' with focus on 'ApplicationUnderTest.PartAdmEmp'.", repo.ApplicationUnderTest.PartAdmEmpInfo, new RecordItemIndex(27));
             repo.ApplicationUnderTest.PartAdmEmp.PressKeys(GLUWPartAdmEmp);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TotAdmPayroll' at Center.", repo.ApplicationUnderTest.TotAdmPayrollInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TotAdmPayroll' at Center.", repo.ApplicationUnderTest.TotAdmPayrollInfo, new RecordItemIndex(28));
             repo.ApplicationUnderTest.TotAdmPayroll.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.TotAdmPayroll'.", repo.ApplicationUnderTest.TotAdmPayrollInfo, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.TotAdmPayroll'.", repo.ApplicationUnderTest.TotAdmPayrollInfo, new RecordItemIndex(29));
             repo.ApplicationUnderTest.TotAdmPayroll.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWTotAdmPayroll' with focus on 'ApplicationUnderTest.TotAdmPayroll'.", repo.ApplicationUnderTest.TotAdmPayrollInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWTotAdmPayroll' with focus on 'ApplicationUnderTest.TotAdmPayroll'.", repo.ApplicationUnderTest.TotAdmPayrollInfo, new RecordItemIndex(30));
             repo.ApplicationUnderTest.TotAdmPayroll.PressKeys(GLUWTotAdmPayroll);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullSalesEmp' at Center.", repo.ApplicationUnderTest.FullSalesEmpInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullSalesEmp' at Center.", repo.ApplicationUnderTest.FullSalesEmpInfo, new RecordItemIndex(31));
             repo.ApplicationUnderTest.FullSalesEmp.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullSalesEmp'.", repo.ApplicationUnderTest.FullSalesEmpInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullSalesEmp'.", repo.ApplicationUnderTest.FullSalesEmpInfo, new RecordItemIndex(32));
             repo.ApplicationUnderTest.FullSalesEmp.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullScaleEmp' with focus on 'ApplicationUnderTest.FullSalesEmp'.", repo.ApplicationUnderTest.FullSalesEmpInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullScaleEmp' with focus on 'ApplicationUnderTest.FullSalesEmp'.", repo.ApplicationUnderTest.FullSalesEmpInfo, new RecordItemIndex(33));
             repo.ApplicationUnderTest.FullSalesEmp.PressKeys(GLUWFullScaleEmp);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartSalesEmp' at Center.", repo.ApplicationUnderTest.PartSalesEmpInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartSalesEmp' at Center.", repo.ApplicationUnderTest.PartSalesEmpInfo, new RecordItemIndex(34));
             repo.ApplicationUnderTest.PartSalesEmp.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartSalesEmp'.", repo.ApplicationUnderTest.PartSalesEmpInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartSalesEmp'.", repo.ApplicationUnderTest.PartSalesEmpInfo, new RecordItemIndex(35));
             repo.ApplicationUnderTest.PartSalesEmp.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartSalesEmp' with focus on 'ApplicationUnderTest.PartSalesEmp'.", repo.ApplicationUnderTest.PartSalesEmpInfo, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartSalesEmp' with focus on 'ApplicationUnderTest.PartSalesEmp'.", repo.ApplicationUnderTest.PartSalesEmpInfo, new RecordItemIndex(36));
             repo.ApplicationUnderTest.PartSalesEmp.PressKeys(GLUWPartSalesEmp);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TotSalesPayroll' at Center.", repo.ApplicationUnderTest.TotSalesPayrollInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TotSalesPayroll' at Center.", repo.ApplicationUnderTest.TotSalesPayrollInfo, new RecordItemIndex(37));
             repo.ApplicationUnderTest.TotSalesPayroll.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.TotSalesPayroll'.", repo.ApplicationUnderTest.TotSalesPayrollInfo, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.TotSalesPayroll'.", repo.ApplicationUnderTest.TotSalesPayrollInfo, new RecordItemIndex(38));
             repo.ApplicationUnderTest.TotSalesPayroll.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWTotSalesPayroll' with focus on 'ApplicationUnderTest.TotSalesPayroll'.", repo.ApplicationUnderTest.TotSalesPayrollInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWTotSalesPayroll' with focus on 'ApplicationUnderTest.TotSalesPayroll'.", repo.ApplicationUnderTest.TotSalesPayrollInfo, new RecordItemIndex(39));
             repo.ApplicationUnderTest.TotSalesPayroll.PressKeys(GLUWTotSalesPayroll);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullPartners' at Center.", repo.ApplicationUnderTest.FullPartnersInfo, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullPartners' at Center.", repo.ApplicationUnderTest.FullPartnersInfo, new RecordItemIndex(40));
             repo.ApplicationUnderTest.FullPartners.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullPartners'.", repo.ApplicationUnderTest.FullPartnersInfo, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullPartners'.", repo.ApplicationUnderTest.FullPartnersInfo, new RecordItemIndex(41));
             repo.ApplicationUnderTest.FullPartners.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullPartners' with focus on 'ApplicationUnderTest.FullPartners'.", repo.ApplicationUnderTest.FullPartnersInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullPartners' with focus on 'ApplicationUnderTest.FullPartners'.", repo.ApplicationUnderTest.FullPartnersInfo, new RecordItemIndex(42));
             repo.ApplicationUnderTest.FullPartners.PressKeys(GLUWFullPartners);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartPartners' at Center.", repo.ApplicationUnderTest.PartPartnersInfo, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartPartners' at Center.", repo.ApplicationUnderTest.PartPartnersInfo, new RecordItemIndex(43));
             repo.ApplicationUnderTest.PartPartners.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartPartners'.", repo.ApplicationUnderTest.PartPartnersInfo, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartPartners'.", repo.ApplicationUnderTest.PartPartnersInfo, new RecordItemIndex(44));
             repo.ApplicationUnderTest.PartPartners.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartPartners' with focus on 'ApplicationUnderTest.PartPartners'.", repo.ApplicationUnderTest.PartPartnersInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartPartners' with focus on 'ApplicationUnderTest.PartPartners'.", repo.ApplicationUnderTest.PartPartnersInfo, new RecordItemIndex(45));
             repo.ApplicationUnderTest.PartPartners.PressKeys(GLUWPartPartners);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullOtherEmp' at Center.", repo.ApplicationUnderTest.FullOtherEmpInfo, new RecordItemIndex(47));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FullOtherEmp' at Center.", repo.ApplicationUnderTest.FullOtherEmpInfo, new RecordItemIndex(46));
             repo.ApplicationUnderTest.FullOtherEmp.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullOtherEmp'.", repo.ApplicationUnderTest.FullOtherEmpInfo, new RecordItemIndex(48));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.FullOtherEmp'.", repo.ApplicationUnderTest.FullOtherEmpInfo, new RecordItemIndex(47));
             repo.ApplicationUnderTest.FullOtherEmp.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullOtherEmp' with focus on 'ApplicationUnderTest.FullOtherEmp'.", repo.ApplicationUnderTest.FullOtherEmpInfo, new RecordItemIndex(49));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWFullOtherEmp' with focus on 'ApplicationUnderTest.FullOtherEmp'.", repo.ApplicationUnderTest.FullOtherEmpInfo, new RecordItemIndex(48));
             repo.ApplicationUnderTest.FullOtherEmp.PressKeys(GLUWFullOtherEmp);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartOtherEmp' at Center.", repo.ApplicationUnderTest.PartOtherEmpInfo, new RecordItemIndex(50));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PartOtherEmp' at Center.", repo.ApplicationUnderTest.PartOtherEmpInfo, new RecordItemIndex(49));
             repo.ApplicationUnderTest.PartOtherEmp.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartOtherEmp'.", repo.ApplicationUnderTest.PartOtherEmpInfo, new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.PartOtherEmp'.", repo.ApplicationUnderTest.PartOtherEmpInfo, new RecordItemIndex(50));
             repo.ApplicationUnderTest.PartOtherEmp.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartOtherEmp' with focus on 'ApplicationUnderTest.PartOtherEmp'.", repo.ApplicationUnderTest.PartOtherEmpInfo, new RecordItemIndex(52));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWPartOtherEmp' with focus on 'ApplicationUnderTest.PartOtherEmp'.", repo.ApplicationUnderTest.PartOtherEmpInfo, new RecordItemIndex(51));
             repo.ApplicationUnderTest.PartOtherEmp.PressKeys(GLUWPartOtherEmp);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TotOtherPayroll' at Center.", repo.ApplicationUnderTest.TotOtherPayrollInfo, new RecordItemIndex(53));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TotOtherPayroll' at Center.", repo.ApplicationUnderTest.TotOtherPayrollInfo, new RecordItemIndex(52));
             repo.ApplicationUnderTest.TotOtherPayroll.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.TotOtherPayroll'.", repo.ApplicationUnderTest.TotOtherPayrollInfo, new RecordItemIndex(54));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '(null)' on item 'ApplicationUnderTest.TotOtherPayroll'.", repo.ApplicationUnderTest.TotOtherPayrollInfo, new RecordItemIndex(53));
             repo.ApplicationUnderTest.TotOtherPayroll.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWTotOtherPayroll' with focus on 'ApplicationUnderTest.TotOtherPayroll'.", repo.ApplicationUnderTest.TotOtherPayrollInfo, new RecordItemIndex(55));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GLUWTotOtherPayroll' with focus on 'ApplicationUnderTest.TotOtherPayroll'.", repo.ApplicationUnderTest.TotOtherPayrollInfo, new RecordItemIndex(54));
             repo.ApplicationUnderTest.TotOtherPayroll.PressKeys(GLUWTotOtherPayroll);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnContinue1' at Center.", repo.ApplicationUnderTest.BtnContinue1Info, new RecordItemIndex(56));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnContinue1' at Center.", repo.ApplicationUnderTest.BtnContinue1Info, new RecordItemIndex(55));
             repo.ApplicationUnderTest.BtnContinue1.Click();
             Delay.Milliseconds(0);
             

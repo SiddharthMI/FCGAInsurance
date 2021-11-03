@@ -146,15 +146,18 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.LnkDownloadEvidence.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.EvidencePage' at Center.", repo.ApplicationUnderTest.EvidencePageInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.EvidencePage.Click();
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(7));
+            Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close3' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close3Info, new RecordItemIndex(8));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.EvidencePage' at Center.", repo.ApplicationUnderTest.EvidencePageInfo, new RecordItemIndex(8));
+            //repo.ApplicationUnderTest.EvidencePage.Click();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close3' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close3Info, new RecordItemIndex(9));
             repo.HttpsQawinstonFwcinsComFWCPortalP.Close3.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExit' at Center.", repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExitInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExit' at Center.", repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExitInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExit.Click();
             Delay.Milliseconds(0);
             

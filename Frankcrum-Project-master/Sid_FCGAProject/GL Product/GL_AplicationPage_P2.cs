@@ -290,8 +290,8 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.TxtLicenseNumber.PressKeys(GL_LicenseNo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.LabelTagYes' at Center.", repo.ApplicationUnderTest.MainContentHolder.LabelTagYesInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.MainContentHolder.LabelTagYes.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LabelTag_Yes6' at Center.", repo.ApplicationUnderTest.LabelTag_Yes6Info, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.LabelTag_Yes6.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtIndustrial' at Center.", repo.ApplicationUnderTest.TxtIndustrialInfo, new RecordItemIndex(5));
@@ -350,8 +350,8 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.TxtRepaireOrService.PressKeys(GL_RepairOrServicePercent);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.LabelTagYes1' at Center.", repo.ApplicationUnderTest.MainContentHolder.LabelTagYes1Info, new RecordItemIndex(19));
-            repo.ApplicationUnderTest.MainContentHolder.LabelTagYes1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LabelTag_Yes7' at Center.", repo.ApplicationUnderTest.LabelTag_Yes7Info, new RecordItemIndex(19));
+            repo.ApplicationUnderTest.LabelTag_Yes7.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtWorkSubcontracted' at Center.", repo.ApplicationUnderTest.TxtWorkSubcontractedInfo, new RecordItemIndex(20));
@@ -362,12 +362,12 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.TxtWorkSubcontracted.PressKeys(GL_WorkSubContractedComment);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.LabelTagYes2' at Center.", repo.ApplicationUnderTest.MainContentHolder.LabelTagYes2Info, new RecordItemIndex(22));
-            repo.ApplicationUnderTest.MainContentHolder.LabelTagYes2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LabelTag_Yes8' at Center.", repo.ApplicationUnderTest.LabelTag_Yes8Info, new RecordItemIndex(22));
+            repo.ApplicationUnderTest.LabelTag_Yes8.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.LabelTagYes3' at Center.", repo.ApplicationUnderTest.MainContentHolder.LabelTagYes3Info, new RecordItemIndex(23));
-            repo.ApplicationUnderTest.MainContentHolder.LabelTagYes3.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LabelTag_Yes9' at Center.", repo.ApplicationUnderTest.LabelTag_Yes9Info, new RecordItemIndex(23));
+            repo.ApplicationUnderTest.LabelTag_Yes9.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtExpectedGrossReceipts' at Center.", repo.ApplicationUnderTest.TxtExpectedGrossReceiptsInfo, new RecordItemIndex(24));
@@ -410,27 +410,27 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.TxtPartnersPartTimeEmp.PressKeys(GL_PartnersPartTimeEmp);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.IAgree' at Center.", repo.ApplicationUnderTest.MainContentHolder.IAgreeInfo, new RecordItemIndex(34));
-            repo.ApplicationUnderTest.MainContentHolder.IAgree.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IAgree' at Center.", repo.IAgreeInfo, new RecordItemIndex(34));
+            repo.IAgree.Click();
             Delay.Milliseconds(0);
             
             // Application Docs
             Report.Log(ReportLevel.Info, "Section", "Application Docs", new RecordItemIndex(35));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnPrintSubmit' at Center.", repo.ApplicationUnderTest.BtnPrintSubmitInfo, new RecordItemIndex(36));
-            repo.ApplicationUnderTest.BtnPrintSubmit.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnPrintSubmit' at Center.", repo.ApplicationUnderTest.BtnPrintSubmitInfo, new RecordItemIndex(36));
+            //repo.ApplicationUnderTest.BtnPrintSubmit.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(37));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(37));
+            //Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.DocumentPage' at Center.", repo.ApplicationUnderTest.DocumentPageInfo, new RecordItemIndex(38));
-            repo.ApplicationUnderTest.DocumentPage.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.DocumentPage' at Center.", repo.ApplicationUnderTest.DocumentPageInfo, new RecordItemIndex(38));
+            //repo.ApplicationUnderTest.DocumentPage.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close3' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close3Info, new RecordItemIndex(39));
-            repo.HttpsQawinstonFwcinsComFWCPortalP.Close3.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close3' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close3Info, new RecordItemIndex(39));
+            //repo.HttpsQawinstonFwcinsComFWCPortalP.Close3.Click();
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Section", "", new RecordItemIndex(40));
             

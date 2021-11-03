@@ -28,3 +28,11 @@ C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V4.0\Frankcrum-Pr
 C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V4.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csproj.CopyComplete
 C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V4.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
 C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V4.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
+C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache

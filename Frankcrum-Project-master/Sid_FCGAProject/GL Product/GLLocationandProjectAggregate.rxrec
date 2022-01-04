@@ -33,6 +33,11 @@ mode="Global">
 		name="GLAgProjectNo">
 			4
 		</var>
+		<var
+		id="7bedecad-31d2-41a3-b75a-3c45c417f993"
+		name="Status_Reason">
+			Location and Project Aggregate
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

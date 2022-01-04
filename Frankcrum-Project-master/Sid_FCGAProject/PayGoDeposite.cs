@@ -43,6 +43,7 @@ namespace Sid_FCGAProject
         {
             PaymentMethod = "Online Payment";
             InsuredName = "Rahul Kumar";
+            Status_Reason = "Payment Deposite";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace Sid_FCGAProject
         {
             get { return _InsuredName; }
             set { _InsuredName = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("8b137ef6-acdd-4986-9678-66ad6c292bc0")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -140,12 +153,18 @@ namespace Sid_FCGAProject
             Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.ReportFullPageScreenshot(repo.ApplicationUnderTest.SelfInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.NPFPolicySubmit' at Center.", repo.ApplicationUnderTest.NPFPolicySubmitInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.NPFPolicySubmit.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.GL_NPFPolicySubmit' at Center.", repo.ApplicationUnderTest.GL_NPFPolicySubmitInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.GL_NPFPolicySubmit.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(10));
-            Delay.Duration(30000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(10));
+            //Delay.Duration(30000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.LblCompanyName'", repo.ApplicationUnderTest.LblCompanyNameInfo, new ActionTimeout(40000), new RecordItemIndex(11));
+            repo.ApplicationUnderTest.LblCompanyNameInfo.WaitForExists(40000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(12));
+            Delay.Duration(5000, false);
             
         }
 

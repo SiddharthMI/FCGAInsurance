@@ -23,8 +23,170 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="6170a347-1774-498d-8e0e-77d1af562f6f"
+		name="WCInsuredAddress">
+		</var>
+		<var
+		id="cdc4d881-61f1-4117-a780-97c42d194850"
+		name="Status_Reason">
+			Make Payment
+		</var>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7a82a22f-32ca-4c02-a378-be3b5dc96316"
+		sx="330"
+		sy="451"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="43745960-0722-4f41-a830-a4acee4f424f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="325,443,151,75"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						lblBusinessAddressLine
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						221 E Concord St,Orlando, FL 32801
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&lt;'fwcins.com']//div[#'mainContentHolder']//span[@id&gt;'lblBusinessAddressLine']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="c78756b8-49e8-4da1-8117-721f5c3ba3ed">
+				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
++FFFFAH/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ec0bbbee-5e14-4297-b439-6869307b29a0"
+		varname="WCInsuredAddress">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="43745960-0722-4f41-a830-a4acee4f424f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//div[#'mainContentHolder']//span[@id&gt;'lblBusinessAddressLine']
+				</path>
+			</info>
+		</getvaluerecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -386,6 +548,33 @@ AOAoooASiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
 AooooA//2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="33d8c4cb-fb82-49a7-99ba-fe30fdcaabc1"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bcee750c-1277-45a7-b77c-6b4e5e5bfe8d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//tbody[#'tbl1']/tr[2]//label
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

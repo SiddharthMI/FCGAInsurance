@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public WCNewQuote()
         {
             FEINNo = "867657567";
+            Status_Reason = "New Quote";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _FEINNo; }
             set { _FEINNo = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("f67854b6-0c9f-4901-8826-6e865bb7db66")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -92,8 +105,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            //Delay.Duration(10000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'New_Quote.NewQuoteTab' at Center.", repo.New_Quote.NewQuoteTabInfo, new RecordItemIndex(1));
             repo.New_Quote.NewQuoteTab.Click();
@@ -103,19 +116,22 @@ namespace Sid_FCGAProject
             repo.New_Quote.LOB_WorkersCompensation.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$FEINNo' with focus on 'New_Quote.WC_TxtFEIN'.", repo.New_Quote.WC_TxtFEINInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(3));
+            Delay.Duration(3000, false);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$FEINNo' with focus on 'New_Quote.WC_TxtFEIN'.", repo.New_Quote.WC_TxtFEINInfo, new RecordItemIndex(4));
             repo.New_Quote.WC_TxtFEIN.PressKeys(FEINNo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'New_Quote.Page_DivProgVerbiage' at Center.", repo.New_Quote.Page_DivProgVerbiageInfo, new RecordItemIndex(4));
-            repo.New_Quote.Page_DivProgVerbiage.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'New_Quote.Page_DivProgVerbiage' at Center.", repo.New_Quote.Page_DivProgVerbiageInfo, new RecordItemIndex(5));
+            //repo.New_Quote.Page_DivProgVerbiage.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'New_Quote.Page_DivProgVerbiage'.", repo.New_Quote.Page_DivProgVerbiageInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'New_Quote.Page_DivProgVerbiage'.", repo.New_Quote.Page_DivProgVerbiageInfo, new RecordItemIndex(6));
             Validate.Exists(repo.New_Quote.Page_DivProgVerbiageInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'New_Quote.Page_Continue' at Center.", repo.New_Quote.Page_ContinueInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'New_Quote.Page_Continue' at Center.", repo.New_Quote.Page_ContinueInfo, new RecordItemIndex(7));
             repo.New_Quote.Page_Continue.Click();
             Delay.Milliseconds(0);
             

@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.WC_Product">
 	</codegen>
 	<variables>
+		<var
+		id="9f6dc029-c61c-413b-80bc-d71b6fbc0971"
+		name="Status_Reason">
+			Business Summary Save
+		</var>
 	</variables>
 	<recorditems>
 		<explicitdelayitem
@@ -105,9 +110,36 @@ mode="Global">
 			id="3f23c61a-d105-41ec-bf0a-f36ebe2b9ed6">
 			</arguments>
 		</invokeactionrecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c31a4a26-d692-4f7e-9b8d-8a4a468e9b80"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6691f400-44b4-4a8e-936a-6483b3198d1e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'BtnNext']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

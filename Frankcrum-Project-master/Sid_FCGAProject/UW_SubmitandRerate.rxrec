@@ -33,17 +33,60 @@ mode="Global">
 		name="UWMessages">
 			Hello Agent
 		</var>
+		<var
+		id="c8a35c89-41b6-4f0d-8e81-b6899b800b0f"
+		name="UWReferralReason">
+		</var>
+		<var
+		id="b0ca5e25-161f-445e-8105-fce8a2550857"
+		name="Status_Reason">
+			UW Submit and Re rate
+		</var>
 	</variables>
 	<recorditems>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="789f7dda-dd87-48d4-ad64-d11a53d91066"
+		varname="UWReferralReason">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="15380dcb-8117-4a4c-9fbb-469a045c6c7a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//ul[#'ulReferralReason']/li
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="23b1db25-82a4-48cf-bb8d-f0b3d360e915">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="UWReferralReason">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<setvaluerecorditem
 		attrname="TagValue"
 		duration="20ms"
@@ -143,6 +186,15 @@ mode="Global">
 				3
 			</AttributeValue>
 		</setvaluerecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -343,7 +395,34 @@ igAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<explicitdelayitem
-		duration="30000ms"
+		duration="20000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="810e6865-a628-4f09-b976-0439ea4f2e8b"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0f067357-25fb-4086-9c79-89c27d0b6546"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']/body/div[9]/div/div/div[3]/input[@name='CLOSE']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -588,6 +667,15 @@ APPeX/vs1HRQBJ58/wDz3l/77NHnz/8APeX/AL7NR0UASefP/wA95f8Avs0efP8A895f++zUdFAD
 				</argument>
 			</arguments>
 		</userrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

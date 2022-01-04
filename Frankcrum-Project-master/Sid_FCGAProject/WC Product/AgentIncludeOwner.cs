@@ -48,6 +48,7 @@ namespace Sid_FCGAProject.WC_Product
             AOFTEmpNo = "1";
             AOPTEmp = "1";
             AOGrossAmt = "45670";
+            StatusReason = "Agent Include Owner and ClassPayroll";
         }
 
         /// <summary>
@@ -142,6 +143,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _AOGrossAmt; }
             set { _AOGrossAmt = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("bbdaa27a-2fb1-4da7-9d6b-a51d549b533b")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

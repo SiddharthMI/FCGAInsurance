@@ -28,6 +28,11 @@ mode="Global">
 		name="EmpliabilityValue">
 			$100,000/$500,000/$100,000
 		</var>
+		<var
+		id="1f5cc0b1-4b6f-4b95-a2c1-e2fe050be17a"
+		name="Status_Reason">
+			UW Employee Liability Limit
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

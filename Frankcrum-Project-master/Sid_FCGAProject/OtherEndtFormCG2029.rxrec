@@ -28,6 +28,11 @@ mode="Global">
 		name="CG2029_No">
 			1
 		</var>
+		<var
+		id="bb93caba-ab53-48ec-afb3-004ceb7851c7"
+		name="Status_Reason">
+			CG2029 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

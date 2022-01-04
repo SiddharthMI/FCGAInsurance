@@ -28,6 +28,11 @@ mode="Global">
 		name="EffectiveDate">
 			07/29/2021
 		</var>
+		<var
+		id="3e7d51fc-c825-4482-9fcb-8f3f591fbe0f"
+		name="Status_Reason">
+			UW Effective Date (Backdated)
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

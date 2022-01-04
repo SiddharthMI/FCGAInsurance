@@ -63,6 +63,11 @@ mode="Global">
 		name="UW_BusinessStartDate">
 			07/01/2021
 		</var>
+		<var
+		id="868f813a-c98c-4760-b1e9-4f14ed41955a"
+		name="Status_Reason">
+			UW Business Name and Address
+		</var>
 	</variables>
 	<recorditems>
 		<setvaluerecorditem

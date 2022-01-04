@@ -28,11 +28,16 @@ mode="Global">
 		name="FEINNo">
 			867657567
 		</var>
+		<var
+		id="f67854b6-0c9f-4901-8826-6e865bb7db66"
+		name="Status_Reason">
+			New Quote
+		</var>
 	</variables>
 	<recorditems>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -87,6 +92,15 @@ mode="Global">
 				</path>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<keysequenceitem
 		KeySequence="676474621"
 		duration="20ms"
@@ -114,7 +128,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"

@@ -23,13 +23,18 @@ mode="Global">
 	namespace="Sid_FCGAProject.WC_Product">
 	</codegen>
 	<variables>
+		<var
+		id="86d5f682-d58a-4eec-8173-c1f6c25cc49e"
+		name="Status_Reason">
+			Application Messaging
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -128,7 +133,7 @@ UAFFFFABRRRQAUUUUAFFFFAHQ2v/AB6w/wC4v8qloorie56Udkf/2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -139,7 +144,7 @@ UAFFFFABRRRQAUUUUAFFFFAHQ2v/AB6w/wC4v8qloorie56Udkf/2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -238,7 +243,7 @@ VTtzzhSGJ/IVbrnNG/5Dl1/1zb+Yro6QwpKWkoAKKKKACiiigD//2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

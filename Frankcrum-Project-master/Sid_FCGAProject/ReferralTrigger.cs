@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public ReferralTrigger()
         {
+            Status_Reason = "Application Page";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("b8480b73-91c6-4a50-ab54-667a260f633a")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(0));
-            Delay.Duration(6000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(0));
+            //Delay.Duration(6000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LblPremium' at Center.", repo.ApplicationUnderTest.LblPremiumInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.LblPremium.Click();

@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.GL_Product
         /// </summary>
         public AutomaticFormFCG1002()
         {
+            Status_Reason = "FCG1002 Form No";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.GL_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("d71b6656-47c8-40a8-98a7-6a9f505bc1b5")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

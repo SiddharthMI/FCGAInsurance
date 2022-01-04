@@ -43,6 +43,7 @@ namespace Sid_FCGAProject
         {
             WCInsuredName = "0";
             WCPolicyNumber = "0";
+            Status_Reason = "ThankYou Page";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace Sid_FCGAProject
         {
             get { return _WCPolicyNumber; }
             set { _WCPolicyNumber = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("819cbfcb-22f5-4520-975b-19e1bacd2f17")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -125,26 +138,26 @@ namespace Sid_FCGAProject
             
             Report.Log(ReportLevel.Info, "User", WCPolicyNumber, new RecordItemIndex(5));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LnkDownloadBinder' at 52;20.", repo.ApplicationUnderTest.LnkDownloadBinderInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.LnkDownloadBinder.Click("52;20");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LnkDownloadBinder' at 52;20.", repo.ApplicationUnderTest.LnkDownloadBinderInfo, new RecordItemIndex(6));
+            //repo.ApplicationUnderTest.LnkDownloadBinder.Click("52;20");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 8s.", new RecordItemIndex(7));
-            Delay.Duration(8000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 8s.", new RecordItemIndex(7));
+            //Delay.Duration(8000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Binder.Close6' at Center.", repo.Binder.Close6Info, new RecordItemIndex(8));
-            repo.Binder.Close6.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Quote.Close' at Center.", repo.Quote.CloseInfo, new RecordItemIndex(8));
+            //repo.Quote.Close.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            //Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BacktoMainScreen' at Center.", repo.BacktoMainScreenInfo, new RecordItemIndex(10));
             repo.BacktoMainScreen.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(11));
+            Delay.Duration(5000, false);
             
         }
 

@@ -32,10 +32,11 @@ namespace Sid_FCGAProject.User_Collection
         {
             // Your recording specific initialization code goes here.
         }
-        public void TestExcelWrite (string TCID, string Product, string TestScenario, string ClassCode, string ClassDescription, string ClassGroup, string InsuredName, string ReferralReason, string InsuredAddress, string SmartyStreet, string QuoteNo, string CarrierName, string MIPolicyNo, string XSPolicyNo, string Status, string StartTime, string EndTime)
+        public void TestExcelWrite (string TCID, string Product, string TestScenario, string ClassCode, string ClassDescription, string ClassGroup, string InsuredName, 
+               string ReferralReason, string InsuredAddress, string PrdPremium, string CarrierName, string MIPolicyNo, string XSPolicyNo, string StatusReason, string StartTime, string EndTime)
         {
         	Microsoft.Office.Interop.Excel.Application excelFile = new Microsoft.Office.Interop.Excel.Application();
-            Microsoft.Office.Interop.Excel.Workbook excelWB= excelFile.Workbooks.Open(@"C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V3.0\Frankcrum-Project-master\Report.xlsx");
+            Microsoft.Office.Interop.Excel.Workbook excelWB= excelFile.Workbooks.Open(@"C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Automation Report.xlsx");
             Microsoft.Office.Interop.Excel.Worksheet excelWS=(Microsoft.Office.Interop.Excel.Worksheet) excelWB.Worksheets.get_Item("Report");
             Microsoft.Office.Interop.Excel.Range xlRange = excelWS.UsedRange;
             
@@ -49,7 +50,8 @@ namespace Sid_FCGAProject.User_Collection
             for(int i=1; i<=colCount; i++)
             {
              if(i== 1){
-              excelWS.Cells[rowCount,i] = TCID;
+              string Res = Product.Substring(0, 1);
+              excelWS.Cells[rowCount,i] = Res+"-"+TCID;
             	}
               if(i== 2){
               excelWS.Cells[rowCount,i] = Product;
@@ -73,33 +75,36 @@ namespace Sid_FCGAProject.User_Collection
               excelWS.Cells[rowCount,i] = ReferralReason;
             	}
               if(i== 9){
-              excelWS.Cells[rowCount,i] = ClassDescription;
-            	}
-              if(i== 10){
               excelWS.Cells[rowCount,i] = InsuredAddress;
             	}
+              if(i== 10){
+              excelWS.Cells[rowCount,i] = PrdPremium;
+            	}
               if(i== 11){
-              excelWS.Cells[rowCount,i] = SmartyStreet;
-            	}
-              if(i== 12){
-              excelWS.Cells[rowCount,i] = QuoteNo;
-            	}
-            	if(i== 13){
               excelWS.Cells[rowCount,i] = CarrierName;
             	}
-              if(i== 14){
+            	if(i== 12){
               excelWS.Cells[rowCount,i] = MIPolicyNo;
             	}
-              if(i== 15){
+              if(i== 13){
               excelWS.Cells[rowCount,i] = XSPolicyNo;
             	}
-              if(i== 16){
-              excelWS.Cells[rowCount,i] = Status;
+              if(i== 14){
+            	if(MIPolicyNo == ""){
+            	   excelWS.Cells[rowCount,i] ="Fail";
+            		} else {
+            		excelWS.Cells[rowCount,i] ="Pass";	
+            		}
             	}
-              if(i== 17){
+              if(i== 15){
+            	if(MIPolicyNo == ""){
+            	 excelWS.Cells[rowCount,i] ="Error in "+ StatusReason+". Need Further Investigation";	
+            	  }
+            	}
+              if(i== 16){
               excelWS.Cells[rowCount,i] = StartTime;
             	}
-              if(i== 18){
+              if(i== 17){
               excelWS.Cells[rowCount,i] = EndTime;
             	}
             }

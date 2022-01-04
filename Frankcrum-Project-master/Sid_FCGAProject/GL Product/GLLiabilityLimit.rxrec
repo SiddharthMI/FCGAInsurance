@@ -28,6 +28,11 @@ mode="Global">
 		name="GLAgLiabilityL">
 			$1,000,000/$2,000,000
 		</var>
+		<var
+		id="03e0a906-20f0-4805-b155-efeb3d32b017"
+		name="Status_Reason">
+			Agent GL Liability Limit
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

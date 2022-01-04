@@ -65,6 +65,14 @@
 					variablename="UWMessages">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="aefcd3e9-68ff-4d53-888b-ab14b876d389"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="00f50f41-262e-43f2-b1e2-1f5c1319883c"
@@ -93,12 +101,20 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA UW URL"
+					dataname="UW URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="d0d8ee15-1820-4006-9970-7e854eb98a69"
-					variablename="QA_UW_Env">
+					variablename="UW_URL">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="5feb4748-5cbc-41d5-ba0e-648a2b835f95"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="01cdf18d-be92-407a-9017-e8923f4d4054"
@@ -217,12 +233,20 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA UW URL"
+					dataname="UW URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="d0d8ee15-1820-4006-9970-7e854eb98a69"
-					variablename="QA_UW_Env">
+					variablename="UW_URL">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="5feb4748-5cbc-41d5-ba0e-648a2b835f95"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="047298de-f09e-4214-9137-25a54263f9ac"
@@ -353,6 +377,14 @@
 			name="UW_SignOut"
 			ref="ccce3ae2-bdc0-425c-9606-5755331a8e55"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="1739e041-25bc-434b-9f72-1eaf4be7bb4d"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="06d8d7c7-8c3c-4525-96fa-caeb2ae25c24"
@@ -398,12 +430,58 @@
 					variablename="UW_StateName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="d3f5c702-2a3b-4c36-b997-a7cc2288010b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="07aaed86-5f0d-41c6-a8c9-acf8f2e7ea87"
 			name="WC_Endt_SpecificWaiverType"
 			ref="5ab8a697-3d17-4c62-afc4-437d3ae2d27e"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC_Endt_SpWaiverName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="e07dda93-c708-42ab-b6b5-d8516f39e349"
+					variablename="WC_Endt_SpWaiverName">
+					</var>
+					<var
+					dataname="WC_Endt_SpWaiverAddress1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="fdae3ca9-bb72-4753-af34-2a0e7c86859c"
+					variablename="WC_Endt_SpWaiverAddress1">
+					</var>
+					<var
+					dataname="WC_Endt_SpWaiverAddress2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="ba0743d0-3d5f-4ee4-a8f7-3902e138ea2f"
+					variablename="WC_Endt_SpWaiverAddress2">
+					</var>
+					<var
+					dataname="WC_Endt_SpWaiverCity"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="97936e56-c494-43bd-b6b7-fddac42078a8"
+					variablename="WC_Endt_SpWaiverCity">
+					</var>
+					<var
+					dataname="WC_Endt_SpWaiverState"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="fd78681e-26dc-4c0a-9d26-d4f744af1df7"
+					variablename="WC_Endt_SpWaiverState">
+					</var>
+					<var
+					dataname="WC_Endt_SpWaiverZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="140be534-a1e5-4bfb-90e7-d0caa9e4f913"
+					variablename="WC_Endt_SpWaiverZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0817cb65-943f-448e-b068-a74ab13125a0"
@@ -414,12 +492,41 @@
 			<smartfoldernode
 			id="0848a8fc-35ca-4ee7-9303-ee49acbd91f5"
 			name="Primary">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PMB Category"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Primary">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="087abea6-7c7d-4761-a83c-55ad5ab2d5a2"
 			name="AgentOpenBrowser"
 			ref="4be853e6-fbde-41e7-a33f-d2ac733ba940"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Agent URL"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
+					variablename="Agent_Url">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			id="08809fbf-7def-4e7e-80d8-2c396c81b288"
@@ -437,7 +544,21 @@
 					variableid="333f8a90-938c-424a-aa41-5846e89f9b84"
 					variablename="BusinessInsuredName">
 					</var>
+					<var
+					dataname="LOB"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="67e18692-0c89-4d03-9831-fa66791247b5"
+					variablename="lob">
+					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="889f72f9-0434-402f-ae09-23250006dcfb"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0924b410-fd8b-481f-b194-0ecf5eb8b979"
@@ -517,6 +638,27 @@
 			<smartfoldernode
 			id="0b12aaf8-fc6a-48cc-b98f-857b85711cc4"
 			name="Current_Policy">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt Apply To"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Current Policy">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="0b197161-89c6-48a0-b40b-b44337334e8d"
@@ -529,12 +671,52 @@
 			name="Both_Address_Change"
 			ref="b7243726-d5d4-4f56-b4ff-5bfb12b56776"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="b231e1fd-4019-4f37-bbf0-5de20d22250c"
+					variablename="BothAddress1">
+					</var>
+					<var
+					dataname="Endt Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="be1a7e69-68e5-4512-8128-06305ddc5dc4"
+					variablename="BothAddress2">
+					</var>
+					<var
+					dataname="Endt City"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="51ebabf3-09e8-4510-927e-fcf84b882f59"
+					variablename="BothCity">
+					</var>
+					<var
+					dataname="Endt State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="050cb76f-8433-4412-a143-4b9309e0d9f9"
+					variablename="BothState">
+					</var>
+					<var
+					dataname="Endt ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="1b859629-533c-42ce-8917-606228ed8ad2"
+					variablename="BothZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0b632fc0-c230-43d4-a055-0addb1b4358c"
 			name="GLEndtRequestForm"
 			ref="b490fb21-4e64-42b7-9f0a-d275726ad772"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt Effective date"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="82f847a0-8003-4b9a-b389-fb13db5892e2"
+					variablename="GLPolicyEffectiveDate">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0b9121c2-5643-4f3b-931f-b218e27a375b"
@@ -550,19 +732,19 @@
 				<missingdatabinding>
 					<var
 					dataname="QA_Agent_Login"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
 					variablename="QA_Agent_Login">
 					</var>
 					<var
 					dataname="QA_Agent_Pwd"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
 					variablename="QA_Agent_Pwd">
 					</var>
 					<var
 					dataname="AgentName"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
 					variableid="4dec480d-951b-4b1c-a494-b42356de08e7"
 					variablename="AgentName">
 					</var>
@@ -687,6 +869,14 @@
 					variablename="LegalEntityName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="52d3ea9d-4217-4999-9815-e17a34c6aa20"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="0da74590-5ae2-4993-a2c6-d019b475fc46"
@@ -713,6 +903,12 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<testmodule
+			id="0db8ba98-004c-487e-b61b-4efd17c2144c"
+			name="Payment_past_due"
+			ref="bd009802-47af-4818-8888-428b22557c7d"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="0e417b92-ed98-4ba2-9b44-6c0b53f8f920"
 			name="Animal_Specialties">
@@ -847,12 +1043,58 @@
 			name="WC_Endt_BothWaiverType"
 			ref="f8388534-2e9e-4011-9be2-507e0347a6d3"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC_Endt_BoWaiverName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="73a33d01-2757-4d08-9785-99839833a400"
+					variablename="WC_Endt_BoWaiverName">
+					</var>
+					<var
+					dataname="WC_Endt_BoWaiverAddress1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="6af9207b-3cad-4e35-a545-da3e8999bb4f"
+					variablename="WC_Endt_BoWaiverAddress1">
+					</var>
+					<var
+					dataname="WC_Endt_BoWaiverAddress2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="04aae003-a734-49d1-b22c-fa9b4f68e70c"
+					variablename="WC_Endt_BoWaiverAddress2">
+					</var>
+					<var
+					dataname="WC_Endt_BoWaiverCity"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="15901be2-abdf-4701-931b-76ddc094a474"
+					variablename="WC_Endt_BoWaiverCity">
+					</var>
+					<var
+					dataname="WC_Endt_BoWaiverState"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="94255f7a-72f9-4075-9066-89bc5033750b"
+					variablename="WC_Endt_BoWaiverState">
+					</var>
+					<var
+					dataname="WC_Endt_BoWaiverZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="a76e2832-1e96-47ed-bf08-60c496574a59"
+					variablename="WC_Endt_BoWaiverZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="113bdb17-d39b-4f73-ba11-ae2b3f98a415"
 			name="UW_QuestionSubmit"
 			ref="276f18b7-c5b8-4af8-9093-e6475bbd00e3"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="d059385d-461f-46ba-82e5-8cf3aa6cf4ad"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="QA_Agent_URL"
@@ -917,15 +1159,23 @@
 					dataname="QA_Agent_Pwd"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-					variablename="QA_Agent_Pwd">
+					variablename="Agent_Pwd">
 					</var>
 					<var
 					dataname="QA_Agent_Login"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-					variablename="QA_Agent_Login">
+					variablename="Agent_Login1">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8a9ea96d-f401-488d-97ff-7519ca243bbb"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="12a6fb53-a8b1-448a-b7a9-bfe403229584"
@@ -975,6 +1225,14 @@
 			name="DownPayment15Percent_PaymentPlans"
 			ref="217544b2-afae-4397-bc12-ff5e191e8ef9"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="e79b3210-522c-403a-bfbb-3d1508f540f4"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="13668c8e-4e0d-482c-ab11-a970dd248487"
@@ -1114,6 +1372,20 @@
 			name="FCGA_Insurance"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="1560a3a5-7061-44fe-95d6-991648841c0d"
+			name="CO_PaymentMethod_GL"
+			ref="a585c69c-f8f4-44f8-943f-4bac3a8a40ea"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="PaymentMethod"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="2427c388-7a07-4bf6-bcb7-2d703fdf1f1f"
+					variablename="PaymentMethod">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<smartfoldernode
 			id="15bd6733-78e0-4d72-8c27-1e84c0909865"
 			name="NurseryProductsIQ">
@@ -1152,6 +1424,14 @@
 					variablename="UW_ExpMod">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="55e44427-1974-4863-b782-c5fc1df66e57"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="161c6e03-5353-4d10-9337-831acad7d7d1"
@@ -1245,12 +1525,20 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA UW URL"
+					dataname="UW URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="d0d8ee15-1820-4006-9970-7e854eb98a69"
-					variablename="QA_UW_Env">
+					variablename="UW_URL">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="5feb4748-5cbc-41d5-ba0e-648a2b835f95"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="1738e441-ee83-480c-9bf1-95bf27f5dc31"
@@ -1315,13 +1603,13 @@
 					dataname="QA_UW_ID"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
-					variablename="QA_UW_ID">
+					variablename="UW_ID">
 					</var>
 					<var
 					dataname="QA_UW_Pwd"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="cdd64027-46bb-4856-af6b-3ba06aaa2e84"
-					variablename="QA_UW_Pwd">
+					variablename="UW_Pwd">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -1340,10 +1628,73 @@
 			name="Agent_SignOut"
 			ref="ce76a3a8-4155-4f4f-b5b5-ddba3042c8bc"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="9b76faa5-390c-4d59-83d4-365718b8228a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="193ba648-b026-4fee-8256-32f47df36aff"
 			name="Employers_Liability_Limit_1">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 1"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 2"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="No">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 3"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="No">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="1972f531-b710-499e-95b0-128afc2bd474"
@@ -1451,6 +1802,14 @@
 					variablename="EmpLiabilityLimitID">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="b2240f62-f3c0-406c-992d-6f9e0835cf11"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1b82cda0-0d6d-4f0e-9791-11ce98824d41"
@@ -1531,6 +1890,27 @@
 			<smartfoldernode
 			id="1f600fec-efad-45bb-8c5c-d888bef928ce"
 			name="Change_Liability_Limit">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="LL Category"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="1f7531e6-ff9b-4d0f-94be-71dc6b9178d7"
@@ -1601,6 +1981,14 @@
 					variablename="FEINNo">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="f67854b6-0c9f-4901-8826-6e865bb7db66"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="21689408-5491-4bdd-b2f8-c5eb8d361cd2"
@@ -1633,10 +2021,53 @@
 					variablename="UW_FWCI_DeCreFactor">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="147a527e-09ef-429d-ba9e-f12ab2e74460"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="2229fde5-8a6b-44cc-8268-3f89b11e0b3d"
+			name="GL_PremiumFinanced_PaymentMethod"
+			ref="aaab6d98-194d-4661-b5ab-d1135a309794"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="PaymentMethod"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="c3ea7dda-dc43-4849-a261-87b3aeee9b0c"
+					variablename="PaymentMethod">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="2243c2d5-3812-474c-bf50-3ee978b5afe6"
 			name="Blanket_Waiver_Type">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt_BlanketWaiverCatagory"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="22fc6798-c4c5-4534-a42b-6203cc59371a"
@@ -1745,10 +2176,10 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1806,6 +2237,14 @@
 			name="Agent_SignOut"
 			ref="ce76a3a8-4155-4f4f-b5b5-ddba3042c8bc"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="9b76faa5-390c-4d59-83d4-365718b8228a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="264bab82-c983-4490-9cf7-1128fd011cff"
@@ -2024,10 +2463,39 @@
 					variablename="OwnerNameInsured">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8ab91f7a-174f-45a2-8049-b378866f436d"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="28cc500c-86e0-42a5-9c1b-171d2ae8b790"
 			name="Renewal_Policy">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt Apply To"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Renewal Policy">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="294b0a11-3cd9-42d1-abd9-226b97fa67db"
@@ -2040,6 +2508,14 @@
 			name="WC_ApplicationMessaging"
 			ref="bfca5a51-21f6-4d87-ab4a-47b48ff2c1ef"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="86d5f682-d58a-4eec-8173-c1f6c25cc49e"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="297c2458-d7a2-4272-a021-f1e04acdd605"
@@ -2069,7 +2545,7 @@
 			</testmodule>
 			<smartfoldernode
 			id="2a032de0-edd7-4136-a6d8-e96334df200b"
-			name="Pay_Go">
+			name="Frankcrum_PayGo">
 				<conditiongroup
 				comparison="AND"
 				enabled="True">
@@ -2101,6 +2577,14 @@
 			name="WCEndtRequestform"
 			ref="31faf274-302a-4dde-a452-531350f01460"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt Effective date"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="c5ff757f-0c66-47a4-a242-bf9d0757aa63"
+					variablename="WCPolicyEffectiveDate">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="2ae88a9c-19d3-446c-8dc0-8dec4a5ecc3a"
@@ -2210,6 +2694,14 @@
 					variablename="OwnerFirstName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="f7eb5162-7846-421b-8102-3e92d8798491"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="2c301ca5-4a50-422a-a8e8-1632f90483a5"
@@ -2225,32 +2717,6 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<smartfoldernode
-			id="2c8dcc2d-fb8e-4c16-960e-138acd655647"
-			name="91111">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="DataConnector"
-								dataname="
-GLAgContractorClassCode"
-								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="91111">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
 			<testmodule
 			id="2d077e29-10f4-473f-858c-516f8be18de3"
 			name="SignsandAdvertisingSpecialtiesIQ"
@@ -2326,24 +2792,18 @@ GLAgContractorClassCode"
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
-			id="2e3d54b4-8861-4859-88b6-ee2e697b5148"
-			name="Class_Specific_Question_97220"
-			ref="7d63a8e3-7b17-40c5-ab76-2e8e42e3c1c0"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="2f04e295-027e-41cb-88e5-954368304c69"
 			name="UW_WCPolicyDetails"
 			ref="62607def-a635-4f0a-9de2-b4a023cd28d1"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			enabled="False"
-			id="2f28b033-f3e8-4b3f-af8a-d21a8f993982"
-			name="Class_Specific_Question_91127"
-			ref="bbe61272-ed3e-41ee-a925-3b675d1dca4a"
-			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="2ebf7fb1-2121-4bd1-9e3c-c64511983e5b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="2f63a5ea-306b-4c6e-afc9-dcb963040ae6"
@@ -2452,10 +2912,10 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2499,6 +2959,38 @@ GLAgContractorClassCode"
 			name="WC_ChangeofAddress_Both"
 			ref="e937b673-be49-454e-88d0-f4b78ef92fe5"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt PMB Address1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="fae47ec8-f90c-4f4d-bd41-ff7cdc3f8a9d"
+					variablename="WC_EndtBAddress1">
+					</var>
+					<var
+					dataname="Endt PMB Address2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="e0e73ffb-e60b-4d2e-a5ce-0ba85ce8be8c"
+					variablename="WC_EndtBAddress2">
+					</var>
+					<var
+					dataname="Endt PMB City"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="cb942eef-3f40-4b88-ae0b-30bc8bcba142"
+					variablename="WC_EndtBCity">
+					</var>
+					<var
+					dataname="Endt PMB State"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="3646431a-717d-403a-a74d-e353dd4ab92d"
+					variablename="WC_EndtBState">
+					</var>
+					<var
+					dataname="Endt PMB ZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="00a386f9-ffb4-4e61-9d15-0e6951cbdf92"
+					variablename="WC_EndtBZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="312a90de-95ec-4698-8215-9cad882db705"
@@ -2566,7 +3058,21 @@ GLAgContractorClassCode"
 					variableid="dfb35b8d-8fb8-40ad-8821-67555a2a5bed"
 					variablename="UW_InsuredName">
 					</var>
+					<var
+					dataname="LOB"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="627d4f41-f82c-461f-88e6-86596407a240"
+					variablename="ProductLob">
+					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="7f48f25d-2467-4506-9cd9-4cdf181e59c3"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="337e7961-013a-4502-a3cd-317cd4b2e24b"
@@ -2623,6 +3129,14 @@ GLAgContractorClassCode"
 			name="UW_SignOut"
 			ref="ccce3ae2-bdc0-425c-9606-5755331a8e55"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="1739e041-25bc-434b-9f72-1eaf4be7bb4d"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="3666ef43-5c1b-4793-b91a-f9d44b1c0d22"
@@ -2707,16 +3221,30 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="38513c92-aa2e-49f3-972d-0d2a37602200"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="37de7832-8f7c-47f0-bf14-f679701e2473"
 			name="FullPay">
+				<parameters>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
 				<conditiongroup
 				comparison="AND"
 				enabled="True">
@@ -2744,12 +3272,34 @@ GLAgContractorClassCode"
 			name="GL_EndtUploadFile"
 			ref="db8b4714-4e0d-4b55-a5a9-e12be7a503d6"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_EndtFileDesc"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="a2c78d48-09b5-4be4-be61-dbfd5dbf7820"
+					variablename="GL_EndtFileDesc">
+					</var>
+					<var
+					dataname="GL_EndtUploadPath"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="8ba5cee4-0e77-4d14-8e0d-81eb34e283f4"
+					variablename="GL_EndtUploadPath">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="383f824c-ec61-476f-922b-4c6cd2c782ad"
 			name="UW_WCPolicyDetails"
 			ref="62607def-a635-4f0a-9de2-b4a023cd28d1"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="2ebf7fb1-2121-4bd1-9e3c-c64511983e5b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="38b964b7-2033-4166-8cfd-d05b7de2d951"
@@ -2966,12 +3516,20 @@ GLUWContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="38513c92-aa2e-49f3-972d-0d2a37602200"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="3a1c8a91-d2bf-4694-9600-1c16805bffb0"
@@ -3181,10 +3739,86 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="3c2408dc-1977-438c-b36b-fc092b1fee36"
 			name="FCG1004">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt AI FCG 1004"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="FCG 1004">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="3c4a9d47-e0be-4970-9ce9-8c5e0786be1d"
 			name="Employers_Liability_Limit_2">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 2"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 1"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="No">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 3"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="No">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="3c7d9d62-54f3-4fa4-80cb-6678fb653515"
@@ -3199,6 +3833,14 @@ GLAgTotOtherPayroll"
 					variablename="ExpModID">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8fe9b330-71e4-4079-b015-735ed5e36cf4"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="QA_Agent_URL"
@@ -3285,10 +3927,10 @@ GLAgTotOtherPayroll"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
 			</testmodule>
@@ -3311,6 +3953,14 @@ GLAgTotOtherPayroll"
 			name="AgentBusinessSummarySave"
 			ref="3621ae03-a32e-46d4-bf21-9b0196412826"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="9f6dc029-c61c-413b-80bc-d71b6fbc0971"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="3ddbeeb0-d5dc-457c-88e4-d47004017da1"
@@ -3362,6 +4012,26 @@ GLAgTotOtherPayroll"
 			name="WC_Endt_Officer_Exclude"
 			ref="033d4b97-17de-4f89-a04d-ba3b906b41cc"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC Endt Officer FName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="7452c03c-e43d-4a26-a290-18881c962ba8"
+					variablename="WC_Endt_OfficerEx_FName">
+					</var>
+					<var
+					dataname="WC Endt Officer LName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="fc297873-ec96-4d2e-8b56-ed94b38413e1"
+					variablename="WC_Endt_OfficerEx_LN">
+					</var>
+					<var
+					dataname="WC Endt Officer Desc"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="ecbac422-a9db-480d-b8cc-38d44b8ac648"
+					variablename="WC_Endt_OfficerEx_Desc">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="3ef247a7-fe9f-4c5a-9ff9-0533320afc60"
@@ -3423,6 +4093,14 @@ GLAgTotOtherPayroll"
 					variablename="WCInsuredName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="819cbfcb-22f5-4520-975b-19e1bacd2f17"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="408ad29c-8908-47de-9f91-691915003035"
@@ -3558,6 +4236,12 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="42939cf8-3085-40b6-874e-c0c01c1c9cc4"
 			name="UW_Messages">
+				<parameters>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
 			</smartfoldernode>
 			<smartfoldernode
 			id="43af63b2-0b92-48c4-8049-68e0b944ca62"
@@ -3636,6 +4320,14 @@ GLAgTotOtherPayroll"
 			name="PremiumFinancedPaymentplans"
 			ref="6e36ac43-b87d-4e30-b2bf-34d04e2fd49f"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="c5543050-14c9-4ab6-b3da-3be76693516b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="45fa68c5-5e98-487c-b7e9-1121f6a79427"
@@ -3670,6 +4362,12 @@ GLAgTotOtherPayroll"
 			type="Recording">
 				<databinding>
 					<var
+					dataname="WC ClassCode"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="6bb49d2a-7bc3-4531-bd93-e9695f40da0e"
+					variablename="ClassCode">
+					</var>
+					<var
 					dataname="ClassDesc"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="73e2c470-9f0e-4347-8bc3-a2bbbcf6e897"
@@ -3682,6 +4380,14 @@ GLAgTotOtherPayroll"
 					variablename="StateName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="c350856d-3fa6-4379-b2a5-6e90ee5f6baf"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="46637b31-df82-4eef-a95f-763ea97e2b52"
@@ -3743,6 +4449,14 @@ GLAgTotOtherPayroll"
 					variablename="LCarrierName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="d4bbf740-ba7d-4544-817f-feb7b0284389"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="473088de-f405-4584-a3d8-de67189d0840"
@@ -3775,12 +4489,28 @@ GLAgTotOtherPayroll"
 					variablename="UW_Descriptions">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="9448a4e6-1ce5-4b79-a351-db5717c06b35"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="47402ac4-bd21-4c77-9163-6edfef47ef82"
 			name="BacktoRecordScreen"
 			ref="4f8a2e0e-0a89-4aff-bed0-b61362cb14c0"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="9a598bd9-98f5-49df-baea-76306f0fcf3f"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="Agent Messaging"
@@ -3805,6 +4535,50 @@ GLAgTotOtherPayroll"
 			name="GL_Individual_CG2037AI"
 			ref="7584d593-e359-40fc-9e18-f49bc1388245"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_Individual_CG2037_FN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="dfc6d697-bba3-47da-b3b2-7878323a6e73"
+					variablename="GL_Individual_CG2037_FN">
+					</var>
+					<var
+					dataname="GL_Individual_CG2037_LN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="3baa3376-6d3c-41b5-bf97-34258c59f8ce"
+					variablename="GL_Individual_CG2037_LN">
+					</var>
+					<var
+					dataname="GL_CG2037_Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="258adb8f-deca-43c8-88ac-f8cd875d9de4"
+					variablename="GL_CG2037_Address1">
+					</var>
+					<var
+					dataname="GL_CG2037_Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="e3d41cd1-19b0-4e85-9ca7-60d6f091f5fa"
+					variablename="GL_CG2037_Address2">
+					</var>
+					<var
+					dataname="GL_CG2037_AICity"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="6ba722a9-56de-40de-a7ae-04cde134a340"
+					variablename="GL_CG2037_AICity">
+					</var>
+					<var
+					dataname="GL_CG2037_State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="2a0af325-b36c-4bbc-8c9e-6fba3412d6cb"
+					variablename="GL_CG2037_State">
+					</var>
+					<var
+					dataname="GL_CG2037_ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="722f4431-4477-4648-aa1a-0741613ab971"
+					variablename="GL_CG2037_ZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="489eb76b-a947-4228-827e-4f4fadaaf6d6"
@@ -3901,6 +4675,14 @@ GLAgTotOtherPayroll"
 					variablename="UW_AdditionalInsuredName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="ab177fb7-0267-41f3-b6bf-4527d540b3a2"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="4970039c-d9af-47db-877a-9db88b604885"
@@ -4004,12 +4786,20 @@ GLAgTotOtherPayroll"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="38513c92-aa2e-49f3-972d-0d2a37602200"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="4b9a5e08-b20e-4596-aad2-0c643f4d1fec"
@@ -4139,6 +4929,14 @@ GLAgTotOtherPayroll"
 					variablename="OwnerNameInsured">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8ab91f7a-174f-45a2-8049-b378866f436d"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="4c1e9970-3658-4d5d-a7cb-3d0a0623004a"
@@ -4159,6 +4957,14 @@ GLAgTotOtherPayroll"
 			name="General_Questions"
 			ref="416d283b-eb5a-4f8f-b1fb-9552e9d1cc8b"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="1602449f-643d-413c-b76c-5e061e09146b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="4ca871d5-f352-481a-9959-0584db953ebb"
@@ -4222,6 +5028,14 @@ GLAgTotOtherPayroll"
 			name="PaymentPlan12Equal"
 			ref="92252010-b355-4fa1-a535-66c2f9fedd34"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="922cf846-0765-4a99-b7b0-ebde17cb3e57"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="4df59bea-f6c8-4211-8ab1-10bb35e23c52"
@@ -4308,6 +5122,14 @@ GLAgTotOtherPayroll"
 					variablename="LCarrierName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="732e2d54-f3d0-447f-97a5-0650f83ab2c3"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="4e6ba747-1ec7-4586-baaf-1b4ba3bace58"
@@ -4328,6 +5150,14 @@ GLAgTotOtherPayroll"
 					variablename="WCInsuredName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="819cbfcb-22f5-4520-975b-19e1bacd2f17"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="4ed08e0c-7df0-4c16-a933-4be520427522"
@@ -4416,6 +5246,14 @@ GLAgTotOtherPayroll"
 			name="PaymentPlan12Equal"
 			ref="92252010-b355-4fa1-a535-66c2f9fedd34"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="922cf846-0765-4a99-b7b0-ebde17cb3e57"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="5066caad-d10e-4a4f-9da6-7755a3b5d70d"
@@ -4522,6 +5360,14 @@ GLAgTotOtherPayroll"
 					variablename="UW_Descriptions">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="1762d709-0d43-49d3-924e-3e7ab34d72ea"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="50f3f5e2-3fd6-4daf-b94a-7e1aa97a7bde"
@@ -4553,6 +5399,14 @@ GLAgTotOtherPayroll"
 			name="SearchPolicyNo"
 			ref="60313436-de5d-499d-8f93-cf7efdd50384"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt_Policy Number"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="adad7835-367e-4ac6-be2c-e9f27be75ec3"
+					variablename="EndtPolicyNo">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="513ab034-5a95-4eb2-819e-973e173e9b9b"
@@ -4670,6 +5524,14 @@ GLAgTotOtherPayroll"
 			name="UW_SubmitandRerate"
 			ref="b600cd3e-a938-4974-be4b-ed10f89703e3"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="ReferralReason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="c8a35c89-41b6-4f0d-8e81-b6899b800b0f"
+					variablename="UWReferralReason">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="UWStatus"
@@ -4698,6 +5560,27 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="55b78ba9-2c73-495e-a00a-33c73cf5cc7f"
 			name="Amend_Payroll">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC_Endt Amend Category"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Amend Payroll">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="55e43fc0-277f-43b4-96f0-eaf47535ea79"
@@ -4720,6 +5603,27 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="567f2336-babd-45d8-8106-ce7cb9e54eaf"
 			name="Endorsement">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Policy Type"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Endorsement">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="56cb5985-d1e7-493f-8f95-bebf409d917a"
@@ -4740,6 +5644,14 @@ GLAgTotOtherPayroll"
 			name="Request_Issuance"
 			ref="044ee0f8-bbb0-4089-b954-7d7c3a80b3c3"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="88133723-7ff3-4c91-abe0-e7ff4f5761bb"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="574afe5b-c1d7-4d7c-a137-7fa68b1ffed7"
@@ -4754,6 +5666,14 @@ GLAgTotOtherPayroll"
 					variablename="UW_PolicyNumber">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="c2190c17-444c-4e5f-8678-eaec5199e049"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5773e198-c91e-4cef-b1f6-89623318c772"
@@ -4768,6 +5688,14 @@ GLAgTotOtherPayroll"
 					variablename="UW_ExpMod">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="d0c9821a-d484-44f8-a231-c8c13517a4ea"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="577ee186-0f72-46e9-a9c6-ba2b3ab8463d"
@@ -4883,6 +5811,14 @@ GLAgTotOtherPayroll"
 			name="AgentBusinessSummarySave"
 			ref="3621ae03-a32e-46d4-bf21-9b0196412826"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="9f6dc029-c61c-413b-80bc-d71b6fbc0971"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="5aa000ca-3395-47fa-bb1e-b5863da8964f"
@@ -4939,6 +5875,14 @@ GLAgTotOtherPayroll"
 			name="GL_OtherChanges"
 			ref="7a054456-fc2b-407d-96ac-dcf195884891"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_Other Changes"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="c048a45d-8988-41bc-9074-b48bebc10fc8"
+					variablename="GL_OtherChangeValue">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5ca2e2a1-29e6-4de4-957e-cb9237a71ec6"
@@ -5091,6 +6035,14 @@ GLAgTotOtherPayroll"
 			name="DownPayment15Percent_PaymentPlans"
 			ref="217544b2-afae-4397-bc12-ff5e191e8ef9"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="e79b3210-522c-403a-bfbb-3d1508f540f4"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5ff2cf7a-a079-4469-acbe-ce1566cdcb02"
@@ -5309,6 +6261,27 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="621ed0fb-cdf6-4206-b1f8-5445e49a164f"
 			name="Primary_Address_Change">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Address Category"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Primary Address">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="627024ee-2862-47b1-9ebe-28e0642bbcaf"
@@ -5391,6 +6364,14 @@ GLAgTotOtherPayroll"
 			name="UW_EditQuote"
 			ref="416f8b29-9672-46a9-a4b1-0e0bb2d48af1"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="3a56ffef-edf4-4f8a-8508-6c01ebb0bf2d"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="QA_Agent_URL"
@@ -5447,30 +6428,170 @@ GLAgTotOtherPayroll"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="38513c92-aa2e-49f3-972d-0d2a37602200"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="64eef605-a32f-4716-b575-b993a573905a"
 			name="WC_Add_AdditionalLocation_Secondary"
 			ref="02f9dfca-54b9-4425-8220-8c99adfc48f0"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC_EndtSecName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="b5aa923b-6f1d-4eb5-8a00-f541a9e9e385"
+					variablename="WC_EndtSecName">
+					</var>
+					<var
+					dataname="WC_EndtSecFEINNumber"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="c05a56da-ce27-406d-9cb0-f658e1ef8bc6"
+					variablename="WC_EndtSecFEINNumber">
+					</var>
+					<var
+					dataname="WC_EndtSecAddress1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="d863d76c-bea2-4fd5-b2ed-72c40419e9bd"
+					variablename="WC_EndtSecAddress1">
+					</var>
+					<var
+					dataname="WC_EndtSecAddress2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="58b86cd7-03f5-4863-8e93-f3dd2cfe0766"
+					variablename="WC_EndtSecAddress2">
+					</var>
+					<var
+					dataname="WC_EndtSecCity"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="de803d65-9a73-4af4-9b43-7754e2b8b685"
+					variablename="WC_EndtSecCity">
+					</var>
+					<var
+					dataname="WC_EndtSecState"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="cde104bc-2860-4f0f-9f28-eba2133f0420"
+					variablename="WC_EndtSecState">
+					</var>
+					<var
+					dataname="WC_EndtSecZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="b95fcfc3-713f-4556-9adb-25b323498be2"
+					variablename="WC_EndtSecZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="6502696b-9c2c-4a0d-b0af-500ab574ab0a"
 			name="GL_AddAggregateExtensionPerProject"
 			ref="851d361e-11e6-4315-8ebf-ea27262aad97"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_PerProject_FN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="7ded6d89-189d-4dc1-a440-ee8a95bc10bb"
+					variablename="GL_PerProject_FN">
+					</var>
+					<var
+					dataname="GL_PerProject_LN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="6ed9b152-0ed3-4791-a5ec-8788a49e8d37"
+					variablename="GL_PerProject_LN">
+					</var>
+					<var
+					dataname="GL_PerProject_Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="cdd3ac1d-f53f-4ec4-9fdd-c4d462bce550"
+					variablename="GL_PerProject_Address1">
+					</var>
+					<var
+					dataname="GL_PerProject_Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="7ba8f585-0ff8-4424-bf0c-8da17855aa99"
+					variablename="GL_PerProject_Address2">
+					</var>
+					<var
+					dataname="GL_PerProject_City"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="ee849011-7696-4411-a478-e4c5c1f47d57"
+					variablename="GL_PerProject_City">
+					</var>
+					<var
+					dataname="GL_PerProject_State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="e6087b68-931c-45d2-a856-d317a1419fa1"
+					variablename="GL_PerProject_State">
+					</var>
+					<var
+					dataname="GL_PerProject_ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="95f9ab54-db37-4fbf-856c-3087d52592dc"
+					variablename="GL_PerProject_ZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="6529d1ae-082e-477e-9c5b-4375af81fae7"
 			name="GL_Individual_CG2010AI"
 			ref="07d13b45-bcf8-4528-84b4-2d6ab87e0829"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_Individual_CG2010_FN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="be7fcf7f-d6d4-4904-b4e6-d9a323a1146c"
+					variablename="GL_Individual_CG2010_FN">
+					</var>
+					<var
+					dataname="GL_Individual_CG2010_LN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="0e13a3ab-4bf4-4f9d-b433-fdc3e7c10b99"
+					variablename="GL_Individual_CG2010_LN">
+					</var>
+					<var
+					dataname="GL_CG2010_Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="876217ba-d208-41df-8a39-62f901592418"
+					variablename="GL_CG2010_Address1">
+					</var>
+					<var
+					dataname="GL_CG2010_Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="cc535501-0a4d-458b-96ac-5b7169550477"
+					variablename="GL_CG2010_Address2">
+					</var>
+					<var
+					dataname="GL_CG2010_AICity"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="b6e2312f-9abf-467e-a904-9b1c87b24514"
+					variablename="GL_CG2010_AICity">
+					</var>
+					<var
+					dataname="GL_CG2010_State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="eb6e5c74-ecb3-46f3-bb5c-2f6c43c01325"
+					variablename="GL_CG2010_State">
+					</var>
+					<var
+					dataname="GL_CG2010_ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="c69b5949-b799-42e0-9c9d-14fc3a3be2a4"
+					variablename="GL_CG2010_ZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="652dfc29-5416-42d7-8071-96cd89bbed7a"
@@ -5485,6 +6606,27 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="65710757-72c7-44a6-8a14-058778c783a8"
 			name="Both_Address_Change">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Address Category"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Both Address">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			enabled="False"
@@ -5510,6 +6652,27 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="65f5a4ef-5784-4295-bfc1-41b89ea514de"
 			name="Per_Location">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Aggregate Per Location"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Per Location">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="663b2ce3-7f2c-4c57-b971-63c2096e746b"
@@ -5581,6 +6744,14 @@ GLAgTotOtherPayroll"
 					variablename="BM_CTR1">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="fdbf7da5-101b-41c3-bc51-d37a1ef794ae"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="672f1f8f-257a-4bfe-92b7-4b41f062aee9"
@@ -5635,6 +6806,14 @@ GLAgTotOtherPayroll"
 			name="WC_Endt_OtherChanges"
 			ref="5a981385-68b0-446b-b571-e08f12b5d407"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC Other Changes"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="34706523-ce2f-458e-a849-052e95eff8b6"
+					variablename="WC_Endt_OtherChange">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="69312b7e-1a16-461a-95cc-5ac7faebce90"
@@ -5713,7 +6892,7 @@ GLAgTotOtherPayroll"
 			</smartfoldernode>
 			<testmodule
 			id="6a4fafc4-4a27-4eac-86ea-ca196c76d6aa"
-			name="GL_PayGoPlan"
+			name="GL_Frankcrum_PayGoPlan"
 			ref="5c6642d1-4dd3-4f1b-9c76-91ec7e3fcad2"
 			type="Recording">
 			</testmodule>
@@ -5778,6 +6957,14 @@ GLAgTotOtherPayroll"
 			name="Request_Issuance"
 			ref="044ee0f8-bbb0-4089-b954-7d7c3a80b3c3"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="88133723-7ff3-4c91-abe0-e7ff4f5761bb"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="6cc357f0-b407-456b-a8f3-4cf815872c62"
@@ -5794,6 +6981,12 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="6cfa808d-ef7d-4564-8b97-beaca831ff30"
 			name="Output_Report">
+				<parameters>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
 			</smartfoldernode>
 			<smartfoldernode
 			id="6d5b6e30-f7a8-4064-98c5-99f554b6d990"
@@ -5876,6 +7069,14 @@ GLAgTotOtherPayroll"
 					variablename="PaymentMethod">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="7691f303-d326-41e4-9d48-31b72436621b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="70917c62-1589-44fa-bd94-a0a52fa305a1"
@@ -5968,6 +7169,14 @@ GLAgTotOtherPayroll"
 			name="PayGoPaymentPlans"
 			ref="c07ba68c-f6f7-4f99-89d1-a4fec0d0a47a"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="2d9639d1-b94a-4506-b38f-187ae1f6317b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="723777dc-450a-46db-bf6e-1d5d452a6b59"
@@ -5985,27 +7194,21 @@ GLAgTotOtherPayroll"
 					dataname="QA_UW_Pwd"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="cdd64027-46bb-4856-af6b-3ba06aaa2e84"
-					variablename="QA_UW_Pwd">
+					variablename="UW_Pwd">
 					</var>
 					<var
 					dataname="QA_UW_ID"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
-					variablename="QA_UW_ID">
+					variablename="UW_ID">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="72a3b8e8-1319-46e6-a1a8-b0e0b7247a4e"
-			name="PremiumFinanced_Payment_method"
-			ref="9bdfc0c0-407e-47f1-9325-10b0610f45bc"
-			type="Recording">
 				<missingdatabinding>
 					<var
-					dataname="PaymentMethod"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="fbff8df5-f354-43e5-9e81-8ea8531bb061"
-					variablename="PaymentMethod">
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="a605d6c8-4896-4c2d-acdb-fc384589334b"
+					variablename="Status_Reason">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -6265,6 +7468,14 @@ GLAgTotOtherPayroll"
 					variablename="BM_CreDebtFactor">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="56394071-fb19-4633-9f3f-6e633c66cf17"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="76f6896f-2c2e-4f6f-8f6f-a8956f81c789"
@@ -6294,32 +7505,6 @@ GLAgTotOtherPayroll"
 			<smartfoldernode
 			id="777a4fba-9b1c-45a6-921c-3b1bab2282d8"
 			name="CG2029">
-			</smartfoldernode>
-			<smartfoldernode
-			id="77bc1058-7c9a-48d5-bb50-cdc6d7ba2a73"
-			name="97220">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="DataConnector"
-								dataname="
-GLAgContractorClassCode"
-								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="97220">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="781aaa3c-dc2e-4843-859a-aaa462c1e7f3"
@@ -6387,10 +7572,10 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA UW URL"
+					dataname="UW URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="d0d8ee15-1820-4006-9970-7e854eb98a69"
-					variablename="QA_UW_Env">
+					variablename="UW_URL">
 					</var>
 				</databinding>
 			</testmodule>
@@ -6411,6 +7596,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="78ebe56d-843d-4045-8ef8-f78559b24e60"
 			name="DBA">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC_EndtDBACatagory"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="DBA">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="793e10d3-0a55-4548-bb6f-8ef0df90ef9b"
@@ -6533,13 +7739,13 @@ GLAgContractorClassCode"
 					dataname="QA_Agent_Pwd"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-					variablename="QA_Agent_Pwd">
+					variablename="Agent_Pwd">
 					</var>
 					<var
 					dataname="QA_Agent_Login"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-					variablename="QA_Agent_Login">
+					variablename="Agent_Login1">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -6559,15 +7765,23 @@ GLAgContractorClassCode"
 					dataname="QA_Agent_Pwd"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-					variablename="QA_Agent_Pwd">
+					variablename="Agent_Pwd">
 					</var>
 					<var
 					dataname="QA_Agent_Login"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-					variablename="QA_Agent_Login">
+					variablename="Agent_Login1">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8a9ea96d-f401-488d-97ff-7519ca243bbb"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="QA_Agent_URL"
@@ -6613,6 +7827,38 @@ GLAgContractorClassCode"
 			name="GL_PrimaryAddress"
 			ref="0676557e-0cb7-4b21-8692-37e6c9f73061"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="2277c37a-8271-4bf2-8401-a9392d0c2dc7"
+					variablename="PriAddress1">
+					</var>
+					<var
+					dataname="Endt Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="bd810a8c-1841-4e6c-ad12-8f59b62e8a6f"
+					variablename="PriAddress2">
+					</var>
+					<var
+					dataname="Endt City"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="d49f0a86-a5aa-422b-b841-e1dc0d342f6c"
+					variablename="PriCity">
+					</var>
+					<var
+					dataname="Endt State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="ebfc3466-b2b5-4545-9bfd-181bd74652c9"
+					variablename="PriState">
+					</var>
+					<var
+					dataname="Endt ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="fc7e4423-5ac8-4942-8ab7-ec72eeec8cb1"
+					variablename="PriZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="7dc408ce-ca13-40a2-81e7-5c31f544f740"
@@ -6725,10 +7971,39 @@ GLAgContractorClassCode"
 					variablename="DescofOp">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="bbdaa27a-2fb1-4da7-9d6b-a51d549b533b"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="7f524662-e0df-46d3-8d32-09498c44f305"
 			name="CG2037">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt IAI CG 2037"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="CG 2037">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="7f7902ee-a78b-4555-af3e-792e4c3763b7"
@@ -6845,56 +8120,24 @@ GLAgContractorClassCode"
 					dataname="QA_UW_Pwd"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="cdd64027-46bb-4856-af6b-3ba06aaa2e84"
-					variablename="QA_UW_Pwd">
+					variablename="UW_Pwd">
 					</var>
 					<var
 					dataname="QA_UW_ID"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
-					variablename="QA_UW_ID">
+					variablename="UW_ID">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="80943ba4-5d56-4675-a924-768fd76e4854"
-			name="CO_PaymentMethod"
-			ref="e59f0d6e-9ebe-4171-86ee-269ac36882a9"
-			type="Recording">
 				<missingdatabinding>
 					<var
-					dataname="PaymentMethod"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="1baf6e86-344f-4720-b5d2-704d8933fdb3"
-					variablename="PaymentMethod">
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="a605d6c8-4896-4c2d-acdb-fc384589334b"
+					variablename="Status_Reason">
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<smartfoldernode
-			id="810aec94-aa27-44cc-be8d-a51cd143f68e"
-			name="91150">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="DataConnector"
-								dataname="
-GLAgContractorClassCode"
-								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="91150">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
 			<testmodule
 			id="81188237-42d2-4885-8378-1fb25e1c4550"
 			name="NurseryProductsIQ"
@@ -6989,6 +8232,14 @@ GLAgContractorClassCode"
 					variablename="UW_Note_Desc">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="1602c126-c2a1-4579-a392-6b77a46f39dd"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="QA_Agent_URL"
@@ -7026,6 +8277,10 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="81d46df5-e891-48ef-a987-bd8ea1d88c07"
 			name="CTR">
+			</smartfoldernode>
+			<smartfoldernode
+			id="8247300f-16c5-431e-a619-ecfa8dcb81ff"
+			name="ReportStartTime">
 			</smartfoldernode>
 			<testmodule
 			id="82845498-86e6-460f-aa2e-e5e0007ff040"
@@ -7104,23 +8359,73 @@ GLAgContractorClassCode"
 					dataname="QA_UW_Pwd"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="cdd64027-46bb-4856-af6b-3ba06aaa2e84"
-					variablename="QA_UW_Pwd">
+					variablename="UW_Pwd">
 					</var>
 					<var
 					dataname="QA_UW_ID"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
-					variablename="QA_UW_ID">
+					variablename="UW_ID">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="a605d6c8-4896-4c2d-acdb-fc384589334b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="87305b7a-5d95-4e40-9ae3-c3b1f6f27e0d"
 			name="Mailing">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PMB Category"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Mailing">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="87a12a6f-716e-4ed1-a146-2b4723fec2b5"
 			name="Both">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt Apply To"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Both Policy">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="87bdf16a-fe92-4a5e-92c7-f52686c0812f"
@@ -7157,6 +8462,101 @@ GLAgContractorClassCode"
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<testmodule
+			id="8872d7eb-7233-44ac-9923-85317389bfc9"
+			name="Latest_Excel_Write"
+			ref="bf5d3fb0-e6f5-46d4-ac8e-bcec88814d52"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="GLPolicyNumber"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="a0460a5d-6a1f-4f15-9ca0-34433075bfe9"
+					variablename="MIPolicyNo">
+					</var>
+					<var
+					dataname="XSPolicyNumber"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="c30e8b90-4108-4535-a406-6ba2a55fd2f3"
+					variablename="XSPolicyNo">
+					</var>
+					<var
+					dataname="PrdPremium"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="0e8e039a-6168-46b9-a110-4f6b5005647b"
+					variablename="PrdPremium">
+					</var>
+					<var
+					dataname="ReferralReason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="97e5bfd5-49c0-4147-918d-674746b70ea5"
+					variablename="ReferralReason">
+					</var>
+					<var
+					dataname="StartTime"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="5dd8a2f6-73b6-43c8-b522-a173ccd9d966"
+					variablename="StartTime">
+					</var>
+					<var
+					dataname="InsuredAddress"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="6b7b0699-fa4b-4648-8cbc-708ec82283d6"
+					variablename="InsuredAddress">
+					</var>
+					<var
+					dataname="GL ClassDescription"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="b90f9a18-2617-46df-8236-9e4848411e5d"
+					variablename="ClassDescription">
+					</var>
+					<var
+					dataname="AgentIndustryGroup"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="abd70289-0d19-4449-a7a3-d0f57db44589"
+					variablename="ClassGroup">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="CarrierSelection"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="4698a0f9-a61f-4b6e-b594-ded5ded3a184"
+					variablename="CarrierName">
+					</var>
+					<var
+					dataname="GLAgBusinessName"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="99a395da-1990-4f57-a576-954b310cde8c"
+					variablename="InsuredName">
+					</var>
+					<var
+					dataname="Policy Type"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="cecde0fc-d4d0-4bc1-9461-5b148a273776"
+					variablename="TestScenario">
+					</var>
+					<var
+					dataname="LOB"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="548806e9-b4d6-4e3f-af46-f2ac69a08c94"
+					variablename="Product">
+					</var>
+					<var
+					dataname="TC No."
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="479ef075-1b98-4b40-a085-3fa1e54c1e2f"
+					variablename="TCID">
+					</var>
+					<var
+					dataname="
+GLAgContractorClassCode"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="36e447c8-7dcd-4072-96c6-ceaf3b839874"
+					variablename="ClassCode">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<smartfoldernode
 			id="88d325cc-70d1-4187-9254-94d125821841"
 			name="CB">
@@ -7209,6 +8609,38 @@ GLAgContractorClassCode"
 			name="WC_ChangeofAddress_Primary"
 			ref="e3c33917-f39f-43a7-ab0d-f98eaaa6c11f"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt PMB Address1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="8343ac64-5de7-4dfd-ad40-07e10947f0b1"
+					variablename="WC_EndtPAddress1">
+					</var>
+					<var
+					dataname="Endt PMB Address2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="4318be8f-f8d0-4cac-be6a-ed1e05afdef9"
+					variablename="WC_EndtPAddress2">
+					</var>
+					<var
+					dataname="Endt PMB City"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="30c2190a-c9cd-47ca-a50c-e1948bd2f493"
+					variablename="WC_EndtPCity">
+					</var>
+					<var
+					dataname="Endt PMB State"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="35baa823-08f8-4611-8610-7317fe1d1511"
+					variablename="WC_EndtPState">
+					</var>
+					<var
+					dataname="Endt PMB ZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="dea0014d-3432-4c0c-b995-bb3f96590bbf"
+					variablename="WC_EndtPZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8bb2ebe3-329f-4bfa-95a7-214759054897"
@@ -7223,6 +8655,14 @@ GLAgContractorClassCode"
 					variablename="PaymentMethod">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="7691f303-d326-41e4-9d48-31b72436621b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8be7b9aa-485f-4fd0-80e8-4cc83af3f5ba"
@@ -7237,6 +8677,14 @@ GLAgContractorClassCode"
 					variablename="FWCI_CTR1">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="7bbf3576-999a-47bf-b407-19b4f8f243ce"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="UW_CB_CTR"
@@ -7275,6 +8723,14 @@ GLAgContractorClassCode"
 					variablename="InsuredName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8b137ef6-acdd-4986-9678-66ad6c292bc0"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -7325,6 +8781,26 @@ GLAgContractorClassCode"
 			name="Agent_Login"
 			ref="cf2935cc-2a5b-4d0a-a5f4-27a79fbb213c"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="QA_Agent_Login"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
+					variablename="QA_Agent_Login">
+					</var>
+					<var
+					dataname="QA_Agent_Pwd"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
+					variablename="QA_Agent_Pwd">
+					</var>
+					<var
+					dataname="AgentName"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="4dec480d-951b-4b1c-a494-b42356de08e7"
+					variablename="AgentName">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="8de9f2a6-b787-4a22-8cfb-0ef86ebeee5f"
@@ -7362,6 +8838,32 @@ GLAgContractorClassCode"
 			name="WC_Classification_and_Payroll"
 			ref="fbeea80c-0868-4a32-a138-4851e1ac34b7"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC Endt DescOp"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="ed29b806-4273-4d78-9baa-8b4bb30b2788"
+					variablename="WC_Endt_DescOp">
+					</var>
+					<var
+					dataname="WC Endt Class State"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="60ca5790-de4e-490b-8727-631a166cd0d7"
+					variablename="WC_Endt_ClassState">
+					</var>
+					<var
+					dataname="WC Endt ClassCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="6d5bd844-48ed-4dfa-aaf7-b5ef1f883745"
+					variablename="WC_Endt_ClassCode">
+					</var>
+					<var
+					dataname="WC Endt Class FTEmployee"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="7a1e8070-2653-4496-99f0-59e72bd981cf"
+					variablename="WC_Endt_ClassFTEmployee">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8e24f8d3-3611-47a7-a763-03e25765c09b"
@@ -7388,6 +8890,14 @@ GLAgContractorClassCode"
 					variablename="OwnerFirstName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="f7eb5162-7846-421b-8102-3e92d8798491"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="8e28c0a4-24ba-4771-a719-c7f6aaead991"
@@ -7398,6 +8908,14 @@ GLAgContractorClassCode"
 			name="Agent_SignOut"
 			ref="ce76a3a8-4155-4f4f-b5b5-ddba3042c8bc"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="9b76faa5-390c-4d59-83d4-365718b8228a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="8e6d5285-7a6f-4fd1-9b27-8c635f26e209"
@@ -7518,18 +9036,91 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="8fd1422d-01ef-496d-83e6-8bca1386003b"
 			name="Remove_AdditionalLocation">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC_Endt Remove Location"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="903906fd-a364-4a8e-beeb-9027f09630ed"
 			name="GL_Individual_FCG1019AI"
 			ref="2921002a-1a6e-455a-a4c2-b5028eb49e97"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_Individual_FCG1019_FN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="080ae610-843f-42fe-af6a-25fe65b5b051"
+					variablename="GL_Individual_FCG1019_FN">
+					</var>
+					<var
+					dataname="GL_Individual_FCG1019_LN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="627aabb4-2d51-4467-a5cd-2668940b909d"
+					variablename="GL_Individual_FCG1019_LN">
+					</var>
+					<var
+					dataname="GL_FCG1019_Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="7e705f86-f0d9-4e9d-9c3f-ae5951c80a84"
+					variablename="GL_FCG1019_Address1">
+					</var>
+					<var
+					dataname="GL_FCG1019_Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="a8b2e036-f86f-4089-954d-b176025d0c60"
+					variablename="GL_FCG1019_Address2">
+					</var>
+					<var
+					dataname="GL_FCG1019_AICity"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="cbcf94be-3cdf-437d-8683-734d450b0f34"
+					variablename="GL_FCG1019_AICity">
+					</var>
+					<var
+					dataname="GL_FCG1019_State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="86e361ab-dd48-443d-970d-bcb2cc395278"
+					variablename="GL_FCG1019_State">
+					</var>
+					<var
+					dataname="GL_FCG1019_ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="c9e50a48-840b-42fc-bcc8-6f2e84051999"
+					variablename="GL_FCG1019_ZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="906c3119-48fa-4df6-98ef-a46fa4c718b7"
 			name="GLEndtRequestForm"
 			ref="b490fb21-4e64-42b7-9f0a-d275726ad772"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt Effective date"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="82f847a0-8003-4b9a-b389-fb13db5892e2"
+					variablename="GLPolicyEffectiveDate">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="91378236-1f97-4f06-9a00-1cc6725d56ba"
@@ -7548,10 +9139,39 @@ GLAgContractorClassCode"
 					variablename="PaymentMethod">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8af0b719-2c44-4f33-82f6-4605a42c3094"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="918c865b-7c16-460f-858b-93e8f3557483"
 			name="Other_Changes">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="GL_Other Changes"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Other Changes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="91ac4715-f772-45c5-8286-bc4ca03125fd"
@@ -7562,10 +9182,47 @@ GLAgContractorClassCode"
 			name="FWCIQuoteDocuments"
 			ref="43373bc6-02f4-4477-92f1-d08ac557e43d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="PrdPremium"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="9042cf7f-589a-4e1f-80ae-aecb22435fac"
+					variablename="FWCIPremium">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="63e5decf-25b3-41ac-ae29-a794267e230a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="92397d9b-a402-4302-a261-2d0dabdea6b7"
 			name="Endt_Referral">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt Type"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Endt Referral">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="9278240d-9f26-4e2c-ac63-fddc756950a0"
@@ -7586,6 +9243,14 @@ GLAgContractorClassCode"
 					variablename="SubcontractTypeWork">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="abc4c38e-c6a4-431d-b86d-5177e7e72cc8"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="92ae7fc8-3ddb-40f0-ba8c-b76290e0a9c2"
@@ -7720,6 +9385,14 @@ GLAgContractorClassCode"
 					variablename="ExpModID">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8fe9b330-71e4-4079-b015-735ed5e36cf4"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="946f8735-84fe-4aca-8df0-af2e40748e57"
@@ -7742,6 +9415,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="96608e67-ed3c-499f-82bb-44ffc2155034"
 			name="Secondary">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC_EndtSecCatagory"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Secondary">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="9667d757-f103-4293-b7ee-5e55f813f20d"
@@ -7797,6 +9491,14 @@ GLAgContractorClassCode"
 					variablename="EffectiveDate">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="3e7d51fc-c825-4482-9fcb-8f3f591fbe0f"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="96e49d55-27f1-4f56-846f-6af667ba2683"
@@ -7890,6 +9592,22 @@ GLAgContractorClassCode"
 			name="BMQuoteDocument"
 			ref="35883a1a-f0a5-4793-a679-b46efe4ef714"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="PrdPremium"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="724950a8-6e87-46bf-a31e-c5380eb60e74"
+					variablename="BMPremium">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8f1dd563-e8d6-45ae-855d-3f220b7cc532"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="985d07f9-0ca1-405e-a5c0-3467a5c1b0d6"
@@ -8007,6 +9725,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="9a9d2bba-e5e5-4d2d-9b4e-c42f8fb998b6"
 			name="Both_Waiver_Type">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC_Endt_BoWaiverCatagory"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			enabled="False"
@@ -8160,6 +9899,14 @@ GLAgContractorClassCode"
 			name="FullPay_PaymentPlans"
 			ref="322c92b7-b58b-4daa-b6c7-963a759c1181"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="0688d021-bf23-422c-ac4b-5cc4b563116b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="9d12e823-5496-4073-9c66-311946c844bf"
@@ -8340,6 +10087,50 @@ GLAgContractorClassCode"
 			name="WC_Add_AdditionalLocation_NamedInsured"
 			ref="df3b4676-c685-471b-adbc-002c2a791b97"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC_EndtNIName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="a99abb4c-4c75-42d0-92f7-5900cf00663e"
+					variablename="WC_EndtNIName">
+					</var>
+					<var
+					dataname="WC_EndtNIFEINNumber"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="8261aeed-2f5b-4659-901a-e1b704ff4673"
+					variablename="WC_EndtNIFEINNumber">
+					</var>
+					<var
+					dataname="WC_EndtNIAddress1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="48546697-cbd0-41a6-a9d0-9956dc7429eb"
+					variablename="WC_EndtNIAddress1">
+					</var>
+					<var
+					dataname="WC_EndtNIAddress2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="7783df5b-104a-41de-9e67-4fe0bf0e1c35"
+					variablename="WC_EndtNIAddress2">
+					</var>
+					<var
+					dataname="WC_EndtNICity"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="507e0bd7-fa52-4a5b-8df0-b6399dc1aff2"
+					variablename="WC_EndtNICity">
+					</var>
+					<var
+					dataname="WC_EndtNIState"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="a2aca67f-7488-4eb1-804f-d87c0fe1f12f"
+					variablename="WC_EndtNIState">
+					</var>
+					<var
+					dataname="WC_EndtNIZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="baf3abd1-1ae6-49a4-96ba-37fdddb6f004"
+					variablename="WC_EndtNIZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="9f994078-6b33-4a71-976f-d9074b2e6a34"
@@ -8410,6 +10201,14 @@ GLAgContractorClassCode"
 					variablename="AdditionalInsuredName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="fd220ae0-d748-4f23-9179-e833d018dca7"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="a00b8f20-d2c6-480e-b2c6-86f86ccd2ba1"
@@ -8418,6 +10217,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="a0133039-fa88-47e8-bec4-d12cb1456682"
 			name="Officer_Include">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Officer Category"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Officer Include">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="a10e0cce-bf93-460c-a1f4-18ee8b6df545"
@@ -8606,6 +10426,7 @@ GLAgContractorClassCode"
 				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
+			errorbehavior="ContinueNextIteration"
 			id="a3b21af7-cc7f-4f92-a695-09d104307336"
 			maxrange="6"
 			minrange="0"
@@ -8632,13 +10453,6 @@ GLAgContractorClassCode"
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
-			<testmodule
-			enabled="False"
-			id="a3b604bf-ff5d-4daa-92a5-0dc9e3080571"
-			name="Class_Specific_Question_91150"
-			ref="1803b4f5-08c2-4b6b-891f-b4e769fa4563"
-			type="Recording">
-			</testmodule>
 			<smartfoldernode
 			id="a425baa3-02ef-4bbe-8964-496f5c94e8a5"
 			name="No_Ex">
@@ -8646,6 +10460,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="a43ea021-01d1-43da-aaaf-42119e003d02"
 			name="Delete_ClassCode">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="GL_Delete Class Code"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Delete ClassCode">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="a4acc307-d3d4-430b-9482-25e1bfbe6667"
@@ -8699,6 +10534,14 @@ GLAgContractorClassCode"
 					variablename="BusinessStartDate">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8c64879a-3f77-4f6b-b0bb-308ee2eb27e2"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="a59a4784-e552-497c-97bd-38d9ca76f209"
@@ -8740,10 +10583,39 @@ GLAgContractorClassCode"
 			name="Agent_SignOut"
 			ref="ce76a3a8-4155-4f4f-b5b5-ddba3042c8bc"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="9b76faa5-390c-4d59-83d4-365718b8228a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="a716babb-4e0b-4aeb-bd87-60f81a864788"
 			name="OtherChanges">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC Other Changes"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="a768c33c-9019-4912-8c0b-9aee330a7bea"
@@ -8811,6 +10683,14 @@ GLAgContractorClassCode"
 					variablename="DescofOp">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="2b0f8c5e-07c3-4f11-8944-089231abc3c5"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="a83860fc-1992-4e1c-afde-998dff4e0802"
@@ -8842,6 +10722,20 @@ GLAgContractorClassCode"
 			name="WC_Endt_AmendPayroll"
 			ref="7c0b5411-1548-49f2-a192-e8c0b6be37f7"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC Endt Amend Payroll"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="7ac5397f-55c6-4dd0-96c7-9068141fc3c6"
+					variablename="WC_Endt_AmendGrossPayroll">
+					</var>
+					<var
+					dataname="WC Endt Amend Reason"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="9a768d65-c056-4af6-a41f-8e7b29b091e2"
+					variablename="WC_Endt_ReasonAmend">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="a8f6cc30-bad0-4c66-97d5-ce43df319c52"
@@ -8856,6 +10750,14 @@ GLAgContractorClassCode"
 					variablename="BusinessStartDate">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8c64879a-3f77-4f6b-b0bb-308ee2eb27e2"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="a97396df-caa8-4ed5-9176-49d14b5df924"
@@ -8887,13 +10789,19 @@ GLAgContractorClassCode"
 					dataname="QA_Agent_Pwd"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-					variablename="QA_Agent_Pwd">
+					variablename="Agent_Pwd">
 					</var>
 					<var
 					dataname="QA_Agent_Login"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-					variablename="QA_Agent_Login">
+					variablename="Agent_Login1">
+					</var>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8a9ea96d-f401-488d-97ff-7519ca243bbb"
+					variablename="Status_Reason">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -8966,6 +10874,14 @@ GLAgContractorClassCode"
 					variablename="LCarrierName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="d4bbf740-ba7d-4544-817f-feb7b0284389"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="aa5edeca-f775-412f-bbf3-c5001b076e3e"
@@ -8995,6 +10911,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="aa692636-9b9b-4e69-828a-f5e079fe1b25"
 			name="Class_Code_and_Payroll">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="GL_EndtClass Category"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Class Code and Payroll">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="aaac4c0d-bdc8-43cd-8cab-89cabbb15358"
@@ -9024,6 +10961,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="ab4dd3ec-c717-4826-b495-238e5ec1e735"
 			name="Specific_Waiver_Type">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt_SpecificWaiverCatagory"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="aba5d40f-9f68-41ce-9b2d-65593d347bce"
@@ -9097,6 +11055,14 @@ GLAgContractorClassCode"
 			name="PremiumFinancedPaymentplans"
 			ref="6e36ac43-b87d-4e30-b2bf-34d04e2fd49f"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="c5543050-14c9-4ab6-b3da-3be76693516b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="ae1293f5-5094-4774-8e03-528362275a89"
@@ -9174,12 +11140,41 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="ae97d653-3c78-4c84-885c-364689a233ce"
 			name="UploadFile">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="GL_Other Changes"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Upload File">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="aeadf0e0-d261-4dd1-8f56-04d5afe0b10c"
 			name="GL_ClassAndPayroll"
 			ref="d6229a45-b94c-4c8c-86ce-5cd3a2574dff"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="GL ClassDescription"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="b11df3da-b1c0-4468-a8dd-802d9e140d58"
+					variablename="GL_ClassDescription">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="GLAgContractorPercent"
@@ -9308,6 +11303,14 @@ GLAgContractorClassCode"
 					variablename="EmpLiabilityLimitID">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="b2240f62-f3c0-406c-992d-6f9e0835cf11"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="af097b8e-8f27-41f2-89c3-c57659133154"
@@ -9408,6 +11411,14 @@ GLAgContractorClassCode"
 					variablename="EffectiveDate">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8c0eb4fb-0bc8-40a2-a09e-07dd5e290d56"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b22b0c2a-4658-4844-b94e-7660b435c4bc"
@@ -9521,13 +11532,6 @@ GLAgContractorClassCode"
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
-			id="b3cdafca-4d8f-4468-bc61-39ac78b83dcd"
-			name="Class_Specific_Question_91111"
-			ref="c9f27f34-e905-4d1d-b737-8af2241f965e"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="b43d8fec-ef42-4322-8082-3d31e9a91832"
 			name="GL_UW_Claims"
 			ref="d8c4a633-96c7-491c-a59a-e59b53c0b72d"
@@ -9545,6 +11549,20 @@ GLAgContractorClassCode"
 			id="b46bf03a-a7a8-4b75-9674-ef9d4677f857"
 			name="Premium_Financed">
 			</smartfoldernode>
+			<testmodule
+			id="b50a1d26-e30b-428b-ad3f-03c2eaea5250"
+			name="ScriptStarts"
+			ref="995fb712-4b6c-4633-89f1-1965f7183a82"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="StartTime"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="e86eaf92-46b7-42c3-8069-e306e2923b58"
+					variablename="StartDate">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			id="b5a8caff-7033-4d33-a1c5-b8d85b2f65f8"
 			name="Claims">
@@ -9663,13 +11681,13 @@ GLAgContractorClassCode"
 				<missingdatabinding>
 					<var
 					dataname="QA_UW_ID"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
 					variableid="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
 					variablename="QA_UW_ID">
 					</var>
 					<var
 					dataname="QA_UW_Pwd"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
 					variableid="cdd64027-46bb-4856-af6b-3ba06aaa2e84"
 					variablename="QA_UW_Pwd">
 					</var>
@@ -9680,6 +11698,26 @@ GLAgContractorClassCode"
 			name="WC_Endt_Officer_Include"
 			ref="e38fc2e6-3f98-4292-afd7-422492faf49d"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC Endt Officer FName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="b6adf3bb-1fed-41ae-8f76-e3e04e74c97a"
+					variablename="WC_Endt_OfficerIn_FName">
+					</var>
+					<var
+					dataname="WC Endt Officer LName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="5b153049-f692-4756-a054-7c144a46af80"
+					variablename="WC_Endt_OfficerIn_LName">
+					</var>
+					<var
+					dataname="WC Endt Officer Desc"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="dc6b96ed-dc7d-49ee-9997-7ebc330c5a59"
+					variablename="WC_Endt_OfficerIn_Desc">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="b790cc9c-4e58-4555-af37-e6a26d016753"
@@ -9719,6 +11757,14 @@ GLAgContractorClassCode"
 					variablename="FEINNo">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="f67854b6-0c9f-4901-8826-6e865bb7db66"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b8710c18-8c91-4e9d-b922-91eb79c4244d"
@@ -9778,10 +11824,10 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA UW URL"
+					dataname="UW URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="d0d8ee15-1820-4006-9970-7e854eb98a69"
-					variablename="QA_UW_Env">
+					variablename="UW_URL">
 					</var>
 				</databinding>
 			</testmodule>
@@ -9819,6 +11865,50 @@ GLAgContractorClassCode"
 			name="WC_Add_AdditionalLocation_DBA"
 			ref="a5ce7cab-19ef-4256-9209-a766f8da03b6"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC_EndtDBAName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="366cff9a-a9f7-4599-95ab-bc324512ae87"
+					variablename="WC_EndtDBAName">
+					</var>
+					<var
+					dataname="WC_EndtDBAFEINNumber"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="0c9c58d2-0236-4f18-b316-205c48e00738"
+					variablename="WC_EndtFEINNumber">
+					</var>
+					<var
+					dataname="WC_EndtDBAAddress1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="245f25ad-95c8-4146-b9f9-8474b04717eb"
+					variablename="WC_EndtAddress1">
+					</var>
+					<var
+					dataname="WC_EndtDBAAddress2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="1d8ec8fa-f80d-41f0-8f63-b2322b56d586"
+					variablename="WC_EndtAddress2">
+					</var>
+					<var
+					dataname="WC_EndtDBACity"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="8a027c29-2bcb-48ce-97ec-2c1c0752774a"
+					variablename="WC_EndtDBACity">
+					</var>
+					<var
+					dataname="WC_EndtDBAState"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="81d5a12f-3929-4222-beab-b9dcad37f07c"
+					variablename="WC_EndtDBAState">
+					</var>
+					<var
+					dataname="WC_EndtDBAZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="0ee7db23-040a-4b82-a3d3-d76cbe8f2d32"
+					variablename="WC_EndtDBAZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="bb94346a-55e8-4c22-b9e3-2fec76eddc53"
@@ -9845,6 +11935,14 @@ GLAgContractorClassCode"
 			name="GL_ApplicationPageP1"
 			ref="67cec58b-c116-418c-8d83-a9bdc626eea5"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="InsuredAddress"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="06a7825d-3f4f-42fe-aa17-532e6b9fcc4d"
+					variablename="FullAddress">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="GL_BusinessType"
@@ -10094,6 +12192,20 @@ GLAgContractorClassCode"
 			name="GL_Change_LiabilityLimit"
 			ref="3c282725-467e-4cd4-9599-530cef134b2a"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_PerOccuranceValue"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="e4b8daa1-b2aa-4047-b5df-24317df480e0"
+					variablename="GL_PerOccuranceValue">
+					</var>
+					<var
+					dataname="GL_PerAggregateValue"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="2afd1221-1178-4812-b4a9-c710c9310514"
+					variablename="GL_PerAggregateValue">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="be2bc94d-f647-4b67-9fcb-2c579921644b"
@@ -10104,7 +12216,37 @@ GLAgContractorClassCode"
 			name="FWCIQuoteDocuments"
 			ref="43373bc6-02f4-4477-92f1-d08ac557e43d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="PrdPremium"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="9042cf7f-589a-4e1f-80ae-aecb22435fac"
+					variablename="FWCIPremium">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="63e5decf-25b3-41ac-ae29-a794267e230a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
+			<smartfoldernode
+			id="bee737ec-5beb-4079-8572-b54b0406631d"
+			name="Output_Report">
+				<parameters>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+					<param
+					name="NewParameter1"
+					value="">
+					</param>
+				</parameters>
+			</smartfoldernode>
 			<testmodule
 			id="bfc4d249-dd49-4344-b3c6-949d14b6930e"
 			name="GL_RiskLevel_Submit"
@@ -10298,21 +12440,61 @@ GLAgContractorClassCode"
 					dataname="QA_Agent_Pwd"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-					variablename="QA_Agent_Pwd">
+					variablename="Agent_Pwd">
 					</var>
 					<var
 					dataname="QA_Agent_Login"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-					variablename="QA_Agent_Login">
+					variablename="Agent_Login1">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8a9ea96d-f401-488d-97ff-7519ca243bbb"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c280666a-206c-4c97-aaac-38dc8f392600"
 			name="GL_MailingAddress"
 			ref="710fc435-d921-46cf-928a-996920f53f90"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="d65c0ae9-4bd6-489d-834b-1f88a97ee833"
+					variablename="MailAddress1">
+					</var>
+					<var
+					dataname="Endt Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="6234aff8-c765-42e0-8d1a-16d0521ddddf"
+					variablename="MailAddress2">
+					</var>
+					<var
+					dataname="Endt City"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="3ceaf133-1383-46de-a23f-9eaed758a84a"
+					variablename="MailCity">
+					</var>
+					<var
+					dataname="Endt State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="91c061a7-a239-4cc8-820b-93a436986264"
+					variablename="MailState">
+					</var>
+					<var
+					dataname="Endt ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="7d16e12a-f9fa-4334-8143-34f2426c8cc1"
+					variablename="MailZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="c294a7ea-1730-4eaa-8c4d-a2ee8e0b2f67"
@@ -10352,16 +12534,16 @@ GLAgContractorClassCode"
 			type="Recording">
 				<missingdatabinding>
 					<var
-					dataname="QA_UW_ID"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
-					variableid="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
-					variablename="QA_UW_ID">
-					</var>
-					<var
 					dataname="QA_UW_Pwd"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
 					variableid="cdd64027-46bb-4856-af6b-3ba06aaa2e84"
 					variablename="QA_UW_Pwd">
+					</var>
+					<var
+					dataname="QA_UW_ID"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
+					variablename="QA_UW_ID">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -10439,6 +12621,50 @@ GLAgContractorClassCode"
 			name="GL_AddAggregateExtensionPerLocation"
 			ref="4dcc7167-a8eb-41ed-8478-1a437b50bac8"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_PerLocation_FN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="535cdc99-a04f-4d2f-86aa-891e02108efd"
+					variablename="GL_PerLocation_FN">
+					</var>
+					<var
+					dataname="GL_PerLocation_LN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="6295f0dc-f27b-4009-8095-6671ee36a186"
+					variablename="GL_PerLocation_LN">
+					</var>
+					<var
+					dataname="GL_PerLocation_Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="4610891e-70f7-486e-b949-162db58536c9"
+					variablename="GL_PerLocation_Address1">
+					</var>
+					<var
+					dataname="GL_PerLocation_Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="69ef9e4f-e201-4b34-ae82-8904ce694bd6"
+					variablename="GL_PerLocation_Address2">
+					</var>
+					<var
+					dataname="GL_PerLocation_City"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="896ba27b-0035-4d5b-9b04-3c4ae1c0d457"
+					variablename="GL_PerLocation_City">
+					</var>
+					<var
+					dataname="GL_PerLocation_State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="1fec956e-b854-441f-b4ac-c3e07b96b273"
+					variablename="GL_PerLocation_State">
+					</var>
+					<var
+					dataname="GL_PerLocation_ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="727dd252-27f4-452d-bc97-0ea977458fb8"
+					variablename="GL_PerLocation_ZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c44ddde3-74e9-48b0-bdd5-cd1bf953e3b2"
@@ -10453,6 +12679,12 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
+					dataname="WC ClassCode"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="6bb49d2a-7bc3-4531-bd93-e9695f40da0e"
+					variablename="ClassCode">
+					</var>
+					<var
 					dataname="ClassDesc"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="73e2c470-9f0e-4347-8bc3-a2bbbcf6e897"
@@ -10465,6 +12697,14 @@ GLAgContractorClassCode"
 					variablename="StateName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="c350856d-3fa6-4379-b2a5-6e90ee5f6baf"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c4e6cfc6-17b8-42f1-8fee-5a9f294eb924"
@@ -10477,6 +12717,26 @@ GLAgContractorClassCode"
 			name="GL_ClassCodeandPayroll"
 			ref="670ec80f-d8f8-4d67-8e94-5d3df9a0a8b3"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_EndtClassCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="c0eb33c2-53b9-45b0-8c1d-5b490c84d7f3"
+					variablename="GL_EndtClassCode">
+					</var>
+					<var
+					dataname="GL_EndtClassCodePayroll"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="7e6962ad-c315-424d-b44d-ca3d8e7ab16f"
+					variablename="GL_EndtClassCodePayroll">
+					</var>
+					<var
+					dataname="GL_EndtDescription"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="a5132944-f59e-4bef-845c-493b2e9586c6"
+					variablename="GL_EndtDescription">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c596d856-28ea-44d5-9c71-84d61ab62a25"
@@ -10491,6 +12751,14 @@ GLAgContractorClassCode"
 					variablename="EmpliabilityValue">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="1f5cc0b1-4b6f-4b95-a2c1-e2fe050be17a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c59b9c83-9994-436d-ba4d-255b69f0f13c"
@@ -10649,6 +12917,14 @@ GLAgContractorClassCode"
 			name="UW_BusinessSummarySave"
 			ref="ae00e978-26af-477f-a800-aeb74cc2b5f3"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="5019da53-c61a-4df9-9503-79ef84b3fbf0"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="c818cba2-a03e-4fc3-a3bc-054af124cc1e"
@@ -10800,17 +13076,18 @@ GLAgContractorClassCode"
 			<testcase
 			datarangeactive="True"
 			datasource="WC_Automation_TestData"
+			errorbehavior="ContinueNextIteration"
 			id="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
-			maxrange="0"
+			maxrange="4"
 			minrange="0"
 			name="TestCase">
 				<parameters>
 					<param
-					name="QA_Agent_URL"
+					name="Agent URL"
 					value="https://uatwinston.fwcins.com/FWCPortal/User/Login/Login.html">
 					</param>
 					<param
-					name="QA UW URL"
+					name="UW URL"
 					value="https://uatwinston.fwcins.com/FWCPortal/UnderWriter/UWLogin/UWLogin.html?v=130">
 					</param>
 					<param
@@ -10841,6 +13118,34 @@ GLAgContractorClassCode"
 					name="WCEndtPolicyNumber"
 					value="FWTX0023373301">
 					</param>
+					<param
+					name="PrdPremium"
+					value="">
+					</param>
+					<param
+					name="ReferralReason"
+					value="">
+					</param>
+					<param
+					name="StartTime"
+					value="">
+					</param>
+					<param
+					name="WC ClassCode"
+					value="">
+					</param>
+					<param
+					name="InsuredAddress"
+					value="">
+					</param>
+					<param
+					name="GL ClassDescription"
+					value="">
+					</param>
+					<param
+					name="commrnt"
+					value="">
+					</param>
 				</parameters>
 			</testcase>
 			<smartfoldernode
@@ -10852,6 +13157,50 @@ GLAgContractorClassCode"
 			name="GL_Individual_CG2404AI"
 			ref="6301fa3b-5f72-4475-b91a-27f5528de73e"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="GL_Individual_CG2404_FN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="73f037c4-26cc-4b5f-a472-030f204d6be9"
+					variablename="GL_Individual_CG2404_FN">
+					</var>
+					<var
+					dataname="GL_Individual_CG2404_LN"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="86135c3a-51e6-469d-b0d9-f73822f15fac"
+					variablename="GL_Individual_CG2404_LN">
+					</var>
+					<var
+					dataname="GL_CG2404_Address1"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="f757fa49-9c2d-47ea-9621-7d19d46e3f5b"
+					variablename="GL_CG2404_Address1">
+					</var>
+					<var
+					dataname="GL_CG2404_Address2"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="081ae53a-495c-4cb0-97e8-c35a3fc5e53b"
+					variablename="GL_CG2404_Address2">
+					</var>
+					<var
+					dataname="GL_CG2404_AICity"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="64c7bb07-a469-4182-ae24-906e0370c154"
+					variablename="GL_CG2404_AICity">
+					</var>
+					<var
+					dataname="GL_CG2404_State"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="17525a46-4a41-48bc-91e9-5612447b4d01"
+					variablename="GL_CG2404_State">
+					</var>
+					<var
+					dataname="GL_CG2404_ZipCode"
+					datasourceid="6195cc01-5480-442a-8d5d-39392a58d37d"
+					variableid="b44855d6-bb68-487b-b567-6e304539bd97"
+					variablename="GL_CG2404_ZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="cc9a4ef4-0f99-4257-8e9a-183d23334c80"
@@ -11085,32 +13434,6 @@ GLAgContractorClassCode"
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
-			id="cfd5faab-360b-40e5-ad5a-64db5a147bbb"
-			name="91127">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="DataConnector"
-								dataname="
-GLAgContractorClassCode"
-								id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="91127">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
-			<smartfoldernode
 			id="cfde0838-8474-44f9-87c6-298dead8f68b"
 			name="Yes">
 				<conditiongroup
@@ -11188,6 +13511,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="d02d4000-d58e-43c0-9e07-2306f8e8a5e4"
 			name="Officer_Exclude">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Officer Category"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Officer Exclude">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="d07762c7-64b8-4fe8-a2ca-9b837521590b"
@@ -11208,10 +13552,39 @@ GLAgContractorClassCode"
 					variablename="InsuredName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8b137ef6-acdd-4986-9678-66ad6c292bc0"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="d0a54ee4-644b-4e70-859d-f9d5172749f5"
 			name="CG2404">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt IAI CG 2404"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="CG2404">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="d0ae6260-432d-4228-af7e-66f72149676a"
@@ -11252,6 +13625,14 @@ GLAgContractorClassCode"
 					variablename="EffectiveDate">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8c0eb4fb-0bc8-40a2-a09e-07dd5e290d56"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 				<missingdatavariablesbinding>
 					<var
 					dataname="BusinessStartDate"
@@ -11268,6 +13649,12 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
+					dataname="ReferralReason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="c8a35c89-41b6-4f0d-8e81-b6899b800b0f"
+					variablename="UWReferralReason">
+					</var>
+					<var
 					dataname="UWMessages"
 					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
 					variableid="31ba3126-7347-448f-9540-2e866815b195"
@@ -11280,6 +13667,14 @@ GLAgContractorClassCode"
 					variablename="UWStatus">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="b0ca5e25-161f-445e-8105-fce8a2550857"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="d206dfca-cbaa-4d03-b67c-823d83d4098c"
@@ -11288,10 +13683,10 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA_Agent_URL"
+					dataname="Agent URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="736de7c1-3a67-423c-85ff-9552e5e23f05"
-					variablename="QA_Agent_Env">
+					variablename="Agent_Url">
 					</var>
 				</databinding>
 			</testmodule>
@@ -11314,6 +13709,14 @@ GLAgContractorClassCode"
 					variablename="PaymentMethod">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="8af0b719-2c44-4f33-82f6-4605a42c3094"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="d2a37699-8ef4-4698-aae5-0a3a42f8a657"
@@ -11403,6 +13806,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="d725dd98-4290-470c-aa7f-1d89d06fac5a"
 			name="FCG1003">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt AI FCG 1003"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="FCG 1003">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="d78983c5-ed1b-4384-bdbd-ff44bf902852"
@@ -11434,42 +13858,22 @@ GLAgContractorClassCode"
 			name="Agent_Login"
 			ref="cf2935cc-2a5b-4d0a-a5f4-27a79fbb213c"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="QA_Agent_Login"
-					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
-					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-					variablename="QA_Agent_Login">
-					</var>
-					<var
-					dataname="QA_Agent_Pwd"
-					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
-					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-					variablename="QA_Agent_Pwd">
-					</var>
-					<var
-					dataname="AgentName"
-					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
-					variableid="4dec480d-951b-4b1c-a494-b42356de08e7"
-					variablename="AgentName">
-					</var>
-				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="QA_Agent_Login"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
 					variablename="QA_Agent_Login">
 					</var>
 					<var
 					dataname="QA_Agent_Pwd"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
 					variablename="QA_Agent_Pwd">
 					</var>
 					<var
 					dataname="AgentName"
-					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
 					variableid="4dec480d-951b-4b1c-a494-b42356de08e7"
 					variablename="AgentName">
 					</var>
@@ -11493,6 +13897,20 @@ GLAgContractorClassCode"
 			id="d96d3ee7-89d4-47b6-9cbf-dddd0bf63f12"
 			name="GLDeductible">
 			</smartfoldernode>
+			<testmodule
+			id="d9b951e1-f5e3-49cf-9d65-020fb35a0897"
+			name="ScriptStarts"
+			ref="995fb712-4b6c-4633-89f1-1965f7183a82"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="StartTime"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="e86eaf92-46b7-42c3-8069-e306e2923b58"
+					variablename="StartDate">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			id="da6809b0-8377-40f0-b490-d844cd535388"
 			name="EditQuote">
@@ -11550,6 +13968,14 @@ GLAgContractorClassCode"
 					variablename="LegalEntityName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="52d3ea9d-4217-4999-9815-e17a34c6aa20"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="dadd2ef2-9b67-4de9-87c6-0bb5b36bca59"
@@ -11585,6 +14011,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="db3698ee-850c-45ee-9187-0afda7e6cee1"
 			name="CG2010">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt IAI CG 2010"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="CG 2010">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="db8cb13a-a350-4a91-82ff-26f70e1e3eac"
@@ -11674,10 +14121,52 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="dcbe1dc1-b2b5-4af1-81cb-62ce8d3aa830"
 			name="Mailling_Address_Change">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Address Category"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Mailling Address">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="dcf4e472-5595-47b9-96f5-28f0e918da34"
 			name="FCG1001">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt AI FCG 1001"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="FCG 1001">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="dd6ed39a-0c5f-471d-bfab-645cc1c37dcc"
@@ -11723,10 +14212,52 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="de734433-c0f3-46a4-8fce-dcb586c9b33f"
 			name="Delete_ClassificationPayroll">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC Endt Del Class Code"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="def4cfd2-35e7-4c63-bba1-31e81961f2a2"
 			name="Endt_STP">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt Type"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Endt STP">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="df3a4709-3787-4a97-98ee-d7a3c5c0865e"
@@ -11739,6 +14270,12 @@ GLAgContractorClassCode"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="dfb35b8d-8fb8-40ad-8821-67555a2a5bed"
 					variablename="UW_InsuredName">
+					</var>
+					<var
+					dataname="LOB"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="627d4f41-f82c-461f-88e6-86596407a240"
+					variablename="ProductLob">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -11857,10 +14394,10 @@ GLAgContractorClassCode"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="QA UW URL"
+					dataname="UW URL"
 					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
 					variableid="d0d8ee15-1820-4006-9970-7e854eb98a69"
-					variablename="QA_UW_Env">
+					variablename="UW_URL">
 					</var>
 				</databinding>
 			</testmodule>
@@ -11871,6 +14408,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="e25331a3-f8a7-49eb-bf13-06d295f2b3c5"
 			name="Amend_Contact_Information">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC_Endt_Amend"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="e288c99a-04e2-4aba-85df-855632ea2c45"
@@ -11900,6 +14458,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="e2af6357-173f-4373-8b2e-cc029a4f7a3d"
 			name="Endorsement">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Policy Type"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Endorsement">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="e30ee12b-fa84-49cd-acc6-fcf748ff5032"
@@ -12014,6 +14593,27 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="e52fcba1-4f90-42d7-bdae-a1fda74fe1da"
 			name="Both">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="PMB Category"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Both">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="e56db3a3-6f24-4450-a91d-f80760117dda"
@@ -12096,6 +14696,14 @@ GLAgContractorClassCode"
 			name="General_Questions"
 			ref="416d283b-eb5a-4f8f-b1fb-9552e9d1cc8b"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="1602449f-643d-413c-b76c-5e061e09146b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="e758bba8-6bf6-4c27-8576-6baf3319777f"
@@ -12133,6 +14741,14 @@ GLAgContractorClassCode"
 			name="ReferralTrigger"
 			ref="4686f10f-e549-4751-8d1f-730a281279b4"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="b8480b73-91c6-4a50-ab54-667a260f633a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="e7dd1a5a-773b-4708-b528-3e3942d8e1dc"
@@ -12164,6 +14780,14 @@ GLAgContractorClassCode"
 			name="IndustryQuestionSave"
 			ref="f0148e14-f5ff-48cb-b2b0-aff54abdf149"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="bafd92de-b5f3-4e5b-8334-27788643c657"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="e84ce246-1216-4215-ab87-6f41a905299d"
@@ -12226,6 +14850,38 @@ GLAgContractorClassCode"
 			name="WC_ChangeofAddress_Mailing"
 			ref="67bfefc1-5047-4fa3-bfce-d550d9113082"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Endt PMB Address1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="ca5d7172-e750-41d2-ac54-13f7478551bb"
+					variablename="WC_EndtMAddress1">
+					</var>
+					<var
+					dataname="Endt PMB Address2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="a50fe1e5-7d87-4cc0-9099-c3f21ea00681"
+					variablename="WC_EndtMAddress2">
+					</var>
+					<var
+					dataname="Endt PMB City"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="dfead969-22a1-466e-b458-c0cd28f0e982"
+					variablename="WC_EndtMCity">
+					</var>
+					<var
+					dataname="Endt PMB State"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="bdf4b1b6-0ed6-4f31-8b9e-e66ee95dde71"
+					variablename="WC_EndtMState">
+					</var>
+					<var
+					dataname="Endt PMB ZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="9bf86e90-c7dc-4ef7-98f6-f2cfad0a8937"
+					variablename="WC_EndtMZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="e95918dd-2193-4539-b0ee-b70d1857f2f1"
@@ -12282,6 +14938,14 @@ GLAgContractorClassCode"
 			name="UW_SignOut"
 			ref="ccce3ae2-bdc0-425c-9606-5755331a8e55"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="1739e041-25bc-434b-9f72-1eaf4be7bb4d"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="eb699661-0a1d-4089-995c-7da7e3a6c547"
@@ -12338,6 +15002,14 @@ GLAgContractorClassCode"
 					variablename="UW_BusinessInsname">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="868f813a-c98c-4760-b1e9-4f14ed41955a"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="eb7d65c5-df32-4e73-a953-91bfef29c1c8"
@@ -12417,6 +15089,56 @@ GLAgContractorClassCode"
 			name="WC_Endt_AmendContactInformation"
 			ref="06cd4f82-8922-49f9-8e97-0bbf774f2295"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="WC_Endt_ContactName"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="d93bcd5d-01d2-4c0b-82ed-2a89919668fe"
+					variablename="WC_Endt_ContactName">
+					</var>
+					<var
+					dataname="WC_Endt_Phone"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="a0e3af2b-45c7-4f9a-88bb-7c66c81a2ef2"
+					variablename="WC_Endt_Phone">
+					</var>
+					<var
+					dataname="WC_EndtEmail"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="c8392d11-fd2c-47b2-b54a-6688c176297c"
+					variablename="WC_EndtEmail">
+					</var>
+					<var
+					dataname="WC_EndtAddress1"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="82124ba3-a9c2-4e62-acc6-a8743c70ac85"
+					variablename="WC_EndtAddress1">
+					</var>
+					<var
+					dataname="WC_EndtAddress2"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="75991ff0-ba4b-4994-8d66-8e20bd9e5247"
+					variablename="WC_EndtAddress2">
+					</var>
+					<var
+					dataname="WC_EndtCity"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="817bc9ca-0bb6-4e4a-8744-602825f80570"
+					variablename="WC_EndtCity">
+					</var>
+					<var
+					dataname="WC_EndtState"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="62be60de-f6b1-47dc-904b-45d68fbdf197"
+					variablename="WC_EndtState">
+					</var>
+					<var
+					dataname="WC_EndtZipCode"
+					datasourceid="e8a65d3c-5c39-4d73-8cff-32d636657716"
+					variableid="d4897799-7749-449e-9a88-b8f7ac8baa1c"
+					variablename="WC_EndtZipCode">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ee3c6e8a-8b28-4c8a-9676-a3b72d0ba64e"
@@ -12552,10 +15274,39 @@ GLAgContractorClassCode"
 					variablename="DescofOp">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="2b0f8c5e-07c3-4f11-8944-089231abc3c5"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="ef82161c-12ef-41b6-bcf4-a88266cb3605"
 			name="Additional_Named_Insured">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="WC_EndtNICatagory"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Additional Named Insured">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="ef979409-2b8d-441e-91f6-ee277385c5ff"
@@ -12771,6 +15522,14 @@ GLAgContractorClassCode"
 					variablename="UW_FirstName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="b2cef47b-d692-497c-95cc-5f2da4a072f0"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f29a16bf-73ff-47a7-bbb1-c3472a8514f4"
@@ -12785,6 +15544,14 @@ GLAgContractorClassCode"
 					variablename="UW_PolicyNumber">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="c2190c17-444c-4e5f-8678-eaec5199e049"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="f2f59bf4-5a49-4746-85d1-98b0cf350c92"
@@ -12836,6 +15603,14 @@ GLAgContractorClassCode"
 			name="FullPay_PaymentPlans"
 			ref="322c92b7-b58b-4daa-b6c7-963a759c1181"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="0688d021-bf23-422c-ac4b-5cc4b563116b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="f44059ef-86f1-4ab0-bf64-01e985956642"
@@ -12856,6 +15631,10 @@ GLAgContractorClassCode"
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<smartfoldernode
+			id="f5b6797a-60a0-414e-adc1-d149beb88867"
+			name="ReportStartTime">
+			</smartfoldernode>
 			<testmodule
 			id="f5e33a35-b47e-43d9-a0bb-8b0865d8e4b2"
 			name="InlandMarineSave"
@@ -12884,13 +15663,13 @@ GLAgContractorClassCode"
 					dataname="QA_Agent_Login"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-					variablename="QA_Agent_Login">
+					variablename="Agent_Login1">
 					</var>
 					<var
 					dataname="QA_Agent_Pwd"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-					variablename="QA_Agent_Pwd">
+					variablename="Agent_Pwd">
 					</var>
 					<var
 					dataname="AgentName"
@@ -12935,12 +15714,120 @@ GLAgContractorClassCode"
 			name="PayGoPaymentPlans"
 			ref="c07ba68c-f6f7-4f99-89d1-a4fec0d0a47a"
 			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="2d9639d1-b94a-4506-b38f-187ae1f6317b"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f8cef6dd-361a-4193-9aad-c1365a25debe"
 			name="Latest_Excel_Write"
 			ref="bf5d3fb0-e6f5-46d4-ac8e-bcec88814d52"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="WCPolicyNumber"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="a0460a5d-6a1f-4f15-9ca0-34433075bfe9"
+					variablename="MIPolicyNo">
+					</var>
+					<var
+					dataname="XSPolicyNumber"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="c30e8b90-4108-4535-a406-6ba2a55fd2f3"
+					variablename="XSPolicyNo">
+					</var>
+					<var
+					dataname="PrdPremium"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="0e8e039a-6168-46b9-a110-4f6b5005647b"
+					variablename="PrdPremium">
+					</var>
+					<var
+					dataname="ReferralReason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="97e5bfd5-49c0-4147-918d-674746b70ea5"
+					variablename="ReferralReason">
+					</var>
+					<var
+					dataname="StartTime"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="5dd8a2f6-73b6-43c8-b522-a173ccd9d966"
+					variablename="StartTime">
+					</var>
+					<var
+					dataname="WC ClassCode"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="36e447c8-7dcd-4072-96c6-ceaf3b839874"
+					variablename="ClassCode">
+					</var>
+					<var
+					dataname="InsuredAddress"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="6b7b0699-fa4b-4648-8cbc-708ec82283d6"
+					variablename="InsuredAddress">
+					</var>
+					<var
+					dataname="BusinessName"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="99a395da-1990-4f57-a576-954b310cde8c"
+					variablename="InsuredName">
+					</var>
+					<var
+					dataname="Policy Type"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="cecde0fc-d4d0-4bc1-9461-5b148a273776"
+					variablename="TestScenario">
+					</var>
+					<var
+					dataname="LOB"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="548806e9-b4d6-4e3f-af46-f2ac69a08c94"
+					variablename="Product">
+					</var>
+					<var
+					dataname="TC No."
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="479ef075-1b98-4b40-a085-3fa1e54c1e2f"
+					variablename="TCID">
+					</var>
+					<var
+					dataname="ClassDesc"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="b90f9a18-2617-46df-8236-9e4848411e5d"
+					variablename="ClassDescription">
+					</var>
+					<var
+					dataname="AgentIndustryGroup"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="abd70289-0d19-4449-a7a3-d0f57db44589"
+					variablename="ClassGroup">
+					</var>
+					<var
+					dataname="CarrierSelection"
+					datasourceid="fcf08db0-3207-4af7-be37-c5704c55094d"
+					variableid="4698a0f9-a61f-4b6e-b594-ded5ded3a184"
+					variablename="CarrierName">
+					</var>
+					<var
+					dataname="commrnt"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="b930431f-322b-42a5-a003-6be381a9436f"
+					variablename="StatusReason">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="b930431f-322b-42a5-a003-6be381a9436f"
+					variablename="StatusReason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f8fbd782-d210-454a-90e3-5425afd18b2c"
@@ -12967,16 +15854,73 @@ GLAgContractorClassCode"
 			name="MakePayment"
 			ref="e27558a9-492c-49b5-ac8a-7bf2826cfb91"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="InsuredAddress"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="6170a347-1774-498d-8e0e-77d1af562f6f"
+					variablename="WCInsuredAddress">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="StatusReason"
+					datasourceid="1532c631-81ca-4fe7-9391-578a3076cb2d"
+					variableid="cdc4d881-61f1-4117-a780-97c42d194850"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="fa530aea-87ad-436c-b848-a0e9260a5d16"
 			name="BMQuoteDocument"
 			ref="35883a1a-f0a5-4793-a679-b46efe4ef714"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="PrdPremium"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="724950a8-6e87-46bf-a31e-c5380eb60e74"
+					variablename="BMPremium">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Status_Reason"
+					datasourceid="caef2aea-87d2-4d71-a5fd-7bd76be85abc"
+					variableid="8f1dd563-e8d6-45ae-855d-3f220b7cc532"
+					variablename="Status_Reason">
+					</var>
+				</missingdatabinding>
 			</testmodule>
+			<smartfoldernode
+			id="faaa150d-1004-4545-a86d-75b75898154a"
+			name="Payment_Past_Due">
+			</smartfoldernode>
 			<smartfoldernode
 			id="fb04c63a-386c-457e-9d58-32534bca9893"
 			name="Per_Project">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Aggregate Per Project"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Per Project">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
 			id="fb459283-1bfd-42ce-a7e5-537c773a4a4e"
@@ -12991,10 +15935,86 @@ GLAgContractorClassCode"
 			<smartfoldernode
 			id="fb7867a5-0719-4412-8f88-9c579ba75168"
 			name="Employers_Liability_Limit_3">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 3"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Yes">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 2"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="No">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Employers Liability Limit 3"
+								id="e8a65d3c-5c39-4d73-8cff-32d636657716">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="No">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="fb78e58e-8937-4b0f-aa87-bcef518f5cc3"
 			name="FCG1019">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Endt IAI FCG 1019"
+								id="6195cc01-5480-442a-8d5d-39392a58d37d">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="FCG 1019">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
 			id="fc605b8b-e116-4fbe-9528-3e1d1aafa8bd"
@@ -13051,7 +16071,7 @@ GLAgContractorClassCode"
 			</testmodule>
 			<testmodule
 			id="fe88a55c-24b3-446b-9fec-1f1ee02209d8"
-			name="GL_PayGoPlan"
+			name="GL_Frankcrum_PayGoPlan"
 			ref="5c6642d1-4dd3-4f1b-9c76-91ec7e3fcad2"
 			type="Recording">
 			</testmodule>
@@ -13066,6 +16086,12 @@ GLAgContractorClassCode"
 					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 					variableid="333f8a90-938c-424a-aa41-5846e89f9b84"
 					variablename="BusinessInsuredName">
+					</var>
+					<var
+					dataname="LOB"
+					datasourceid="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
+					variableid="67e18692-0c89-4d03-9831-fa66791247b5"
+					variablename="lob">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -13105,6 +16131,14 @@ GLAgContractorClassCode"
 						<smartfoldernode
 						id="a3b21af7-cc7f-4f92-a695-09d104307336"
 						name="WorkerComp.">
+							<smartfoldernode
+							id="8247300f-16c5-431e-a619-ecfa8dcb81ff"
+							name="ReportStartTime">
+								<testmodule
+								id="d9b951e1-f5e3-49cf-9d65-020fb35a0897"
+								name="ScriptStarts">
+								</testmodule>
+							</smartfoldernode>
 							<smartfoldernode
 							id="9cf12f71-0a1c-4bbc-bb63-882cc8d623d9"
 							name="Referal">
@@ -14717,10 +17751,26 @@ GLAgContractorClassCode"
 									</testmodule>
 								</smartfoldernode>
 							</smartfoldernode>
+							<smartfoldernode
+							id="6cfa808d-ef7d-4564-8b97-beaca831ff30"
+							name="Output_Report">
+								<testmodule
+								id="f8cef6dd-361a-4193-9aad-c1365a25debe"
+								name="Latest_Excel_Write">
+								</testmodule>
+							</smartfoldernode>
 						</smartfoldernode>
 						<smartfoldernode
 						id="0cc173e3-27a5-454a-b2d0-c4c8cb9d0074"
 						name="GeneralLaibility">
+							<smartfoldernode
+							id="f5b6797a-60a0-414e-adc1-d149beb88867"
+							name="ReportStartTime">
+								<testmodule
+								id="b50a1d26-e30b-428b-ad3f-03c2eaea5250"
+								name="ScriptStarts">
+								</testmodule>
+							</smartfoldernode>
 							<smartfoldernode
 							id="6a9aee67-55b8-413d-adb8-1164e7bf381e"
 							name="Referal">
@@ -15066,38 +18116,6 @@ GLAgContractorClassCode"
 									<smartfoldernode
 									id="0321f37d-4328-4ee8-a1e3-1ac130b9a581"
 									name="ClassSpecific">
-										<smartfoldernode
-										id="2c8dcc2d-fb8e-4c16-960e-138acd655647"
-										name="91111">
-											<testmodule
-											id="b3cdafca-4d8f-4468-bc61-39ac78b83dcd"
-											name="Class_Specific_Question_91111">
-											</testmodule>
-										</smartfoldernode>
-										<smartfoldernode
-										id="77bc1058-7c9a-48d5-bb50-cdc6d7ba2a73"
-										name="97220">
-											<testmodule
-											id="2e3d54b4-8861-4859-88b6-ee2e697b5148"
-											name="Class_Specific_Question_97220">
-											</testmodule>
-										</smartfoldernode>
-										<smartfoldernode
-										id="cfd5faab-360b-40e5-ad5a-64db5a147bbb"
-										name="91127">
-											<testmodule
-											id="2f28b033-f3e8-4b3f-af8a-d21a8f993982"
-											name="Class_Specific_Question_91127">
-											</testmodule>
-										</smartfoldernode>
-										<smartfoldernode
-										id="810aec94-aa27-44cc-be8d-a51cd143f68e"
-										name="91150">
-											<testmodule
-											id="a3b604bf-ff5d-4daa-92a5-0dc9e3080571"
-											name="Class_Specific_Question_91150">
-											</testmodule>
-										</smartfoldernode>
 										<testmodule
 										id="b22b0c2a-4658-4844-b94e-7660b435c4bc"
 										name="GL_ClassSpecific">
@@ -15763,10 +18781,10 @@ GLAgContractorClassCode"
 											</smartfoldernode>
 											<smartfoldernode
 											id="2a032de0-edd7-4136-a6d8-e96334df200b"
-											name="Pay_Go">
+											name="Frankcrum_PayGo">
 												<testmodule
 												id="fe88a55c-24b3-446b-9fec-1f1ee02209d8"
-												name="GL_PayGoPlan">
+												name="GL_Frankcrum_PayGoPlan">
 												</testmodule>
 											</smartfoldernode>
 											<smartfoldernode
@@ -15785,16 +18803,16 @@ GLAgContractorClassCode"
 											id="bd1008f6-057b-4c00-8406-0c2f8e4b7578"
 											name="No_Premium_Financed">
 												<testmodule
-												id="80943ba4-5d56-4675-a924-768fd76e4854"
-												name="CO_PaymentMethod">
+												id="1560a3a5-7061-44fe-95d6-991648841c0d"
+												name="CO_PaymentMethod_GL">
 												</testmodule>
 											</smartfoldernode>
 											<smartfoldernode
 											id="604b07f7-f8e9-4eed-a82e-9eb2c025b22c"
 											name="PremiumFinanced">
 												<testmodule
-												id="72a3b8e8-1319-46e6-a1a8-b0e0b7247a4e"
-												name="PremiumFinanced_Payment_method">
+												id="2229fde5-8a6b-44cc-8268-3f89b11e0b3d"
+												name="GL_PremiumFinanced_PaymentMethod">
 												</testmodule>
 											</smartfoldernode>
 											<smartfoldernode
@@ -16275,7 +19293,7 @@ GLAgContractorClassCode"
 										name="Pay_Go">
 											<testmodule
 											id="6a4fafc4-4a27-4eac-86ea-ca196c76d6aa"
-											name="GL_PayGoPlan">
+											name="GL_Frankcrum_PayGoPlan">
 											</testmodule>
 										</smartfoldernode>
 										<smartfoldernode
@@ -16577,6 +19595,14 @@ GLAgContractorClassCode"
 									</testmodule>
 								</smartfoldernode>
 							</smartfoldernode>
+							<smartfoldernode
+							id="bee737ec-5beb-4079-8572-b54b0406631d"
+							name="Output_Report">
+								<testmodule
+								id="8872d7eb-7233-44ac-9923-85317389bfc9"
+								name="Latest_Excel_Write">
+								</testmodule>
+							</smartfoldernode>
 						</smartfoldernode>
 						<smartfoldernode
 						id="cca57a1e-0638-4fe2-9885-99a152d4f4c4"
@@ -16677,14 +19703,14 @@ GLAgContractorClassCode"
 									</testmodule>
 								</smartfoldernode>
 							</smartfoldernode>
-						</smartfoldernode>
-						<smartfoldernode
-						id="6cfa808d-ef7d-4564-8b97-beaca831ff30"
-						name="Output_Report">
-							<testmodule
-							id="f8cef6dd-361a-4193-9aad-c1365a25debe"
-							name="Latest_Excel_Write">
-							</testmodule>
+							<smartfoldernode
+							id="faaa150d-1004-4545-a86d-75b75898154a"
+							name="Payment_Past_Due">
+								<testmodule
+								id="0db8ba98-004c-487e-b61b-4efd17c2144c"
+								name="Payment_past_due">
+								</testmodule>
+							</smartfoldernode>
 						</smartfoldernode>
 					</testcase>
 				</testcase>
@@ -16714,9 +19740,257 @@ GLAgContractorClassCode"
 		</DataSource>
 		<DataSource
 		filename="AutmTestData.xlsx"
+		id="6195cc01-5480-442a-8d5d-39392a58d37d"
+		includefile="Checked"
+		lastknownrowcount="0"
+		name="GL_Automation_Endorse_TestData"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="GL Autm Endt TD"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					TC No.
+				</column>
+				<column>
+					QA_Agent_Login
+				</column>
+				<column>
+					QA_Agent_Pwd
+				</column>
+				<column>
+					AgentName
+				</column>
+				<column>
+					QA_UW_ID
+				</column>
+				<column>
+					QA_UW_Pwd
+				</column>
+				<column>
+					Policy Type
+				</column>
+				<column>
+					Endt Type
+				</column>
+				<column>
+					Endt_Policy Number
+				</column>
+				<column>
+					Endt Effective date
+				</column>
+				<column>
+					Address Category
+				</column>
+				<column>
+					Endt Address1
+				</column>
+				<column>
+					Endt Address2
+				</column>
+				<column>
+					Endt City
+				</column>
+				<column>
+					Endt State
+				</column>
+				<column>
+					Endt ZipCode
+				</column>
+				<column>
+					Endt AI FCG 1003
+				</column>
+				<column>
+					Endt AI FCG 1004
+				</column>
+				<column>
+					Endt AI FCG 1001
+				</column>
+				<column>
+					Endt IAI CG 2010
+				</column>
+				<column>
+					GL_Individual_CG2010_FN
+				</column>
+				<column>
+					GL_Individual_CG2010_LN
+				</column>
+				<column>
+					GL_CG2010_Address1
+				</column>
+				<column>
+					GL_CG2010_Address2
+				</column>
+				<column>
+					GL_CG2010_AICity
+				</column>
+				<column>
+					GL_CG2010_State
+				</column>
+				<column>
+					GL_CG2010_ZipCode
+				</column>
+				<column>
+					Endt IAI CG 2037
+				</column>
+				<column>
+					GL_Individual_CG2037_FN
+				</column>
+				<column>
+					GL_Individual_CG2037_LN
+				</column>
+				<column>
+					GL_CG2037_Address1
+				</column>
+				<column>
+					GL_CG2037_Address2
+				</column>
+				<column>
+					GL_CG2037_AICity
+				</column>
+				<column>
+					GL_CG2037_State
+				</column>
+				<column>
+					GL_CG2037_ZipCode
+				</column>
+				<column>
+					Endt IAI FCG 1019
+				</column>
+				<column>
+					GL_Individual_FCG1019_FN
+				</column>
+				<column>
+					GL_Individual_FCG1019_LN
+				</column>
+				<column>
+					GL_FCG1019_Address1
+				</column>
+				<column>
+					GL_FCG1019_Address2
+				</column>
+				<column>
+					GL_FCG1019_AICity
+				</column>
+				<column>
+					GL_FCG1019_State
+				</column>
+				<column>
+					GL_FCG1019_ZipCode
+				</column>
+				<column>
+					Endt IAI CG 2404
+				</column>
+				<column>
+					GL_Individual_CG2404_FN
+				</column>
+				<column>
+					GL_Individual_CG2404_LN
+				</column>
+				<column>
+					GL_CG2404_Address1
+				</column>
+				<column>
+					GL_CG2404_Address2
+				</column>
+				<column>
+					GL_CG2404_AICity
+				</column>
+				<column>
+					GL_CG2404_State
+				</column>
+				<column>
+					GL_CG2404_ZipCode
+				</column>
+				<column>
+					Aggregate Per Project
+				</column>
+				<column>
+					GL_PerProject_FN
+				</column>
+				<column>
+					GL_PerProject_LN
+				</column>
+				<column>
+					GL_PerProject_Address1
+				</column>
+				<column>
+					GL_PerProject_Address2
+				</column>
+				<column>
+					GL_PerProject_City
+				</column>
+				<column>
+					GL_PerProject_State
+				</column>
+				<column>
+					GL_PerProject_ZipCode
+				</column>
+				<column>
+					Aggregate Per Location
+				</column>
+				<column>
+					GL_PerLocation_FN
+				</column>
+				<column>
+					GL_PerLocation_LN
+				</column>
+				<column>
+					GL_PerLocation_Address1
+				</column>
+				<column>
+					GL_PerLocation_Address2
+				</column>
+				<column>
+					GL_PerLocation_City
+				</column>
+				<column>
+					GL_PerLocation_State
+				</column>
+				<column>
+					GL_PerLocation_ZipCode
+				</column>
+				<column>
+					LL Category
+				</column>
+				<column>
+					GL_PerOccuranceValue
+				</column>
+				<column>
+					GL_PerAggregateValue
+				</column>
+				<column>
+					GL_EndtClass Category
+				</column>
+				<column>
+					GL_EndtClassCode
+				</column>
+				<column>
+					GL_EndtClassCodePayroll
+				</column>
+				<column>
+					GL_EndtDescription
+				</column>
+				<column>
+					GL_Delete Class Code
+				</column>
+				<column>
+					GL_Other Changes
+				</column>
+				<column>
+					GL_EndtFileDesc
+				</column>
+				<column>
+					GL_EndtUploadPath
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="AutmTestData.xlsx"
 		id="8ee1944e-8d08-42e0-b0ab-4ab519e40e89"
 		includefile="Checked"
-		lastknownrowcount="16"
+		lastknownrowcount="20"
 		name="GL_Automation_TestData"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="GL Autm TD"
@@ -17256,9 +20530,266 @@ GLAgContractorClassCode"
 		</DataSource>
 		<DataSource
 		filename="AutmTestData.xlsx"
+		id="e8a65d3c-5c39-4d73-8cff-32d636657716"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="WC_Automation_Endorse_TestData"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="WC Autm Endt TD"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					TC No.
+				</column>
+				<column>
+					QA_Agent_Login
+				</column>
+				<column>
+					QA_Agent_Pwd
+				</column>
+				<column>
+					AgentName
+				</column>
+				<column>
+					QA_UW_ID
+				</column>
+				<column>
+					QA_UW_Pwd
+				</column>
+				<column>
+					Policy Type
+				</column>
+				<column>
+					Endt_Policy Number
+				</column>
+				<column>
+					Endt Effective date
+				</column>
+				<column>
+					Endt Apply To
+				</column>
+				<column>
+					WC_Endt_Amend
+				</column>
+				<column>
+					WC_Endt_ContactName
+				</column>
+				<column>
+					WC_Endt_Phone
+				</column>
+				<column>
+					WC_EndtEmail
+				</column>
+				<column>
+					WC_EndtAddress1
+				</column>
+				<column>
+					WC_EndtAddress2
+				</column>
+				<column>
+					WC_EndtCity
+				</column>
+				<column>
+					WC_EndtState
+				</column>
+				<column>
+					WC_EndtZipCode
+				</column>
+				<column>
+					PMB Category
+				</column>
+				<column>
+					Endt PMB Address1
+				</column>
+				<column>
+					Endt PMB Address2
+				</column>
+				<column>
+					Endt PMB City
+				</column>
+				<column>
+					Endt PMB State
+				</column>
+				<column>
+					Endt PMB ZipCode
+				</column>
+				<column>
+					WC_Endt Remove Location
+				</column>
+				<column>
+					WC_EndtDBACatagory
+				</column>
+				<column>
+					WC_EndtDBAName
+				</column>
+				<column>
+					WC_EndtDBAFEINNumber
+				</column>
+				<column>
+					WC_EndtDBAAddress1
+				</column>
+				<column>
+					WC_EndtDBAAddress2
+				</column>
+				<column>
+					WC_EndtDBACity
+				</column>
+				<column>
+					WC_EndtDBAState
+				</column>
+				<column>
+					WC_EndtDBAZipCode
+				</column>
+				<column>
+					WC_EndtSecCatagory
+				</column>
+				<column>
+					WC_EndtSecName
+				</column>
+				<column>
+					WC_EndtSecFEINNumber
+				</column>
+				<column>
+					WC_EndtSecAddress1
+				</column>
+				<column>
+					WC_EndtSecAddress2
+				</column>
+				<column>
+					WC_EndtSecCity
+				</column>
+				<column>
+					WC_EndtSecState
+				</column>
+				<column>
+					WC_EndtSecZipCode
+				</column>
+				<column>
+					WC_EndtNICatagory
+				</column>
+				<column>
+					WC_EndtNIName
+				</column>
+				<column>
+					WC_EndtNIFEINNumber
+				</column>
+				<column>
+					WC_EndtNIAddress1
+				</column>
+				<column>
+					WC_EndtNIAddress2
+				</column>
+				<column>
+					WC_EndtNICity
+				</column>
+				<column>
+					WC_EndtNIState
+				</column>
+				<column>
+					WC_EndtNIZipCode
+				</column>
+				<column>
+					Endt_BlanketWaiverCatagory
+				</column>
+				<column>
+					Endt_SpecificWaiverCatagory
+				</column>
+				<column>
+					WC_Endt_SpWaiverName
+				</column>
+				<column>
+					WC_Endt_SpWaiverAddress1
+				</column>
+				<column>
+					WC_Endt_SpWaiverAddress2
+				</column>
+				<column>
+					WC_Endt_SpWaiverCity
+				</column>
+				<column>
+					WC_Endt_SpWaiverState
+				</column>
+				<column>
+					WC_Endt_SpWaiverZipCode
+				</column>
+				<column>
+					WC_Endt_BoWaiverCatagory
+				</column>
+				<column>
+					WC_Endt_BoWaiverName
+				</column>
+				<column>
+					WC_Endt_BoWaiverAddress1
+				</column>
+				<column>
+					WC_Endt_BoWaiverAddress2
+				</column>
+				<column>
+					WC_Endt_BoWaiverCity
+				</column>
+				<column>
+					WC_Endt_BoWaiverState
+				</column>
+				<column>
+					WC_Endt_BoWaiverZipCode
+				</column>
+				<column>
+					Employers Liability Limit 1
+				</column>
+				<column>
+					Employers Liability Limit 2
+				</column>
+				<column>
+					Employers Liability Limit 3
+				</column>
+				<column>
+					Officer Category
+				</column>
+				<column>
+					WC Endt Officer FName
+				</column>
+				<column>
+					WC Endt Officer LName
+				</column>
+				<column>
+					WC Endt Officer Desc
+				</column>
+				<column>
+					WC Endt DescOp
+				</column>
+				<column>
+					WC Endt Class State
+				</column>
+				<column>
+					WC Endt ClassCode
+				</column>
+				<column>
+					WC Endt Class FTEmployee
+				</column>
+				<column>
+					WC_Endt Amend Category
+				</column>
+				<column>
+					WC Endt Amend Payroll
+				</column>
+				<column>
+					WC Endt Amend Reason
+				</column>
+				<column>
+					WC Endt Del Class Code
+				</column>
+				<column>
+					WC Other Changes
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="AutmTestData.xlsx"
 		id="fcf08db0-3207-4af7-be37-c5704c55094d"
 		includefile="Checked"
-		lastknownrowcount="10"
+		lastknownrowcount="20"
 		name="WC_Automation_TestData"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="WC Autm TD"
@@ -17564,7 +21095,7 @@ GLAgContractorClassCode"
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="WC_Endt_Testing">
+	default="WCSmoke_Test">
 		<testconfiguration
 		name="GL_Endt_Testing">
 			<testcontainer
@@ -17652,46 +21183,22 @@ GLAgContractorClassCode"
 			id="005b393f-1dd7-4cf5-8696-b1202dc553fc">
 			</testcontainer>
 			<testcontainer
-			id="02620dc1-6095-4d64-8ceb-093cd5143cb8">
-			</testcontainer>
-			<testcontainer
 			id="030ae6a8-2ab4-4211-a982-1e0b0d8a72e4">
 			</testcontainer>
 			<testcontainer
 			id="0321f37d-4328-4ee8-a1e3-1ac130b9a581">
 			</testcontainer>
 			<testcontainer
-			id="032f6810-f655-4340-b16f-bd993096c8f9">
-			</testcontainer>
-			<testcontainer
 			id="04ca4773-113a-4fbf-a6da-a9348eacaf5b">
-			</testcontainer>
-			<testcontainer
-			id="05f11bef-b3c1-4679-a20b-a2bb043ba405">
 			</testcontainer>
 			<testcontainer
 			id="06d8d7c7-8c3c-4525-96fa-caeb2ae25c24">
 			</testcontainer>
 			<testcontainer
-			id="0c023501-d0ef-4301-a056-b919259ef6fa">
-			</testcontainer>
-			<testcontainer
 			id="0cc173e3-27a5-454a-b2d0-c4c8cb9d0074">
 			</testcontainer>
 			<testcontainer
-			id="0cf0a6a1-23d9-444e-ba31-f11f4a2525c1">
-			</testcontainer>
-			<testcontainer
 			id="0ef87780-e110-40e7-a8b6-0bd18ab3ef5e">
-			</testcontainer>
-			<testcontainer
-			id="0effacf0-3e8b-4d45-a22b-0088684e6fd8">
-			</testcontainer>
-			<testcontainer
-			id="11f3f7d7-680f-4882-b2fe-3b76694d34a7">
-			</testcontainer>
-			<testcontainer
-			id="12324c69-425a-4c41-b784-b6a033629365">
 			</testcontainer>
 			<testcontainer
 			id="1309bfbb-095c-4940-81ae-1b00e6c2b8b4">
@@ -17701,12 +21208,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="16bb9ede-982e-43c3-8731-fd980ab6eda4">
-			</testcontainer>
-			<testcontainer
-			id="16f69b24-0667-412c-ab3d-1bc28f82bfee">
-			</testcontainer>
-			<testcontainer
-			id="18337509-e97d-4ef3-b994-9ba975b84b51">
 			</testcontainer>
 			<testcontainer
 			id="192d2cea-f455-4dbb-ae89-55b35b48b828">
@@ -17724,13 +21225,7 @@ GLAgContractorClassCode"
 			id="1da59e7e-f0b4-4894-9898-b63a8727a0e5">
 			</testcontainer>
 			<testcontainer
-			id="1dd4c4ea-dcb5-4eca-821f-def83bd5050c">
-			</testcontainer>
-			<testcontainer
 			id="1f75ff2a-2001-4f74-9ed8-9c0a0b6d2bab">
-			</testcontainer>
-			<testcontainer
-			id="23040f0a-56b4-471e-85d2-6067ce40a8ae">
 			</testcontainer>
 			<testcontainer
 			id="2507e4fc-3d61-47b3-9757-03e22ab48b8e">
@@ -17740,15 +21235,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="2a032de0-edd7-4136-a6d8-e96334df200b">
-			</testcontainer>
-			<testcontainer
-			id="2a51f534-06cf-446e-a51b-8323247c6e3e">
-			</testcontainer>
-			<testcontainer
-			id="2ae88a9c-19d3-446c-8dc0-8dec4a5ecc3a">
-			</testcontainer>
-			<testcontainer
-			id="2c8dcc2d-fb8e-4c16-960e-138acd655647">
 			</testcontainer>
 			<testcontainer
 			id="2d2f5082-c447-4971-81c3-3e8ef7e079d6">
@@ -17766,31 +21252,16 @@ GLAgContractorClassCode"
 			id="312a90de-95ec-4698-8215-9cad882db705">
 			</testcontainer>
 			<testcontainer
-			id="3396bf98-6619-4738-a82e-d2ec08df1eb4">
-			</testcontainer>
-			<testcontainer
-			id="390b790e-909d-458c-a03c-d7716de43d21">
-			</testcontainer>
-			<testcontainer
 			id="3934ffa4-6f41-4953-858d-d82c588357a2">
 			</testcontainer>
 			<testcontainer
 			id="3a08096b-354c-4445-9940-d5a96a63f2a6">
 			</testcontainer>
 			<testcontainer
-			id="3b9fa1a4-c948-4096-81cc-c10aadaafd20">
-			</testcontainer>
-			<testcontainer
-			id="3c173da3-c30b-47b9-915b-e1e194f22dfe">
-			</testcontainer>
-			<testcontainer
 			id="3d12bf2b-9496-472e-bcea-e24dc10aee02">
 			</testcontainer>
 			<testcontainer
 			id="3d3e08e8-040a-472e-924d-5b88c1bf2982">
-			</testcontainer>
-			<testcontainer
-			id="3ef247a7-fe9f-4c5a-9ff9-0533320afc60">
 			</testcontainer>
 			<testcontainer
 			id="42353c08-235b-4394-a1a9-8e0ebb4554dc">
@@ -17820,25 +21291,7 @@ GLAgContractorClassCode"
 			id="4e06bb18-c87c-4d80-85bc-af6c22e5c191">
 			</testcontainer>
 			<testcontainer
-			id="4e395987-319a-4785-a539-1f61204668a8">
-			</testcontainer>
-			<testcontainer
-			id="4ed08e0c-7df0-4c16-a933-4be520427522">
-			</testcontainer>
-			<testcontainer
-			id="4eebfd8b-4977-4358-82eb-44097b42127d">
-			</testcontainer>
-			<testcontainer
-			id="4f1f77f1-96c5-4f77-8491-6493b306baae">
-			</testcontainer>
-			<testcontainer
 			id="51bf3674-6dc9-4ecf-96d2-094687452daa">
-			</testcontainer>
-			<testcontainer
-			id="53dd7b5f-8c66-4074-85cd-c5c521bb775d">
-			</testcontainer>
-			<testcontainer
-			id="5854a410-b863-41d5-adc8-7746b47fe21e">
 			</testcontainer>
 			<testcontainer
 			id="59b6f0b8-fc53-4bea-bd75-441205cce5b8">
@@ -17847,19 +21300,7 @@ GLAgContractorClassCode"
 			id="5a24d8aa-6804-4263-ac05-b0ddec6e8bc6">
 			</testcontainer>
 			<testcontainer
-			id="5de769e5-4f54-4081-83c5-8c3df358c27f">
-			</testcontainer>
-			<testcontainer
-			id="5f263116-4787-46c1-81a8-1b6c4532fc51">
-			</testcontainer>
-			<testcontainer
 			id="604b07f7-f8e9-4eed-a82e-9eb2c025b22c">
-			</testcontainer>
-			<testcontainer
-			id="655628ac-c5c1-47f3-b9a7-57912ba3533f">
-			</testcontainer>
-			<testcontainer
-			id="672f1f8f-257a-4bfe-92b7-4b41f062aee9">
 			</testcontainer>
 			<testcontainer
 			id="6a9aee67-55b8-413d-adb8-1164e7bf381e">
@@ -17877,34 +21318,16 @@ GLAgContractorClassCode"
 			id="75df6109-3780-4930-9aa2-17ce2db032d5">
 			</testcontainer>
 			<testcontainer
-			id="777a4fba-9b1c-45a6-921c-3b1bab2282d8">
-			</testcontainer>
-			<testcontainer
-			id="77bc1058-7c9a-48d5-bb50-cdc6d7ba2a73">
-			</testcontainer>
-			<testcontainer
-			id="79fec6d2-d059-4575-bc7d-64f5d5281cca">
-			</testcontainer>
-			<testcontainer
 			id="7e203c61-ccde-4877-aae6-74a7c22035e4">
 			</testcontainer>
 			<testcontainer
 			id="806e982e-ec0d-43eb-ae72-fefa047c84c0">
 			</testcontainer>
 			<testcontainer
-			id="8073de04-a5b4-49b2-a4b7-bf995ed193ce">
-			</testcontainer>
-			<testcontainer
-			id="810aec94-aa27-44cc-be8d-a51cd143f68e">
-			</testcontainer>
-			<testcontainer
 			id="81d46df5-e891-48ef-a987-bd8ea1d88c07">
 			</testcontainer>
 			<testcontainer
 			id="88d325cc-70d1-4187-9254-94d125821841">
-			</testcontainer>
-			<testcontainer
-			id="8b9200e6-be76-4ed3-a634-ba67046e4889">
 			</testcontainer>
 			<testcontainer
 			id="8d340435-3d8f-4afc-8b38-a196c8b3bf87">
@@ -17916,12 +21339,6 @@ GLAgContractorClassCode"
 			id="8e6d5285-7a6f-4fd1-9b27-8c635f26e209">
 			</testcontainer>
 			<testcontainer
-			id="8f4a7ff1-324f-4f11-a442-d40da9ade11f">
-			</testcontainer>
-			<testcontainer
-			id="92ae7fc8-3ddb-40f0-ba8c-b76290e0a9c2">
-			</testcontainer>
-			<testcontainer
 			id="93b26bfa-f53f-43bd-923c-4fc8a3cc7bc5">
 			</testcontainer>
 			<testcontainer
@@ -17931,15 +21348,6 @@ GLAgContractorClassCode"
 			id="93d33006-c144-460e-9964-eb82476b7046">
 			</testcontainer>
 			<testcontainer
-			id="940260e0-66aa-4e97-8570-25ff321fe1c1">
-			</testcontainer>
-			<testcontainer
-			id="946f8735-84fe-4aca-8df0-af2e40748e57">
-			</testcontainer>
-			<testcontainer
-			id="95a09f2d-f2e1-413c-a85c-756a96a1c796">
-			</testcontainer>
-			<testcontainer
 			id="985d07f9-0ca1-405e-a5c0-3467a5c1b0d6">
 			</testcontainer>
 			<testcontainer
@@ -17947,9 +21355,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="9c4258d9-531a-458d-8a95-ef804123e7ee">
-			</testcontainer>
-			<testcontainer
-			id="9c5edcd7-c250-479d-8df6-f8dcfe8deb0c">
 			</testcontainer>
 			<testcontainer
 			id="9d12e823-5496-4073-9c66-311946c844bf">
@@ -17967,31 +21372,10 @@ GLAgContractorClassCode"
 			id="a155315c-8b7c-4f22-9f57-a7f57df76a9a">
 			</testcontainer>
 			<testcontainer
-			id="a425baa3-02ef-4bbe-8964-496f5c94e8a5">
-			</testcontainer>
-			<testcontainer
-			id="a59a4784-e552-497c-97bd-38d9ca76f209">
-			</testcontainer>
-			<testcontainer
 			id="aa5edeca-f775-412f-bbf3-c5001b076e3e">
 			</testcontainer>
 			<testcontainer
-			id="aba5d40f-9f68-41ce-9b2d-65593d347bce">
-			</testcontainer>
-			<testcontainer
 			id="ad762472-9b23-4c39-89f3-ea4dd92cd235">
-			</testcontainer>
-			<testcontainer
-			id="b036eb09-2134-4fe3-8150-1c4e69281664">
-			</testcontainer>
-			<testcontainer
-			id="b2b5a79d-f2c2-4c44-86d5-cdd690ee76f0">
-			</testcontainer>
-			<testcontainer
-			id="b2d6a655-203f-4bca-af47-ee637bd5e20e">
-			</testcontainer>
-			<testcontainer
-			id="b46bf03a-a7a8-4b75-9674-ef9d4677f857">
 			</testcontainer>
 			<testcontainer
 			id="b5a8caff-7033-4d33-a1c5-b8d85b2f65f8">
@@ -18000,19 +21384,13 @@ GLAgContractorClassCode"
 			id="b8743a96-4b6d-45e4-9edb-a7fd9cbe2a6b">
 			</testcontainer>
 			<testcontainer
-			id="ba27e0eb-8ab7-4600-a252-34d1de11a063">
-			</testcontainer>
-			<testcontainer
-			id="bbfe53d2-3920-4f61-a1fb-a9c4bb31e004">
-			</testcontainer>
-			<testcontainer
 			id="bd1008f6-057b-4c00-8406-0c2f8e4b7578">
 			</testcontainer>
 			<testcontainer
 			id="bdd82a2f-f52b-4869-b34f-b34b446386e1">
 			</testcontainer>
 			<testcontainer
-			id="be2bc94d-f647-4b67-9fcb-2c579921644b">
+			id="bee737ec-5beb-4079-8572-b54b0406631d">
 			</testcontainer>
 			<testcontainer
 			id="c0bdcfd7-b095-4a29-bd70-ef22143f179e">
@@ -18021,37 +21399,16 @@ GLAgContractorClassCode"
 			id="c1f61baa-c930-4f95-9d51-d6c7b77b8233">
 			</testcontainer>
 			<testcontainer
-			id="c21b1c3b-7027-430b-a207-6d8e841ddcab">
-			</testcontainer>
-			<testcontainer
 			id="c39a1164-4057-4f31-a60d-5683922af5a9">
 			</testcontainer>
 			<testcontainer
 			id="c831248a-c0cb-4093-a6a8-3fa2ff69b05b">
 			</testcontainer>
 			<testcontainer
-			id="ca496252-7f22-4365-a310-34afe9e1a7f7">
-			</testcontainer>
-			<testcontainer
 			id="caef2aea-87d2-4d71-a5fd-7bd76be85abc">
 			</testcontainer>
 			<testcontainer
-			id="ce5c78d5-0679-4291-8f9a-221790eb4206">
-			</testcontainer>
-			<testcontainer
-			id="cf5a3078-8f03-49d9-87ff-2607821dfd9d">
-			</testcontainer>
-			<testcontainer
-			id="cfd5faab-360b-40e5-ad5a-64db5a147bbb">
-			</testcontainer>
-			<testcontainer
 			id="cfde0838-8474-44f9-87c6-298dead8f68b">
-			</testcontainer>
-			<testcontainer
-			id="d0ae6260-432d-4228-af7e-66f72149676a">
-			</testcontainer>
-			<testcontainer
-			id="d11631b9-453f-4a81-ab55-44be774fab4a">
 			</testcontainer>
 			<testcontainer
 			id="d2a37699-8ef4-4698-aae5-0a3a42f8a657">
@@ -18063,19 +21420,7 @@ GLAgContractorClassCode"
 			id="d83a2481-6e88-4de9-86e1-3591cf252087">
 			</testcontainer>
 			<testcontainer
-			id="d90be679-175d-461d-a234-5181c44e729f">
-			</testcontainer>
-			<testcontainer
-			id="d96d3ee7-89d4-47b6-9cbf-dddd0bf63f12">
-			</testcontainer>
-			<testcontainer
-			id="da8263b4-87b7-45a9-bb38-0f9215e4f1b0">
-			</testcontainer>
-			<testcontainer
 			id="db094891-81ca-47f5-a375-583ad502fc27">
-			</testcontainer>
-			<testcontainer
-			id="dcb79dde-7021-48da-a6b4-cb3dd36b6818">
 			</testcontainer>
 			<testcontainer
 			id="de66705c-d99c-4293-b64c-5d8e5f86b7e4">
@@ -18085,9 +21430,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="e56db3a3-6f24-4450-a91d-f80760117dda">
-			</testcontainer>
-			<testcontainer
-			id="e7b4806a-2e0b-4acc-8446-7cafe93b4286">
 			</testcontainer>
 			<testcontainer
 			id="e7dd1a5a-773b-4708-b528-3e3942d8e1dc">
@@ -18100,9 +21442,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="eba62603-387a-45b9-9e74-9fbf8470d74e">
-			</testcontainer>
-			<testcontainer
-			id="ebf76d81-0c7d-401c-bbad-11d7485776a9">
 			</testcontainer>
 			<testcontainer
 			id="ec8b1349-5fdf-462b-bf26-5ce23f83bfda">
@@ -18120,16 +21459,7 @@ GLAgContractorClassCode"
 			id="f2f59bf4-5a49-4746-85d1-98b0cf350c92">
 			</testcontainer>
 			<testcontainer
-			id="f30651ee-adba-4b19-87b7-67280766d511">
-			</testcontainer>
-			<testcontainer
-			id="f44059ef-86f1-4ab0-bf64-01e985956642">
-			</testcontainer>
-			<testcontainer
-			id="f7ea6f77-f0ab-4271-aa45-6dd332911642">
-			</testcontainer>
-			<testcontainer
-			id="fdd5f25f-5b7d-4d2e-9712-a157e153eb02">
+			id="f5b6797a-60a0-414e-adc1-d149beb88867">
 			</testcontainer>
 			<testcontainer
 			id="fff3df60-a0fd-4397-a647-3901295445ee">
@@ -18156,10 +21486,16 @@ GLAgContractorClassCode"
 			id="2243c2d5-3812-474c-bf50-3ee978b5afe6">
 			</testcontainer>
 			<testcontainer
+			id="264bab82-c983-4490-9cf7-1128fd011cff">
+			</testcontainer>
+			<testcontainer
 			id="28cc500c-86e0-42a5-9c1b-171d2ae8b790">
 			</testcontainer>
 			<testcontainer
 			id="309fc304-433d-4006-b60e-62c877aa8bc1">
+			</testcontainer>
+			<testcontainer
+			id="38b964b7-2033-4166-8cfd-d05b7de2d951">
 			</testcontainer>
 			<testcontainer
 			id="3c4a9d47-e0be-4970-9ce9-8c5e0786be1d">
@@ -18210,6 +21546,9 @@ GLAgContractorClassCode"
 			id="a716babb-4e0b-4aeb-bd87-60f81a864788">
 			</testcontainer>
 			<testcontainer
+			id="a7b6f0ec-bc3b-4ef2-85d7-f8db506454cc">
+			</testcontainer>
+			<testcontainer
 			id="ab4dd3ec-c717-4826-b495-238e5ec1e735">
 			</testcontainer>
 			<testcontainer
@@ -18243,16 +21582,10 @@ GLAgContractorClassCode"
 			id="01d4591d-1b52-4eca-837f-456ac57ad117">
 			</testcontainer>
 			<testcontainer
-			id="04eb7ec3-0170-4540-b272-e4314989d1ae">
-			</testcontainer>
-			<testcontainer
 			id="08809fbf-7def-4e7e-80d8-2c396c81b288">
 			</testcontainer>
 			<testcontainer
 			id="0e5f657e-6d63-4f19-9212-a2c11f323e38">
-			</testcontainer>
-			<testcontainer
-			id="101d48ba-3824-4893-b304-cd6af0f7b90b">
 			</testcontainer>
 			<testcontainer
 			id="12508e5c-3ace-4ac4-a6df-5a92104aa79b">
@@ -18261,19 +21594,7 @@ GLAgContractorClassCode"
 			id="1532c631-81ca-4fe7-9391-578a3076cb2d">
 			</testcontainer>
 			<testcontainer
-			id="15bd6733-78e0-4d72-8c27-1e84c0909865">
-			</testcontainer>
-			<testcontainer
-			id="16743ae6-448b-44ff-9ed8-000e1c560ea5">
-			</testcontainer>
-			<testcontainer
 			id="1738e441-ee83-480c-9bf1-95bf27f5dc31">
-			</testcontainer>
-			<testcontainer
-			id="19985502-a40c-4406-81e4-d0594223807d">
-			</testcontainer>
-			<testcontainer
-			id="1a0fd212-f3e6-4314-a4ed-f79e7388e052">
 			</testcontainer>
 			<testcontainer
 			id="1a9f6b2a-c284-4df2-a643-f765ab3d3634">
@@ -18285,25 +21606,7 @@ GLAgContractorClassCode"
 			id="2579757a-5b82-49ac-b16e-cdf22086856a">
 			</testcontainer>
 			<testcontainer
-			id="27e43d27-ef8d-45c2-987b-7e7bcdddece9">
-			</testcontainer>
-			<testcontainer
-			id="27f9d607-97ac-4ef4-b877-e6e3053fd9e6">
-			</testcontainer>
-			<testcontainer
-			id="2b3fab88-369b-4486-b448-132f0957ef71">
-			</testcontainer>
-			<testcontainer
-			id="2b632e39-3e04-44ad-85a7-2a710e7277a2">
-			</testcontainer>
-			<testcontainer
 			id="2e09d52b-b4ac-4fc7-9b5c-9bede54746c9">
-			</testcontainer>
-			<testcontainer
-			id="31e3ddfb-c88f-4fb8-82f0-c8db64221b86">
-			</testcontainer>
-			<testcontainer
-			id="337e7961-013a-4502-a3cd-317cd4b2e24b">
 			</testcontainer>
 			<testcontainer
 			id="3668b13d-37ad-4a59-ad2b-4ded88105145">
@@ -18315,22 +21618,7 @@ GLAgContractorClassCode"
 			id="38e5eadd-faa9-4760-a799-196d8a8c95b8">
 			</testcontainer>
 			<testcontainer
-			id="3c86bf0e-699e-496e-9f9c-10b3de4ffd9e">
-			</testcontainer>
-			<testcontainer
-			id="3e0fc3b5-cdb1-4a37-b61c-34b82ddcb518">
-			</testcontainer>
-			<testcontainer
 			id="41c872f6-73a8-4e79-bf51-8d6ce126d3f5">
-			</testcontainer>
-			<testcontainer
-			id="42939cf8-3085-40b6-874e-c0c01c1c9cc4">
-			</testcontainer>
-			<testcontainer
-			id="440cacd3-015e-433a-989e-fc84b64def54">
-			</testcontainer>
-			<testcontainer
-			id="457c3d09-0247-4e32-a83f-77becf81a49c">
 			</testcontainer>
 			<testcontainer
 			id="46637b31-df82-4eef-a95f-763ea97e2b52">
@@ -18357,16 +21645,7 @@ GLAgContractorClassCode"
 			id="5d500756-359e-4233-9dcc-48132c6328ff">
 			</testcontainer>
 			<testcontainer
-			id="5ffa164b-3560-43f7-9031-d4895ba20bff">
-			</testcontainer>
-			<testcontainer
 			id="61318a65-ddaa-428f-ba94-c01ecdd5754f">
-			</testcontainer>
-			<testcontainer
-			id="61c6db4f-d5e5-40bc-9e12-160a27ae9f68">
-			</testcontainer>
-			<testcontainer
-			id="62fc0739-09bb-492d-8651-158abdf1033f">
 			</testcontainer>
 			<testcontainer
 			id="6327ab13-19e7-4d9d-90ae-d70912e457ee">
@@ -18375,31 +21654,16 @@ GLAgContractorClassCode"
 			id="673a372f-8f6e-4219-873f-1d7adbb8055c">
 			</testcontainer>
 			<testcontainer
-			id="6794db98-bd15-40f3-a641-17bb4b554ab3">
-			</testcontainer>
-			<testcontainer
 			id="69312b7e-1a16-461a-95cc-5ac7faebce90">
 			</testcontainer>
 			<testcontainer
-			id="69e400e0-4ffd-470f-9af0-17f15a0fe9c5">
-			</testcontainer>
-			<testcontainer
-			id="72b303c7-29e2-44e7-a26e-819a907139c0">
-			</testcontainer>
-			<testcontainer
-			id="72e65617-f3ee-4765-a261-6398c04e2922">
+			id="6cfa808d-ef7d-4564-8b97-beaca831ff30">
 			</testcontainer>
 			<testcontainer
 			id="73a742e6-c43d-4d05-b960-792767cab549">
 			</testcontainer>
 			<testcontainer
-			id="75d46d9e-233e-46ca-bd38-b32aff63e807">
-			</testcontainer>
-			<testcontainer
 			id="7bea7101-e494-4b47-adbb-e96623eafe2b">
-			</testcontainer>
-			<testcontainer
-			id="7c017fea-9967-4e9d-a78d-2fdda54c8104">
 			</testcontainer>
 			<testcontainer
 			id="7f7902ee-a78b-4555-af3e-792e4c3763b7">
@@ -18408,16 +21672,7 @@ GLAgContractorClassCode"
 			id="7ff6f1aa-4eb3-4183-85e9-c0d7d001ce77">
 			</testcontainer>
 			<testcontainer
-			id="815b2f7c-c5bb-4b9b-b14b-3d48ca0b7354">
-			</testcontainer>
-			<testcontainer
-			id="816c5fb2-b509-4f37-80b7-7353beaa721e">
-			</testcontainer>
-			<testcontainer
-			id="816f5098-ac27-4c9d-8ecb-e6d88a1698bc">
-			</testcontainer>
-			<testcontainer
-			id="81af4c2f-b6fc-4d9d-ba52-a1f373083fb5">
+			id="8247300f-16c5-431e-a619-ecfa8dcb81ff">
 			</testcontainer>
 			<testcontainer
 			id="828e8f74-e6fe-4c7f-8aa1-0d913100b47e">
@@ -18429,22 +21684,7 @@ GLAgContractorClassCode"
 			id="8868c48b-eefa-468f-b16f-14952cffde3a">
 			</testcontainer>
 			<testcontainer
-			id="8de9f2a6-b787-4a22-8cfb-0ef86ebeee5f">
-			</testcontainer>
-			<testcontainer
 			id="8e90122d-8ca4-4149-bd91-bda7806500c5">
-			</testcontainer>
-			<testcontainer
-			id="91378236-1f97-4f06-9a00-1cc6725d56ba">
-			</testcontainer>
-			<testcontainer
-			id="9667d757-f103-4293-b7ee-5e55f813f20d">
-			</testcontainer>
-			<testcontainer
-			id="9676bb9a-7ce3-4520-ac00-9a5b69d0d350">
-			</testcontainer>
-			<testcontainer
-			id="96e49d55-27f1-4f56-846f-6af667ba2683">
 			</testcontainer>
 			<testcontainer
 			id="977e70ed-cb8a-4935-a224-cd8e88a00b60">
@@ -18454,9 +21694,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="9b5aa190-bfea-4021-bf17-616e6b2e8e46">
-			</testcontainer>
-			<testcontainer
-			id="9c2f24c2-097e-4abb-aaea-77cf841b25de">
 			</testcontainer>
 			<testcontainer
 			id="9cf12f71-0a1c-4bbc-bb63-882cc8d623d9">
@@ -18472,12 +21709,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="a3b21af7-cc7f-4f92-a695-09d104307336">
-			</testcontainer>
-			<testcontainer
-			id="a515ea26-b6f9-4b54-9602-18815a33d59b">
-			</testcontainer>
-			<testcontainer
-			id="a83860fc-1992-4e1c-afde-998dff4e0802">
 			</testcontainer>
 			<testcontainer
 			id="aaac4c0d-bdc8-43cd-8cab-89cabbb15358">
@@ -18498,9 +21729,6 @@ GLAgContractorClassCode"
 			id="b790cc9c-4e58-4555-af37-e6a26d016753">
 			</testcontainer>
 			<testcontainer
-			id="ba217059-d2b2-410d-82d1-8fed6b910570">
-			</testcontainer>
-			<testcontainer
 			id="bc1b58ab-80c7-46de-a41a-2aa9dc39d576">
 			</testcontainer>
 			<testcontainer
@@ -18508,15 +21736,6 @@ GLAgContractorClassCode"
 			</testcontainer>
 			<testcontainer
 			id="c105b678-71a5-4ccb-a5a3-3ab6a71220eb">
-			</testcontainer>
-			<testcontainer
-			id="c1903d28-751c-4975-a9bb-3d107158418d">
-			</testcontainer>
-			<testcontainer
-			id="c73da877-602b-45dc-9189-727ae8f67d33">
-			</testcontainer>
-			<testcontainer
-			id="c7755c0f-7a92-413e-a5d7-d5ac01054017">
 			</testcontainer>
 			<testcontainer
 			id="c818cba2-a03e-4fc3-a3bc-054af124cc1e">
@@ -18528,13 +21747,7 @@ GLAgContractorClassCode"
 			id="caef2aea-87d2-4d71-a5fd-7bd76be85abc">
 			</testcontainer>
 			<testcontainer
-			id="cea29702-5e11-42be-af8c-5f56ab047ddf">
-			</testcontainer>
-			<testcontainer
-			id="d019feb4-7f8c-4799-970d-253235d6950c">
-			</testcontainer>
-			<testcontainer
-			id="d01dbfa6-8ab2-4b82-9d10-116106479434">
+			id="da6809b0-8377-40f0-b490-d844cd535388">
 			</testcontainer>
 			<testcontainer
 			id="e30fb62d-5ec1-4522-91d5-2c5fcae0b03b">
@@ -18546,19 +21759,10 @@ GLAgContractorClassCode"
 			id="e3e65bfd-70af-424b-a67d-131e70979695">
 			</testcontainer>
 			<testcontainer
-			id="e4393ea3-68b2-4384-9755-7f553f2a9ea7">
-			</testcontainer>
-			<testcontainer
 			id="e84ce246-1216-4215-ab87-6f41a905299d">
 			</testcontainer>
 			<testcontainer
-			id="eb7d65c5-df32-4e73-a953-91bfef29c1c8">
-			</testcontainer>
-			<testcontainer
 			id="eeccef21-5263-4106-9923-30567e3c53df">
-			</testcontainer>
-			<testcontainer
-			id="ef1eff40-8ca9-4a78-ac38-b259a00be65d">
 			</testcontainer>
 			<testcontainer
 			id="efeae0c2-84b6-4ff6-9312-8ff58cc60c5c">

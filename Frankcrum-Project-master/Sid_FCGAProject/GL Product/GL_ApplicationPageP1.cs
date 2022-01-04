@@ -60,6 +60,7 @@ namespace Sid_FCGAProject.GL_Product
             GL_ExpirationDate = "08/03/2021";
             GL_InsuranceCarrier = "OK";
             GL_GeneralRemark = "OK";
+            FullAddress = "";
         }
 
         /// <summary>
@@ -300,6 +301,18 @@ namespace Sid_FCGAProject.GL_Product
             set { _GL_GeneralRemark = value; }
         }
 
+        string _FullAddress;
+
+        /// <summary>
+        /// Gets or sets the value of variable FullAddress.
+        /// </summary>
+        [TestVariable("06a7825d-3f4f-42fe-aa17-532e6b9fcc4d")]
+        public string FullAddress
+        {
+            get { return _FullAddress; }
+            set { _FullAddress = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -330,188 +343,193 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.Select2DdlBusinessTypeContainer.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(1));
+            FullAddress = FullAddress1(GL_Address1, GL_Address2, GL_City, GL_Zipcode);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.Search.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_BusinessType' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_BusinessType' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.Search.PressKeys(GL_BusinessType);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(4));
             repo.ApplicationUnderTest.Search.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtInspectionContact' at 45;21.", repo.ApplicationUnderTest.TxtInspectionContactInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtInspectionContact' at 45;21.", repo.ApplicationUnderTest.TxtInspectionContactInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.TxtInspectionContact.Click("45;21");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_InspectionOfficer' with focus on 'ApplicationUnderTest.TxtInspectionContact'.", repo.ApplicationUnderTest.TxtInspectionContactInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_InspectionOfficer' with focus on 'ApplicationUnderTest.TxtInspectionContact'.", repo.ApplicationUnderTest.TxtInspectionContactInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.TxtInspectionContact.PressKeys(GL_InspectionOfficer);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1' at 135;14.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1Info, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1' at 135;14.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1Info, new RecordItemIndex(7));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1.Click("135;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Address1' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1Info, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Address1' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1Info, new RecordItemIndex(8));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress1.PressKeys(GL_Address1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2' at 34;13.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2Info, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2' at 34;13.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2Info, new RecordItemIndex(9));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2.Click("34;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Address2' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2Info, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Address2' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2Info, new RecordItemIndex(10));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtLocationAddress2.PressKeys(GL_Address2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtLocationCity' at Center.", repo.ApplicationUnderTest.TxtLocationCityInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtLocationCity' at Center.", repo.ApplicationUnderTest.TxtLocationCityInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.TxtLocationCity.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_City' with focus on 'ApplicationUnderTest.TxtLocationCity'.", repo.ApplicationUnderTest.TxtLocationCityInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_City' with focus on 'ApplicationUnderTest.TxtLocationCity'.", repo.ApplicationUnderTest.TxtLocationCityInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.TxtLocationCity.PressKeys(GL_City);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtLocationZipCode' at Center.", repo.ApplicationUnderTest.TxtLocationZipCodeInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtLocationZipCode' at Center.", repo.ApplicationUnderTest.TxtLocationZipCodeInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.TxtLocationZipCode.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Zipcode' with focus on 'ApplicationUnderTest.TxtLocationZipCode'.", repo.ApplicationUnderTest.TxtLocationZipCodeInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Zipcode' with focus on 'ApplicationUnderTest.TxtLocationZipCode'.", repo.ApplicationUnderTest.TxtLocationZipCodeInfo, new RecordItemIndex(14));
             repo.ApplicationUnderTest.TxtLocationZipCode.PressKeys(GL_Zipcode);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UseAsIs' at Center.", repo.ApplicationUnderTest.UseAsIsInfo, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.UseAsIs.Click();
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(15));
+            Delay.Duration(3000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.UseAsIs' at Center.", repo.ApplicationUnderTest.MainContentHolder.UseAsIsInfo, new RecordItemIndex(16));
+            repo.ApplicationUnderTest.MainContentHolder.UseAsIs.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessPhone' at 161;15.", repo.ApplicationUnderTest.TxtBusinessPhoneInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessPhone' at 161;15.", repo.ApplicationUnderTest.TxtBusinessPhoneInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.TxtBusinessPhone.Click("161;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Business_PhoneNo' with focus on 'ApplicationUnderTest.TxtBusinessPhone'.", repo.ApplicationUnderTest.TxtBusinessPhoneInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Business_PhoneNo' with focus on 'ApplicationUnderTest.TxtBusinessPhone'.", repo.ApplicationUnderTest.TxtBusinessPhoneInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.TxtBusinessPhone.PressKeys(GL_Business_PhoneNo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessFax' at Center.", repo.ApplicationUnderTest.TxtBusinessFaxInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessFax' at Center.", repo.ApplicationUnderTest.TxtBusinessFaxInfo, new RecordItemIndex(19));
             repo.ApplicationUnderTest.TxtBusinessFax.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_BusinessFax' with focus on 'ApplicationUnderTest.TxtBusinessFax'.", repo.ApplicationUnderTest.TxtBusinessFaxInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_BusinessFax' with focus on 'ApplicationUnderTest.TxtBusinessFax'.", repo.ApplicationUnderTest.TxtBusinessFaxInfo, new RecordItemIndex(20));
             repo.ApplicationUnderTest.TxtBusinessFax.PressKeys(GL_BusinessFax);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessEmail' at Center.", repo.ApplicationUnderTest.TxtBusinessEmailInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessEmail' at Center.", repo.ApplicationUnderTest.TxtBusinessEmailInfo, new RecordItemIndex(21));
             repo.ApplicationUnderTest.TxtBusinessEmail.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_BusinessEmail' with focus on 'ApplicationUnderTest.TxtBusinessEmail'.", repo.ApplicationUnderTest.TxtBusinessEmailInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_BusinessEmail' with focus on 'ApplicationUnderTest.TxtBusinessEmail'.", repo.ApplicationUnderTest.TxtBusinessEmailInfo, new RecordItemIndex(22));
             repo.ApplicationUnderTest.TxtBusinessEmail.PressKeys(GL_BusinessEmail);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessWebAddress' at Center.", repo.ApplicationUnderTest.TxtBusinessWebAddressInfo, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtBusinessWebAddress' at Center.", repo.ApplicationUnderTest.TxtBusinessWebAddressInfo, new RecordItemIndex(23));
             repo.ApplicationUnderTest.TxtBusinessWebAddress.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Business_Web_Add' with focus on 'ApplicationUnderTest.TxtBusinessWebAddress'.", repo.ApplicationUnderTest.TxtBusinessWebAddressInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_Business_Web_Add' with focus on 'ApplicationUnderTest.TxtBusinessWebAddress'.", repo.ApplicationUnderTest.TxtBusinessWebAddressInfo, new RecordItemIndex(24));
             repo.ApplicationUnderTest.TxtBusinessWebAddress.PressKeys(GL_Business_Web_Add);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSN' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSNInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSN' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSNInfo, new RecordItemIndex(25));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSN.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_FEINNo' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSN'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSNInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_FEINNo' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSN'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSNInfo, new RecordItemIndex(26));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtBusinessFEINSSN.PressKeys(GL_FEINNo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.ChkSameAddress' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.ChkSameAddressInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.ChkSameAddress' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.ChkSameAddressInfo, new RecordItemIndex(27));
             repo.ApplicationUnderTest.BgGrey2CardBody.ChkSameAddress.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.ChkSameAddress' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.ChkSameAddressInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.ChkSameAddress' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.ChkSameAddressInfo, new RecordItemIndex(28));
             repo.ApplicationUnderTest.BgGrey2CardBody.ChkSameAddress.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1Info, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1Info, new RecordItemIndex(29));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingAddress1' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1Info, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingAddress1' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1Info, new RecordItemIndex(30));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress1.EnsureVisible();
             Keyboard.Press(GL_MailingAddress1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2Info, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2' at Center.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2Info, new RecordItemIndex(31));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingAddress2' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2Info, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingAddress2' with focus on 'ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2'.", repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2Info, new RecordItemIndex(32));
             repo.ApplicationUnderTest.BgGrey2CardBody.TxtMailingAddress2.PressKeys(GL_MailingAddress2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtMailingCity' at Center.", repo.ApplicationUnderTest.TxtMailingCityInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtMailingCity' at Center.", repo.ApplicationUnderTest.TxtMailingCityInfo, new RecordItemIndex(33));
             repo.ApplicationUnderTest.TxtMailingCity.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_CityName' with focus on 'ApplicationUnderTest.TxtMailingCity'.", repo.ApplicationUnderTest.TxtMailingCityInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_CityName' with focus on 'ApplicationUnderTest.TxtMailingCity'.", repo.ApplicationUnderTest.TxtMailingCityInfo, new RecordItemIndex(34));
             repo.ApplicationUnderTest.TxtMailingCity.PressKeys(GL_CityName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtMailingZipCode' at Center.", repo.ApplicationUnderTest.TxtMailingZipCodeInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtMailingZipCode' at Center.", repo.ApplicationUnderTest.TxtMailingZipCodeInfo, new RecordItemIndex(35));
             repo.ApplicationUnderTest.TxtMailingZipCode.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingZipcode' with focus on 'ApplicationUnderTest.TxtMailingZipCode'.", repo.ApplicationUnderTest.TxtMailingZipCodeInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingZipcode' with focus on 'ApplicationUnderTest.TxtMailingZipCode'.", repo.ApplicationUnderTest.TxtMailingZipCodeInfo, new RecordItemIndex(36));
             repo.ApplicationUnderTest.TxtMailingZipCode.PressKeys(GL_MailingZipcode);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectMailingState' at 103;21.", repo.ApplicationUnderTest.SelectMailingStateInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectMailingState' at 103;21.", repo.ApplicationUnderTest.SelectMailingStateInfo, new RecordItemIndex(37));
             repo.ApplicationUnderTest.SelectMailingState.Click("103;21");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at 90;13.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at 90;13.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(38));
             repo.ApplicationUnderTest.Search.Click("90;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingStateName' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_MailingStateName' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(39));
             repo.ApplicationUnderTest.Search.PressKeys(GL_MailingStateName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(40));
             repo.ApplicationUnderTest.Search.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectMailingStateName' at Center.", repo.ApplicationUnderTest.SelectMailingStateNameInfo, new RecordItemIndex(39));
-            //repo.ApplicationUnderTest.SelectMailingStateName.Click();
-            //Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(41));
+            Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UseAsIs' at Center.", repo.ApplicationUnderTest.UseAsIsInfo, new RecordItemIndex(40));
-            repo.ApplicationUnderTest.UseAsIs.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.UseAsIs' at Center.", repo.ApplicationUnderTest.MainContentHolder.UseAsIsInfo, new RecordItemIndex(42));
+            repo.ApplicationUnderTest.MainContentHolder.UseAsIs.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtExpirationDate' at Center.", repo.ApplicationUnderTest.TxtExpirationDateInfo, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtExpirationDate' at Center.", repo.ApplicationUnderTest.TxtExpirationDateInfo, new RecordItemIndex(43));
             repo.ApplicationUnderTest.TxtExpirationDate.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_ExpirationDate' with focus on 'ApplicationUnderTest.TxtExpirationDate'.", repo.ApplicationUnderTest.TxtExpirationDateInfo, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_ExpirationDate' with focus on 'ApplicationUnderTest.TxtExpirationDate'.", repo.ApplicationUnderTest.TxtExpirationDateInfo, new RecordItemIndex(44));
             repo.ApplicationUnderTest.TxtExpirationDate.PressKeys(GL_ExpirationDate);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtInsuranceCarrier' at 29;9.", repo.ApplicationUnderTest.TxtInsuranceCarrierInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtInsuranceCarrier' at 29;9.", repo.ApplicationUnderTest.TxtInsuranceCarrierInfo, new RecordItemIndex(45));
             repo.ApplicationUnderTest.TxtInsuranceCarrier.Click("29;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_InsuranceCarrier' with focus on 'ApplicationUnderTest.TxtInsuranceCarrier'.", repo.ApplicationUnderTest.TxtInsuranceCarrierInfo, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_InsuranceCarrier' with focus on 'ApplicationUnderTest.TxtInsuranceCarrier'.", repo.ApplicationUnderTest.TxtInsuranceCarrierInfo, new RecordItemIndex(46));
             repo.ApplicationUnderTest.TxtInsuranceCarrier.PressKeys(GL_InsuranceCarrier);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtGeneralRemarks' at 178;26.", repo.ApplicationUnderTest.TxtGeneralRemarksInfo, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtGeneralRemarks' at 178;26.", repo.ApplicationUnderTest.TxtGeneralRemarksInfo, new RecordItemIndex(47));
             repo.ApplicationUnderTest.TxtGeneralRemarks.Click("178;26");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_GeneralRemark' with focus on 'ApplicationUnderTest.TxtGeneralRemarks'.", repo.ApplicationUnderTest.TxtGeneralRemarksInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_GeneralRemark' with focus on 'ApplicationUnderTest.TxtGeneralRemarks'.", repo.ApplicationUnderTest.TxtGeneralRemarksInfo, new RecordItemIndex(48));
             repo.ApplicationUnderTest.TxtGeneralRemarks.PressKeys(GL_GeneralRemark);
             Delay.Milliseconds(0);
             

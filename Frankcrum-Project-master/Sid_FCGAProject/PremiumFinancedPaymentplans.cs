@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public PremiumFinancedPaymentplans()
         {
+            Status_Reason = "Premium Financed Payment Plan";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("c5543050-14c9-4ab6-b3da-3be76693516b")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.LabletxtRadioPremiumFinance' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioPremiumFinanceInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioPremiumFinance.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.Payment_Info_PremiumFinanced' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_PremiumFinancedInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_PremiumFinanced.Click();
             Delay.Milliseconds(0);
             
         }

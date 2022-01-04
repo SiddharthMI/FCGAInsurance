@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.Common
         /// </summary>
         public BacktoRecordScreen()
         {
+            Status_Reason = "Agent Record Screen";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.Common
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("9a598bd9-98f5-49df-baea-76306f0fcf3f")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -83,11 +96,14 @@ namespace Sid_FCGAProject.Common
             repo.ApplicationUnderTest.BtnBackRef.Click();
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'ApplicationUnderTest.BtnBackRef'", repo.ApplicationUnderTest.BtnBackRefInfo, new ActionTimeout(10000), new RecordItemIndex(1));
-            //repo.ApplicationUnderTest.BtnBackRefInfo.WaitForNotExists(10000);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(1));
+            //Delay.Duration(15000, false);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(2));
-            Delay.Duration(15000, false);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.TxtSearch1'", repo.ApplicationUnderTest.TxtSearch1Info, new ActionTimeout(15000), new RecordItemIndex(2));
+            repo.ApplicationUnderTest.TxtSearch1Info.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
+            Delay.Duration(5000, false);
             
         }
 

@@ -29,7 +29,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -216,7 +216,7 @@ UUUAFFFFABTD1NPph6mgAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -227,7 +227,7 @@ UUUAFFFFABTD1NPph6mgAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"

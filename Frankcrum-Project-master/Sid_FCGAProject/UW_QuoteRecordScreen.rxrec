@@ -26,7 +26,16 @@ mode="Global">
 		<var
 		id="dfb35b8d-8fb8-40ad-8821-67555a2a5bed"
 		name="UW_InsuredName">
-			Autmfcga-222Sid
+			AUTM FCGA - 857590516
+		</var>
+		<var
+		id="627d4f41-f82c-461f-88e6-86596407a240"
+		name="ProductLob">
+		</var>
+		<var
+		id="7f48f25d-2467-4506-9cd9-4cdf181e59c3"
+		name="Status_Reason">
+			UW Record Screen
 		</var>
 	</variables>
 	<recorditems>
@@ -667,7 +676,7 @@ MyJYFBByeKlooq4wjD4UJtvcKKKKsR//2Q==
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="CenterLeft"
+		loc="LowerRight"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="9ea08672-a0c1-40ca-ac9b-6ccb7c8aa400"
@@ -786,6 +795,72 @@ KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="15000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<userrecorditem
+		classname="UW_QuoteRecordScreen"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="MergedUserCodeMethod"
+		namespace="Sid_FCGAProject"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="4b9e63b0-505e-4959-bbf1-a0be0b914503">
+				<argument
+				argname="buttontagInfo"
+				id="d2e4ee1e-3d82-4e31-a71c-ae421bd4d105">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="91d1b3f4-fffe-4a9f-84da-bf34f1fbbbb9"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain&lt;'fwcins.com']//button[#'GLEditQuote']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="buttontagInfo1"
+				id="4bb6952e-7172-49b4-ba35-9c0087949fc3">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="3911deff-d377-4ac5-9d10-31646c8aa085"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain&lt;'fwcins.com']//button[#'WCEditQuote']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="lob"
+				id="3b3d96c8-0eaf-46c4-b5e0-2984d136b47a"
+				variable="ProductLob">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

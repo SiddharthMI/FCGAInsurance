@@ -33,6 +33,11 @@ mode="Global">
 		name="SubcontractTypeWork">
 			YES
 		</var>
+		<var
+		id="abc4c38e-c6a4-431d-b86d-5177e7e72cc8"
+		name="Status_Reason">
+			Agent Insured Subcontractor
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

@@ -49,6 +49,15 @@ mode="Global">
 				</path>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

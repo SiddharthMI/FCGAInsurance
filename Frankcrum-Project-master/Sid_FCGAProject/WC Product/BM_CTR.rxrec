@@ -28,6 +28,11 @@ mode="Global">
 		name="BM_CTR1">
 			1.71
 		</var>
+		<var
+		id="fdbf7da5-101b-41c3-bc51-d37a1ef794ae"
+		name="Status_Reason">
+			BM CTR
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -147,11 +152,34 @@ i0UUAH2h/RaPtD+i0UUAH2h/RaPtD+i0UUAH2h/RaPtD+i0UUAH2h/RaPtD+i0UUAH2h/RaPtD+i
 0UUAH2h/RaPtD+i0UUAH2h/RaPtD+i0UUAH2h/RakhkMhOQOPSiigCRun4iloooAKKKKAP/Z
 			</helperscreenshot>
 		</mouseitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2bb97384-3cd0-46f0-9841-f533ca508206">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="BM_CTR1">
+				</binding>
+			</bindings>
+			<info
+			id="88141ab3-5439-4fd4-8348-8c4e8f8372f6"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//tr[#'trCTRBody']/td[2]/div[2]/?/?/input[@name='txtsearch']
+				</path>
+			</info>
+			<AttributeValue>
+			</AttributeValue>
+		</setvaluerecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="CenterLeft"
 		movetime="300ms"
 		optional="False"
@@ -338,7 +366,7 @@ QAUUUUAFFFFABRRRQAUUUUAFFFFABSL0/E0UUALRRRQB/9k=
 		<keysequenceitem
 		KeySequence="1.71"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="e477c667-554a-45f7-8646-93b46f8a14a1">

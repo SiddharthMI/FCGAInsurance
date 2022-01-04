@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.Common">
 	</codegen>
 	<variables>
+		<var
+		id="9b76faa5-390c-4d59-83d4-365718b8228a"
+		name="Status_Reason">
+			Agent SignOut
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

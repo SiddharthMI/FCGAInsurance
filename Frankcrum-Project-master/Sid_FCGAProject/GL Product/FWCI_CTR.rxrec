@@ -28,6 +28,11 @@ mode="Global">
 		name="FWCI_CTR1">
 			1.67
 		</var>
+		<var
+		id="7bbf3576-999a-47bf-b407-19b4f8f243ce"
+		name="Status_Reason">
+			UW FWCI CTR
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -148,11 +153,34 @@ R9of0WiigA+0P6LR9of0WiigA+0P6LR9of0WiigA+0P6LR9of0WiigA+0P6LU0Ll1JOPwoooAceq
 /WopZWR8ACiigBn2h/RaPtD+i0UUAf/Z
 			</helperscreenshot>
 		</mouseitem>
+		<setvaluerecorditem
+		attrname="Value"
+		enabled="True"
+		optional="False"
+		searchpropertyid="59b172ec-4584-44a8-b7ab-a78bf9aa62d9">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="FWCI_CTR1">
+				</binding>
+			</bindings>
+			<info
+			id="0dc42340-10d4-4a5b-a3d7-675007101ca9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//tr[#'trCTRBody']/td[1]/div[2]/?/?/input[@name='txtsearch']
+				</path>
+			</info>
+			<AttributeValue>
+			</AttributeValue>
+		</setvaluerecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -338,7 +366,7 @@ CiiigAooooAKKKKACiiigAooooAKRfuD6UUUALRRRQB//9k=
 		<keysequenceitem
 		KeySequence="1.67"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="0ffc70d7-3353-4146-9acd-e8f788846236">

@@ -33,5 +33,12 @@ namespace Sid_FCGAProject.GL_Product
             // Your recording specific initialization code goes here.
         }
 
+        public string FullAddress1(string argument1, string argument2, string argument3, string argument4)
+        {
+        	string FAddress =argument1+","+argument2+","+argument3+","+argument4;
+            //Report.Log(ReportLevel.Info, "User", $Address);
+            return FAddress;
+        }
+
     }
 }

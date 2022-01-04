@@ -28,6 +28,11 @@ mode="Global">
 		name="UW_ExpMod">
 			0.89
 		</var>
+		<var
+		id="d0c9821a-d484-44f8-a231-c8c13517a4ea"
+		name="Status_Reason">
+			Modify Experience Mod
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

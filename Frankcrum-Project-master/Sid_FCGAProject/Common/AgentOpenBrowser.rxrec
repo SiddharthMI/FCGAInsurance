@@ -25,8 +25,13 @@ mode="Desktop">
 	<variables>
 		<var
 		id="736de7c1-3a67-423c-85ff-9552e5e23f05"
-		name="QA_Agent_Env">
+		name="Agent_Url">
 			https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html
+		</var>
+		<var
+		id="38513c92-aa2e-49f3-972d-0d2a37602200"
+		name="Status_Reason">
+			Agent Open Browser
 		</var>
 	</variables>
 	<recorditems>
@@ -61,7 +66,7 @@ mode="Desktop">
 			<bindings>
 				<binding
 				target="Url"
-				variable="QA_Agent_Env">
+				variable="Agent_Url">
 				</binding>
 			</bindings>
 			<url>
@@ -112,6 +117,51 @@ mode="Desktop">
 							/form[@title='Restore pages?']/container[@accessiblename='']/?/?/button[@accessiblename='Close']
 						</path>
 					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="FileLibrary"
+		enabled="False"
+		isexternaltestmethod="True"
+		methodname="WriteToFile"
+		namespace="Ranorex.AutomationHelpers.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="0c209f1f-1134-412c-9297-edc207ec69c4">
+				<argument
+				argname="text"
+				id="22e99b37-d9cc-4a68-ae23-20f5a1ffbcc5"
+				variable="Status_Reason">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="filenamePrefix"
+				id="977b8760-22b6-4ac1-aad7-4dbcb0a442d1">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						StatusComment
+					</argvalue>
+				</argument>
+				<argument
+				argname="fileExtension"
+				id="eb49ac24-377d-40ca-ba34-5d4823104d0b">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						txt
+					</argvalue>
 				</argument>
 			</arguments>
 		</userrecorditem>

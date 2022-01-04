@@ -58,6 +58,11 @@ mode="Global">
 		name="UW_GrossPayment">
 			180000
 		</var>
+		<var
+		id="1762d709-0d43-49d3-924e-3e7ab34d72ea"
+		name="Status_Reason">
+			UW Include Owner and Payroll (Modify)
+		</var>
 	</variables>
 	<recorditems>
 		<setvaluerecorditem

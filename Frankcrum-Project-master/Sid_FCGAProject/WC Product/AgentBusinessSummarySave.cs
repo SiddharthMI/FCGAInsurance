@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.WC_Product
         /// </summary>
         public AgentBusinessSummarySave()
         {
+            Status_Reason = "Business Summary Save";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.WC_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("9f6dc029-c61c-413b-80bc-d71b6fbc0971")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -93,18 +106,24 @@ namespace Sid_FCGAProject.WC_Product
             //repo.ApplicationUnderTest.MainContentHolder.UseAsIs.PerformClick();
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(4));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.BtnNext'", repo.ApplicationUnderTest.BtnNextInfo, new ActionTimeout(15000), new RecordItemIndex(4));
+            repo.ApplicationUnderTest.BtnNextInfo.WaitForExists(15000);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SideClick' at 157;2230.", repo.ApplicationUnderTest.SideClickInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
+            Delay.Duration(5000, false);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(6));
+            //Delay.Duration(10000, false);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SideClick' at 157;2230.", repo.ApplicationUnderTest.SideClickInfo, new RecordItemIndex(7));
             //repo.ApplicationUnderTest.SideClick.Click("157;2230");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SideClick' at 157;2230.", repo.ApplicationUnderTest.SideClickInfo, new RecordItemIndex(6));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SideClick' at 157;2230.", repo.ApplicationUnderTest.SideClickInfo, new RecordItemIndex(8));
             //repo.ApplicationUnderTest.SideClick.Click("157;2230");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SideClick' at 1714;2164.", repo.ApplicationUnderTest.SideClickInfo, new RecordItemIndex(7));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SideClick' at 1714;2164.", repo.ApplicationUnderTest.SideClickInfo, new RecordItemIndex(9));
             //repo.ApplicationUnderTest.SideClick.Click("1714;2164");
             //Delay.Milliseconds(0);
             

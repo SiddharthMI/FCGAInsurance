@@ -102,6 +102,11 @@ mode="Global">
 		id="2a7aed4f-c8d7-42eb-ab81-05ba31dfafa3"
 		name="AddAditionalInsured">
 		</var>
+		<var
+		id="8ab91f7a-174f-45a2-8049-b378866f436d"
+		name="Status_Reason">
+			Application Page
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -10421,6 +10426,33 @@ AUUUUAFFFFABRRRQAUUUUAJS0UUAJS0UUAFJRRQAtFFFAH//2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="0f377a26-97c7-4422-b7bc-ed690127a1fa"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf250aa2-8362-48dd-8c98-d67d281c583d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='qawinston.fwcins.com']//button[#'BtnBackRef']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

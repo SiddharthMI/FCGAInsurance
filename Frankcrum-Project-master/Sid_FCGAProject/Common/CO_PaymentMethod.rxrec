@@ -28,6 +28,11 @@ mode="Global">
 		name="PaymentMethod">
 			Online Payment
 		</var>
+		<var
+		id="7691f303-d326-41e4-9d48-31b72436621b"
+		name="Status_Reason">
+			Payment Method
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -1262,6 +1267,33 @@ iigAooooA//Z
 		</mouseitem>
 		<explicitdelayitem
 		duration="20000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c34b36a9-ce3d-4fb1-8711-6edd7e63f08b"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b453ca04-37a0-40cb-ba98-ecc53d61af42"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//label[#'lblBusinessName']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

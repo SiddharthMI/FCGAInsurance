@@ -434,8 +434,8 @@ namespace Sid_FCGAProject.GL_Product
             
             Report.Log(ReportLevel.Info, "Section", "", new RecordItemIndex(40));
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(41));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(41));
+            //Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnPaymentIssue' at Center.", repo.ApplicationUnderTest.BtnPaymentIssueInfo, new RecordItemIndex(42));
             repo.ApplicationUnderTest.BtnPaymentIssue.Click();

@@ -40,6 +40,15 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -210,7 +219,7 @@ AUUUUAFFFFAH/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<getvaluerecorditem
-		attrname="TagValue"
+		attrname="InnerText"
 		enabled="True"
 		optional="False"
 		searchpropertyid="4d0d84a0-7c6b-4efb-a6e8-ed0a9fcc47b3"
@@ -424,7 +433,7 @@ FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//
 			</helperscreenshot>
 		</mouseitem>
 		<getvaluerecorditem
-		attrname="TagValue"
+		attrname="InnerText"
 		enabled="True"
 		optional="False"
 		searchpropertyid="ed477154-0b0a-4707-a9f1-14a76df23e69"
@@ -639,7 +648,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<getvaluerecorditem
-		attrname="TagValue"
+		attrname="InnerText"
 		enabled="True"
 		optional="False"
 		searchpropertyid="ed477154-0b0a-4707-a9f1-14a76df23e69"
@@ -649,45 +658,10 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 			<bindings>
 			</bindings>
 			<info
-			id="9c7bb1ee-35af-46aa-b434-5643e20629a1"
+			id="c298aa6a-4fc0-4e77-9f1f-d69121a7c9e5"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, labeltag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="2"
-				prefcap="labeltag"
-				rect="0,88,0,0"
-				role="unknown"
-				snapElem=""
-				valid="False"
-				visible="False">
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						label
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain='qawinston.fwcins.com']//label[#'lblNumber']
+					/dom[@domain&lt;'fwcins.com']//label[#'lblxsNumber']
 				</path>
 			</info>
 		</getvaluerecorditem>
@@ -695,7 +669,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -849,7 +823,7 @@ FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/
 		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -1307,7 +1281,7 @@ RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1585,6 +1559,15 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
 AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

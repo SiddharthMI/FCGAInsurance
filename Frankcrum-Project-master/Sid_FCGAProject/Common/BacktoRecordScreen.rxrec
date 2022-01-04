@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.Common">
 	</codegen>
 	<variables>
+		<var
+		id="9a598bd9-98f5-49df-baea-76306f0fcf3f"
+		name="Status_Reason">
+			Agent Record Screen
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -325,26 +330,35 @@ ikooAWikooAWikooAWikooAWikooAWikooAWikooAWikooAWikooAWikooAWikooAWikooAWikoo
 AWikooAWikooAWikooAWikooAWikooAWikooAWikooAWikooA//Z
 			</helperscreenshot>
 		</mouseitem>
-		<WaitForRecordItem
+		<explicitdelayitem
+		duration="15000ms"
 		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
 		optional="False"
-		searchpropertyid="0f377a26-97c7-4422-b7bc-ed690127a1fa"
-		waitaction="NotExists"
-		waittimeout="10000ms">
+		searchpropertyid="64f1b23f-08d4-4907-9cbe-614c9d0223c7"
+		waitaction="Exists"
+		waittimeout="15000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="bf250aa2-8362-48dd-8c98-d67d281c583d"
-			sourcename="ItemRecorderEditor">
+			id="d4fb7e05-fd06-4b21-9193-863ac7d7be65"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='qawinston.fwcins.com']//button[#'BtnBackRef']
+					/dom[@domain&lt;'fwcins.com']//input[#'txtSearch']
 				</path>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem
-		duration="15000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

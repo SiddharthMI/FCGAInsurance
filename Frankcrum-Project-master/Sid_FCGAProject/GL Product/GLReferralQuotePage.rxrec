@@ -32,7 +32,7 @@ mode="Global">
 	<recorditems>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -904,6 +904,33 @@ UUAFFFFAH//Z
 		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="be58928e-1031-4fe9-a4ee-ace64bdf91c5"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d4fb7e05-fd06-4b21-9193-863ac7d7be65"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'txtSearch']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -911,232 +938,6 @@ UUAFFFFAH//Z
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="False"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="430472bc-8289-4f15-a531-f254ca40fb8e"
-		sx="1450"
-		sy="104"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="d27378c1-b31c-4e8e-9cf0-49eebfc2c1d9"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, atag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="2"
-				prefcap="atag"
-				rect="1440,98,54,16"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="draggable"
-					type="System.String">
-						True
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						lnkSignOut
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Sign Out
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						a
-					</attribute>
-					<attribute
-					name="href"
-					type="System.String">
-						javascript:void(0)
-					</attribute>
-				</element>
-				<path>
-					/dom[@domain='qawinston.fwcins.com']//a[#'lnkSignOut']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="aa32baf2-ba00-4893-89bc-4ac9ec93c90d">
-				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
-AFFFFABTW7UUUAJRRRQAUUUUAf/Z
-			</helperscreenshot>
-		</mouseitem>
-		<explicitdelayitem
-		duration="10000ms"
-		enabled="False"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="False"
-		loc="CenterRight"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="abccd29c-e1b0-49a3-a64d-1437359ae868"
-		sx="1883"
-		sy="13"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="b9a70d2b-fa49-4344-ab62-4f5fcaeb24e2"
-			sourcename="Recorder">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="2"
-				prefcap="button"
-				rect="1862,0,58,37"
-				role="button"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						press
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						Close
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						PushButton
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable
-					</attribute>
-					<attribute
-					name="accessiblevalue"
-					type="System.String">
-					</attribute>
-				</element>
-				<path>
-					/form[@title&gt;'https://qawinston.fwcins.']/container[@accessiblename&gt;'https://qawinston.fwcins.']/container[@accessiblename='Google Chrome']//button[@accessiblename='Close']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="f5b8cbb3-7419-4b2b-9982-6e0e8053b5df">
-				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
-KACiiigAooooAKKKKAP/2Q==
-			</helperscreenshot>
-		</mouseitem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

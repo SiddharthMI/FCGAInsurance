@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public UW_EmpLiabilityLimit()
         {
             EmpliabilityValue = "$100,000/$500,000/$100,000";
+            Status_Reason = "UW Employee Liability Limit";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _EmpliabilityValue; }
             set { _EmpliabilityValue = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("1f5cc0b1-4b6f-4b95-a2c1-e2fe050be17a")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

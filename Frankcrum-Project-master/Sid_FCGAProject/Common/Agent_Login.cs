@@ -41,9 +41,10 @@ namespace Sid_FCGAProject.Common
         /// </summary>
         public Agent_Login()
         {
-            QA_Agent_Login = "FrankCrumIns";
-            QA_Agent_Pwd = "FCia2020!";
+            Agent_Login1 = "FrankCrumIns";
+            Agent_Pwd = "FCia2020!";
             AgentName = "Adam Tully";
+            Status_Reason = "Agent Login";
         }
 
         /// <summary>
@@ -56,28 +57,28 @@ namespace Sid_FCGAProject.Common
 
 #region Variables
 
-        string _QA_Agent_Login;
+        string _Agent_Login1;
 
         /// <summary>
-        /// Gets or sets the value of variable QA_Agent_Login.
+        /// Gets or sets the value of variable Agent_Login1.
         /// </summary>
         [TestVariable("f8434622-7cd3-4c6d-8ae7-29e998cf6de1")]
-        public string QA_Agent_Login
+        public string Agent_Login1
         {
-            get { return _QA_Agent_Login; }
-            set { _QA_Agent_Login = value; }
+            get { return _Agent_Login1; }
+            set { _Agent_Login1 = value; }
         }
 
-        string _QA_Agent_Pwd;
+        string _Agent_Pwd;
 
         /// <summary>
-        /// Gets or sets the value of variable QA_Agent_Pwd.
+        /// Gets or sets the value of variable Agent_Pwd.
         /// </summary>
         [TestVariable("cd435ddc-082f-4ce5-bcd5-7828864c9e58")]
-        public string QA_Agent_Pwd
+        public string Agent_Pwd
         {
-            get { return _QA_Agent_Pwd; }
-            set { _QA_Agent_Pwd = value; }
+            get { return _Agent_Pwd; }
+            set { _Agent_Pwd = value; }
         }
 
         string _AgentName;
@@ -90,6 +91,18 @@ namespace Sid_FCGAProject.Common
         {
             get { return _AgentName; }
             set { _AgentName = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("8a9ea96d-f401-488d-97ff-7519ca243bbb")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -129,8 +142,8 @@ namespace Sid_FCGAProject.Common
             repo.ApplicationUnderTest.TxtBranchId.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$QA_Agent_Login' on item 'ApplicationUnderTest.TxtBranchId'.", repo.ApplicationUnderTest.TxtBranchIdInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.TxtBranchId.Element.SetAttributeValue("Value", QA_Agent_Login);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$Agent_Login1' on item 'ApplicationUnderTest.TxtBranchId'.", repo.ApplicationUnderTest.TxtBranchIdInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.TxtBranchId.Element.SetAttributeValue("Value", Agent_Login1);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LogoPad20TextCenter' at Center.", repo.ApplicationUnderTest.LogoPad20TextCenterInfo, new RecordItemIndex(4));
@@ -145,8 +158,8 @@ namespace Sid_FCGAProject.Common
             repo.ApplicationUnderTest.TxtPassword.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$QA_Agent_Pwd' on item 'ApplicationUnderTest.TxtPassword'.", repo.ApplicationUnderTest.TxtPasswordInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.TxtPassword.Element.SetAttributeValue("Value", QA_Agent_Pwd);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$Agent_Pwd' on item 'ApplicationUnderTest.TxtPassword'.", repo.ApplicationUnderTest.TxtPasswordInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.TxtPassword.Element.SetAttributeValue("Value", Agent_Pwd);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LogoPad20TextCenter' at Center.", repo.ApplicationUnderTest.LogoPad20TextCenterInfo, new RecordItemIndex(8));
@@ -179,8 +192,11 @@ namespace Sid_FCGAProject.Common
             Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.LnkNewQuote'", repo.ApplicationUnderTest.LnkNewQuoteInfo, new ActionTimeout(15000), new RecordItemIndex(15));
             repo.ApplicationUnderTest.LnkNewQuoteInfo.WaitForExists(15000);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(16));
+            Delay.Duration(5000, false);
+            
             // Agent Record Screen
-            //Report.Log(ReportLevel.Info, "Section", "Agent Record Screen", new RecordItemIndex(16));
+            //Report.Log(ReportLevel.Info, "Section", "Agent Record Screen", new RecordItemIndex(17));
             
         }
 

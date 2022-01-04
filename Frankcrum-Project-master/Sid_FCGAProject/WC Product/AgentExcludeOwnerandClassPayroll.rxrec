@@ -43,6 +43,11 @@ mode="Global">
 		name="TxtGrossPayroll">
 			100000
 		</var>
+		<var
+		id="2b0f8c5e-07c3-4f11-8944-089231abc3c5"
+		name="StatusReason">
+			Exclude Owner and Class Payroll
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.Common
         /// </summary>
         public DownPayment15Percent_PaymentPlans()
         {
+            Status_Reason = "15% Down Payment Plan";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.Common
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("e79b3210-522c-403a-bfbb-3d1508f540f4")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject.Common
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.LabletxtRadio15down' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadio15downInfo, new RecordItemIndex(0));
-            //repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadio15down.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.Payment_Info_15down_9Inst' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_15down_9InstInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_15down_9Inst.Click();
             //Delay.Milliseconds(0);
             
         }

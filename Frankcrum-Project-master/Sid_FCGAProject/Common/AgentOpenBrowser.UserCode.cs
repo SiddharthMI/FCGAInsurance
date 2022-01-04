@@ -20,7 +20,13 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
+using FCGA_Insurance;
 
+
+namespace Sid_FCGAProject.Common
+{
+
+}
 namespace Sid_FCGAProject.Common
 {
     public partial class AgentOpenBrowser

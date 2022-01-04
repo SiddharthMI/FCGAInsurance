@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.WC_Product
         /// </summary>
         public General_Questions()
         {
+            Status_Reason = "General Question";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.WC_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("1602449f-643d-413c-b76c-5e061e09146b")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

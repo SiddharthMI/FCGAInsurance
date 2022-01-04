@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="99fe20b4-2229-4be7-8c1f-af7e04c722c7"
+		name="Status_Reason">
+			Additional Insured Submit
+		</var>
 	</variables>
 	<recorditems>
 		<separatoritem
@@ -35,7 +40,7 @@ mode="Global">
 			</bindings>
 		</separatoritem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -48,7 +53,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="48;27"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="3299c9cf-c967-4c56-9683-c249aa43c65c"
@@ -338,6 +343,24 @@ FFFFABRRRQAUUUUAFFFFABRRRQMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
 KKKACiiigAooooAKKKKAEpaKKAEpaKKACiiigAooooAKKKKAP//Z
 			</helperscreenshot>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="79cde4a6-adb5-4564-9501-4df24232d940"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0ee8bd0d-6cd7-4e9c-88c3-cbc566361720"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'BtnSave']
+				</path>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

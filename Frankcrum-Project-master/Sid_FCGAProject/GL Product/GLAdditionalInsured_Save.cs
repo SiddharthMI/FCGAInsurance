@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.GL_Product
         /// </summary>
         public GLAdditionalInsured_Save()
         {
+            Status_Reason = "Additional Insured Submit";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.GL_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("99fe20b4-2229-4be7-8c1f-af7e04c722c7")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -82,12 +95,15 @@ namespace Sid_FCGAProject.GL_Product
             // Other Additional forms available
             Report.Log(ReportLevel.Info, "Section", "Other Additional forms available", new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSaveandContinue' at 48;27.", repo.ApplicationUnderTest.BtnSaveandContinueInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.BtnSaveandContinue.Click("48;27");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSaveandContinue' at Center.", repo.ApplicationUnderTest.BtnSaveandContinueInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.BtnSaveandContinue.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.BtnSave1'", repo.ApplicationUnderTest.BtnSave1Info, new ActionTimeout(15000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.BtnSave1Info.WaitForExists(15000);
             
         }
 

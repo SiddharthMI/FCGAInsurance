@@ -38,6 +38,11 @@ mode="Global">
 		name="Leased_Equipment">
 			$10,000
 		</var>
+		<var
+		id="d05a1319-0fe0-4406-b35d-cbca56ac60d1"
+		name="Status_Reason">
+			Inland Marine
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

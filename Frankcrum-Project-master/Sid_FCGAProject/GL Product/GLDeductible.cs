@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public GLDeductible()
         {
             GLAgDeduct = "$500";
+            Status_Reason = "Agent GL Deductible";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _GLAgDeduct; }
             set { _GLAgDeduct = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("90822a6a-0de3-4987-866c-c2f9f266b41e")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

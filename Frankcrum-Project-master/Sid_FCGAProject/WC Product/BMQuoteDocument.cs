@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public BMQuoteDocument()
         {
             BMPremium = "0";
+            Status_Reason = "Benchmark Carrier Selection";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _BMPremium; }
             set { _BMPremium = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("8f1dd563-e8d6-45ae-855d-3f220b7cc532")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -92,9 +105,9 @@ namespace Sid_FCGAProject.WC_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BenchmarkPremium' at Center.", repo.ApplicationUnderTest.BenchmarkPremiumInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.BenchmarkPremium.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BenchmarkPremium' at Center.", repo.ApplicationUnderTest.BenchmarkPremiumInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.BenchmarkPremium.Click();
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.BenchmarkPremium' and assigning its value to variable 'BMPremium'.", repo.ApplicationUnderTest.BenchmarkPremiumInfo, new RecordItemIndex(1));
             BMPremium = repo.ApplicationUnderTest.BenchmarkPremium.Element.GetAttributeValueText("InnerText");
@@ -105,33 +118,33 @@ namespace Sid_FCGAProject.WC_Product
             // Download BM Quote Docs
             Report.Log(ReportLevel.Info, "Section", "Download BM Quote Docs", new RecordItemIndex(3));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadBMQuote' at Center.", repo.ApplicationUnderTest.BtnDownloadBMQuoteInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.BtnDownloadBMQuote.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadBMQuote' at Center.", repo.ApplicationUnderTest.BtnDownloadBMQuoteInfo, new RecordItemIndex(4));
+            //repo.ApplicationUnderTest.BtnDownloadBMQuote.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
+            //Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.CloseInfo, new RecordItemIndex(6));
-            repo.HttpsQawinstonFwcinsComFWCPortalP.Close.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.CloseInfo, new RecordItemIndex(6));
+            //repo.HttpsQawinstonFwcinsComFWCPortalP.Close.Click();
+            //Delay.Milliseconds(0);
             
             // Download BM Worksheet Docs
             Report.Log(ReportLevel.Info, "Section", "Download BM Worksheet Docs", new RecordItemIndex(7));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadBMRatingWorksheet' at 78;20.", repo.ApplicationUnderTest.BtnDownloadBMRatingWorksheetInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.BtnDownloadBMRatingWorksheet.Click("78;20");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadBMRatingWorksheet' at 78;20.", repo.ApplicationUnderTest.BtnDownloadBMRatingWorksheetInfo, new RecordItemIndex(8));
+            //repo.ApplicationUnderTest.BtnDownloadBMRatingWorksheet.Click("78;20");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            //Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.CloseInfo, new RecordItemIndex(10));
-            repo.HttpsQawinstonFwcinsComFWCPortalP.Close.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.CloseInfo, new RecordItemIndex(10));
+            //repo.HttpsQawinstonFwcinsComFWCPortalP.Close.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
-            Delay.Duration(2000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
+            //Delay.Duration(2000, false);
             
             // Select Carrier
             Report.Log(ReportLevel.Info, "Section", "Select Carrier", new RecordItemIndex(12));

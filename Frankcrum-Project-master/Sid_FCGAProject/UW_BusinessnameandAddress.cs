@@ -49,6 +49,7 @@ namespace Sid_FCGAProject
             UW_City = "Tampa";
             UW_Zipcode = "33604";
             UW_BusinessStartDate = "07/01/2021";
+            Status_Reason = "UW Business Name and Address";
         }
 
         /// <summary>
@@ -155,6 +156,18 @@ namespace Sid_FCGAProject
         {
             get { return _UW_BusinessStartDate; }
             set { _UW_BusinessStartDate = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("868f813a-c98c-4760-b1e9-4f14ed41955a")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

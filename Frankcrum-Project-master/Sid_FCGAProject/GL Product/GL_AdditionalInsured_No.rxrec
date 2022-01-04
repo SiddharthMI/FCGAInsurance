@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="dc9832d8-eae5-4a58-a106-a199527da15a"
+		name="Status_Reason">
+			Additional Insured
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

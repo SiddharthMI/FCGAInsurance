@@ -43,6 +43,7 @@ namespace Sid_FCGAProject
         {
             UW_StateName = "Florida";
             UW_ClassDesc = "0005";
+            Status_Reason = "UW State and Class Code";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace Sid_FCGAProject
         {
             get { return _UW_ClassDesc; }
             set { _UW_ClassDesc = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("d3f5c702-2a3b-4c36-b997-a7cc2288010b")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

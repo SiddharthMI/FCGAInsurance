@@ -33,6 +33,11 @@ mode="Global">
 		name="AgScheduleAvcLimit">
 			12000
 		</var>
+		<var
+		id="0b06d654-62e9-4fcd-b83c-967e2474dbf8"
+		name="Status_Reason">
+			Schedule Equipiment
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

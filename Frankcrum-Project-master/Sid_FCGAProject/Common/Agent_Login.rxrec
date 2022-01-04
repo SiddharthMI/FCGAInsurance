@@ -25,18 +25,23 @@ mode="Desktop">
 	<variables>
 		<var
 		id="f8434622-7cd3-4c6d-8ae7-29e998cf6de1"
-		name="QA_Agent_Login">
+		name="Agent_Login1">
 			FrankCrumIns
 		</var>
 		<var
 		id="cd435ddc-082f-4ce5-bcd5-7828864c9e58"
-		name="QA_Agent_Pwd">
+		name="Agent_Pwd">
 			FCia2020!
 		</var>
 		<var
 		id="4dec480d-951b-4b1c-a494-b42356de08e7"
 		name="AgentName">
 			Adam Tully
+		</var>
+		<var
+		id="8a9ea96d-f401-488d-97ff-7519ca243bbb"
+		name="Status_Reason">
+			Agent Login
 		</var>
 	</variables>
 	<recorditems>
@@ -100,7 +105,7 @@ mode="Desktop">
 			<bindings>
 				<binding
 				target="AttributeValue"
-				variable="QA_Agent_Login">
+				variable="Agent_Login1">
 				</binding>
 			</bindings>
 			<info
@@ -423,7 +428,7 @@ FFFFABRRRQAUL/rB9D/SiihgSUUUVIwooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 			<bindings>
 				<binding
 				target="AttributeValue"
-				variable="QA_Agent_Pwd">
+				variable="Agent_Pwd">
 				</binding>
 			</bindings>
 			<info
@@ -980,12 +985,21 @@ FFFFABRRRQAUL/rB9D/SiihgSUUUVIwooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 			</bindings>
 			<info
 			id="273b6e3f-63c5-4a9e-b666-96e39122fb33"
-			sourcename="ItemRecorderEditor">
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='qawinston.fwcins.com']//a[#'lnkNewQuote']
+					/dom[@domain&lt;'fwcins.com']//a[#'lnkNewQuote']
 				</path>
 			</info>
 		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<separatoritem
 		enabled="False"
 		optional="False">

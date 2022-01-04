@@ -28,6 +28,11 @@ mode="Global">
 		name="UW_PolicyNumber">
 			0
 		</var>
+		<var
+		id="c2190c17-444c-4e5f-8678-eaec5199e049"
+		name="Status_Reason">
+			UW Policy Record Screen
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -980,7 +985,7 @@ MyJYFBByeKlooq4wjD4UJtvcKKKKsR//2Q==
 			</helperscreenshot>
 		</keysequenceitem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -1014,6 +1019,33 @@ MyJYFBByeKlooq4wjD4UJtvcKKKKsR//2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="15000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="81e3c23c-51f5-4dfa-b8c4-2f294c9564da"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="606d9653-dcf6-42df-a380-c47b009124a2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[@tagvalue='Exit']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

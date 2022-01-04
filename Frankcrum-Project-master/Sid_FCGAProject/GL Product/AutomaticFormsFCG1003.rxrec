@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="00a640fb-e673-470e-b699-4315fb5741ed"
+		name="Status_Reason">
+			FCG1003 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

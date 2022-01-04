@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="922cf846-0765-4a99-b7b0-ebde17cb3e57"
+		name="Status_Reason">
+			12 Equal
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

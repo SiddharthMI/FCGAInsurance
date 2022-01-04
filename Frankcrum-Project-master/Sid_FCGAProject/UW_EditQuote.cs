@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public UW_EditQuote()
         {
+            Status_Reason = "Edit Quote";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("3a56ffef-edf4-4f8a-8508-6c01ebb0bf2d")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.WCEditQuote' at 61;25.", repo.ApplicationUnderTest.WCEditQuoteInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.WCEditQuote.Click("61;25");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.WCEditQuote' at Center.", repo.ApplicationUnderTest.WCEditQuoteInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.WCEditQuote.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(1));

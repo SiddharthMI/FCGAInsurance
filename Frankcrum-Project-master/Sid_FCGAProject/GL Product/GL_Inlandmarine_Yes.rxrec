@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="17239f8d-eecc-405b-84ac-f080c687bc03"
+		name="Status_Reason">
+			Inland Marine
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

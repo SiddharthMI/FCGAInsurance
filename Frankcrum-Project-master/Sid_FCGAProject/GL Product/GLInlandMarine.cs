@@ -44,6 +44,7 @@ namespace Sid_FCGAProject.GL_Product
             InstalationFloaterCoverage = "$10,000";
             ContractorHandTools = "$5,000";
             Leased_Equipment = "$10,000";
+            Status_Reason = "Inland Marine";
         }
 
         /// <summary>
@@ -90,6 +91,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _Leased_Equipment; }
             set { _Leased_Equipment = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("d05a1319-0fe0-4406-b35d-cbca56ac60d1")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

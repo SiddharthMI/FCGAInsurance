@@ -33,6 +33,11 @@ mode="Global">
 		name="UW_ClassDesc">
 			0005
 		</var>
+		<var
+		id="d3f5c702-2a3b-4c36-b997-a7cc2288010b"
+		name="Status_Reason">
+			UW State and Class Code
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

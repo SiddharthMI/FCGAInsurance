@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public UW_AddExpMod()
         {
             UW_ExpMod = "0.89";
+            Status_Reason = "UW Experience Mod";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _UW_ExpMod; }
             set { _UW_ExpMod = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("55e44427-1974-4863-b782-c5fc1df66e57")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

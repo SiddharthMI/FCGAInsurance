@@ -28,6 +28,11 @@ mode="Global">
 		name="EffectiveDate">
 			07/29/2021
 		</var>
+		<var
+		id="8c0eb4fb-0bc8-40a2-a09e-07dd5e290d56"
+		name="StatusReason">
+			Policy Effective Date
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

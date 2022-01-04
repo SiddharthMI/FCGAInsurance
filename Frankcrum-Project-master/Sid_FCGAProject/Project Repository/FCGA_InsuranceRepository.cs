@@ -51,16 +51,16 @@ namespace Sid_FCGAProject.Project_Repository
 
 #region Variables
 
-        string _QA_Agent_Env = "https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html";
+        string _Agent_Url = "https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html";
 
         /// <summary>
-        /// Gets or sets the value of variable QA_Agent_Env.
+        /// Gets or sets the value of variable Agent_Url.
         /// </summary>
         [TestVariable("7c590099-d14f-4fa4-9023-ece7b04c03dc")]
-        public string QA_Agent_Env
+        public string Agent_Url
         {
-            get { return _QA_Agent_Env; }
-            set { _QA_Agent_Env = value; }
+            get { return _Agent_Url; }
+            set { _Agent_Url = value; }
         }
 
 #endregion
@@ -113,7 +113,7 @@ namespace Sid_FCGAProject.Project_Repository
             /// Creates a new ApplicationUnderTest  folder.
             /// </summary>
             public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ApplicationUnderTest", "/dom[@domain=$QA_Agent_Env and @browser='Chrome']", parentFolder, 30000, null, false, "582d41b1-2de4-4475-b956-3473ad00c8bb", "")
+                    base("ApplicationUnderTest", "/dom[@domain=$Agent_Url and @browser='Chrome']", parentFolder, 30000, null, false, "582d41b1-2de4-4475-b956-3473ad00c8bb", "")
             {
             }
 

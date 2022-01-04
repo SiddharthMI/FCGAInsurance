@@ -23,11 +23,16 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="b8480b73-91c6-4a50-ab54-667a260f633a"
+		name="Status_Reason">
+			Application Page
+		</var>
 	</variables>
 	<recorditems>
 		<explicitdelayitem
 		duration="6000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

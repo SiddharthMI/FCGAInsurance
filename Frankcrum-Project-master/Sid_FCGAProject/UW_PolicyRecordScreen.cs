@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public UW_PolicyRecordScreen()
         {
             UW_PolicyNumber = "0";
+            Status_Reason = "UW Policy Record Screen";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _UW_PolicyNumber; }
             set { _UW_PolicyNumber = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("c2190c17-444c-4e5f-8678-eaec5199e049")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -115,15 +128,21 @@ namespace Sid_FCGAProject
             repo.ApplicationUnderTest.Txtsearch.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(6));
-            Delay.Duration(10000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(6));
+            Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutmSelect_1' at Center.", repo.ApplicationUnderTest.AutmSelect_1Info, new RecordItemIndex(7));
             repo.ApplicationUnderTest.AutmSelect_1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(8));
-            Delay.Duration(15000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(8));
+            //Delay.Duration(15000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.BtnExitCommon12'", repo.ApplicationUnderTest.BtnExitCommon12Info, new ActionTimeout(15000), new RecordItemIndex(9));
+            repo.ApplicationUnderTest.BtnExitCommon12Info.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(10));
+            Delay.Duration(5000, false);
             
         }
 

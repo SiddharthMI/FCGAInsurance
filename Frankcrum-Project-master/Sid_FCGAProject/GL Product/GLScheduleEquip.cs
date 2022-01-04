@@ -43,6 +43,7 @@ namespace Sid_FCGAProject.GL_Product
         {
             AgScheduleEquipType = "CAR";
             AgScheduleAvcLimit = "12000";
+            Status_Reason = "Schedule Equipiment";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _AgScheduleAvcLimit; }
             set { _AgScheduleAvcLimit = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("0b06d654-62e9-4fcd-b83c-967e2474dbf8")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

@@ -28,6 +28,11 @@ mode="Global">
 		name="CG2404_No">
 			1
 		</var>
+		<var
+		id="2d114fdd-f278-402b-8bc6-6535b2941059"
+		name="Status_Reason">
+			CG2404 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

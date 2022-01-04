@@ -33,6 +33,11 @@ mode="Global">
 		name="AddInsFEINNo">
 			4545454545
 		</var>
+		<var
+		id="fd220ae0-d748-4f23-9179-e833d018dca7"
+		name="StatusReason">
+			Additional Insured
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

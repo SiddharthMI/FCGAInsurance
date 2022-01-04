@@ -46,6 +46,7 @@ namespace Sid_FCGAProject.GL_Product
             GLAgBusinessName = "AUTM FCGA-3645653";
             GLAgDescription = "OK";
             GLAgBusinessYear = "2";
+            Status_Reason = "Risk Level";
         }
 
         /// <summary>
@@ -116,6 +117,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _GLAgBusinessYear; }
             set { _GLAgBusinessYear = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("93b7e474-de76-4bf4-a4c3-a576a2b52296")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

@@ -38,6 +38,11 @@ mode="Global">
 		name="OwnerPercent">
 			100
 		</var>
+		<var
+		id="f7eb5162-7846-421b-8102-3e92d8798491"
+		name="StatusReason">
+			Owner Selection
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

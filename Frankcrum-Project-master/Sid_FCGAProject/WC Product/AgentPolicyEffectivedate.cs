@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public AgentPolicyEffectivedate()
         {
             EffectiveDate = "07/29/2021";
+            StatusReason = "Policy Effective Date";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _EffectiveDate; }
             set { _EffectiveDate = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("8c0eb4fb-0bc8-40a2-a09e-07dd5e290d56")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

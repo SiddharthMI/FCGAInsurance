@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="c1829a57-9ad5-4c3a-b5bd-54a889eeb6fc"
+		name="Status_Reason">
+			GL PunchList Pro No
+		</var>
 	</variables>
 	<recorditems>
 		<validationitem

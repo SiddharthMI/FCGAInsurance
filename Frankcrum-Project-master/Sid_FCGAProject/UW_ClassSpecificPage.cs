@@ -83,6 +83,9 @@ namespace Sid_FCGAProject
             repo.ApplicationUnderTest.UWBtnSave.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
+            
         }
 
 #region Image Feature Data

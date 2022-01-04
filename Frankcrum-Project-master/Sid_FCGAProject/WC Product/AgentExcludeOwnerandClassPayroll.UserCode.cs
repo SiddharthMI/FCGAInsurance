@@ -62,12 +62,12 @@ namespace Sid_FCGAProject.WC_Product
             inputtagInfo1.FindAdapter<InputTag>().Element.SetAttributeValue("Value", WCPTEmpNo);
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'inputtagInfo2' at Center.", inputtagInfo2);
             inputtagInfo2.FindAdapter<InputTag>().Click();
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
+            //Delay.Duration(5000, false);
             Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$TxtGrossPayroll' on item 'inputtagInfo2'.", inputtagInfo2);
             inputtagInfo2.FindAdapter<InputTag>().Element.SetAttributeValue("Value", WCGrossPayrolAmt);
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
-            Delay.Duration(5000, false);
+           // Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
+           // Delay.Duration(5000, false);
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'tabletagInfo' at Center.", tabletagInfo);
             tabletagInfo.FindAdapter<TableTag>().Click();
             
@@ -87,12 +87,12 @@ namespace Sid_FCGAProject.WC_Product
             inputtagInfo4.FindAdapter<InputTag>().Element.SetAttributeValue("Value", WCPTEmpNo);
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'inputtagInfo5' at Center.", inputtagInfo5);
             inputtagInfo5.FindAdapter<InputTag>().Click();
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
+            //Delay.Duration(5000, false);
             Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$TxtGrossPayroll' on item 'inputtagInfo5'.", inputtagInfo5);
             inputtagInfo5.FindAdapter<InputTag>().Element.SetAttributeValue("Value", WCGrossPayrolAmt);
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.");
+            //Delay.Duration(5000, false);
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'tabletagInfo' at Center.", tabletagInfo);
             tabletagInfo.FindAdapter<TableTag>().Click();
             i++;

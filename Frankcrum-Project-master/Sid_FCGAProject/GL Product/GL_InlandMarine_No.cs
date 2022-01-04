@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.GL_Product
         /// </summary>
         public GL_InlandMarine_No()
         {
+            Status_Reason = "Inland Marine";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.GL_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("0e5cdf78-8ec9-4a9a-b875-93d16e8fd716")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

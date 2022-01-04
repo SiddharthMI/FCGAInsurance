@@ -449,6 +449,24 @@ KKACiiigAooooAKKKKACiiikAUUUUAFFFFMAooooAKKKKACiiigBKKKKACiiigAooooAKKKKACii
 igAooooAKKKKACiiigAooooAKKKKBhRRRQAUUUUAFFFFABRRRQB//9k=
 			</helperscreenshot>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="32a4590c-0466-4806-9be8-d38a4efa9822"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e5ecabdd-9cab-4223-983b-018025b8a85f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'btnSubmitRI']
+				</path>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

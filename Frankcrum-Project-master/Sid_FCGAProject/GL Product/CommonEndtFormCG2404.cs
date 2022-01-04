@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public CommonEndtFormCG2404()
         {
             CG2404_No = "1";
+            Status_Reason = "CG2404 Forms No";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _CG2404_No; }
             set { _CG2404_No = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("2d114fdd-f278-402b-8bc6-6535b2941059")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

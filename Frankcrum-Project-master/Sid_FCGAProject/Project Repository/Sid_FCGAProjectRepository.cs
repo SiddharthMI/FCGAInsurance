@@ -38,7 +38,7 @@ namespace Sid_FCGAProject.Project_Repository
         Sid_FCGAProjectRepositoryFolders.FrmApplicationFolder _frmapplication;
         Sid_FCGAProjectRepositoryFolders.UpdatePasswordAppFolder _updatepassword;
         Sid_FCGAProjectRepositoryFolders.ExplorerAppFolder _explorer;
-        Sid_FCGAProjectRepositoryFolders.QDCFWCIQ219117110540GLACCEPTED0902AppFolder _qdcfwciq219117110540glaccepted0902;
+        Sid_FCGAProjectRepositoryFolders.QuoteAppFolder _quote;
         Sid_FCGAProjectRepositoryFolders.WorksheetAppFolder _worksheet;
         Sid_FCGAProjectRepositoryFolders.BinderAppFolder _binder;
         Sid_FCGAProjectRepositoryFolders.RestorePagesAppFolder _restorepages;
@@ -77,17 +77,17 @@ namespace Sid_FCGAProject.Project_Repository
             _frmapplication = new Sid_FCGAProjectRepositoryFolders.FrmApplicationFolder(this);
             _updatepassword = new Sid_FCGAProjectRepositoryFolders.UpdatePasswordAppFolder(this);
             _explorer = new Sid_FCGAProjectRepositoryFolders.ExplorerAppFolder(this);
-            _qdcfwciq219117110540glaccepted0902 = new Sid_FCGAProjectRepositoryFolders.QDCFWCIQ219117110540GLACCEPTED0902AppFolder(this);
+            _quote = new Sid_FCGAProjectRepositoryFolders.QuoteAppFolder(this);
             _worksheet = new Sid_FCGAProjectRepositoryFolders.WorksheetAppFolder(this);
             _binder = new Sid_FCGAProjectRepositoryFolders.BinderAppFolder(this);
             _restorepages = new Sid_FCGAProjectRepositoryFolders.RestorePagesAppFolder(this);
             _feeds = new Sid_FCGAProjectRepositoryFolders.FeedsAppFolder(this);
-            _iagreeInfo = new RepoItemInfo(this, "IAgree", "/dom[@domain<'winston.fwcins.com']//div[#'mainContentHolder']/div[@id='pgBody']/div[2]/div/div[6]/div[2]/div[2]//label[@innertext='I Agree']", 30000, null, "09129d46-bb4d-415b-814c-4e4aa9984d68");
-            _agentmessagecloselinkInfo = new RepoItemInfo(this, "AgentMessageCloseLink", "/dom[@domain<'winston.fwcins.com']//div[#'notesMessages']/div/div/div/div[1]/div/div[2]/a[1]/span", 30000, null, "8e92d084-f0a0-4d37-a581-5aea09070740");
-            _navigate_tabInfo = new RepoItemInfo(this, "Navigate_Tab", "/form[@title<'winston.fwcins.com']/container[@accessiblename<'winston.fwcins.com']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename<'winston.fwcins.com']", 30000, null, "57ddbb60-029d-4fa4-92a5-52ffed273ae6");
-            _clientInfo = new RepoItemInfo(this, "Client", "/dom[@domain<'winston.fwcins.com']/body/div[2]/?/?/form[@title<'winston.fwcins.com']/?/?/container[@accessiblename='']/container[@accessiblerole='Client']", 30000, null, "3e0fac5f-86ea-4498-8dae-cd28c5399e07");
-            _backtomainscreenInfo = new RepoItemInfo(this, "BacktoMainScreen", "/dom[@domain<'winston.fwcins.com']//div[#'mainContentHolder']/div/div[2]//a[@innertext='BACK TO MAIN SCREEN']", 30000, null, "b3beb3ba-8626-445e-a911-31d4733d7623");
-            _acceptInfo = new RepoItemInfo(this, "Accept", "/dom[@domain<'winston.fwcins.com']//div[#'Agreement']//label[@innertext='Accept']", 30000, null, "3a767273-175c-4d3e-ac62-a5a67c32e1e6");
+            _iagreeInfo = new RepoItemInfo(this, "IAgree", "/dom[@domain<'fwcins.com']//div[#'mainContentHolder']/div[@id='pgBody']/div[2]/div/div[6]/div[2]/div[2]//label[@innertext='I Agree']", 30000, null, "09129d46-bb4d-415b-814c-4e4aa9984d68");
+            _agentmessagecloselinkInfo = new RepoItemInfo(this, "AgentMessageCloseLink", "/dom[@domain<'fwcins.com']//div[#'notesMessages']/div/div/div/div[1]/div/div[2]/a[1]/span", 30000, null, "8e92d084-f0a0-4d37-a581-5aea09070740");
+            _navigate_tabInfo = new RepoItemInfo(this, "Navigate_Tab", "/form[@title<'fwcins.com']/container[@accessiblename<'fwcins.com']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename<'fwcins.com']", 30000, null, "57ddbb60-029d-4fa4-92a5-52ffed273ae6");
+            _clientInfo = new RepoItemInfo(this, "Client", "/dom[@domain<'fwcins.com']/body/div[2]/?/?/form[@title<'fwcins.com']/?/?/container[@accessiblename='']/container[@accessiblerole='Client']", 30000, null, "3e0fac5f-86ea-4498-8dae-cd28c5399e07");
+            _backtomainscreenInfo = new RepoItemInfo(this, "BacktoMainScreen", "/dom[@domain<'fwcins.com']//div[#'mainContentHolder']/div/div[2]//a[@innertext='BACK TO MAIN SCREEN']", 30000, null, "b3beb3ba-8626-445e-a911-31d4733d7623");
+            _acceptInfo = new RepoItemInfo(this, "Accept", "/dom[@domain<'fwcins.com']//div[#'Agreement']//label[@innertext='Accept']", 30000, null, "3a767273-175c-4d3e-ac62-a5a67c32e1e6");
             _billingcloseInfo = new RepoItemInfo(this, "BillingClose", "/form[@title>'Billing Statement - Google']/container[@accessiblename>'Billing Statement - Google']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename='Billing Statement']/button[@accessiblename='Close']", 30000, null, "1d1bc0d9-d88d-400e-8288-cce0df503f26");
         }
 
@@ -387,12 +387,12 @@ namespace Sid_FCGAProject.Project_Repository
         }
 
         /// <summary>
-        /// The QDCFWCIQ219117110540GLACCEPTED0902 folder.
+        /// The Quote folder.
         /// </summary>
         [RepositoryFolder("b9928084-bd09-4f64-9c4c-9ee6fbe303bf")]
-        public virtual Sid_FCGAProjectRepositoryFolders.QDCFWCIQ219117110540GLACCEPTED0902AppFolder QDCFWCIQ219117110540GLACCEPTED0902
+        public virtual Sid_FCGAProjectRepositoryFolders.QuoteAppFolder Quote
         {
-            get { return _qdcfwciq219117110540glaccepted0902; }
+            get { return _quote; }
         }
 
         /// <summary>
@@ -563,6 +563,7 @@ namespace Sid_FCGAProject.Project_Repository
             RepoItemInfo _agentmessagelinkInfo;
             RepoItemInfo _navigatesignoutInfo;
             RepoItemInfo _pfpolicysubmitInfo;
+            RepoItemInfo _gl_pfpolicysubmitInfo;
             RepoItemInfo _lblpolicynumberInfo;
             RepoItemInfo _lblbusinessnameInfo;
             RepoItemInfo _lnkdownloadbinderInfo;
@@ -576,6 +577,7 @@ namespace Sid_FCGAProject.Project_Repository
             RepoItemInfo _spantagselect1Info;
             RepoItemInfo _txt_select_class_code1Info;
             RepoItemInfo _npfpolicysubmitInfo;
+            RepoItemInfo _gl_npfpolicysubmitInfo;
             RepoItemInfo _btndownloaddiscInfo;
             RepoItemInfo _selectpaygoInfo;
             RepoItemInfo _irpmenabledInfo;
@@ -621,7 +623,7 @@ namespace Sid_FCGAProject.Project_Repository
             RepoItemInfo _litag91111airconditioningsystemsinstInfo;
             RepoItemInfo _btnaddclassificationInfo;
             RepoItemInfo _percentageInfo;
-            RepoItemInfo _bordertop0Info;
+            RepoItemInfo _glclassdescriptionInfo;
             RepoItemInfo _insuredsubcontractorscostInfo;
             RepoItemInfo _insuredsubcontractorsoperationsInfo;
             RepoItemInfo _somebtag2Info;
@@ -1025,12 +1027,17 @@ namespace Sid_FCGAProject.Project_Repository
             RepoItemInfo _txtamendgrosspayroll1Info;
             RepoItemInfo _txtreasonamendInfo;
             RepoItemInfo _labelcheckbox12Info;
+            RepoItemInfo _uwsignInfo;
+            RepoItemInfo _loader_waitInfo;
+            RepoItemInfo _referral_resonInfo;
+            RepoItemInfo _wcinsuredaddressInfo;
+            RepoItemInfo _airconditioningsystemsinstallationsInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
             /// </summary>
             public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ApplicationUnderTest", "/dom[@domain<'winston.fwcins.com']", parentFolder, 30000, null, false, "41f8108e-2409-462f-96de-62d71c0935d3", "")
+                    base("ApplicationUnderTest", "/dom[@domain<'fwcins.com']", parentFolder, 30000, null, false, "41f8108e-2409-462f-96de-62d71c0935d3", "")
             {
                 _industryquestiontable = new Sid_FCGAProjectRepositoryFolders.IndustryQuestionTableFolder(this);
                 _mytable = new Sid_FCGAProjectRepositoryFolders.MyTableFolder(this);
@@ -1087,9 +1094,9 @@ namespace Sid_FCGAProject.Project_Repository
                 _txtbranchidInfo = new RepoItemInfo(this, "TxtBranchId", ".//input[#'txtBranchId']", 30000, null, "d5d5212d-3c69-4fde-8ce6-a04245c9395f");
                 _sideclickInfo = new RepoItemInfo(this, "SideClick", "body/div[2]", 30000, null, "09c5383d-319e-4087-b838-53429e942000");
                 _txtpasswordInfo = new RepoItemInfo(this, "TxtPassword", ".//input[#'txtPassword']", 30000, null, "86d61f13-ccfa-4f4b-a41b-80586ee4c0af");
-                _signinInfo = new RepoItemInfo(this, "SignIn", ".//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']", 30000, null, "46275708-ab19-4d1d-95a8-0cd72969d722");
+                _signinInfo = new RepoItemInfo(this, "SignIn", ".//form[#'frmLogin']//div[@class='form-group']//buttontag[@innertext='Sign in']", 30000, null, "46275708-ab19-4d1d-95a8-0cd72969d722");
                 _txtsearchInfo = new RepoItemInfo(this, "Txtsearch", ".//input[#'txtsearch']", 30000, null, "fdee9d98-a7df-4733-8de1-c1d28f89104a");
-                _autmselectInfo = new RepoItemInfo(this, "AutmSelect", ".//table[#'tblRecords']/tbody/tr[1]/?/?/a[@onclick='LoadQuote(this)']", 30000, null, "8f05070d-ca85-438a-8f3a-d16277f4d6ad");
+                _autmselectInfo = new RepoItemInfo(this, "AutmSelect", ".//table[#'tblRecords']/tbody//tr[@class='odd']//td[@class=' dt-left']//a[@onclick='LoadQuote(this)']", 30000, null, "8f05070d-ca85-438a-8f3a-d16277f4d6ad");
                 _autmselect_1Info = new RepoItemInfo(this, "AutmSelect_1", ".//table[#'tblRecords']/tbody/tr/td[2]/a[@onclick='LoadPolicy(this)']", 30000, null, "fc980013-c6e6-4a92-9b91-09b9aae56e49");
                 _wceditquoteInfo = new RepoItemInfo(this, "WCEditQuote", ".//button[#'WCEditQuote']", 30000, null, "3911deff-d377-4ac5-9d10-31646c8aa085");
                 _selectagencycontactInfo = new RepoItemInfo(this, "SelectAgencyContact", ".//span[#'select2-ddlAgencyContact-container']", 30000, null, "b61d391c-95f8-4d8c-bff8-40c15ac8d59e");
@@ -1151,6 +1158,7 @@ namespace Sid_FCGAProject.Project_Repository
                 _agentmessagelinkInfo = new RepoItemInfo(this, "AgentMessageLink", ".//a[#'lnknmNotes']/?/?/i", 30000, null, "0692c32e-da44-4382-96df-430c71da9b72");
                 _navigatesignoutInfo = new RepoItemInfo(this, "NavigateSignOut", ".//div[#'navbar1']//a", 30000, null, "405de2cd-c810-4029-98ed-8fc52a0d23da");
                 _pfpolicysubmitInfo = new RepoItemInfo(this, "PFPolicySubmit", ".//input[@value>'REQUEST ISSUANCE']", 30000, null, "61a7f127-a848-452b-98b7-933adc61cb01");
+                _gl_pfpolicysubmitInfo = new RepoItemInfo(this, "GL_PFPolicySubmit", ".//div[#'divIssuePolicy']/input[@tagvalue='ISSUE POLICY']", 30000, null, "e1a6f4f7-eb11-4525-a92c-7632850699f8");
                 _lblpolicynumberInfo = new RepoItemInfo(this, "LblPolicyNumber", ".//label[#'lblPolicyNumber']", 30000, null, "bca2ceac-d129-4709-b52d-7f2f12c75fa1");
                 _lblbusinessnameInfo = new RepoItemInfo(this, "LblBusinessName", ".//label[#'lblBusinessName']", 30000, null, "b453ca04-37a0-40cb-ba98-ecc53d61af42");
                 _lnkdownloadbinderInfo = new RepoItemInfo(this, "LnkDownloadBinder", ".//a[#'lnkDownloadBinder']", 30000, null, "9aeeddf9-be51-4963-bb5d-da0b9ded38d7");
@@ -1163,7 +1171,8 @@ namespace Sid_FCGAProject.Project_Repository
                 _txtclasscodesInfo = new RepoItemInfo(this, "TxtClassCodes", ".//div[#'bloodhound']/div/table[2]/tbody[1]/tr[2]/td[2]/?/?/input[@name='txtClassCodes']", 30000, null, "449fffec-6f1b-4d5c-a1ad-9c0bfea7e976");
                 _spantagselect1Info = new RepoItemInfo(this, "SpanTagSelect1", ".//div[#'bloodhound']/div/table[2]/tbody[1]/tr[2]/td[1]//span[@id='select2-ddlState2-container']", 30000, null, "df64dd56-89d2-48dd-88a2-46b004cc54b3");
                 _txt_select_class_code1Info = new RepoItemInfo(this, "Txt_Select_Class_code1", ".//div[#'bloodhound']/div/table[2]/tbody[1]/tr[2]/td[2]/span/div/?/?/div[@class='tt-suggestion tt-selectable']", 30000, null, "71b6bba0-9a1c-4de4-a86a-540991ed55c7");
-                _npfpolicysubmitInfo = new RepoItemInfo(this, "NPFPolicySubmit", ".//div[#'divSendCheck']/input[@tagvalue>'SEND CHECK']", 30000, null, "e040cea8-37fc-4216-8fef-f7a46ef90db4");
+                _npfpolicysubmitInfo = new RepoItemInfo(this, "NPFPolicySubmit", ".//div[#'divSendCheck']/input[@tagvalue>'REQUEST ISSUANCE']", 30000, null, "e040cea8-37fc-4216-8fef-f7a46ef90db4");
+                _gl_npfpolicysubmitInfo = new RepoItemInfo(this, "GL_NPFPolicySubmit", ".//div[#'divSendCheck']/input[@tagvalue>'SEND CHECK']", 30000, null, "aa3b96c1-5180-41cf-94e8-c4935cef8db6");
                 _btndownloaddiscInfo = new RepoItemInfo(this, "BtnDownloadDisc", ".//button[#'BtnDownloadDisc']", 30000, null, "dd2772bb-4a0b-4036-a67d-87adab0f15dd");
                 _selectpaygoInfo = new RepoItemInfo(this, "SelectPayGo", ".//span[#'select2-ddlPayGo-container']", 30000, null, "eff258ab-f34a-415d-b401-b0300a25b574");
                 _irpmenabledInfo = new RepoItemInfo(this, "IRPMEnabled", ".//table[#'tblDrcr_1']/tbody//input[@name='irpm' and @disabled='False']", 30000, null, "8f41f2f5-f5a4-4e3e-8f94-1b602398f41b");
@@ -1209,7 +1218,7 @@ namespace Sid_FCGAProject.Project_Repository
                 _litag91111airconditioningsystemsinstInfo = new RepoItemInfo(this, "LiTag91111AIRCONDITIONINGSYSTEMSINST", ".//ul[#'select2-ddlClassification-results']/li[@innertext>'91111 AIR CONDITIONING SYSTEMS']", 30000, null, "b32f6397-fead-49ba-b9b5-25f350148fe7");
                 _btnaddclassificationInfo = new RepoItemInfo(this, "BtnAddClassification", ".//button[#'btnAddClassification']", 30000, null, "d4d26373-0f2e-432c-9587-90e0ac52f240");
                 _percentageInfo = new RepoItemInfo(this, "Percentage", ".//table[#'ClassificationGrid']/tbody/tr/td[3]/input[@name='percentage']", 30000, null, "c32be8e4-1666-4e96-8db6-f2419ccc0c09");
-                _bordertop0Info = new RepoItemInfo(this, "BorderTop0", ".//table[#'ClassificationGrid']/tfoot/tr/td[2]", 30000, null, "9bf94ae1-1c7d-4fc5-bb48-9f86a0bf986f");
+                _glclassdescriptionInfo = new RepoItemInfo(this, "GLClassDescription", ".//table[#'ClassificationGrid']/tbody/tr/td[2]/b", 30000, null, "9bf94ae1-1c7d-4fc5-bb48-9f86a0bf986f");
                 _insuredsubcontractorscostInfo = new RepoItemInfo(this, "InsuredSubcontractorsCost", ".//input[#'insuredSubcontractorsCost']", 30000, null, "f7d1b194-ed3d-4be6-af4f-207551355e2a");
                 _insuredsubcontractorsoperationsInfo = new RepoItemInfo(this, "InsuredSubcontractorsOperations", ".//input[#'insuredSubcontractorsOperations']", 30000, null, "72a63593-71b8-4676-95ba-976e428b6ad3");
                 _somebtag2Info = new RepoItemInfo(this, "SomeBTag2", ".//div[#'DVCP']/div/div/div[3]/div/div[5]/div[2]/div[1]/span//b", 30000, null, "b7e9e70e-b6c6-4a68-be01-413ccb2fb64c");
@@ -1272,7 +1281,7 @@ namespace Sid_FCGAProject.Project_Repository
                 _btndownloadquoteInfo = new RepoItemInfo(this, "BtnDownloadQuote", ".//input[#'btnDownloadQuote']", 30000, null, "3f819566-a402-49d7-a246-4256cbecfc33");
                 _element34846816Info = new RepoItemInfo(this, "Element34846816", "body/div[2]/?/?/form[@title>'https://qawinston.fwcins.']/element[@controlid='34846816']", 30000, null, "0993861d-8877-40c4-94ab-6618f4aca52e");
                 _btnissueInfo = new RepoItemInfo(this, "BtnIssue", ".//input[#'btnIssue']", 30000, null, "ffd88237-6810-406b-8918-1c47c24a759b");
-                _close2Info = new RepoItemInfo(this, "CLOSE2", "body/div[10]/div/div/div[3]/input[@name='CLOSE']", 30000, null, "da11cef0-7fb6-4aa0-92b0-5ce947893040");
+                _close2Info = new RepoItemInfo(this, "CLOSE2", "body//div[@class='modal fade show']//div[@class='modal-footer rounded-0']//input[@name='CLOSE']", 30000, null, "da11cef0-7fb6-4aa0-92b0-5ce947893040");
                 _select2ddlbusinesstypecontainerInfo = new RepoItemInfo(this, "Select2DdlBusinessTypeContainer", ".//span[#'select2-ddlBusinessType-container']", 30000, null, "d445a908-0fa5-4fe3-8478-e2020c854615");
                 _txtinspectioncontactInfo = new RepoItemInfo(this, "TxtInspectionContact", ".//input[#'txtInspectionContact']", 30000, null, "465c22a5-e11f-48af-9305-5e22d3a14ffd");
                 _txtlocationzipcodeInfo = new RepoItemInfo(this, "TxtLocationZipCode", ".//input[#'txtLocationZipCode']", 30000, null, "41c0fef6-1df2-417e-aa93-4883f8662276");
@@ -1613,6 +1622,11 @@ namespace Sid_FCGAProject.Project_Repository
                 _txtamendgrosspayroll1Info = new RepoItemInfo(this, "TxtAmendGrossPayroll1", ".//input[#'txtAmendGrossPayroll1']", 30000, null, "96a5d52a-3a30-4172-986e-b359a7e2320e");
                 _txtreasonamendInfo = new RepoItemInfo(this, "TxtReasonAmend", ".//textarea[#'txtReasonAmend']", 30000, null, "d4b7b0b4-5277-4c92-91cf-0d4a0ba79b4f");
                 _labelcheckbox12Info = new RepoItemInfo(this, "Labelcheckbox12", ".//tbody[#'tblWCDeleteClassCode']/tr/td[1]/?/?/label", 30000, null, "a9251e1a-3acd-417a-90bd-21f0a7013d6d");
+                _uwsignInfo = new RepoItemInfo(this, "UWSign", ".//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/buttontag[@innertext='Sign in']", 30000, null, "d193908b-33d5-4b94-a817-c7d00a972eaa");
+                _loader_waitInfo = new RepoItemInfo(this, "Loader_Wait", ".//div[#'wait']", 30000, null, "2800a3e1-a120-4a17-aac5-6881f60d64bd");
+                _referral_resonInfo = new RepoItemInfo(this, "Referral_Reson", ".//ul[#'ulReferralReason']/li", 30000, null, "15380dcb-8117-4a4c-9fbb-469a045c6c7a");
+                _wcinsuredaddressInfo = new RepoItemInfo(this, "WCInsuredAddress", ".//div[#'mainContentHolder']//span[@id>'lblBusinessAddressLine']", 30000, null, "43745960-0722-4f41-a830-a4acee4f424f");
+                _airconditioningsystemsinstallationsInfo = new RepoItemInfo(this, "AIRCONDITIONINGSYSTEMSINSTALLATIONS", ".//table[#'ClassificationGrid']/tbody/tr/td[2]/b[@innertext>'AIR CONDITIONING SYSTEMS INSTALLATION,']", 30000, null, "de67d45c-b054-4c02-953e-068da9ce8e69");
             }
 
             /// <summary>
@@ -3920,6 +3934,30 @@ namespace Sid_FCGAProject.Project_Repository
             }
 
             /// <summary>
+            /// The GL_PFPolicySubmit item.
+            /// </summary>
+            [RepositoryItem("e1a6f4f7-eb11-4525-a92c-7632850699f8")]
+            public virtual Ranorex.InputTag GL_PFPolicySubmit
+            {
+                get
+                {
+                    return _gl_pfpolicysubmitInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GL_PFPolicySubmit item info.
+            /// </summary>
+            [RepositoryItemInfo("e1a6f4f7-eb11-4525-a92c-7632850699f8")]
+            public virtual RepoItemInfo GL_PFPolicySubmitInfo
+            {
+                get
+                {
+                    return _gl_pfpolicysubmitInfo;
+                }
+            }
+
+            /// <summary>
             /// The LblPolicyNumber item.
             /// </summary>
             [RepositoryItem("bca2ceac-d129-4709-b52d-7f2f12c75fa1")]
@@ -4228,6 +4266,30 @@ namespace Sid_FCGAProject.Project_Repository
                 get
                 {
                     return _npfpolicysubmitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GL_NPFPolicySubmit item.
+            /// </summary>
+            [RepositoryItem("aa3b96c1-5180-41cf-94e8-c4935cef8db6")]
+            public virtual Ranorex.InputTag GL_NPFPolicySubmit
+            {
+                get
+                {
+                    return _gl_npfpolicysubmitInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GL_NPFPolicySubmit item info.
+            /// </summary>
+            [RepositoryItemInfo("aa3b96c1-5180-41cf-94e8-c4935cef8db6")]
+            public virtual RepoItemInfo GL_NPFPolicySubmitInfo
+            {
+                get
+                {
+                    return _gl_npfpolicysubmitInfo;
                 }
             }
 
@@ -5312,26 +5374,26 @@ namespace Sid_FCGAProject.Project_Repository
             }
 
             /// <summary>
-            /// The BorderTop0 item.
+            /// The GLClassDescription item.
             /// </summary>
             [RepositoryItem("9bf94ae1-1c7d-4fc5-bb48-9f86a0bf986f")]
-            public virtual Ranorex.TdTag BorderTop0
+            public virtual Ranorex.BTag GLClassDescription
             {
                 get
                 {
-                    return _bordertop0Info.CreateAdapter<Ranorex.TdTag>(true);
+                    return _glclassdescriptionInfo.CreateAdapter<Ranorex.BTag>(true);
                 }
             }
 
             /// <summary>
-            /// The BorderTop0 item info.
+            /// The GLClassDescription item info.
             /// </summary>
             [RepositoryItemInfo("9bf94ae1-1c7d-4fc5-bb48-9f86a0bf986f")]
-            public virtual RepoItemInfo BorderTop0Info
+            public virtual RepoItemInfo GLClassDescriptionInfo
             {
                 get
                 {
-                    return _bordertop0Info;
+                    return _glclassdescriptionInfo;
                 }
             }
 
@@ -15004,6 +15066,126 @@ namespace Sid_FCGAProject.Project_Repository
                 get
                 {
                     return _labelcheckbox12Info;
+                }
+            }
+
+            /// <summary>
+            /// The UWSign item.
+            /// </summary>
+            [RepositoryItem("d193908b-33d5-4b94-a817-c7d00a972eaa")]
+            public virtual Ranorex.ButtonTag UWSign
+            {
+                get
+                {
+                    return _uwsignInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UWSign item info.
+            /// </summary>
+            [RepositoryItemInfo("d193908b-33d5-4b94-a817-c7d00a972eaa")]
+            public virtual RepoItemInfo UWSignInfo
+            {
+                get
+                {
+                    return _uwsignInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Loader_Wait item.
+            /// </summary>
+            [RepositoryItem("2800a3e1-a120-4a17-aac5-6881f60d64bd")]
+            public virtual Ranorex.DivTag Loader_Wait
+            {
+                get
+                {
+                    return _loader_waitInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Loader_Wait item info.
+            /// </summary>
+            [RepositoryItemInfo("2800a3e1-a120-4a17-aac5-6881f60d64bd")]
+            public virtual RepoItemInfo Loader_WaitInfo
+            {
+                get
+                {
+                    return _loader_waitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Referral_Reson item.
+            /// </summary>
+            [RepositoryItem("15380dcb-8117-4a4c-9fbb-469a045c6c7a")]
+            public virtual Ranorex.LiTag Referral_Reson
+            {
+                get
+                {
+                    return _referral_resonInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Referral_Reson item info.
+            /// </summary>
+            [RepositoryItemInfo("15380dcb-8117-4a4c-9fbb-469a045c6c7a")]
+            public virtual RepoItemInfo Referral_ResonInfo
+            {
+                get
+                {
+                    return _referral_resonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WCInsuredAddress item.
+            /// </summary>
+            [RepositoryItem("43745960-0722-4f41-a830-a4acee4f424f")]
+            public virtual Ranorex.SpanTag WCInsuredAddress
+            {
+                get
+                {
+                    return _wcinsuredaddressInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WCInsuredAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("43745960-0722-4f41-a830-a4acee4f424f")]
+            public virtual RepoItemInfo WCInsuredAddressInfo
+            {
+                get
+                {
+                    return _wcinsuredaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AIRCONDITIONINGSYSTEMSINSTALLATIONS item.
+            /// </summary>
+            [RepositoryItem("de67d45c-b054-4c02-953e-068da9ce8e69")]
+            public virtual Ranorex.BTag AIRCONDITIONINGSYSTEMSINSTALLATIONS
+            {
+                get
+                {
+                    return _airconditioningsystemsinstallationsInfo.CreateAdapter<Ranorex.BTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AIRCONDITIONINGSYSTEMSINSTALLATIONS item info.
+            /// </summary>
+            [RepositoryItemInfo("de67d45c-b054-4c02-953e-068da9ce8e69")]
+            public virtual RepoItemInfo AIRCONDITIONINGSYSTEMSINSTALLATIONSInfo
+            {
+                get
+                {
+                    return _airconditioningsystemsinstallationsInfo;
                 }
             }
 
@@ -32856,9 +33038,9 @@ namespace Sid_FCGAProject.Project_Repository
             /// Creates a new MainContentHolder  folder.
             /// </summary>
             public MainContentHolderFolder(RepoGenBaseFolder parentFolder) :
-                    base("MainContentHolder", "body/div[10]", parentFolder, 30000, null, false, "62286997-d31a-4dad-b192-b9d8a9d07db1", "")
+                    base("MainContentHolder", "body/div[@class='smarty-ui']", parentFolder, 30000, null, false, "62286997-d31a-4dad-b192-b9d8a9d07db1", "")
             {
-                _useasisInfo = new RepoItemInfo(this, "UseAsIs", "div/div[3]/a[@innertext='Use as is']", 30000, null, "2c3b9bb4-8f85-4533-ae99-bb67758a75a3");
+                _useasisInfo = new RepoItemInfo(this, "UseAsIs", ".//div[@class='smarty-choice-alt']//a[@innertext='Use as is']", 30000, null, "2c3b9bb4-8f85-4533-ae99-bb67758a75a3");
                 _closeInfo = new RepoItemInfo(this, "CLOSE", "div/div/div[3]/input[@name='CLOSE']", 30000, null, "23d9a41d-bb90-45fd-ad2d-b96a306c9403");
                 _labeltagyesInfo = new RepoItemInfo(this, "LabelTagYes", "div[2]/div/div//label[@innertext='Yes']", 30000, null, "68bb705b-bb68-4526-b2c3-60673adc65c2");
                 _labeltagyes1Info = new RepoItemInfo(this, "LabelTagYes1", "div[4]/div/div//label[@innertext='Yes']", 30000, null, "59c85a48-e81e-4748-aafc-d87ab5d99c8a");
@@ -33266,11 +33448,17 @@ namespace Sid_FCGAProject.Project_Repository
         [RepositoryFolder("d551f61f-2b13-4cd0-80d8-c03c4e4c3a8f")]
         public partial class TblPaymentInfoFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _labletxtradiopremiumfinanceInfo;
-            RepoItemInfo _labletxtradiofullpayInfo;
-            RepoItemInfo _labletxtradio15downInfo;
-            RepoItemInfo _labletxtradio12equalInfo;
-            RepoItemInfo _labletxtradiopaygo15downInfo;
+            RepoItemInfo _payment_info_premiumfinancedInfo;
+            RepoItemInfo _payment_info_4pay_bimonthlyInfo;
+            RepoItemInfo _payment_info_10payInfo;
+            RepoItemInfo _payment_info_12equalInfo;
+            RepoItemInfo _payment_info_paygo15downInfo;
+            RepoItemInfo _payment_info_fullpayInfo;
+            RepoItemInfo _payment_info_frankcrumpaygoInfo;
+            RepoItemInfo _payment_info_paygo0downInfo;
+            RepoItemInfo _payment_info_paygo10downInfo;
+            RepoItemInfo _payment_info_paygo25downInfo;
+            RepoItemInfo _payment_info_15down_9instInfo;
 
             /// <summary>
             /// Creates a new TblPaymentInfo  folder.
@@ -33278,11 +33466,17 @@ namespace Sid_FCGAProject.Project_Repository
             public TblPaymentInfoFolder(RepoGenBaseFolder parentFolder) :
                     base("TblPaymentInfo", ".//table[#'tblPaymentInfo']", parentFolder, 30000, null, false, "d551f61f-2b13-4cd0-80d8-c03c4e4c3a8f", "")
             {
-                _labletxtradiopremiumfinanceInfo = new RepoItemInfo(this, "LabletxtRadioPremiumFinance", "tbody/tr[1]/?/?/label", 30000, null, "a15b8923-db3c-47a1-b0c9-3e5d8ebf2e4a");
-                _labletxtradiofullpayInfo = new RepoItemInfo(this, "LabletxtRadioFullPay", "tbody/tr[2]/?/?/label", 30000, null, "7540dd2c-fe84-42df-b218-a76f9b2d26fa");
-                _labletxtradio15downInfo = new RepoItemInfo(this, "LabletxtRadio15down", "tbody/tr[3]/?/?/label", 30000, null, "0154c3ed-ad49-4f85-a7e3-55fbb90bf144");
-                _labletxtradio12equalInfo = new RepoItemInfo(this, "LabletxtRadio12Equal", "tbody/tr[4]/?/?/label", 30000, null, "c5858df9-c526-47e7-9a32-fccedf5fc80f");
-                _labletxtradiopaygo15downInfo = new RepoItemInfo(this, "LabletxtRadioPayGo15down", "tbody/tr[5]/?/?/label", 30000, null, "002f59d3-c3eb-4bb0-bb77-595283cc348c");
+                _payment_info_premiumfinancedInfo = new RepoItemInfo(this, "Payment_Info_PremiumFinanced", ".//td[@innertext='Premium Finance']/ancestor-or-self::?/td/label", 30000, null, "a15b8923-db3c-47a1-b0c9-3e5d8ebf2e4a");
+                _payment_info_4pay_bimonthlyInfo = new RepoItemInfo(this, "Payment_Info_4Pay_BiMonthly", ".//td[@innertext='4 Pay Bi-Monthly']/ancestor-or-self::?/td/label", 30000, null, "7540dd2c-fe84-42df-b218-a76f9b2d26fa");
+                _payment_info_10payInfo = new RepoItemInfo(this, "Payment_Info_10Pay", ".//td[@innertext='10 Pay']/ancestor-or-self::?/td/label", 30000, null, "0154c3ed-ad49-4f85-a7e3-55fbb90bf144");
+                _payment_info_12equalInfo = new RepoItemInfo(this, "Payment_Info_12Equal", ".//td[@innertext='12 Equal']/ancestor-or-self::?/td/label", 30000, null, "c5858df9-c526-47e7-9a32-fccedf5fc80f");
+                _payment_info_paygo15downInfo = new RepoItemInfo(this, "Payment_Info_PayGo15down", ".//td[@innertext='PayAsYouGo 15% Down']/ancestor-or-self::?/td/label", 30000, null, "002f59d3-c3eb-4bb0-bb77-595283cc348c");
+                _payment_info_fullpayInfo = new RepoItemInfo(this, "Payment_Info_FullPay", ".//td[@innertext='Full Pay']/ancestor-or-self::?/td/label", 30000, null, "2551a06a-e3a3-402c-9dd2-73fcf8cc4783");
+                _payment_info_frankcrumpaygoInfo = new RepoItemInfo(this, "Payment_Info_FrankcrumPayGo", ".//td[@innertext='FrankCrum Pay Go']/ancestor-or-self::?/td/label", 30000, null, "4afa4d74-c0fc-4ecb-9520-632fbd3c1397");
+                _payment_info_paygo0downInfo = new RepoItemInfo(this, "Payment_Info_PayGo0down", ".//td[@innertext='PayAsYouGo 0% Down']/ancestor-or-self::?/td/label", 30000, null, "a44fe6d9-e48a-47b7-b293-435c1605ea9b");
+                _payment_info_paygo10downInfo = new RepoItemInfo(this, "Payment_Info_PayGo10down", ".//td[@innertext='PayAsYouGo 10% Down']/ancestor-or-self::?/td/label", 30000, null, "ff3f452b-9f1d-4357-b022-72ff32af3b5e");
+                _payment_info_paygo25downInfo = new RepoItemInfo(this, "Payment_Info_PayGo25down", ".//td[@innertext='PayAsYouGo 25% Down']/ancestor-or-self::?/td/label", 30000, null, "899e5d0c-8226-4b6f-b3ba-9d2833e4117b");
+                _payment_info_15down_9instInfo = new RepoItemInfo(this, "Payment_Info_15down_9Inst", ".//td[@innertext='15% Down / 9 Installments']/ancestor-or-self::?/td/label", 30000, null, "a0937ed7-a8f6-4041-a3b5-2fbd92129900");
             }
 
             /// <summary>
@@ -33310,122 +33504,266 @@ namespace Sid_FCGAProject.Project_Repository
             }
 
             /// <summary>
-            /// The LabletxtRadioPremiumFinance item.
+            /// The Payment_Info_PremiumFinanced item.
             /// </summary>
             [RepositoryItem("a15b8923-db3c-47a1-b0c9-3e5d8ebf2e4a")]
-            public virtual Ranorex.LabelTag LabletxtRadioPremiumFinance
+            public virtual Ranorex.LabelTag Payment_Info_PremiumFinanced
             {
                 get
                 {
-                    return _labletxtradiopremiumfinanceInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                    return _payment_info_premiumfinancedInfo.CreateAdapter<Ranorex.LabelTag>(true);
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadioPremiumFinance item info.
+            /// The Payment_Info_PremiumFinanced item info.
             /// </summary>
             [RepositoryItemInfo("a15b8923-db3c-47a1-b0c9-3e5d8ebf2e4a")]
-            public virtual RepoItemInfo LabletxtRadioPremiumFinanceInfo
+            public virtual RepoItemInfo Payment_Info_PremiumFinancedInfo
             {
                 get
                 {
-                    return _labletxtradiopremiumfinanceInfo;
+                    return _payment_info_premiumfinancedInfo;
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadioFullPay item.
+            /// The Payment_Info_4Pay_BiMonthly item.
             /// </summary>
             [RepositoryItem("7540dd2c-fe84-42df-b218-a76f9b2d26fa")]
-            public virtual Ranorex.LabelTag LabletxtRadioFullPay
+            public virtual Ranorex.LabelTag Payment_Info_4Pay_BiMonthly
             {
                 get
                 {
-                    return _labletxtradiofullpayInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                    return _payment_info_4pay_bimonthlyInfo.CreateAdapter<Ranorex.LabelTag>(true);
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadioFullPay item info.
+            /// The Payment_Info_4Pay_BiMonthly item info.
             /// </summary>
             [RepositoryItemInfo("7540dd2c-fe84-42df-b218-a76f9b2d26fa")]
-            public virtual RepoItemInfo LabletxtRadioFullPayInfo
+            public virtual RepoItemInfo Payment_Info_4Pay_BiMonthlyInfo
             {
                 get
                 {
-                    return _labletxtradiofullpayInfo;
+                    return _payment_info_4pay_bimonthlyInfo;
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadio15down item.
+            /// The Payment_Info_10Pay item.
             /// </summary>
             [RepositoryItem("0154c3ed-ad49-4f85-a7e3-55fbb90bf144")]
-            public virtual Ranorex.LabelTag LabletxtRadio15down
+            public virtual Ranorex.LabelTag Payment_Info_10Pay
             {
                 get
                 {
-                    return _labletxtradio15downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                    return _payment_info_10payInfo.CreateAdapter<Ranorex.LabelTag>(true);
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadio15down item info.
+            /// The Payment_Info_10Pay item info.
             /// </summary>
             [RepositoryItemInfo("0154c3ed-ad49-4f85-a7e3-55fbb90bf144")]
-            public virtual RepoItemInfo LabletxtRadio15downInfo
+            public virtual RepoItemInfo Payment_Info_10PayInfo
             {
                 get
                 {
-                    return _labletxtradio15downInfo;
+                    return _payment_info_10payInfo;
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadio12Equal item.
+            /// The Payment_Info_12Equal item.
             /// </summary>
             [RepositoryItem("c5858df9-c526-47e7-9a32-fccedf5fc80f")]
-            public virtual Ranorex.LabelTag LabletxtRadio12Equal
+            public virtual Ranorex.LabelTag Payment_Info_12Equal
             {
                 get
                 {
-                    return _labletxtradio12equalInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                    return _payment_info_12equalInfo.CreateAdapter<Ranorex.LabelTag>(true);
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadio12Equal item info.
+            /// The Payment_Info_12Equal item info.
             /// </summary>
             [RepositoryItemInfo("c5858df9-c526-47e7-9a32-fccedf5fc80f")]
-            public virtual RepoItemInfo LabletxtRadio12EqualInfo
+            public virtual RepoItemInfo Payment_Info_12EqualInfo
             {
                 get
                 {
-                    return _labletxtradio12equalInfo;
+                    return _payment_info_12equalInfo;
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadioPayGo15down item.
+            /// The Payment_Info_PayGo15down item.
             /// </summary>
             [RepositoryItem("002f59d3-c3eb-4bb0-bb77-595283cc348c")]
-            public virtual Ranorex.LabelTag LabletxtRadioPayGo15down
+            public virtual Ranorex.LabelTag Payment_Info_PayGo15down
             {
                 get
                 {
-                    return _labletxtradiopaygo15downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                    return _payment_info_paygo15downInfo.CreateAdapter<Ranorex.LabelTag>(true);
                 }
             }
 
             /// <summary>
-            /// The LabletxtRadioPayGo15down item info.
+            /// The Payment_Info_PayGo15down item info.
             /// </summary>
             [RepositoryItemInfo("002f59d3-c3eb-4bb0-bb77-595283cc348c")]
-            public virtual RepoItemInfo LabletxtRadioPayGo15downInfo
+            public virtual RepoItemInfo Payment_Info_PayGo15downInfo
             {
                 get
                 {
-                    return _labletxtradiopaygo15downInfo;
+                    return _payment_info_paygo15downInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_FullPay item.
+            /// </summary>
+            [RepositoryItem("2551a06a-e3a3-402c-9dd2-73fcf8cc4783")]
+            public virtual Ranorex.LabelTag Payment_Info_FullPay
+            {
+                get
+                {
+                    return _payment_info_fullpayInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_FullPay item info.
+            /// </summary>
+            [RepositoryItemInfo("2551a06a-e3a3-402c-9dd2-73fcf8cc4783")]
+            public virtual RepoItemInfo Payment_Info_FullPayInfo
+            {
+                get
+                {
+                    return _payment_info_fullpayInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_FrankcrumPayGo item.
+            /// </summary>
+            [RepositoryItem("4afa4d74-c0fc-4ecb-9520-632fbd3c1397")]
+            public virtual Ranorex.LabelTag Payment_Info_FrankcrumPayGo
+            {
+                get
+                {
+                    return _payment_info_frankcrumpaygoInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_FrankcrumPayGo item info.
+            /// </summary>
+            [RepositoryItemInfo("4afa4d74-c0fc-4ecb-9520-632fbd3c1397")]
+            public virtual RepoItemInfo Payment_Info_FrankcrumPayGoInfo
+            {
+                get
+                {
+                    return _payment_info_frankcrumpaygoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_PayGo0down item.
+            /// </summary>
+            [RepositoryItem("a44fe6d9-e48a-47b7-b293-435c1605ea9b")]
+            public virtual Ranorex.LabelTag Payment_Info_PayGo0down
+            {
+                get
+                {
+                    return _payment_info_paygo0downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_PayGo0down item info.
+            /// </summary>
+            [RepositoryItemInfo("a44fe6d9-e48a-47b7-b293-435c1605ea9b")]
+            public virtual RepoItemInfo Payment_Info_PayGo0downInfo
+            {
+                get
+                {
+                    return _payment_info_paygo0downInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_PayGo10down item.
+            /// </summary>
+            [RepositoryItem("ff3f452b-9f1d-4357-b022-72ff32af3b5e")]
+            public virtual Ranorex.LabelTag Payment_Info_PayGo10down
+            {
+                get
+                {
+                    return _payment_info_paygo10downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_PayGo10down item info.
+            /// </summary>
+            [RepositoryItemInfo("ff3f452b-9f1d-4357-b022-72ff32af3b5e")]
+            public virtual RepoItemInfo Payment_Info_PayGo10downInfo
+            {
+                get
+                {
+                    return _payment_info_paygo10downInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_PayGo25down item.
+            /// </summary>
+            [RepositoryItem("899e5d0c-8226-4b6f-b3ba-9d2833e4117b")]
+            public virtual Ranorex.LabelTag Payment_Info_PayGo25down
+            {
+                get
+                {
+                    return _payment_info_paygo25downInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_PayGo25down item info.
+            /// </summary>
+            [RepositoryItemInfo("899e5d0c-8226-4b6f-b3ba-9d2833e4117b")]
+            public virtual RepoItemInfo Payment_Info_PayGo25downInfo
+            {
+                get
+                {
+                    return _payment_info_paygo25downInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_15down_9Inst item.
+            /// </summary>
+            [RepositoryItem("a0937ed7-a8f6-4041-a3b5-2fbd92129900")]
+            public virtual Ranorex.LabelTag Payment_Info_15down_9Inst
+            {
+                get
+                {
+                    return _payment_info_15down_9instInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Payment_Info_15down_9Inst item info.
+            /// </summary>
+            [RepositoryItemInfo("a0937ed7-a8f6-4041-a3b5-2fbd92129900")]
+            public virtual RepoItemInfo Payment_Info_15down_9InstInfo
+            {
+                get
+                {
+                    return _payment_info_15down_9instInfo;
                 }
             }
         }
@@ -48376,7 +48714,7 @@ namespace Sid_FCGAProject.Project_Repository
             /// Creates a new FrmApplication  folder.
             /// </summary>
             public FrmApplicationFolder(RepoGenBaseFolder parentFolder) :
-                    base("FrmApplication", "/dom[@domain<'winston.fwcins.com']//form[#'frmApplication']", parentFolder, 30000, null, false, "03fc828e-3212-4ede-9ab1-8876f788a037", "")
+                    base("FrmApplication", "/dom[@domain<'fwcins.com']//form[#'frmApplication']", parentFolder, 30000, null, false, "03fc828e-3212-4ede-9ab1-8876f788a037", "")
             {
                 _txtlocationaddress1Info = new RepoItemInfo(this, "TxtLocationAddress1", "div[1]/div/div/div[2]/div[2]/div[2]//input[@name='txtLocationAddress1']", 30000, null, "a5de2a2f-b27e-4cba-8e46-d3e199f4c9ba");
                 _textInfo = new RepoItemInfo(this, "Text", "div[1]/div/div/div[2]/div[2]/div[2]/div/div[2]/div[2]/input[@type='text']", 30000, null, "fe7b8c17-18ba-4448-b35f-13e2a6e31b14");
@@ -48638,18 +48976,18 @@ namespace Sid_FCGAProject.Project_Repository
         }
 
         /// <summary>
-        /// The QDCFWCIQ219117110540GLACCEPTED0902AppFolder folder.
+        /// The QuoteAppFolder folder.
         /// </summary>
         [RepositoryFolder("b9928084-bd09-4f64-9c4c-9ee6fbe303bf")]
-        public partial class QDCFWCIQ219117110540GLACCEPTED0902AppFolder : RepoGenBaseFolder
+        public partial class QuoteAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _closeInfo;
 
             /// <summary>
-            /// Creates a new QDCFWCIQ219117110540GLACCEPTED0902  folder.
+            /// Creates a new Quote  folder.
             /// </summary>
-            public QDCFWCIQ219117110540GLACCEPTED0902AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("QDCFWCIQ219117110540GLACCEPTED0902", "/form[@title>'https://']", parentFolder, 30000, null, true, "b9928084-bd09-4f64-9c4c-9ee6fbe303bf", "")
+            public QuoteAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Quote", "/form[@title>'https://']", parentFolder, 30000, null, true, "b9928084-bd09-4f64-9c4c-9ee6fbe303bf", "")
             {
                 _closeInfo = new RepoItemInfo(this, "Close", "container[@accessiblename>'https://']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename>'https://']/button[@accessiblename='Close']", 30000, null, "a84ec84e-b87d-4b7c-b943-1afa01459fcd");
             }

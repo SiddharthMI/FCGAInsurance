@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public UW_WC_Messages()
         {
             UWMessages = "Hello Agent";
+            Status_Reason = "UW WC Message";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _UWMessages; }
             set { _UWMessages = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("aefcd3e9-68ff-4d53-888b-ab14b876d389")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -92,42 +105,42 @@ namespace Sid_FCGAProject.WC_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UW_DocumentSection' at 11;9.", repo.ApplicationUnderTest.UW_DocumentSectionInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.UW_DocumentSection.Click("11;9");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UW_DocumentSection' at 11;9.", repo.ApplicationUnderTest.UW_DocumentSectionInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.UW_DocumentSection.Click("11;9");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnUWNotes' at 39;19.", repo.ApplicationUnderTest.BtnUWNotesInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.BtnUWNotes.Click("39;19");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnUWNotes' at 39;19.", repo.ApplicationUnderTest.BtnUWNotesInfo, new RecordItemIndex(1));
+            //repo.ApplicationUnderTest.BtnUWNotes.Click("39;19");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnUWMessages' at 10;14.", repo.ApplicationUnderTest.BtnUWMessagesInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.BtnUWMessages.Click("10;14");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnUWMessages' at 10;14.", repo.ApplicationUnderTest.BtnUWMessagesInfo, new RecordItemIndex(2));
+            //repo.ApplicationUnderTest.BtnUWMessages.Click("10;14");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtQuoteQuestion' at 184;39.", repo.ApplicationUnderTest.TxtQuoteQuestionInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.TxtQuoteQuestion.Click("184;39");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtQuoteQuestion' at 184;39.", repo.ApplicationUnderTest.TxtQuoteQuestionInfo, new RecordItemIndex(3));
+            //repo.ApplicationUnderTest.TxtQuoteQuestion.Click("184;39");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$UWMessages' with focus on 'ApplicationUnderTest.TxtQuoteQuestion'.", repo.ApplicationUnderTest.TxtQuoteQuestionInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.TxtQuoteQuestion.PressKeys(UWMessages);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$UWMessages' with focus on 'ApplicationUnderTest.TxtQuoteQuestion'.", repo.ApplicationUnderTest.TxtQuoteQuestionInfo, new RecordItemIndex(4));
+            //repo.ApplicationUnderTest.TxtQuoteQuestion.PressKeys(UWMessages);
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAskProducer' at Center.", repo.ApplicationUnderTest.BtnAskProducerInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.BtnAskProducer.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAskProducer' at Center.", repo.ApplicationUnderTest.BtnAskProducerInfo, new RecordItemIndex(5));
+            //repo.ApplicationUnderTest.BtnAskProducer.Click();
+            //Delay.Milliseconds(0);
             
-            Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.ReportFullPageScreenshot(repo.ApplicationUnderTest.SelfInfo);
-            Delay.Milliseconds(0);
+            //Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.ReportFullPageScreenshot(repo.ApplicationUnderTest.SelfInfo);
+            //Delay.Milliseconds(0);
             
             //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(7));
             //Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnExitCommon' at 21;25.", repo.ApplicationUnderTest.BtnExitCommonInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.BtnExitCommon.Click("21;25");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnExitCommon' at 21;25.", repo.ApplicationUnderTest.BtnExitCommonInfo, new RecordItemIndex(8));
+            //repo.ApplicationUnderTest.BtnExitCommon.Click("21;25");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(9));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(9));
+            //Delay.Duration(10000, false);
             
         }
 

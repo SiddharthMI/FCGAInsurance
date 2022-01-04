@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public OtherEndtFormCG2012()
         {
             CG2012_No = "1";
+            Status_Reason = "CG2012 Forms No";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _CG2012_No; }
             set { _CG2012_No = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("b919fba5-8240-4791-8219-5be48441f467")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

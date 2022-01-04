@@ -43,6 +43,8 @@ namespace Sid_FCGAProject
         {
             UWStatus = "3";
             UWMessages = "Hello Agent";
+            UWReferralReason = "";
+            Status_Reason = "UW Submit and Re rate";
         }
 
         /// <summary>
@@ -79,6 +81,30 @@ namespace Sid_FCGAProject
             set { _UWMessages = value; }
         }
 
+        string _UWReferralReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable UWReferralReason.
+        /// </summary>
+        [TestVariable("c8a35c89-41b6-4f0d-8e81-b6899b800b0f")]
+        public string UWReferralReason
+        {
+            get { return _UWReferralReason; }
+            set { _UWReferralReason = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("b0ca5e25-161f-445e-8105-fce8a2550857")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -105,29 +131,47 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            //Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$UWStatus' on item 'ApplicationUnderTest.DdlCurrentStatus'.", repo.ApplicationUnderTest.DdlCurrentStatusInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Referral_Reson' and assigning its value to variable 'UWReferralReason'.", repo.ApplicationUnderTest.Referral_ResonInfo, new RecordItemIndex(1));
+            UWReferralReason = repo.ApplicationUnderTest.Referral_Reson.Element.GetAttributeValueText("InnerText");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", UWReferralReason, new RecordItemIndex(2));
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$UWStatus' on item 'ApplicationUnderTest.DdlCurrentStatus'.", repo.ApplicationUnderTest.DdlCurrentStatusInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.DdlCurrentStatus.Element.SetAttributeValue("TagValue", UWStatus);
             Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnReRate' at Center.", repo.ApplicationUnderTest.BtnReRateInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(4));
+            Delay.Duration(3000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnReRate' at Center.", repo.ApplicationUnderTest.BtnReRateInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.BtnReRate.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(3));
-            Delay.Duration(30000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(6));
+            //Delay.Duration(20000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.CLOSE'", repo.ApplicationUnderTest.CLOSEInfo, new ActionTimeout(15000), new RecordItemIndex(7));
+            repo.ApplicationUnderTest.CLOSEInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(8));
+            Delay.Duration(5000, false);
             
             Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.ReportFullPageScreenshot(repo.ApplicationUnderTest.SelfInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CLOSE' at Center.", repo.ApplicationUnderTest.CLOSEInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CLOSE' at Center.", repo.ApplicationUnderTest.CLOSEInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.CLOSE.Click();
             Delay.Milliseconds(0);
             
             Mouse_Click_UWPolicy_Exit(repo.ApplicationUnderTest.UWPolicy.UWPolicy_ExitInfo);
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(12));
+            Delay.Duration(5000, false);
             
         }
 

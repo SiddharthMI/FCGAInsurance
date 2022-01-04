@@ -83,6 +83,12 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.BtnSave1.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.TxtRefferal'", repo.ApplicationUnderTest.TxtRefferalInfo, new ActionTimeout(15000), new RecordItemIndex(1));
+            repo.ApplicationUnderTest.TxtRefferalInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
+            Delay.Duration(5000, false);
+            
         }
 
 #region Image Feature Data

@@ -21,7 +21,7 @@ name="FCGA_InsuranceRepository">
 		searchtimeout="30000ms"
 		usecache="False">
 			<basepath>
-				/dom[@domain=$QA_Agent_Env and @browser='Chrome']
+				/dom[@domain=$Agent_Url and @browser='Chrome']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
@@ -98,7 +98,7 @@ gg==
 	<variables>
 		<var
 		id="7c590099-d14f-4fa4-9023-ece7b04c03dc"
-		name="QA_Agent_Env">
+		name="Agent_Url">
 			https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html
 		</var>
 	</variables>

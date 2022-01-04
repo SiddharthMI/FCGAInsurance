@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public GLLiabilityLimit()
         {
             GLAgLiabilityL = "$1,000,000/$2,000,000";
+            Status_Reason = "Agent GL Liability Limit";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _GLAgLiabilityL; }
             set { _GLAgLiabilityL = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("03e0a906-20f0-4805-b155-efeb3d32b017")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

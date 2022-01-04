@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public Request_Issuance()
         {
+            Status_Reason = "Request Issuance";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("88133723-7ff3-4c91-abe0-e7ff4f5761bb")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(0));
-            Delay.Duration(20000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(0));
+            //Delay.Duration(20000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Labelcheckbox' at Center.", repo.ApplicationUnderTest.LabelcheckboxInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.Labelcheckbox.Click();

@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.WC_Product
         /// </summary>
         public IndustryQuestionSave()
         {
+            Status_Reason = "Question Page";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.WC_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("bafd92de-b5f3-4e5b-8334-27788643c657")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -86,8 +99,14 @@ namespace Sid_FCGAProject.WC_Product
             repo.ApplicationUnderTest.BtnNext.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 8s.", new RecordItemIndex(2));
-            Delay.Duration(8000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 8s.", new RecordItemIndex(2));
+            //Delay.Duration(8000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.BtnSubmit'", repo.ApplicationUnderTest.BtnSubmitInfo, new ActionTimeout(5000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.BtnSubmitInfo.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(4));
+            Delay.Duration(5000, false);
             
         }
 

@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.GL_Product
         /// </summary>
         public GLAdditionalInsured_Yes()
         {
+            Status_Reason = "Agent GL Additional Insured";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.GL_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("b4feba1a-8652-48d0-ae13-fe9924db5249")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

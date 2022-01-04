@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="1739e041-25bc-434b-9f72-1eaf4be7bb4d"
+		name="Status_Reason">
+			UW SignOut
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

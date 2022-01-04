@@ -43,6 +43,7 @@ namespace Sid_FCGAProject.GL_Product
         {
             GLAgLocationNo = "4";
             GLAgProjectNo = "4";
+            Status_Reason = "Location and Project Aggregate";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _GLAgProjectNo; }
             set { _GLAgProjectNo = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("7bedecad-31d2-41a3-b75a-3c45c417f993")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

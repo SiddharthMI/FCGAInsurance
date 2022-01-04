@@ -41,8 +41,9 @@ namespace Sid_FCGAProject
         /// </summary>
         public UW_Login()
         {
-            QA_UW_ID = "PMAMSeptUser";
-            QA_UW_Pwd = "Pm#Vtsp";
+            UW_ID = "PMAMSeptUser";
+            UW_Pwd = "Pm#Vtsp";
+            Status_Reason = "UW Login";
         }
 
         /// <summary>
@@ -55,28 +56,40 @@ namespace Sid_FCGAProject
 
 #region Variables
 
-        string _QA_UW_ID;
+        string _UW_ID;
 
         /// <summary>
-        /// Gets or sets the value of variable QA_UW_ID.
+        /// Gets or sets the value of variable UW_ID.
         /// </summary>
         [TestVariable("0b1cbc3a-4854-41e1-b5b4-b7662b92e807")]
-        public string QA_UW_ID
+        public string UW_ID
         {
-            get { return _QA_UW_ID; }
-            set { _QA_UW_ID = value; }
+            get { return _UW_ID; }
+            set { _UW_ID = value; }
         }
 
-        string _QA_UW_Pwd;
+        string _UW_Pwd;
 
         /// <summary>
-        /// Gets or sets the value of variable QA_UW_Pwd.
+        /// Gets or sets the value of variable UW_Pwd.
         /// </summary>
         [TestVariable("cdd64027-46bb-4856-af6b-3ba06aaa2e84")]
-        public string QA_UW_Pwd
+        public string UW_Pwd
         {
-            get { return _QA_UW_Pwd; }
-            set { _QA_UW_Pwd = value; }
+            get { return _UW_Pwd; }
+            set { _UW_Pwd = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("a605d6c8-4896-4c2d-acdb-fc384589334b")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -113,8 +126,8 @@ namespace Sid_FCGAProject
             repo.ApplicationUnderTest.TxtBranchId.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$QA_UW_ID' on item 'ApplicationUnderTest.TxtBranchId'.", repo.ApplicationUnderTest.TxtBranchIdInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.TxtBranchId.Element.SetAttributeValue("Value", QA_UW_ID);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$UW_ID' on item 'ApplicationUnderTest.TxtBranchId'.", repo.ApplicationUnderTest.TxtBranchIdInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.TxtBranchId.Element.SetAttributeValue("Value", UW_ID);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LogoPad20TextCenter' at Center.", repo.ApplicationUnderTest.LogoPad20TextCenterInfo, new RecordItemIndex(3));
@@ -129,20 +142,30 @@ namespace Sid_FCGAProject
             repo.ApplicationUnderTest.TxtPassword.Element.SetAttributeValue("Value", null);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$QA_UW_Pwd' on item 'ApplicationUnderTest.TxtPassword'.", repo.ApplicationUnderTest.TxtPasswordInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.TxtPassword.Element.SetAttributeValue("Value", QA_UW_Pwd);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$UW_Pwd' on item 'ApplicationUnderTest.TxtPassword'.", repo.ApplicationUnderTest.TxtPasswordInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.TxtPassword.Element.SetAttributeValue("Value", UW_Pwd);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LogoPad20TextCenter' at Center.", repo.ApplicationUnderTest.LogoPad20TextCenterInfo, new RecordItemIndex(7));
             repo.ApplicationUnderTest.LogoPad20TextCenter.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SignIn' at Center.", repo.ApplicationUnderTest.SignInInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.SignIn.Click();
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking PerformClick() on item 'ApplicationUnderTest.UWSign'.", repo.ApplicationUnderTest.UWSignInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.UWSign.PerformClick();
             Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UWSign' at Center.", repo.ApplicationUnderTest.UWSignInfo, new RecordItemIndex(9));
+            //repo.ApplicationUnderTest.UWSign.Click();
+            //Delay.Milliseconds(0);
             
             //Mouse_Click_Close(repo.UpdatePassword.CloseInfo);
             //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.Txtsearch'", repo.ApplicationUnderTest.TxtsearchInfo, new ActionTimeout(15000), new RecordItemIndex(11));
+            repo.ApplicationUnderTest.TxtsearchInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(12));
+            Delay.Duration(300, false);
             
         }
 

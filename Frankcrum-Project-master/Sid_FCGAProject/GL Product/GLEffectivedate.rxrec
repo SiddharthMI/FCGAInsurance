@@ -27,6 +27,11 @@ mode="Global">
 		id="77750fca-1d6f-4793-bed7-630e117aabee"
 		name="GL_Effectivedate">
 		</var>
+		<var
+		id="45a8d9b1-a083-4844-828a-4250ee29b51d"
+		name="Status_Reason">
+			Risk Level Effective date
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

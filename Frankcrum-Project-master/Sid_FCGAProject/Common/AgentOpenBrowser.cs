@@ -41,7 +41,8 @@ namespace Sid_FCGAProject.Common
         /// </summary>
         public AgentOpenBrowser()
         {
-            QA_Agent_Env = "https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html";
+            Agent_Url = "https://qawinston.fwcins.com/FWCPortal/User/Login/Login.html";
+            Status_Reason = "Agent Open Browser";
         }
 
         /// <summary>
@@ -54,14 +55,26 @@ namespace Sid_FCGAProject.Common
 
 #region Variables
 
+        string _Status_Reason;
+
         /// <summary>
-        /// Gets or sets the value of variable QA_Agent_Env.
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("38513c92-aa2e-49f3-972d-0d2a37602200")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable Agent_Url.
         /// </summary>
         [TestVariable("736de7c1-3a67-423c-85ff-9552e5e23f05")]
-        public string QA_Agent_Env
+        public string Agent_Url
         {
-            get { return repo.QA_Agent_Env; }
-            set { repo.QA_Agent_Env = value; }
+            get { return repo.Agent_Url; }
+            set { repo.Agent_Url = value; }
         }
 
 #endregion
@@ -93,11 +106,14 @@ namespace Sid_FCGAProject.Common
             //Hardclosebrowser();
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $QA_Agent_Env with browser 'chrome' in normal mode.", new RecordItemIndex(1));
-            Host.Current.OpenBrowser(QA_Agent_Env, "chrome", "", false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $Agent_Url with browser 'chrome' in normal mode.", new RecordItemIndex(1));
+            Host.Current.OpenBrowser(Agent_Url, "chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
             //RestorePageClose(repo.RestorePages.RestoreInfo, repo.RestorePages.CloseInfo);
+            //Delay.Milliseconds(0);
+            
+            //Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.WriteToFile(Status_Reason, "StatusComment", "txt");
             //Delay.Milliseconds(0);
             
         }

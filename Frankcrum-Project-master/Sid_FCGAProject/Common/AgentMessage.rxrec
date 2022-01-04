@@ -39,7 +39,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -248,7 +248,7 @@ BRRtNG00AFFG00bTQAUUbTRtNABRRtNG00AFFG00UAf/2Q==
 		<keysequenceitem
 		KeySequence="Autmfcga-2Sid"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="4606ae7d-504e-42b4-9b6f-6be9c15b48cb">
@@ -447,7 +447,7 @@ UUbTRQB//9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -625,7 +625,7 @@ BaKKKAP/2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -636,7 +636,7 @@ BaKKKAP/2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -785,7 +785,7 @@ qbaKWigBNoo2ilooAKKKKAP/2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -809,7 +809,7 @@ qbaKWigBNoo2ilooAKKKKAP/2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1068,7 +1068,7 @@ l/56v/30aKCbM//Z
 		<keysequenceitem
 		KeySequence="Hello"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="aa339382-7a96-462b-a613-ad10100fff77">
@@ -1308,7 +1308,7 @@ Kb50v/PV/wDvo0UE2Z//2Q==
 		</keysequenceitem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -1319,7 +1319,7 @@ Kb50v/PV/wDvo0UE2Z//2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1480,7 +1480,7 @@ mPc0Y9zS0UAJj3NGPc0tFACY9zRj3NLRQAmPc0Y9zS0UAJj3NGPc0tFACY9zRj3NLRQAmKWiigD/
 		</mouseitem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -1491,7 +1491,7 @@ mPc0Y9zS0UAJj3NGPc0tFACY9zRj3NLRQAmPc0Y9zS0UAJj3NGPc0tFACY9zRj3NLRQAmKWiigD/
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -1590,7 +1590,7 @@ thbqwKsIlBBGCDgVhapI76vbRO7NGXUFCcg8jtXSUhhRRRQB/9k=
 		</mouseitem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

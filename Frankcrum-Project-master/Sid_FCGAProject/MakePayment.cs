@@ -41,6 +41,8 @@ namespace Sid_FCGAProject
         /// </summary>
         public MakePayment()
         {
+            WCInsuredAddress = "";
+            Status_Reason = "Make Payment";
         }
 
         /// <summary>
@@ -52,6 +54,30 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _WCInsuredAddress;
+
+        /// <summary>
+        /// Gets or sets the value of variable WCInsuredAddress.
+        /// </summary>
+        [TestVariable("6170a347-1774-498d-8e0e-77d1af562f6f")]
+        public string WCInsuredAddress
+        {
+            get { return _WCInsuredAddress; }
+            set { _WCInsuredAddress = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("cdc4d881-61f1-4117-a780-97c42d194850")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,9 +105,23 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave' at Center.", repo.ApplicationUnderTest.BtnSaveInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.WCInsuredAddress' at Center.", repo.ApplicationUnderTest.WCInsuredAddressInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.WCInsuredAddress.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.WCInsuredAddress' and assigning its value to variable 'WCInsuredAddress'.", repo.ApplicationUnderTest.WCInsuredAddressInfo, new RecordItemIndex(1));
+            WCInsuredAddress = repo.ApplicationUnderTest.WCInsuredAddress.Element.GetAttributeValueText("InnerText");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave' at Center.", repo.ApplicationUnderTest.BtnSaveInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.BtnSave.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.Labelcheckbox'", repo.ApplicationUnderTest.LabelcheckboxInfo, new ActionTimeout(15000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.LabelcheckboxInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(4));
+            Delay.Duration(5000, false);
             
         }
 

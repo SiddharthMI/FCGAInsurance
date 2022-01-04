@@ -28,6 +28,11 @@ mode="Global">
 		name="GLAgClaimNo">
 			0
 		</var>
+		<var
+		id="297a5793-1489-4f57-b28c-f51b3a652ee5"
+		name="Status_Reason">
+			GL Claims
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public UW_WCPolicyDetails()
         {
+            Status_Reason = "WC Policy Details";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("2ebf7fb1-2121-4bd1-9e3c-c64511983e5b")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -83,19 +96,19 @@ namespace Sid_FCGAProject
             repo.ApplicationUnderTest.FasFaShareSquare.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            //Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BillingClose' at Center.", repo.BillingCloseInfo, new RecordItemIndex(2));
-            repo.BillingClose.Click();
-            Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UWPolicy.UWPolicy_Refresh' at Center.", repo.ApplicationUnderTest.UWPolicy.UWPolicy_RefreshInfo, new RecordItemIndex(3));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UWPolicy.UWPolicy_Refresh' at Center.", repo.ApplicationUnderTest.UWPolicy.UWPolicy_RefreshInfo, new RecordItemIndex(2));
             //repo.ApplicationUnderTest.UWPolicy.UWPolicy_Refresh.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(4));
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(3));
             //Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BillingClose' at Center.", repo.BillingCloseInfo, new RecordItemIndex(4));
+            repo.BillingClose.Click();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_StatusLink'.", repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_StatusLinkInfo, new RecordItemIndex(5));
             Validate.Exists(repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_StatusLinkInfo);

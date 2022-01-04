@@ -35,6 +35,7 @@ namespace Sid_FCGAProject.WC_Product
 
         public void MergedUserCodeMethod(RepoItemInfo spantagInfo, RepoItemInfo inputtagInfo, RepoItemInfo inputtagInfo1, RepoItemInfo divtagInfo, RepoItemInfo inputtagInfo2, RepoItemInfo spantagInfo1, RepoItemInfo inputtagInfo3, RepoItemInfo divtagInfo1)
         {
+        	string [] SplClassCode;
         	string[] StateNameList = StateName.Split(',');
         	int StateCount = StateNameList.Length;
         	
@@ -60,6 +61,12 @@ namespace Sid_FCGAProject.WC_Product
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'divtagInfo' at Center.", divtagInfo);
             divtagInfo.FindAdapter<DivTag>().Click();
             
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Value' from item 'inputtagInfo1' and assigning its value to variable 'ClassCode'.", inputtagInfo1);
+            ClassCode = inputtagInfo1.FindAdapter<InputTag>().Element.GetAttributeValueText("Value");
+            Report.Log(ReportLevel.Info, "User", ClassCode);
+            SplClassCode=ClassCode.Split(':');
+            ClassCode = SplClassCode[0];
+            
             if(StateCount>1 || ClassCodeCount>1){
  
             	if(StateCount>1){
@@ -69,7 +76,7 @@ namespace Sid_FCGAProject.WC_Product
             	if(ClassCodeCount>1){
             		WCClassCode = ClassCodeList[i];
             	}
-            	
+            String ClassCode1 = ClassCode;
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'inputtagInfo2' at Center.", inputtagInfo2);
             inputtagInfo2.FindAdapter<InputTag>().Click();
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'spantagInfo1' at Center.", spantagInfo1);
@@ -86,9 +93,14 @@ namespace Sid_FCGAProject.WC_Product
             inputtagInfo3.FindAdapter<InputTag>().PressKeys(WCClassCode);
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'divtagInfo1' at Center.", divtagInfo1);
             divtagInfo1.FindAdapter<DivTag>().Click();
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Value' from item 'inputtagInfo1' and assigning its value to variable 'ClassCode'.", inputtagInfo1);
+            ClassCode = inputtagInfo3.FindAdapter<InputTag>().Element.GetAttributeValueText("Value");
+            Report.Log(ReportLevel.Info, "User", ClassCode);
+            SplClassCode=ClassCode.Split(':');
+            ClassCode = SplClassCode[0];
+            ClassCode = ClassCode1+","+ClassCode;
             i++;
           }
         }
-
     }
 }

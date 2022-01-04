@@ -79,16 +79,16 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadQuote' at Center.", repo.ApplicationUnderTest.BtnDownloadQuoteInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.BtnDownloadQuote.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadQuote' at Center.", repo.ApplicationUnderTest.BtnDownloadQuoteInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.BtnDownloadQuote.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(1));
+            //Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'QDCFWCIQ219117110540GLACCEPTED0902.Close' at Center.", repo.QDCFWCIQ219117110540GLACCEPTED0902.CloseInfo, new RecordItemIndex(2));
-            repo.QDCFWCIQ219117110540GLACCEPTED0902.Close.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Quote.Close' at Center.", repo.Quote.CloseInfo, new RecordItemIndex(2));
+            //repo.Quote.Close.Click();
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnIssue' at Center.", repo.ApplicationUnderTest.BtnIssueInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.BtnIssue.Click();

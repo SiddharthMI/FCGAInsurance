@@ -41,7 +41,8 @@ namespace Sid_FCGAProject
         /// </summary>
         public UWOpen_Browser()
         {
-            QA_UW_Env = "https://qawinston.fwcins.com/FWCPortal/Underwriter/UWlogin/UWlogin.html";
+            UW_URL = "https://qawinston.fwcins.com/FWCPortal/Underwriter/UWlogin/UWlogin.html";
+            Status_Reason = "UW Open Browser";
         }
 
         /// <summary>
@@ -54,16 +55,28 @@ namespace Sid_FCGAProject
 
 #region Variables
 
-        string _QA_UW_Env;
+        string _UW_URL;
 
         /// <summary>
-        /// Gets or sets the value of variable QA_UW_Env.
+        /// Gets or sets the value of variable UW_URL.
         /// </summary>
         [TestVariable("d0d8ee15-1820-4006-9970-7e854eb98a69")]
-        public string QA_UW_Env
+        public string UW_URL
         {
-            get { return _QA_UW_Env; }
-            set { _QA_UW_Env = value; }
+            get { return _UW_URL; }
+            set { _UW_URL = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("5feb4748-5cbc-41d5-ba0e-648a2b835f95")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -95,8 +108,8 @@ namespace Sid_FCGAProject
             //Hardclosebrowser();
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $QA_UW_Env with browser 'chrome' in normal mode.", new RecordItemIndex(1));
-            Host.Current.OpenBrowser(QA_UW_Env, "chrome", "", false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $UW_URL with browser 'chrome' in normal mode.", new RecordItemIndex(1));
+            Host.Current.OpenBrowser(UW_URL, "chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
             //RestorePageClose(repo.RestorePages.RestoreInfo, repo.RestorePages.CloseInfo);

@@ -25,8 +25,13 @@ mode="Global">
 	<variables>
 		<var
 		id="d0d8ee15-1820-4006-9970-7e854eb98a69"
-		name="QA_UW_Env">
+		name="UW_URL">
 			https://qawinston.fwcins.com/FWCPortal/Underwriter/UWlogin/UWlogin.html
+		</var>
+		<var
+		id="5feb4748-5cbc-41d5-ba0e-648a2b835f95"
+		name="Status_Reason">
+			UW Open Browser
 		</var>
 	</variables>
 	<recorditems>
@@ -61,7 +66,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Url"
-				variable="QA_UW_Env">
+				variable="UW_URL">
 				</binding>
 			</bindings>
 			<url>

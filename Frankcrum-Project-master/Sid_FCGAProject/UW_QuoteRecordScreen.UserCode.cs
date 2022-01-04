@@ -33,5 +33,17 @@ namespace Sid_FCGAProject
             // Your recording specific initialization code goes here.
         }
 
+        public void MergedUserCodeMethod(RepoItemInfo buttontagInfo, RepoItemInfo buttontagInfo1,string lob)
+        {
+        	if(lob.Equals("GeneralLiability"))
+        	{
+              Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'buttontagInfo'", buttontagInfo, new ActionTimeout(15000));
+              buttontagInfo.WaitForExists(15000);
+        	}else{
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'buttontagInfo1'", buttontagInfo1, new ActionTimeout(15000));
+            buttontagInfo1.WaitForExists(15000);
+        	}
+        }
+
     }
 }

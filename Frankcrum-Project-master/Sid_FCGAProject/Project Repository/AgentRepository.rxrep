@@ -1323,9 +1323,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="c983420d-7913-41af-882b-1193686a45c0"
 			name="NewQuoteTab"
 			refimgid="181eae4f-e4a3-4a92-8cde-1eb5608762b4"
-			refpath="/dom[@domain='qawinston.fwcins.com']//a[#'lnkNewQuote']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//a[#'lnkNewQuote']
+				/dom[@domain&lt;'fwcins.com']//a[#'lnkNewQuote']
 			</item>
 			<item
 			addcaps="unknown,webelement,h1tag"
@@ -1333,9 +1332,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="06f78fe3-3d17-4c0d-9089-4506eb28b01f"
 			name="PageName_CreateNewQuote"
 			refimgid="834ba501-4a99-4499-805e-da23292bba12"
-			refpath="/dom[@domain='qawinston.fwcins.com']/body/div[3]/h1[@innertext='Create New Quote']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']/body/div[3]/h1[@innertext='Create New Quote']
+				/dom[@domain&lt;'fwcins.com']/body/div[3]/h1[@innertext='Create New Quote']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1343,9 +1341,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="28048a52-2769-4e27-a25f-224da7031ae2"
 			name="QuoteType_Section_title"
 			refimgid="2a4098db-a5dd-47fe-a376-d5dd08c6e1fb"
-			refpath="/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[4]/div[@innertext='                What type of quote are you starting?            ']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']/body/div[3]/?/?/div[@innertext&gt;'                What type']
+				/dom[@domain&lt;'fwcins.com']/body/div[3]/?/?/div[@innertext&gt;'                What type']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -1353,9 +1350,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="f4bfafe1-653d-4de6-9ca3-8cc588dbd4fb"
 			name="LOB_WorkersCompensation"
 			refimgid="40cd2ee1-0075-4eb3-b9ca-0678c53b1b6f"
-			refpath="/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[1]/div/label[@innertext='Workers'' Compensation']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[1]/?/?/label[@innertext='Workers'' Compensation']
+				/dom[@domain&lt;'fwcins.com']/body/div[3]/div[4]/div[2]/div/div[1]/?/?/label[@innertext='Workers'' Compensation']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -1363,9 +1359,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="2b40e0a2-7afe-47dd-93b6-5fe714136084"
 			name="LOB_GeneralLiability"
 			refimgid="11eadee6-1358-4de5-a4b6-6e5f3ee03d98"
-			refpath="/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[2]/div/label[@innertext='General Liability']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[2]/?/?/label[@innertext='General Liability']
+				/dom[@domain&lt;'fwcins.com']/body/div[3]/div[4]/div[2]/div/div[2]/?/?/label[@innertext='General Liability']
 			</item>
 			<item
 			addcaps="unknown,webelement,buttontag"
@@ -1373,9 +1368,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="9d8b058b-961d-4ad0-8247-5b21d547614c"
 			name="Page_Cancel"
 			refimgid="07c7b8d7-c154-4391-adeb-c798215b9b29"
-			refpath="/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[5]/div[2]/button[@innertext='Cancel']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[5]/?/?/button[@innertext='Cancel']
+				/dom[@domain&lt;'fwcins.com']/body/div[3]/div[5]/?/?/button[@innertext='Cancel']
 			</item>
 			<item
 			addcaps="unknown,webelement,buttontag"
@@ -1383,9 +1377,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="b50d24c7-062f-4619-9391-1536b4d658d7"
 			name="Page_Continue"
 			refimgid="d9366756-07f3-41d2-a5ec-67057a786ac4"
-			refpath="/dom[@domain='qawinston.fwcins.com']//button[#'BtnSave']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//button[#'BtnSave']
+				/dom[@domain&lt;'fwcins.com']//button[#'BtnSave']
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -1393,9 +1386,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="bf85df6b-83d9-4952-bae7-ac9b188905f7"
 			name="Page_DivProgVerbiage"
 			refimgid="ef7a0406-2ac0-4366-91a4-1c867797ea77"
-			refpath="/dom[@domain='qawinston.fwcins.com']//label[#'FLAuthState']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//label[#'FLAuthState']
+				/dom[@domain&lt;'fwcins.com']//label[#'FLAuthState']
 			</item>
 			<item
 			addcaps="unknown,webelement,atag"
@@ -1403,9 +1395,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="397d1bf6-4127-49ad-8504-927636ef1a99"
 			name="Page_DivProgLink"
 			refimgid="bb025e4e-fa51-44b8-9d63-3e127686f46f"
-			refpath="/dom[@domain='qawinston.fwcins.com']//label[#'FLAuthState']/a[@innertext=' here']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//label[#'FLAuthState']/a[@innertext=' here']
+				/dom[@domain&lt;'fwcins.com']//label[#'FLAuthState']/a[@innertext=' here']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1413,9 +1404,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="35123539-27b3-4569-88bc-66b384c07689"
 			name="WC_TxtFEIN"
 			refimgid="88e18be6-f0a6-47fb-bb4f-8317985bcb49"
-			refpath="/dom[@domain='qawinston.fwcins.com']//input[#'txtFEIN']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//input[#'txtFEIN']
+				/dom[@domain&lt;'fwcins.com']//input[#'txtFEIN']
 			</item>
 		</folder>
 		<folder
@@ -1430,9 +1420,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="862cdd80-e4d3-4b16-97be-ed1e208efb90"
 			name="JourneyBar_BSIndicator"
 			refimgid="c8fb243c-ff22-4783-a8c6-3cd694cd9b3b"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_BS']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_BS']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_BS']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1440,9 +1429,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="19966ffc-654a-4b9a-a9c9-54669de14eba"
 			name="JourneyBar_TagBS"
 			refimgid="9d105f01-4c8d-4a51-b153-f10853f2a4af"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_BS']/div[@innertext=' Business Info']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_BS']/div[@innertext=' Business Info']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_BS']/div[@innertext=' Business Info']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1450,9 +1438,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="5e91b4ec-861b-4b6a-905e-6231869b2bd7"
 			name="JourneyBar_QuesIndicator"
 			refimgid="2aab908d-ebc9-43a1-a310-a129a677a3ac"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_Que']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_Que']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_Que']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1460,9 +1447,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="e54a0dd4-fc4e-4920-b8b1-4dec25bd4b76"
 			name="JourneyBar_TagQues"
 			refimgid="728cbb19-009f-426a-b868-d56a1251ab1f"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_Que']/div[@innertext='                                    Questions                                ']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_Que']/div[@innertext&gt;'']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_Que']/div[@innertext&gt;'']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1470,9 +1456,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="dbcdeefb-6909-42a4-9ebd-4e2eefdf252a"
 			name="JourneyBar_LossIndicator"
 			refimgid="5583ef6f-33c8-4ee0-a7e4-987aba8d9c9d"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_Loss']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_Loss']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_Loss']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1480,9 +1465,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="28f81fea-0096-4c33-b9ff-afd3f49a209e"
 			name="JourneyBar_TagLoss"
 			refimgid="d1366c13-3664-459c-a456-700667bc3ac3"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_Loss']/div[@innertext='                                    Losses                                ']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_Loss']/div[@innertext&gt;'']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_Loss']/div[@innertext&gt;'']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1490,9 +1474,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="2d7f35a5-d30c-48fa-8a91-9721163ce71b"
 			name="JourneyBar_AppIndicator"
 			refimgid="f6a641e6-3c18-4a07-bf78-5819998db2ad"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_App']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_App']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_App']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1500,9 +1483,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="271ea910-f7b7-4a89-b61b-a431b8a75f47"
 			name="JourneyBar_TagApp"
 			refimgid="f4444e78-c1cd-4579-a993-e9bb3d170e82"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_App']/div[@innertext='                                    Application                                ']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_App']/div[@innertext&gt;'']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_App']/div[@innertext&gt;'']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1510,9 +1492,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="5feac608-964e-4ca7-93e3-ea2ca1a08b20"
 			name="JourneyBar_IssueIndicator"
 			refimgid="40689202-8996-4fa0-ac9f-dfe1bcb7a606"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_Issue']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_Issue']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_Issue']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1520,9 +1501,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="4c0f5b71-42dd-44f5-900a-1bc3e2ab9df1"
 			name="JourneyBar_TagIssue"
 			refimgid="0fddced3-7049-4fc7-b740-b758b5917abe"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'WC_Issue']/div[@innertext='                                    Issue                                ']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'WC_Issue']/div[@innertext&gt;'']
+				/dom[@domain&lt;'fwcins.com']//div[#'WC_Issue']/div[@innertext&gt;'']
 			</item>
 			<item
 			addcaps="unknown,webelement,itag"
@@ -1530,9 +1510,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="5eaf39d3-390d-49a8-9577-b42d3cb9215b"
 			name="BS_Message_disabled"
 			refimgid="fdd2e8aa-101f-4192-b6b5-c9695b566c73"
-			refpath="/dom[@domain='qawinston.fwcins.com']//a[#'lnknmNotes']/span/i"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//a[#'lnknmNotes']/?/?/i
+				/dom[@domain&lt;'fwcins.com']//a[#'lnknmNotes']/?/?/i
 			</item>
 			<item
 			addcaps="unknown,webelement,labeltag"
@@ -1540,9 +1519,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="c3f8da9d-0000-433d-a6f1-7988926dd5c9"
 			name="BS_PageTitle"
 			refimgid="210528f6-501b-4cf1-b264-aebcdf7e16c0"
-			refpath="/dom[@domain='qawinston.fwcins.com']//label[#'LblPage']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//label[#'LblPage']
+				/dom[@domain&lt;'fwcins.com']//label[#'LblPage']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -1550,9 +1528,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="6ed76c03-9b99-427f-9ac6-d8885b22df02"
 			name="BS_EligibilityTitle"
 			refimgid="072486cf-d6d1-4bc0-9067-53f776eb56bc"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'pgBody']/div[2]/div[2]/div/div[@innertext='                    Eligibility                ']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'pgBody']/div[2]//div[@innertext&gt;'                    Eligibility']
+				/dom[@domain&lt;'fwcins.com']//div[#'pgBody']/div[2]//div[@innertext&gt;'                    Eligibility']
 			</item>
 			<item
 			addcaps="unknown,webelement,thtag"
@@ -1560,9 +1537,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="d4d362fe-b834-42ee-900d-184b2ce49c76"
 			name="BS_Elig_StateField"
 			refimgid="79f723f7-0895-47d8-9774-aeb6ae7d027d"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table/thead/tr/th[@innertext='State']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='State']
+				/dom[@domain&lt;'fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='State']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1570,9 +1546,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="d267d4c6-8d30-4ed7-8076-e2a3ef7ed345"
 			name="BS_Elig_StateDrpdwn"
 			refimgid="1d6da6e2-016a-419d-9247-b80d5e5743cc"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table/tbody[1]/tr/td[1]/span/span[1]/span/span[@title='-Select-']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/?/?/table/tbody[1]/tr/td[1]//span[@title='-Select-']
+				/dom[@domain&lt;'fwcins.com']//div[#'bloodhound']/?/?/table/tbody[1]/tr/td[1]//span[@title='-Select-']
 			</item>
 			<item
 			addcaps="unknown,webelement,thtag"
@@ -1580,9 +1555,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="f0f45b47-a8bc-47a6-bc20-8acae06c6664"
 			name="BS_Elig_CodeField"
 			refimgid="ac2191a2-309b-45f4-a4e5-f8d2335acab8"
-			refpath="/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/div/table/thead/tr/th[@innertext='Code']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='Code']
+				/dom[@domain&lt;'fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='Code']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1590,9 +1564,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="ee653d6d-8bc3-4c9f-a5ab-19ebd6a065d8"
 			name="BS_Elig_CCTxt"
 			refimgid="511b66c4-d1ec-4c3e-8f1f-cfec5949e8f9"
-			refpath="/dom[@domain='qawinston.fwcins.com']//input[#'txtClassCodes1']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//input[#'txtClassCodes1']
+				/dom[@domain&lt;'fwcins.com']//input[#'txtClassCodes1']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1600,9 +1573,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="3831a3be-de16-46a5-a57d-7618eda5bd3f"
 			name="BS_Elig_ClearBtn"
 			refimgid="4ee3f3ca-baaf-430b-87e2-dc4694538398"
-			refpath="/dom[@domain='qawinston.fwcins.com']//input[#'btnClearEligibility']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//input[#'btnClearEligibility']
+				/dom[@domain&lt;'fwcins.com']//input[#'btnClearEligibility']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1610,9 +1582,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="fc927375-cb12-4f7a-809e-7b8b2256e9ea"
 			name="BS_Elig_AddCode"
 			refimgid="21471058-a5cc-4b2d-bd10-0c04a4c16a84"
-			refpath="/dom[@domain='qawinston.fwcins.com']//input[#'btnAddEligibility']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//input[#'btnAddEligibility']
+				/dom[@domain&lt;'fwcins.com']//input[#'btnAddEligibility']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1620,9 +1591,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="c54093c1-24bd-4a97-a0a5-66b6f5ac2102"
 			name="BS_Elig_Continue"
 			refimgid="b2685098-e275-4ab1-9ff2-0730be10e17d"
-			refpath="/dom[@domain='qawinston.fwcins.com']//input[#'btnContinue']"
 			searchtimeout="30000ms">
-				/dom[@domain='qawinston.fwcins.com']//input[#'btnContinue']
+				/dom[@domain&lt;'fwcins.com']//input[#'btnContinue']
 			</item>
 		</folder>
 		<folder

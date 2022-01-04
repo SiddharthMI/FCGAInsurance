@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.GL_Product
         /// </summary>
         public GL_RiskLevel_Submit()
         {
+            Status_Reason = "Risk Level (Save and Continue)";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.GL_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("1276d162-1ce4-46ba-b6a5-3febbbcc48ac")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -83,8 +96,14 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.BtnSubmitRI.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(1));
-            Delay.Duration(20000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(1));
+            //Delay.Duration(20000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.SelectGLClassificationContainer'", repo.ApplicationUnderTest.SelectGLClassificationContainerInfo, new ActionTimeout(15000), new RecordItemIndex(2));
+            repo.ApplicationUnderTest.SelectGLClassificationContainerInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
+            Delay.Duration(5000, false);
             
         }
 

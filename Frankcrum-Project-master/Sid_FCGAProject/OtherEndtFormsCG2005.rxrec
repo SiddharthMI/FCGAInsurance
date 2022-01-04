@@ -28,6 +28,11 @@ mode="Global">
 		name="CG2005_No">
 			1
 		</var>
+		<var
+		id="9f08dc42-02af-4a14-a34c-89ddf0b7314d"
+		name="Status_Reason">
+			CG2005 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

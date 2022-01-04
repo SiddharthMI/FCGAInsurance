@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public FWCI_CTR()
         {
             FWCI_CTR1 = "1.67";
+            Status_Reason = "UW FWCI CTR";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _FWCI_CTR1; }
             set { _FWCI_CTR1 = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("7bbf3576-999a-47bf-b407-19b4f8f243ce")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -96,13 +109,17 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.ConsentToRateCTR.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Txtsearch2' at Center.", repo.ApplicationUnderTest.Txtsearch2Info, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Txtsearch2.Click();
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$FWCI_CTR1' on item 'ApplicationUnderTest.Txtsearch2'.", repo.ApplicationUnderTest.Txtsearch2Info, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Txtsearch2.Element.SetAttributeValue("Value", FWCI_CTR1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$FWCI_CTR1' with focus on 'ApplicationUnderTest.Txtsearch2'.", repo.ApplicationUnderTest.Txtsearch2Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Txtsearch2.PressKeys(FWCI_CTR1);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Txtsearch2' at Center.", repo.ApplicationUnderTest.Txtsearch2Info, new RecordItemIndex(2));
+            //repo.ApplicationUnderTest.Txtsearch2.Click();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$FWCI_CTR1' with focus on 'ApplicationUnderTest.Txtsearch2'.", repo.ApplicationUnderTest.Txtsearch2Info, new RecordItemIndex(3));
+            //repo.ApplicationUnderTest.Txtsearch2.PressKeys(FWCI_CTR1);
+            //Delay.Milliseconds(0);
             
         }
 

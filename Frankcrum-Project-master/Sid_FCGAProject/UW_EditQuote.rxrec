@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="3a56ffef-edf4-4f8a-8508-6c01ebb0bf2d"
+		name="Status_Reason">
+			Edit Quote
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -30,7 +35,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="61;25"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="0f183632-d85e-429b-9e27-a11d8aac05d5"

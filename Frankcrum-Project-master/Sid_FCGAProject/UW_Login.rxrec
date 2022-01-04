@@ -25,13 +25,18 @@ mode="Global">
 	<variables>
 		<var
 		id="0b1cbc3a-4854-41e1-b5b4-b7662b92e807"
-		name="QA_UW_ID">
+		name="UW_ID">
 			PMAMSeptUser
 		</var>
 		<var
 		id="cdd64027-46bb-4856-af6b-3ba06aaa2e84"
-		name="QA_UW_Pwd">
+		name="UW_Pwd">
 			Pm#Vtsp
+		</var>
+		<var
+		id="a605d6c8-4896-4c2d-acdb-fc384589334b"
+		name="Status_Reason">
+			UW Login
 		</var>
 	</variables>
 	<recorditems>
@@ -86,7 +91,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="AttributeValue"
-				variable="QA_UW_ID">
+				variable="UW_ID">
 				</binding>
 			</bindings>
 			<info
@@ -409,7 +414,7 @@ FFFFABRRRQAUL/rB9D/SiihgSUUUVIwooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 			<bindings>
 				<binding
 				target="AttributeValue"
-				variable="QA_UW_Pwd">
+				variable="UW_Pwd">
 				</binding>
 			</bindings>
 			<info
@@ -681,11 +686,50 @@ YBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
 FFFFABRRRQAUL/rB9D/SiihgSUUUVIwooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="6c31f462-3a46-47b3-9896-563e6bba3057">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d193908b-33d5-4b94-a817-c7d00a972eaa"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&lt;'fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']
+				</path>
+			</info>
+			<arguments
+			id="06619e21-4e89-4d21-9eec-ab68c37e8582">
+			</arguments>
+		</invokeactionrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -698,10 +742,10 @@ FFFFABRRRQAUL/rB9D/SiihgSUUUVIwooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="46275708-ab19-4d1d-95a8-0cd72969d722"
-			sourcename="ItemRecorderEditor">
+			id="d193908b-33d5-4b94-a817-c7d00a972eaa"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='qawinston.fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']
+					/dom[@domain&lt;'fwcins.com']//form[#'frmLogin']/div/div/div/div[2]/div[2]/div[4]/button[@innertext='Sign in']
 				</path>
 			</info>
 		</mouseitem>
@@ -736,6 +780,33 @@ FFFFABRRRQAUL/rB9D/SiihgSUUUVIwooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 				</argument>
 			</arguments>
 		</userrecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="d1a8ea6b-7238-431f-acfa-3f58bb7942e5"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fdee9d98-a7df-4733-8de1-c1d28f89104a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'txtsearch']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

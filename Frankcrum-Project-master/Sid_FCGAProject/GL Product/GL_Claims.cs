@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public GL_Claims()
         {
             GLAgClaimNo = "0";
+            Status_Reason = "GL Claims";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _GLAgClaimNo; }
             set { _GLAgClaimNo = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("297a5793-1489-4f57-b28c-f51b3a652ee5")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

@@ -28,6 +28,11 @@ mode="Global">
 		name="UW_ExpMod">
 			0.89
 		</var>
+		<var
+		id="55e44427-1974-4863-b782-c5fc1df66e57"
+		name="Status_Reason">
+			UW Experience Mod
+		</var>
 	</variables>
 	<recorditems>
 		<invokeactionrecorditem

@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public BM_CTR()
         {
             BM_CTR1 = "1.71";
+            Status_Reason = "BM CTR";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _BM_CTR1; }
             set { _BM_CTR1 = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("fdbf7da5-101b-41c3-bc51-d37a1ef794ae")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -96,13 +109,17 @@ namespace Sid_FCGAProject.WC_Product
             repo.ApplicationUnderTest.ConsentToRateCTR1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Txtsearch3' at CenterLeft.", repo.ApplicationUnderTest.Txtsearch3Info, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Txtsearch3.Click(Location.CenterLeft);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$BM_CTR1' on item 'ApplicationUnderTest.Txtsearch3'.", repo.ApplicationUnderTest.Txtsearch3Info, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Txtsearch3.Element.SetAttributeValue("Value", BM_CTR1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$BM_CTR1' with focus on 'ApplicationUnderTest.Txtsearch3'.", repo.ApplicationUnderTest.Txtsearch3Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Txtsearch3.PressKeys(BM_CTR1);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Txtsearch3' at CenterLeft.", repo.ApplicationUnderTest.Txtsearch3Info, new RecordItemIndex(2));
+            //repo.ApplicationUnderTest.Txtsearch3.Click(Location.CenterLeft);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$BM_CTR1' with focus on 'ApplicationUnderTest.Txtsearch3'.", repo.ApplicationUnderTest.Txtsearch3Info, new RecordItemIndex(3));
+            //repo.ApplicationUnderTest.Txtsearch3.PressKeys(BM_CTR1);
+            //Delay.Milliseconds(0);
             
         }
 

@@ -28,6 +28,11 @@ mode="Global">
 		name="CG2026_No">
 			1
 		</var>
+		<var
+		id="765b2e5c-b1a5-4bcd-b775-2a9e18a21300"
+		name="Status_Reason">
+			CG2026
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

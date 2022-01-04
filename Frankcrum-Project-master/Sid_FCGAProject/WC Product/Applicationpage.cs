@@ -57,6 +57,7 @@ namespace Sid_FCGAProject.WC_Product
             FileUploadDesc = "FDe";
             UploadPath = "C:\\Users\\JuilyK\\Downloads\\Download_WCWorksheet_QWS_Q-214455_18676_WC_INPROGRESS06222021_04300544_PM";
             AddAditionalInsured = "";
+            Status_Reason = "Application Page";
         }
 
         /// <summary>
@@ -259,6 +260,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _AddAditionalInsured; }
             set { _AddAditionalInsured = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("8ab91f7a-174f-45a2-8049-b378866f436d")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -485,8 +498,14 @@ namespace Sid_FCGAProject.WC_Product
             repo.ApplicationUnderTest.BtnSave.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(50));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(50));
+            //Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.BtnBackRef'", repo.ApplicationUnderTest.BtnBackRefInfo, new ActionTimeout(15000), new RecordItemIndex(51));
+            repo.ApplicationUnderTest.BtnBackRefInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(52));
+            Delay.Duration(5000, false);
             
         }
 

@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="5019da53-c61a-4df9-9503-79ef84b3fbf0"
+		name="Status_Reason">
+			UW Business Summary Save
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

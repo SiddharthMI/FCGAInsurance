@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public GLEffectivedate()
         {
             GL_Effectivedate = "";
+            Status_Reason = "Risk Level Effective date";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _GL_Effectivedate; }
             set { _GL_Effectivedate = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("45a8d9b1-a083-4844-828a-4250ee29b51d")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

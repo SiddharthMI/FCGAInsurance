@@ -45,6 +45,7 @@ namespace Sid_FCGAProject
             UW_LastName = "M";
             UW_OwnerPercent = "100";
             UW_Ownerstate = "florida";
+            Status_Reason = "UW Modify Owner Details";
         }
 
         /// <summary>
@@ -103,6 +104,18 @@ namespace Sid_FCGAProject
         {
             get { return _UW_Ownerstate; }
             set { _UW_Ownerstate = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("b2cef47b-d692-497c-95cc-5f2da4a072f0")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

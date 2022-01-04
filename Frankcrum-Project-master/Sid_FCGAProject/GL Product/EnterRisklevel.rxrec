@@ -48,6 +48,11 @@ mode="Global">
 		name="GLAgBusinessYear">
 			2
 		</var>
+		<var
+		id="93b7e474-de76-4bf4-a4c3-a576a2b52296"
+		name="Status_Reason">
+			Risk Level
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

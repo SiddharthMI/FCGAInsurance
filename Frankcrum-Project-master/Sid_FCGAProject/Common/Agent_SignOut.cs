@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.Common
         /// </summary>
         public Agent_SignOut()
         {
+            Status_Reason = "Agent SignOut";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.Common
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("9b76faa5-390c-4d59-83d4-365718b8228a")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

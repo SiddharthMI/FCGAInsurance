@@ -28,6 +28,11 @@ mode="Global">
 		name="ExpModID">
 			1.89
 		</var>
+		<var
+		id="8fe9b330-71e4-4079-b015-735ed5e36cf4"
+		name="StatusReason">
+			Experience Mod
+		</var>
 	</variables>
 	<recorditems>
 		<invokeactionrecorditem

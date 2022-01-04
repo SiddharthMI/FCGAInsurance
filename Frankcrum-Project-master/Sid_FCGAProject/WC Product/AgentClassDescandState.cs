@@ -43,6 +43,8 @@ namespace Sid_FCGAProject.WC_Product
         {
             StateName = "Florida";
             ClassDesc = "0005";
+            ClassCode = "";
+            StatusReason = "Class Code and Description";
         }
 
         /// <summary>
@@ -77,6 +79,30 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _ClassDesc; }
             set { _ClassDesc = value; }
+        }
+
+        string _ClassCode;
+
+        /// <summary>
+        /// Gets or sets the value of variable ClassCode.
+        /// </summary>
+        [TestVariable("6bb49d2a-7bc3-4531-bd93-e9695f40da0e")]
+        public string ClassCode
+        {
+            get { return _ClassCode; }
+            set { _ClassCode = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("c350856d-3fa6-4379-b2a5-6e90ee5f6baf")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

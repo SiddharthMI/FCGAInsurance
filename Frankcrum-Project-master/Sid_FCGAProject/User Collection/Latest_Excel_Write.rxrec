@@ -26,17 +26,14 @@ mode="Global">
 		<var
 		id="479ef075-1b98-4b40-a085-3fa1e54c1e2f"
 		name="TCID">
-			1
 		</var>
 		<var
 		id="548806e9-b4d6-4e3f-af46-f2ac69a08c94"
 		name="Product">
-			WC
 		</var>
 		<var
 		id="cecde0fc-d4d0-4bc1-9461-5b148a273776"
 		name="TestScenario">
-			Referral
 		</var>
 		<var
 		id="36e447c8-7dcd-4072-96c6-ceaf3b839874"
@@ -49,6 +46,7 @@ mode="Global">
 		<var
 		id="abd70289-0d19-4449-a7a3-d0f57db44589"
 		name="ClassGroup">
+			NA
 		</var>
 		<var
 		id="99a395da-1990-4f57-a576-954b310cde8c"
@@ -63,12 +61,8 @@ mode="Global">
 		name="InsuredAddress">
 		</var>
 		<var
-		id="876d20a8-1a03-41ae-9532-ebe7bb1ef20b"
-		name="SmartyStreet">
-		</var>
-		<var
 		id="0e8e039a-6168-46b9-a110-4f6b5005647b"
-		name="QuoteNo">
+		name="PrdPremium">
 		</var>
 		<var
 		id="4698a0f9-a61f-4b6e-b594-ded5ded3a184"
@@ -81,10 +75,7 @@ mode="Global">
 		<var
 		id="c30e8b90-4108-4535-a406-6ba2a55fd2f3"
 		name="XSPolicyNo">
-		</var>
-		<var
-		id="cc3d7d36-125c-43eb-a5bd-b6c99d37ae9b"
-		name="Status">
+			NA
 		</var>
 		<var
 		id="5dd8a2f6-73b6-43c8-b522-a173ccd9d966"
@@ -94,8 +85,41 @@ mode="Global">
 		id="7bcece8c-9cb5-4f2f-a26d-e437e47e4eae"
 		name="EndTime">
 		</var>
+		<var
+		id="b930431f-322b-42a5-a003-6be381a9436f"
+		name="StatusReason">
+			Need to Analyse
+		</var>
 	</variables>
 	<recorditems>
+		<userrecorditem
+		classname="SystemLibrary"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="GetDateTimeAsString"
+		namespace="Ranorex.AutomationHelpers.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="EndTime">
+				</binding>
+			</bindings>
+			<arguments
+			id="f0ec1d48-01bf-4673-8ef7-0b05fbc83d50">
+				<argument
+				argname="expectedFormat"
+				id="bfee0541-1623-4666-8385-2df3b2c62ae2">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 		<userrecorditem
 		classname="Latest_Excel_Write"
 		enabled="True"
@@ -202,19 +226,9 @@ mode="Global">
 					</argvalue>
 				</argument>
 				<argument
-				argname="SmartyStreet"
+				argname="PrdPremium"
 				id="5ac49021-9346-4f83-bde8-54b5a672a1a0"
-				variable="SmartyStreet">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-					</argvalue>
-				</argument>
-				<argument
-				argname="QuoteNo"
-				id="71a6a302-4d7a-4902-8fd3-f5fad8f70fbc"
-				variable="QuoteNo">
+				variable="PrdPremium">
 					<argvaluetype>
 						System.String
 					</argvaluetype>
@@ -223,7 +237,7 @@ mode="Global">
 				</argument>
 				<argument
 				argname="CarrierName"
-				id="43a18d47-4d5b-4ff0-b0af-d2fa73446e72"
+				id="71a6a302-4d7a-4902-8fd3-f5fad8f70fbc"
 				variable="CarrierName">
 					<argvaluetype>
 						System.String
@@ -233,7 +247,7 @@ mode="Global">
 				</argument>
 				<argument
 				argname="MIPolicyNo"
-				id="6a17a565-4ee6-4c46-ad4a-912722d7c349"
+				id="43a18d47-4d5b-4ff0-b0af-d2fa73446e72"
 				variable="MIPolicyNo">
 					<argvaluetype>
 						System.String
@@ -243,7 +257,7 @@ mode="Global">
 				</argument>
 				<argument
 				argname="XSPolicyNo"
-				id="ba8addbf-71a5-418f-8878-2ee39a8415b3"
+				id="6a17a565-4ee6-4c46-ad4a-912722d7c349"
 				variable="XSPolicyNo">
 					<argvaluetype>
 						System.String
@@ -252,9 +266,9 @@ mode="Global">
 					</argvalue>
 				</argument>
 				<argument
-				argname="Status"
-				id="4d9e72f5-5a43-4269-b1e1-c2b3b5bdff9c"
-				variable="Status">
+				argname="StatusReason"
+				id="ba8addbf-71a5-418f-8878-2ee39a8415b3"
+				variable="StatusReason">
 					<argvaluetype>
 						System.String
 					</argvaluetype>
@@ -263,7 +277,7 @@ mode="Global">
 				</argument>
 				<argument
 				argname="StartTime"
-				id="8f1c94c1-d2fa-450f-b67f-21a55eb6f958"
+				id="4d9e72f5-5a43-4269-b1e1-c2b3b5bdff9c"
 				variable="StartTime">
 					<argvaluetype>
 						System.String
@@ -273,7 +287,7 @@ mode="Global">
 				</argument>
 				<argument
 				argname="EndTime"
-				id="ca5abd96-c379-4bb8-bd85-50344f328f25"
+				id="86ce8400-6fff-424b-8a88-2c9710317ff5"
 				variable="EndTime">
 					<argvaluetype>
 						System.String

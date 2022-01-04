@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public UW_BusinessSummarySave()
         {
+            Status_Reason = "UW Business Summary Save";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("5019da53-c61a-4df9-9503-79ef84b3fbf0")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

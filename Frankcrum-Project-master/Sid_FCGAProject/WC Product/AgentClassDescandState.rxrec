@@ -33,6 +33,15 @@ mode="Global">
 		name="ClassDesc">
 			0005
 		</var>
+		<var
+		id="6bb49d2a-7bc3-4531-bd93-e9695f40da0e"
+		name="ClassCode">
+		</var>
+		<var
+		id="c350856d-3fa6-4379-b2a5-6e90ee5f6baf"
+		name="StatusReason">
+			Class Code and Description
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

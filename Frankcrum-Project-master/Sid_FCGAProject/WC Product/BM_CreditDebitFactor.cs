@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public BM_CreditDebitFactor()
         {
             BM_CreDebtFactor = "1.34";
+            Status_Reason = "Benchmark Debit / Credit Factor";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _BM_CreDebtFactor; }
             set { _BM_CreDebtFactor = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("56394071-fb19-4633-9f3f-6e633c66cf17")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -92,8 +105,8 @@ namespace Sid_FCGAProject.WC_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            //Delay.Duration(10000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BM_IRPM_Enabled' at Center.", repo.ApplicationUnderTest.BM_IRPM_EnabledInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.BM_IRPM_Enabled.Click();

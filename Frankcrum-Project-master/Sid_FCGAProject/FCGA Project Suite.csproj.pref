@@ -2,7 +2,9 @@
   <Array name="active">
     <Element value="FCGA_Insurance.rxtst" />
   </Array>
-  <Array name="bookmarks" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\SMishra\Documents\Automation\Frankcrum-Project-master_V5.0\Frankcrum-Project-master\Sid_FCGAProject\Common\AgentOpenBrowser.UserCode.cs|68|1|True|Break||" />
+  </Array>
   <Array name="files">
     <Element value="FCGA_Insurance.rxtst" />
   </Array>
@@ -12,12 +14,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="Sid_FCGAProject.GL_Individual_CG2037AI.Mouse_Click_UseAsIs1(RepoItemInfo atagInfo)" />
-      <Element value="Sid_FCGAProject.UW_SubmitandRerate.Mouse_Click_UWPolicy_Exit(RepoItemInfo inputtagInfo)" />
-      <Element value="Sid_FCGAProject.User_Collection.Latest_Excel_Write.TestExcelWrite(String TCID, String Product, String TestScenario, String ClassCode, String ClassDescription, String ClassGroup, String InsuredName, String ReferralReason, String InsuredAddress, String SmartyStreet, String QuoteNo, String CarrierName, String MIPolicyNo, String XSPolicyNo, String Status, String StartTime, String EndTime)" />
-      <Element value="Sid_FCGAProject.UWOpen_Browser.RestorePageClose(RepoItemInfo buttonInfo, RepoItemInfo buttonInfo1)" />
-      <Element value="Sid_FCGAProject.Common.CloseBrowser.Hardclosebrowser()" />
-      <Element value="Sid_FCGAProject.Common.AgentOpenBrowser.RestorePageClose(RepoItemInfo buttonInfo, RepoItemInfo buttonInfo1)" />
+      <Element value="Ranorex.AutomationHelpers.UserCodeCollections.FileLibrary.WriteToFile(String text, String filenamePrefix, String fileExtension)" />
+      <Element value="Sid_FCGAProject.User_Collection.Latest_Excel_Write.TestExcelWrite(String TCID, String Product, String TestScenario, String ClassCode, String ClassDescription, String ClassGroup, String InsuredName, String ReferralReason, String InsuredAddress, String PrdPremium, String CarrierName, String MIPolicyNo, String XSPolicyNo, String StatusReason, String StartTime, String EndTime)" />
+      <Element value="Sid_FCGAProject.Common.AgentOpenBrowser.initiateVariable()" />
+      <Element value="Sid_FCGAProject.Common.AgentOpenBrowser.Report_Log()" />
+      <Element value="Sid_FCGAProject.GL_Product.GL_ApplicationPageP1.FullAddress1(String argument1, String argument2, String argument3, String argument4)" />
+      <Element value="Sid_FCGAProject.GL_Product.GL_ApplicationPageP1.FullAddress(String argument1, String argument2, String argument3, String argument4)" />
     </Array>
   </Properties>
 </Properties>

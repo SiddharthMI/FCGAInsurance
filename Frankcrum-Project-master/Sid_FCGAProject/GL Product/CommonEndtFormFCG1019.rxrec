@@ -28,6 +28,11 @@ mode="Global">
 		name="FCG1019_No">
 			1
 		</var>
+		<var
+		id="4ef4e16d-0e2e-4249-a6c5-529912de9354"
+		name="Status_Reason">
+			FCG1019 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

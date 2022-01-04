@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.GL_Product
         /// </summary>
         public InlandMarineSave()
         {
+            Status_Reason = "Inland Marine Save";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.GL_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("28220f1a-823b-44eb-9b1d-bce365cc5477")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,9 +92,12 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave1' at 97;17.", repo.ApplicationUnderTest.BtnSave1Info, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.BtnSave1.Click("97;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave1' at Center.", repo.ApplicationUnderTest.BtnSave1Info, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.BtnSave1.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.UWBtnSave'", repo.ApplicationUnderTest.UWBtnSaveInfo, new ActionTimeout(15000), new RecordItemIndex(1));
+            repo.ApplicationUnderTest.UWBtnSaveInfo.WaitForExists(15000);
             
         }
 

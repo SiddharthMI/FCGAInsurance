@@ -58,6 +58,11 @@ mode="Global">
 		name="BusinessName">
 			AUTM FCGA-76765734
 		</var>
+		<var
+		id="52d3ea9d-4217-4999-9815-e17a34c6aa20"
+		name="StatusReason">
+			Business Name and Address
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
@@ -1260,6 +1265,15 @@ S0UAJRS0UAJRS0UAJRS0UAJS0UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
 FFFFABRRRQAUUUUAFFFFABRRRQB//9k=
 			</helperscreenshot>
 		</keysequenceitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"

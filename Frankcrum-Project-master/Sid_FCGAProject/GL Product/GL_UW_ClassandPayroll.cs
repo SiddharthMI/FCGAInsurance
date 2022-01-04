@@ -342,8 +342,8 @@ namespace Sid_FCGAProject.GL_Product
             //repo.ApplicationUnderTest.Percentage.PressKeys(GLUWContractorPercent);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BorderTop0' at Center.", repo.ApplicationUnderTest.BorderTop0Info, new RecordItemIndex(7));
-            //repo.ApplicationUnderTest.BorderTop0.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.GLClassDescription' at Center.", repo.ApplicationUnderTest.GLClassDescriptionInfo, new RecordItemIndex(7));
+            //repo.ApplicationUnderTest.GLClassDescription.Click();
             //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ExpectedGrossReceipts' at Center.", repo.ApplicationUnderTest.ExpectedGrossReceiptsInfo, new RecordItemIndex(8));
@@ -538,6 +538,12 @@ namespace Sid_FCGAProject.GL_Product
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnContinue1' at Center.", repo.ApplicationUnderTest.BtnContinue1Info, new RecordItemIndex(55));
             repo.ApplicationUnderTest.BtnContinue1.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.BtnSaveandContinue'", repo.ApplicationUnderTest.BtnSaveandContinueInfo, new ActionTimeout(15000), new RecordItemIndex(56));
+            repo.ApplicationUnderTest.BtnSaveandContinueInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(57));
+            Delay.Duration(5000, false);
             
         }
 

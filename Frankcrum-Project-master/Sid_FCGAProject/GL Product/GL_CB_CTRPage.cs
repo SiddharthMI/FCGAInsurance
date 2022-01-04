@@ -92,16 +92,19 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ConsentToRateCTR3' at 7;12.", repo.ApplicationUnderTest.ConsentToRateCTR3Info, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.ConsentToRateCTR3.Click("7;12");
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(0));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ConsentToRateCTR3' at Center.", repo.ApplicationUnderTest.ConsentToRateCTR3Info, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.ConsentToRateCTR3.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtCBIRPMCTR' at 11;16.", repo.ApplicationUnderTest.TxtCBIRPMCTRInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.TxtCBIRPMCTR.Click("11;16");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$GL_CB_CTRValue' on item 'ApplicationUnderTest.TxtCBIRPMCTR'.", repo.ApplicationUnderTest.TxtCBIRPMCTRInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.TxtCBIRPMCTR.Element.SetAttributeValue("Value", GL_CB_CTRValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_CB_CTRValue' with focus on 'ApplicationUnderTest.TxtCBIRPMCTR'.", repo.ApplicationUnderTest.TxtCBIRPMCTRInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.TxtCBIRPMCTR.PressKeys(GL_CB_CTRValue);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Irpm' at Center.", repo.ApplicationUnderTest.IrpmInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Irpm.Click();
             Delay.Milliseconds(0);
             
         }

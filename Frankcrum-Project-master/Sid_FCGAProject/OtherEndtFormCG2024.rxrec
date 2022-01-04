@@ -28,6 +28,11 @@ mode="Global">
 		name="CG2024_No">
 			1
 		</var>
+		<var
+		id="85a0645f-edfe-42e3-baca-f3eba6d5c81e"
+		name="Status_Reason">
+			CG2024 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

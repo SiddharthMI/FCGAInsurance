@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public UW_SignOut()
         {
+            Status_Reason = "UW SignOut";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("1739e041-25bc-434b-9f72-1eaf4be7bb4d")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public UW_Loss_App_Screen()
         {
             UW_Note_Desc = "OK";
+            Status_Reason = "Losses and Application Screen";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _UW_Note_Desc; }
             set { _UW_Note_Desc = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("1602c126-c2a1-4579-a392-6b77a46f39dd")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

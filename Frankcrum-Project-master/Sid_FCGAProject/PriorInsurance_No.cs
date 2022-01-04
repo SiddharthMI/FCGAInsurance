@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public PriorInsurance_No()
         {
+            Status_Reason = "Prior Insurance";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("1a44be93-7599-4370-b421-2b10863efb5e")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

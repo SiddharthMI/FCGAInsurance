@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="d059385d-461f-46ba-82e5-8cf3aa6cf4ad"
+		name="Status_Reason">
+			Question Page
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

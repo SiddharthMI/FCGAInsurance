@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public PaymentPlan12Equal()
         {
+            Status_Reason = "12 Equal";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("922cf846-0765-4a99-b7b0-ebde17cb3e57")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.LabletxtRadio12Equal' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadio12EqualInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadio12Equal.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.Payment_Info_12Equal' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_12EqualInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_12Equal.Click();
             Delay.Milliseconds(0);
             
         }

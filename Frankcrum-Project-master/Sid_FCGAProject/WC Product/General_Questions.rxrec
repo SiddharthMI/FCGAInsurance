@@ -23,6 +23,11 @@ mode="Desktop">
 	namespace="Sid_FCGAProject.WC_Product">
 	</codegen>
 	<variables>
+		<var
+		id="1602449f-643d-413c-b76c-5e061e09146b"
+		name="Status_Reason">
+			General Question
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

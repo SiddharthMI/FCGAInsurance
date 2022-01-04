@@ -42,8 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public FWCIQuoteDocuments()
         {
             FWCIPremium = "0";
-            QuoteDocPath = "Download";
-            WorksheetPath = "Download";
+            Status_Reason = "FWCI Carrier Selection";
         }
 
         /// <summary>
@@ -68,28 +67,16 @@ namespace Sid_FCGAProject.GL_Product
             set { _FWCIPremium = value; }
         }
 
-        string _QuoteDocPath;
+        string _Status_Reason;
 
         /// <summary>
-        /// Gets or sets the value of variable QuoteDocPath.
+        /// Gets or sets the value of variable Status_Reason.
         /// </summary>
-        [TestVariable("af7908f4-6bf3-40ea-8b34-85fb271d540a")]
-        public string QuoteDocPath
+        [TestVariable("63e5decf-25b3-41ac-ae29-a794267e230a")]
+        public string Status_Reason
         {
-            get { return _QuoteDocPath; }
-            set { _QuoteDocPath = value; }
-        }
-
-        string _WorksheetPath;
-
-        /// <summary>
-        /// Gets or sets the value of variable WorksheetPath.
-        /// </summary>
-        [TestVariable("d4525c30-9e01-462a-8917-61f815659ec8")]
-        public string WorksheetPath
-        {
-            get { return _WorksheetPath; }
-            set { _WorksheetPath = value; }
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -118,9 +105,9 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FwcPremium' at Center.", repo.ApplicationUnderTest.FwcPremiumInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.FwcPremium.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FwcPremium' at Center.", repo.ApplicationUnderTest.FwcPremiumInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.FwcPremium.Click();
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FwcPremium' and assigning its value to variable 'FWCIPremium'.", repo.ApplicationUnderTest.FwcPremiumInfo, new RecordItemIndex(1));
             FWCIPremium = repo.ApplicationUnderTest.FwcPremium.Element.GetAttributeValueText("InnerText");
@@ -131,89 +118,38 @@ namespace Sid_FCGAProject.GL_Product
             // Download FWCI Quote Docs
             Report.Log(ReportLevel.Info, "Section", "Download FWCI Quote Docs", new RecordItemIndex(3));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadFWCIQuote' at Center.", repo.ApplicationUnderTest.BtnDownloadFWCIQuoteInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.BtnDownloadFWCIQuote.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
-            Delay.Duration(5000, false);
-            
-            //Report.Screenshot(ReportLevel.Info, "User", "Quote Doc captured", repo.Client, false, new RecordItemIndex(6));
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Navigate_Tab' at Center.", repo.Navigate_TabInfo, new RecordItemIndex(7));
-            //repo.Navigate_Tab.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadFWCIQuote' at Center.", repo.ApplicationUnderTest.BtnDownloadFWCIQuoteInfo, new RecordItemIndex(4));
+            //repo.ApplicationUnderTest.BtnDownloadFWCIQuote.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Client' at Center.", repo.ClientInfo, new RecordItemIndex(8));
-            //repo.Client.Click(System.Windows.Forms.MouseButtons.Right);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(5));
+            //Delay.Duration(5000, false);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Quote.Close' at Center.", repo.Quote.CloseInfo, new RecordItemIndex(6));
+            //repo.Quote.Close.Click();
             //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.SaveAsCtrlPlusS' at Center.", repo.Chrome.SaveAsCtrlPlusSInfo, new RecordItemIndex(9));
-            //repo.Chrome.SaveAsCtrlPlusS.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SaveAs.Text1001' at Center.", repo.SaveAs.Text1001Info, new RecordItemIndex(10));
-            //repo.SaveAs.Text1001.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$QuoteDocPath' with focus on 'SaveAs.Text1001'.", repo.SaveAs.Text1001Info, new RecordItemIndex(11));
-            //repo.SaveAs.Text1001.PressKeys(QuoteDocPath);
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SaveAs.ButtonSave' at Center.", repo.SaveAs.ButtonSaveInfo, new RecordItemIndex(12));
-            //repo.SaveAs.ButtonSave.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(13));
-            //Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'QDCFWCIQ219117110540GLACCEPTED0902.Close' at Center.", repo.QDCFWCIQ219117110540GLACCEPTED0902.CloseInfo, new RecordItemIndex(14));
-            repo.QDCFWCIQ219117110540GLACCEPTED0902.Close.Click();
-            Delay.Milliseconds(0);
             
             // Download FWCI Worksheet Docs
-            Report.Log(ReportLevel.Info, "Section", "Download FWCI Worksheet Docs", new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Section", "Download FWCI Worksheet Docs", new RecordItemIndex(7));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadFWCIRatingWorksheet' at Center.", repo.ApplicationUnderTest.BtnDownloadFWCIRatingWorksheetInfo, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.BtnDownloadFWCIRatingWorksheet.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(17));
-            Delay.Duration(5000, false);
-            
-            //Report.Screenshot(ReportLevel.Info, "User", "worksheet captured", repo.Client, false, new RecordItemIndex(18));
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Client' at Center.", repo.ClientInfo, new RecordItemIndex(19));
-            //repo.Client.Click(System.Windows.Forms.MouseButtons.Right);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadFWCIRatingWorksheet' at Center.", repo.ApplicationUnderTest.BtnDownloadFWCIRatingWorksheetInfo, new RecordItemIndex(8));
+            //repo.ApplicationUnderTest.BtnDownloadFWCIRatingWorksheet.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.SaveAsCtrlPlusS' at Center.", repo.Chrome.SaveAsCtrlPlusSInfo, new RecordItemIndex(20));
-            //repo.Chrome.SaveAsCtrlPlusS.Click();
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(9));
+            //Delay.Duration(5000, false);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Quote.Close' at Center.", repo.Quote.CloseInfo, new RecordItemIndex(10));
+            //repo.Quote.Close.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SaveAs.Text1001' at Center.", repo.SaveAs.Text1001Info, new RecordItemIndex(21));
-            //repo.SaveAs.Text1001.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$WorksheetPath' with focus on 'SaveAs.Text1001'.", repo.SaveAs.Text1001Info, new RecordItemIndex(22));
-            //repo.SaveAs.Text1001.PressKeys(WorksheetPath);
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SaveAs.ButtonSave' at Center.", repo.SaveAs.ButtonSaveInfo, new RecordItemIndex(23));
-            //repo.SaveAs.ButtonSave.Click();
-            //Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Worksheet.Close1' at Center.", repo.Worksheet.Close1Info, new RecordItemIndex(24));
-            repo.Worksheet.Close1.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(25));
-            Delay.Duration(2000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(11));
+            //Delay.Duration(2000, false);
             
             // Select Carrier
-            Report.Log(ReportLevel.Info, "Section", "Select Carrier", new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Section", "Select Carrier", new RecordItemIndex(12));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnCarrierFWCI' at Center.", repo.ApplicationUnderTest.BtnCarrierFWCIInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnCarrierFWCI' at Center.", repo.ApplicationUnderTest.BtnCarrierFWCIInfo, new RecordItemIndex(13));
             repo.ApplicationUnderTest.BtnCarrierFWCI.Click();
             Delay.Milliseconds(0);
             

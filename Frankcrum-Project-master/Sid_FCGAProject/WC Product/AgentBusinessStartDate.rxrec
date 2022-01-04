@@ -28,6 +28,11 @@ mode="Global">
 		name="BusinessStartDate">
 			07/01/2021
 		</var>
+		<var
+		id="8c64879a-3f77-4f6b-b0bb-308ee2eb27e2"
+		name="StatusReason">
+			Business Start Date
+		</var>
 	</variables>
 	<recorditems>
 		<keysequenceitem

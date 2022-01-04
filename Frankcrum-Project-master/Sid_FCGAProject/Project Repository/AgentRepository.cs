@@ -3580,16 +3580,16 @@ namespace Sid_FCGAProject.Project_Repository
             public New_QuoteFolder(RepoGenBaseFolder parentFolder) :
                     base("New_Quote", "", parentFolder, 0, null, false, "93a0243e-a4ab-415f-9f90-0a923c7b4fdc", "")
             {
-                _newquotetabInfo = new RepoItemInfo(this, "NewQuoteTab", "/dom[@domain='qawinston.fwcins.com']//a[#'lnkNewQuote']", 30000, null, "c983420d-7913-41af-882b-1193686a45c0");
-                _pagename_createnewquoteInfo = new RepoItemInfo(this, "PageName_CreateNewQuote", "/dom[@domain='qawinston.fwcins.com']/body/div[3]/h1[@innertext='Create New Quote']", 30000, null, "06f78fe3-3d17-4c0d-9089-4506eb28b01f");
-                _quotetype_section_titleInfo = new RepoItemInfo(this, "QuoteType_Section_title", "/dom[@domain='qawinston.fwcins.com']/body/div[3]/?/?/div[@innertext>'                What type']", 30000, null, "28048a52-2769-4e27-a25f-224da7031ae2");
-                _lob_workerscompensationInfo = new RepoItemInfo(this, "LOB_WorkersCompensation", "/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[1]/?/?/label[@innertext='Workers'' Compensation']", 30000, null, "f4bfafe1-653d-4de6-9ca3-8cc588dbd4fb");
-                _lob_generalliabilityInfo = new RepoItemInfo(this, "LOB_GeneralLiability", "/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[4]/div[2]/div/div[2]/?/?/label[@innertext='General Liability']", 30000, null, "2b40e0a2-7afe-47dd-93b6-5fe714136084");
-                _page_cancelInfo = new RepoItemInfo(this, "Page_Cancel", "/dom[@domain='qawinston.fwcins.com']/body/div[3]/div[5]/?/?/button[@innertext='Cancel']", 30000, null, "9d8b058b-961d-4ad0-8247-5b21d547614c");
-                _page_continueInfo = new RepoItemInfo(this, "Page_Continue", "/dom[@domain='qawinston.fwcins.com']//button[#'BtnSave']", 30000, null, "b50d24c7-062f-4619-9391-1536b4d658d7");
-                _page_divprogverbiageInfo = new RepoItemInfo(this, "Page_DivProgVerbiage", "/dom[@domain='qawinston.fwcins.com']//label[#'FLAuthState']", 30000, null, "bf85df6b-83d9-4952-bae7-ac9b188905f7");
-                _page_divproglinkInfo = new RepoItemInfo(this, "Page_DivProgLink", "/dom[@domain='qawinston.fwcins.com']//label[#'FLAuthState']/a[@innertext=' here']", 30000, null, "397d1bf6-4127-49ad-8504-927636ef1a99");
-                _wc_txtfeinInfo = new RepoItemInfo(this, "WC_TxtFEIN", "/dom[@domain='qawinston.fwcins.com']//input[#'txtFEIN']", 30000, null, "35123539-27b3-4569-88bc-66b384c07689");
+                _newquotetabInfo = new RepoItemInfo(this, "NewQuoteTab", "/dom[@domain<'fwcins.com']//a[#'lnkNewQuote']", 30000, null, "c983420d-7913-41af-882b-1193686a45c0");
+                _pagename_createnewquoteInfo = new RepoItemInfo(this, "PageName_CreateNewQuote", "/dom[@domain<'fwcins.com']/body/div[3]/h1[@innertext='Create New Quote']", 30000, null, "06f78fe3-3d17-4c0d-9089-4506eb28b01f");
+                _quotetype_section_titleInfo = new RepoItemInfo(this, "QuoteType_Section_title", "/dom[@domain<'fwcins.com']/body/div[3]/?/?/div[@innertext>'                What type']", 30000, null, "28048a52-2769-4e27-a25f-224da7031ae2");
+                _lob_workerscompensationInfo = new RepoItemInfo(this, "LOB_WorkersCompensation", "/dom[@domain<'fwcins.com']/body/div[3]/div[4]/div[2]/div/div[1]/?/?/label[@innertext='Workers'' Compensation']", 30000, null, "f4bfafe1-653d-4de6-9ca3-8cc588dbd4fb");
+                _lob_generalliabilityInfo = new RepoItemInfo(this, "LOB_GeneralLiability", "/dom[@domain<'fwcins.com']/body/div[3]/div[4]/div[2]/div/div[2]/?/?/label[@innertext='General Liability']", 30000, null, "2b40e0a2-7afe-47dd-93b6-5fe714136084");
+                _page_cancelInfo = new RepoItemInfo(this, "Page_Cancel", "/dom[@domain<'fwcins.com']/body/div[3]/div[5]/?/?/button[@innertext='Cancel']", 30000, null, "9d8b058b-961d-4ad0-8247-5b21d547614c");
+                _page_continueInfo = new RepoItemInfo(this, "Page_Continue", "/dom[@domain<'fwcins.com']//button[#'BtnSave']", 30000, null, "b50d24c7-062f-4619-9391-1536b4d658d7");
+                _page_divprogverbiageInfo = new RepoItemInfo(this, "Page_DivProgVerbiage", "/dom[@domain<'fwcins.com']//label[#'FLAuthState']", 30000, null, "bf85df6b-83d9-4952-bae7-ac9b188905f7");
+                _page_divproglinkInfo = new RepoItemInfo(this, "Page_DivProgLink", "/dom[@domain<'fwcins.com']//label[#'FLAuthState']/a[@innertext=' here']", 30000, null, "397d1bf6-4127-49ad-8504-927636ef1a99");
+                _wc_txtfeinInfo = new RepoItemInfo(this, "WC_TxtFEIN", "/dom[@domain<'fwcins.com']//input[#'txtFEIN']", 30000, null, "35123539-27b3-4569-88bc-66b384c07689");
             }
 
             /// <summary>
@@ -3878,26 +3878,26 @@ namespace Sid_FCGAProject.Project_Repository
             public WorkersCompFolder(RepoGenBaseFolder parentFolder) :
                     base("WorkersComp", "", parentFolder, 0, null, false, "21bd8b30-3b38-4cb2-bfd3-d200376a1099", "")
             {
-                _journeybar_bsindicatorInfo = new RepoItemInfo(this, "JourneyBar_BSIndicator", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_BS']", 30000, null, "862cdd80-e4d3-4b16-97be-ed1e208efb90");
-                _journeybar_tagbsInfo = new RepoItemInfo(this, "JourneyBar_TagBS", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_BS']/div[@innertext=' Business Info']", 30000, null, "19966ffc-654a-4b9a-a9c9-54669de14eba");
-                _journeybar_quesindicatorInfo = new RepoItemInfo(this, "JourneyBar_QuesIndicator", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_Que']", 30000, null, "5e91b4ec-861b-4b6a-905e-6231869b2bd7");
-                _journeybar_tagquesInfo = new RepoItemInfo(this, "JourneyBar_TagQues", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_Que']/div[@innertext>'']", 30000, null, "e54a0dd4-fc4e-4920-b8b1-4dec25bd4b76");
-                _journeybar_lossindicatorInfo = new RepoItemInfo(this, "JourneyBar_LossIndicator", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_Loss']", 30000, null, "dbcdeefb-6909-42a4-9ebd-4e2eefdf252a");
-                _journeybar_taglossInfo = new RepoItemInfo(this, "JourneyBar_TagLoss", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_Loss']/div[@innertext>'']", 30000, null, "28f81fea-0096-4c33-b9ff-afd3f49a209e");
-                _journeybar_appindicatorInfo = new RepoItemInfo(this, "JourneyBar_AppIndicator", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_App']", 30000, null, "2d7f35a5-d30c-48fa-8a91-9721163ce71b");
-                _journeybar_tagappInfo = new RepoItemInfo(this, "JourneyBar_TagApp", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_App']/div[@innertext>'']", 30000, null, "271ea910-f7b7-4a89-b61b-a431b8a75f47");
-                _journeybar_issueindicatorInfo = new RepoItemInfo(this, "JourneyBar_IssueIndicator", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_Issue']", 30000, null, "5feac608-964e-4ca7-93e3-ea2ca1a08b20");
-                _journeybar_tagissueInfo = new RepoItemInfo(this, "JourneyBar_TagIssue", "/dom[@domain='qawinston.fwcins.com']//div[#'WC_Issue']/div[@innertext>'']", 30000, null, "4c0f5b71-42dd-44f5-900a-1bc3e2ab9df1");
-                _bs_message_disabledInfo = new RepoItemInfo(this, "BS_Message_disabled", "/dom[@domain='qawinston.fwcins.com']//a[#'lnknmNotes']/?/?/i", 30000, null, "5eaf39d3-390d-49a8-9577-b42d3cb9215b");
-                _bs_pagetitleInfo = new RepoItemInfo(this, "BS_PageTitle", "/dom[@domain='qawinston.fwcins.com']//label[#'LblPage']", 30000, null, "c3f8da9d-0000-433d-a6f1-7988926dd5c9");
-                _bs_eligibilitytitleInfo = new RepoItemInfo(this, "BS_EligibilityTitle", "/dom[@domain='qawinston.fwcins.com']//div[#'pgBody']/div[2]//div[@innertext>'                    Eligibility']", 30000, null, "6ed76c03-9b99-427f-9ac6-d8885b22df02");
-                _bs_elig_statefieldInfo = new RepoItemInfo(this, "BS_Elig_StateField", "/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='State']", 30000, null, "d4d362fe-b834-42ee-900d-184b2ce49c76");
-                _bs_elig_statedrpdwnInfo = new RepoItemInfo(this, "BS_Elig_StateDrpdwn", "/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/?/?/table/tbody[1]/tr/td[1]//span[@title='-Select-']", 30000, null, "d267d4c6-8d30-4ed7-8076-e2a3ef7ed345");
-                _bs_elig_codefieldInfo = new RepoItemInfo(this, "BS_Elig_CodeField", "/dom[@domain='qawinston.fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='Code']", 30000, null, "f0f45b47-a8bc-47a6-bc20-8acae06c6664");
-                _bs_elig_cctxtInfo = new RepoItemInfo(this, "BS_Elig_CCTxt", "/dom[@domain='qawinston.fwcins.com']//input[#'txtClassCodes1']", 30000, null, "ee653d6d-8bc3-4c9f-a5ab-19ebd6a065d8");
-                _bs_elig_clearbtnInfo = new RepoItemInfo(this, "BS_Elig_ClearBtn", "/dom[@domain='qawinston.fwcins.com']//input[#'btnClearEligibility']", 30000, null, "3831a3be-de16-46a5-a57d-7618eda5bd3f");
-                _bs_elig_addcodeInfo = new RepoItemInfo(this, "BS_Elig_AddCode", "/dom[@domain='qawinston.fwcins.com']//input[#'btnAddEligibility']", 30000, null, "fc927375-cb12-4f7a-809e-7b8b2256e9ea");
-                _bs_elig_continueInfo = new RepoItemInfo(this, "BS_Elig_Continue", "/dom[@domain='qawinston.fwcins.com']//input[#'btnContinue']", 30000, null, "c54093c1-24bd-4a97-a0a5-66b6f5ac2102");
+                _journeybar_bsindicatorInfo = new RepoItemInfo(this, "JourneyBar_BSIndicator", "/dom[@domain<'fwcins.com']//div[#'WC_BS']", 30000, null, "862cdd80-e4d3-4b16-97be-ed1e208efb90");
+                _journeybar_tagbsInfo = new RepoItemInfo(this, "JourneyBar_TagBS", "/dom[@domain<'fwcins.com']//div[#'WC_BS']/div[@innertext=' Business Info']", 30000, null, "19966ffc-654a-4b9a-a9c9-54669de14eba");
+                _journeybar_quesindicatorInfo = new RepoItemInfo(this, "JourneyBar_QuesIndicator", "/dom[@domain<'fwcins.com']//div[#'WC_Que']", 30000, null, "5e91b4ec-861b-4b6a-905e-6231869b2bd7");
+                _journeybar_tagquesInfo = new RepoItemInfo(this, "JourneyBar_TagQues", "/dom[@domain<'fwcins.com']//div[#'WC_Que']/div[@innertext>'']", 30000, null, "e54a0dd4-fc4e-4920-b8b1-4dec25bd4b76");
+                _journeybar_lossindicatorInfo = new RepoItemInfo(this, "JourneyBar_LossIndicator", "/dom[@domain<'fwcins.com']//div[#'WC_Loss']", 30000, null, "dbcdeefb-6909-42a4-9ebd-4e2eefdf252a");
+                _journeybar_taglossInfo = new RepoItemInfo(this, "JourneyBar_TagLoss", "/dom[@domain<'fwcins.com']//div[#'WC_Loss']/div[@innertext>'']", 30000, null, "28f81fea-0096-4c33-b9ff-afd3f49a209e");
+                _journeybar_appindicatorInfo = new RepoItemInfo(this, "JourneyBar_AppIndicator", "/dom[@domain<'fwcins.com']//div[#'WC_App']", 30000, null, "2d7f35a5-d30c-48fa-8a91-9721163ce71b");
+                _journeybar_tagappInfo = new RepoItemInfo(this, "JourneyBar_TagApp", "/dom[@domain<'fwcins.com']//div[#'WC_App']/div[@innertext>'']", 30000, null, "271ea910-f7b7-4a89-b61b-a431b8a75f47");
+                _journeybar_issueindicatorInfo = new RepoItemInfo(this, "JourneyBar_IssueIndicator", "/dom[@domain<'fwcins.com']//div[#'WC_Issue']", 30000, null, "5feac608-964e-4ca7-93e3-ea2ca1a08b20");
+                _journeybar_tagissueInfo = new RepoItemInfo(this, "JourneyBar_TagIssue", "/dom[@domain<'fwcins.com']//div[#'WC_Issue']/div[@innertext>'']", 30000, null, "4c0f5b71-42dd-44f5-900a-1bc3e2ab9df1");
+                _bs_message_disabledInfo = new RepoItemInfo(this, "BS_Message_disabled", "/dom[@domain<'fwcins.com']//a[#'lnknmNotes']/?/?/i", 30000, null, "5eaf39d3-390d-49a8-9577-b42d3cb9215b");
+                _bs_pagetitleInfo = new RepoItemInfo(this, "BS_PageTitle", "/dom[@domain<'fwcins.com']//label[#'LblPage']", 30000, null, "c3f8da9d-0000-433d-a6f1-7988926dd5c9");
+                _bs_eligibilitytitleInfo = new RepoItemInfo(this, "BS_EligibilityTitle", "/dom[@domain<'fwcins.com']//div[#'pgBody']/div[2]//div[@innertext>'                    Eligibility']", 30000, null, "6ed76c03-9b99-427f-9ac6-d8885b22df02");
+                _bs_elig_statefieldInfo = new RepoItemInfo(this, "BS_Elig_StateField", "/dom[@domain<'fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='State']", 30000, null, "d4d362fe-b834-42ee-900d-184b2ce49c76");
+                _bs_elig_statedrpdwnInfo = new RepoItemInfo(this, "BS_Elig_StateDrpdwn", "/dom[@domain<'fwcins.com']//div[#'bloodhound']/?/?/table/tbody[1]/tr/td[1]//span[@title='-Select-']", 30000, null, "d267d4c6-8d30-4ed7-8076-e2a3ef7ed345");
+                _bs_elig_codefieldInfo = new RepoItemInfo(this, "BS_Elig_CodeField", "/dom[@domain<'fwcins.com']//div[#'bloodhound']/?/?/table//th[@innertext='Code']", 30000, null, "f0f45b47-a8bc-47a6-bc20-8acae06c6664");
+                _bs_elig_cctxtInfo = new RepoItemInfo(this, "BS_Elig_CCTxt", "/dom[@domain<'fwcins.com']//input[#'txtClassCodes1']", 30000, null, "ee653d6d-8bc3-4c9f-a5ab-19ebd6a065d8");
+                _bs_elig_clearbtnInfo = new RepoItemInfo(this, "BS_Elig_ClearBtn", "/dom[@domain<'fwcins.com']//input[#'btnClearEligibility']", 30000, null, "3831a3be-de16-46a5-a57d-7618eda5bd3f");
+                _bs_elig_addcodeInfo = new RepoItemInfo(this, "BS_Elig_AddCode", "/dom[@domain<'fwcins.com']//input[#'btnAddEligibility']", 30000, null, "fc927375-cb12-4f7a-809e-7b8b2256e9ea");
+                _bs_elig_continueInfo = new RepoItemInfo(this, "BS_Elig_Continue", "/dom[@domain<'fwcins.com']//input[#'btnContinue']", 30000, null, "c54093c1-24bd-4a97-a0a5-66b6f5ac2102");
             }
 
             /// <summary>

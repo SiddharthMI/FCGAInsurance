@@ -41,7 +41,9 @@ namespace Sid_FCGAProject
         /// </summary>
         public UW_QuoteRecordScreen()
         {
-            UW_InsuredName = "Autmfcga-222Sid";
+            UW_InsuredName = "AUTM FCGA - 857590516";
+            ProductLob = "";
+            Status_Reason = "UW Record Screen";
         }
 
         /// <summary>
@@ -64,6 +66,30 @@ namespace Sid_FCGAProject
         {
             get { return _UW_InsuredName; }
             set { _UW_InsuredName = value; }
+        }
+
+        string _ProductLob;
+
+        /// <summary>
+        /// Gets or sets the value of variable ProductLob.
+        /// </summary>
+        [TestVariable("627d4f41-f82c-461f-88e6-86596407a240")]
+        public string ProductLob
+        {
+            get { return _ProductLob; }
+            set { _ProductLob = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("7f48f25d-2467-4506-9cd9-4cdf181e59c3")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -107,12 +133,18 @@ namespace Sid_FCGAProject
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutmSelect' at CenterLeft.", repo.ApplicationUnderTest.AutmSelectInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.AutmSelect.Click(Location.CenterLeft);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AutmSelect' at LowerRight.", repo.ApplicationUnderTest.AutmSelectInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.AutmSelect.Click(Location.LowerRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(5));
-            Delay.Duration(15000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 15s.", new RecordItemIndex(5));
+            //Delay.Duration(15000, false);
+            
+            MergedUserCodeMethod(repo.ApplicationUnderTest.GLEditQuoteInfo, repo.ApplicationUnderTest.WCEditQuoteInfo, ProductLob);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(7));
+            Delay.Duration(5000, false);
             
         }
 

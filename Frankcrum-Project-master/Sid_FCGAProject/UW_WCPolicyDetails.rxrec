@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="2ebf7fb1-2121-4bd1-9e3c-c64511983e5b"
+		name="Status_Reason">
+			WC Policy Details
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -126,37 +131,13 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=
 		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="fe90840d-c68f-422f-8d50-924499a5985c"
-		sx="592"
-		sy="30"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="1d1bc0d9-d88d-400e-8288-cce0df503f26"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@title&gt;'Billing Statement - Google']/container[@accessiblename&gt;'Billing Statement - Google']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename='Billing Statement']/button[@accessiblename='Close']
-				</path>
-			</info>
-		</mouseitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -365,6 +346,30 @@ AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="fe90840d-c68f-422f-8d50-924499a5985c"
+		sx="592"
+		sy="30"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1d1bc0d9-d88d-400e-8288-cce0df503f26"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'Billing Statement - Google']/container[@accessiblename&gt;'Billing Statement - Google']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename='Billing Statement']/button[@accessiblename='Close']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="Exists"
 		duration="100ms"

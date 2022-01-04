@@ -58,6 +58,11 @@ mode="Global">
 		name="AOGrossAmt">
 			45670
 		</var>
+		<var
+		id="bbdaa27a-2fb1-4da7-9d6b-a51d549b533b"
+		name="StatusReason">
+			Agent Include Owner and ClassPayroll
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

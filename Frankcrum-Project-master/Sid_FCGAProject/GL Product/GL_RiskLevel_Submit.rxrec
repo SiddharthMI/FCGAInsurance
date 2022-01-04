@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="1276d162-1ce4-46ba-b6a5-3febbbcc48ac"
+		name="Status_Reason">
+			Risk Level (Save and Continue)
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -215,6 +220,33 @@ FFFFABRRRQAUUUUAFNbrTqa3WgBKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 		</mouseitem>
 		<explicitdelayitem
 		duration="20000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="de8cb2ba-396f-4ceb-996c-1ed282a38b03"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e23a6123-0923-4f54-8875-a3184192846b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//span[#'select2-ddlClassification-container']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

@@ -28,11 +28,16 @@ mode="Global">
 		name="BM_CreDebtFactor">
 			1.34
 		</var>
+		<var
+		id="56394071-fb19-4633-9f3f-6e633c66cf17"
+		name="Status_Reason">
+			Benchmark Debit / Credit Factor
+		</var>
 	</variables>
 	<recorditems>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

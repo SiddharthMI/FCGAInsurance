@@ -45,6 +45,7 @@ namespace Sid_FCGAProject
             LCarrierName = "FWCI";
             LClaimCount = "{Back}2";
             IncurredAmount = "1234";
+            Status_Reason = "Losses Screen";
         }
 
         /// <summary>
@@ -105,6 +106,18 @@ namespace Sid_FCGAProject
             set { _IncurredAmount = value; }
         }
 
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("d4bbf740-ba7d-4544-817f-feb7b0284389")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -157,6 +170,12 @@ namespace Sid_FCGAProject
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSubmit' at Center.", repo.ApplicationUnderTest.BtnSubmitInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.BtnSubmit.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.LblPremium'", repo.ApplicationUnderTest.LblPremiumInfo, new ActionTimeout(15000), new RecordItemIndex(7));
+            repo.ApplicationUnderTest.LblPremiumInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(8));
+            Delay.Duration(5000, false);
             
         }
 

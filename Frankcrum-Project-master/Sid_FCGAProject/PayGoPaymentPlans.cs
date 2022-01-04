@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public PayGoPaymentPlans()
         {
+            Status_Reason = "Pay Go";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("2d9639d1-b94a-4506-b38f-187ae1f6317b")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.LabletxtRadioPayGo15down' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioPayGo15downInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioPayGo15down.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.Payment_Info_PayGo15down' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_PayGo15downInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_PayGo15down.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnDownloadDisc' at Center.", repo.ApplicationUnderTest.BtnDownloadDiscInfo, new RecordItemIndex(1));

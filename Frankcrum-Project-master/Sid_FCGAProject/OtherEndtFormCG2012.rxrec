@@ -28,6 +28,11 @@ mode="Global">
 		name="CG2012_No">
 			1
 		</var>
+		<var
+		id="b919fba5-8240-4791-8219-5be48441f467"
+		name="Status_Reason">
+			CG2012 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

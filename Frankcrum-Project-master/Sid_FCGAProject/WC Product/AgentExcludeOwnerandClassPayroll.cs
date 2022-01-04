@@ -45,6 +45,7 @@ namespace Sid_FCGAProject.WC_Product
             TxtFTEmp = "05";
             TxtPTEmp = "02";
             TxtGrossPayroll = "100000";
+            StatusReason = "Exclude Owner and Class Payroll";
         }
 
         /// <summary>
@@ -103,6 +104,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _TxtGrossPayroll; }
             set { _TxtGrossPayroll = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("2b0f8c5e-07c3-4f11-8944-089231abc3c5")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

@@ -45,6 +45,7 @@ namespace Sid_FCGAProject
             UW_FTEmployee = "09";
             UW_PTEmployee = "03";
             UW_GrossPayment = "180000";
+            Status_Reason = "UW Exclude Owner and Payroll (Modify)";
         }
 
         /// <summary>
@@ -103,6 +104,18 @@ namespace Sid_FCGAProject
         {
             get { return _UW_GrossPayment; }
             set { _UW_GrossPayment = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("9448a4e6-1ce5-4b79-a351-db5717c06b35")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

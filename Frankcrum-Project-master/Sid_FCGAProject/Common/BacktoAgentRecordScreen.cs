@@ -42,6 +42,8 @@ namespace Sid_FCGAProject.Common
         public BacktoAgentRecordScreen()
         {
             BusinessInsuredName = "Autmfcga-222Sid";
+            lob = "";
+            Status_Reason = "Agent Record Screen";
         }
 
         /// <summary>
@@ -64,6 +66,30 @@ namespace Sid_FCGAProject.Common
         {
             get { return _BusinessInsuredName; }
             set { _BusinessInsuredName = value; }
+        }
+
+        string _lob;
+
+        /// <summary>
+        /// Gets or sets the value of variable lob.
+        /// </summary>
+        [TestVariable("67e18692-0c89-4d03-9831-fa66791247b5")]
+        public string lob
+        {
+            get { return _lob; }
+            set { _lob = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("889f72f9-0434-402f-ae09-23250006dcfb")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -92,8 +118,8 @@ namespace Sid_FCGAProject.Common
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtSearch1' at 130;20.", repo.ApplicationUnderTest.TxtSearch1Info, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.TxtSearch1.Click("130;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtSearch1' at Center.", repo.ApplicationUnderTest.TxtSearch1Info, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.TxtSearch1.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$BusinessInsuredName' with focus on 'ApplicationUnderTest.TxtSearch1'.", repo.ApplicationUnderTest.TxtSearch1Info, new RecordItemIndex(1));
@@ -115,8 +141,14 @@ namespace Sid_FCGAProject.Common
             repo.ApplicationUnderTest.EditQuote.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(6));
-            Delay.Duration(20000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(6));
+            //Delay.Duration(20000, false);
+            
+            MergedUserCodeMethod(repo.ApplicationUnderTest.BtnIssueInfo, repo.ApplicationUnderTest.BtnSaveInfo, lob);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(8));
+            Delay.Duration(10000, false);
             
         }
 

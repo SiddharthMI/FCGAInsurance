@@ -90,6 +90,9 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.BtnSave1.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.BtnSubmitRI'", repo.ApplicationUnderTest.BtnSubmitRIInfo, new ActionTimeout(15000), new RecordItemIndex(3));
+            repo.ApplicationUnderTest.BtnSubmitRIInfo.WaitForExists(15000);
+            
         }
 
 #region Image Feature Data

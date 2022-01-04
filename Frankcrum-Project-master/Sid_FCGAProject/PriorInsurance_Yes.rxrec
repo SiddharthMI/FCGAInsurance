@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="04921576-3ece-4689-9209-eda5a1178044"
+		name="Status_Reason">
+			Prior Insurance
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

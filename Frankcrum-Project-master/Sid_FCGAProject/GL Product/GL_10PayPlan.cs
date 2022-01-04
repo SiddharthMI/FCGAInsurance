@@ -79,8 +79,8 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.LabletxtRadio15down' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadio15downInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadio15down.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.Payment_Info_10Pay' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_10PayInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_10Pay.Click();
             Delay.Milliseconds(0);
             
         }

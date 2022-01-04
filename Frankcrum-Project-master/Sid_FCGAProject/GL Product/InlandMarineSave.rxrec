@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="28220f1a-823b-44eb-9b1d-bce365cc5477"
+		name="Status_Reason">
+			Inland Marine Save
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -30,7 +35,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="97;17"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="0de62bfa-a2fd-4d73-9a41-f644e3a6528a"
@@ -214,6 +219,24 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
 ph6miigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Z
 			</helperscreenshot>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="54b87a58-f17e-4b47-a65e-34d657c72133"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="05bc3a46-c45c-4a7c-a413-470a032ebdcb"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//input[#'BtnCSPSave']
+				</path>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="b4f2e0a2-1262-4076-a527-db4d78527b23"

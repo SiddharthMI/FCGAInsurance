@@ -43,6 +43,11 @@ mode="Global">
 		name="UW_Ownerstate">
 			florida
 		</var>
+		<var
+		id="b2cef47b-d692-497c-95cc-5f2da4a072f0"
+		name="Status_Reason">
+			UW Modify Owner Details
+		</var>
 	</variables>
 	<recorditems>
 		<setvaluerecorditem

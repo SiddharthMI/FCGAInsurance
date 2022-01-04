@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject.GL_Product">
 	</codegen>
 	<variables>
+		<var
+		id="01e7729f-03d9-4fea-a545-a513916a8774"
+		name="Status_Reason">
+			GL Wavier of Surbogation
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

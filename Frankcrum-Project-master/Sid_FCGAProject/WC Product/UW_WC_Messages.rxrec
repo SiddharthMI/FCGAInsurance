@@ -28,13 +28,18 @@ mode="Global">
 		name="UWMessages">
 			Hello Agent
 		</var>
+		<var
+		id="aefcd3e9-68ff-4d53-888b-ab14b876d389"
+		name="Status_Reason">
+			UW WC Message
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="11;9"
 		movetime="300ms"
 		optional="False"
@@ -131,7 +136,7 @@ l7WSMEKJAuyQYww78bQffmtzYv8AdH5UtFACbF/uj8qNi/3R+VLRRcD/2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="39;19"
 		movetime="300ms"
 		optional="False"
@@ -267,7 +272,7 @@ gAooooA//9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="10;14"
 		movetime="300ms"
 		optional="False"
@@ -365,7 +370,7 @@ mxf7o/KjYv8AdH5UtFFwE2L/AHR+VZUt8LWe7hgUSXcko8qL1+ROT6Dqe3Q1rUUAY/njUnt1M+IJ
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="184;39"
 		movetime="300ms"
 		optional="False"
@@ -593,7 +598,7 @@ FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 		<keysequenceitem
 		KeySequence="Hello Agent"
 		duration="20ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		presstime="20ms"
 		searchpropertyid="b0461f78-329d-4518-a9b4-62c8c9e3a18f">
@@ -802,7 +807,7 @@ oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -990,7 +995,7 @@ iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 		</mouseitem>
 		<userrecorditem
 		classname="WebLibrary"
-		enabled="True"
+		enabled="False"
 		isexternaltestmethod="True"
 		methodname="ReportFullPageScreenshot"
 		namespace="Ranorex.AutomationHelpers.UserCodeCollections"
@@ -1032,7 +1037,7 @@ iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="21;25"
 		movetime="300ms"
 		optional="False"
@@ -1054,7 +1059,7 @@ iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 		</mouseitem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

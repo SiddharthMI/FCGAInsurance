@@ -113,6 +113,15 @@ mode="Global">
 		name="GLAgTotOtherPayroll">
 			34256
 		</var>
+		<var
+		id="b11df3da-b1c0-4468-a8dd-802d9e140d58"
+		name="GL_ClassDescription">
+		</var>
+		<var
+		id="88ba3405-e98c-4cbe-9bf4-e3a25d44a3da"
+		name="Status_Reason">
+			Class and Payroll
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -2045,6 +2054,24 @@ KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
 oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3e6f66d3-5ec8-4e14-911a-8aebe7b42e81"
+		varname="GL_ClassDescription">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9bf94ae1-1c7d-4fc5-bb48-9f86a0bf986f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&lt;'fwcins.com']//table[#'ClassificationGrid']/tbody/tr/td[2]/b
+				</path>
+			</info>
+		</getvaluerecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

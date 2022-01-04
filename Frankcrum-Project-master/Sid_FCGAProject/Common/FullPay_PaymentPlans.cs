@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.Common
         /// </summary>
         public FullPay_PaymentPlans()
         {
+            Status_Reason = "Full Pay Payment Plan";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.Common
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("0688d021-bf23-422c-ac4b-5cc4b563116b")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,8 +92,8 @@ namespace Sid_FCGAProject.Common
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.LabletxtRadioFullPay' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioFullPayInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.TblPaymentInfo.LabletxtRadioFullPay.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TblPaymentInfo.Payment_Info_FullPay' at Center.", repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_FullPayInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.TblPaymentInfo.Payment_Info_FullPay.Click();
             Delay.Milliseconds(0);
             
         }

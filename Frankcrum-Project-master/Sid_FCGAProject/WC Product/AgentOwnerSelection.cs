@@ -44,6 +44,7 @@ namespace Sid_FCGAProject.WC_Product
             OwnerFirstName = "S";
             OwnerLastName = "M";
             OwnerPercent = "100";
+            StatusReason = "Owner Selection";
         }
 
         /// <summary>
@@ -90,6 +91,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _OwnerPercent; }
             set { _OwnerPercent = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("f7eb5162-7846-421b-8102-3e92d8798491")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

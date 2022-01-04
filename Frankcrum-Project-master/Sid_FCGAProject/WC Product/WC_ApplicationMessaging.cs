@@ -41,6 +41,7 @@ namespace Sid_FCGAProject.WC_Product
         /// </summary>
         public WC_ApplicationMessaging()
         {
+            Status_Reason = "Application Messaging";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject.WC_Product
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("86d5f682-d58a-4eec-8173-c1f6c25cc49e")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 
@@ -79,19 +92,19 @@ namespace Sid_FCGAProject.WC_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AgentMessageLink' at Center.", repo.ApplicationUnderTest.AgentMessageLinkInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.AgentMessageLink.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AgentMessageLink' at Center.", repo.ApplicationUnderTest.AgentMessageLinkInfo, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.AgentMessageLink.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            //Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AgentMessageCloseLink' at Center.", repo.AgentMessageCloseLinkInfo, new RecordItemIndex(2));
-            repo.AgentMessageCloseLink.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AgentMessageCloseLink' at Center.", repo.AgentMessageCloseLinkInfo, new RecordItemIndex(2));
+            //repo.AgentMessageCloseLink.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
+            //Delay.Duration(5000, false);
             
         }
 

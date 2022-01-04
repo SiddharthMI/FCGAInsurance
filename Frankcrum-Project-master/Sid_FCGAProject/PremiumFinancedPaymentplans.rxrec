@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="c5543050-14c9-4ab6-b3da-3be76693516b"
+		name="Status_Reason">
+			Premium Financed Payment Plan
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

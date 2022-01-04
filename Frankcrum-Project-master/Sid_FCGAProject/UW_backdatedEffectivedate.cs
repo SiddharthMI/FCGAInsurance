@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public UW_backdatedEffectivedate()
         {
             EffectiveDate = "07/29/2021";
+            Status_Reason = "UW Effective Date (Backdated)";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _EffectiveDate; }
             set { _EffectiveDate = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("3e7d51fc-c825-4482-9fcb-8f3f591fbe0f")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

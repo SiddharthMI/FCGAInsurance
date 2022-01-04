@@ -28,11 +28,16 @@ mode="Global">
 		name="UW_FWCI_DeCreFactor">
 			1.23
 		</var>
+		<var
+		id="147a527e-09ef-429d-ba9e-f12ab2e74460"
+		name="Status_Reason">
+			UW FWCI Debit/Credit Factor
+		</var>
 	</variables>
 	<recorditems>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

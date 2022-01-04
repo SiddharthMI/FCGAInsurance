@@ -28,6 +28,11 @@ mode="Global">
 		name="GLAgDeduct">
 			$500
 		</var>
+		<var
+		id="90822a6a-0de3-4987-866c-c2f9f266b41e"
+		name="Status_Reason">
+			Agent GL Deductible
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

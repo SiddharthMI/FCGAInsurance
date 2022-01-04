@@ -43,6 +43,7 @@ namespace Sid_FCGAProject.WC_Product
         {
             AdditionalInsuredName = "Raj";
             AddInsFEINNo = "4545454545";
+            StatusReason = "Additional Insured";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _AddInsFEINNo; }
             set { _AddInsFEINNo = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("fd220ae0-d748-4f23-9179-e833d018dca7")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

@@ -41,23 +41,22 @@ namespace Sid_FCGAProject.User_Collection
         /// </summary>
         public Latest_Excel_Write()
         {
-            TCID = "1";
-            Product = "WC";
-            TestScenario = "Referral";
+            TCID = "";
+            Product = "";
+            TestScenario = "";
             ClassCode = "";
             ClassDescription = "";
-            ClassGroup = "";
+            ClassGroup = "NA";
             InsuredName = "";
             ReferralReason = "";
             InsuredAddress = "";
-            SmartyStreet = "";
-            QuoteNo = "";
+            PrdPremium = "";
             CarrierName = "";
             MIPolicyNo = "";
-            XSPolicyNo = "";
-            Status = "";
+            XSPolicyNo = "NA";
             StartTime = "";
             EndTime = "";
+            StatusReason = "Need to Analyse";
         }
 
         /// <summary>
@@ -178,28 +177,16 @@ namespace Sid_FCGAProject.User_Collection
             set { _InsuredAddress = value; }
         }
 
-        string _SmartyStreet;
+        string _PrdPremium;
 
         /// <summary>
-        /// Gets or sets the value of variable SmartyStreet.
-        /// </summary>
-        [TestVariable("876d20a8-1a03-41ae-9532-ebe7bb1ef20b")]
-        public string SmartyStreet
-        {
-            get { return _SmartyStreet; }
-            set { _SmartyStreet = value; }
-        }
-
-        string _QuoteNo;
-
-        /// <summary>
-        /// Gets or sets the value of variable QuoteNo.
+        /// Gets or sets the value of variable PrdPremium.
         /// </summary>
         [TestVariable("0e8e039a-6168-46b9-a110-4f6b5005647b")]
-        public string QuoteNo
+        public string PrdPremium
         {
-            get { return _QuoteNo; }
-            set { _QuoteNo = value; }
+            get { return _PrdPremium; }
+            set { _PrdPremium = value; }
         }
 
         string _CarrierName;
@@ -238,18 +225,6 @@ namespace Sid_FCGAProject.User_Collection
             set { _XSPolicyNo = value; }
         }
 
-        string _Status;
-
-        /// <summary>
-        /// Gets or sets the value of variable Status.
-        /// </summary>
-        [TestVariable("cc3d7d36-125c-43eb-a5bd-b6c99d37ae9b")]
-        public string Status
-        {
-            get { return _Status; }
-            set { _Status = value; }
-        }
-
         string _StartTime;
 
         /// <summary>
@@ -272,6 +247,18 @@ namespace Sid_FCGAProject.User_Collection
         {
             get { return _EndTime; }
             set { _EndTime = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("b930431f-322b-42a5-a003-6be381a9436f")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion
@@ -300,7 +287,10 @@ namespace Sid_FCGAProject.User_Collection
 
             Init();
 
-            TestExcelWrite(TCID, Product, TestScenario, ClassCode, ClassDescription, ClassGroup, InsuredName, ReferralReason, InsuredAddress, SmartyStreet, QuoteNo, CarrierName, MIPolicyNo, XSPolicyNo, Status, StartTime, EndTime);
+            EndTime = Ranorex.AutomationHelpers.UserCodeCollections.SystemLibrary.GetDateTimeAsString("");
+            Delay.Milliseconds(0);
+            
+            TestExcelWrite(TCID, Product, TestScenario, ClassCode, ClassDescription, ClassGroup, InsuredName, ReferralReason, InsuredAddress, PrdPremium, CarrierName, MIPolicyNo, XSPolicyNo, StatusReason, StartTime, EndTime);
             Delay.Milliseconds(0);
             
         }

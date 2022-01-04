@@ -28,6 +28,15 @@ mode="Global">
 		name="BusinessInsuredName">
 			Autmfcga-222Sid
 		</var>
+		<var
+		id="67e18692-0c89-4d03-9831-fa66791247b5"
+		name="lob">
+		</var>
+		<var
+		id="889f72f9-0434-402f-ae09-23250006dcfb"
+		name="Status_Reason">
+			Agent Record Screen
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -35,7 +44,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="130;20"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="fe6e5a26-ea78-439d-9f2b-e25f05d2d000"
@@ -1068,6 +1077,72 @@ P/38NH267/5+p/8Av4aKKAD7dd/8/U//AH8NH267/wCfqf8A7+GiigA+3Xf/AD9T/wDfw0UUUAf/
 		</mouseitem>
 		<explicitdelayitem
 		duration="20000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<userrecorditem
+		classname="BacktoAgentRecordScreen"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="MergedUserCodeMethod"
+		namespace="Sid_FCGAProject.Common"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f0629754-a759-4ff8-8a3d-fccab6744304">
+				<argument
+				argname="inputtagInfo"
+				id="222a26cd-bc33-4c64-9cf6-ba4672a1f374">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="ffd88237-6810-406b-8918-1c47c24a759b"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain&lt;'fwcins.com']//input[#'btnIssue']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="inputtagInfo1"
+				id="06f8e4d5-c1e2-4cca-97ea-92b4be70e3be">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="b199e282-d3b8-4907-8563-862a046d16f1"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain&lt;'fwcins.com']//input[#'btnSave']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="lob"
+				id="2b17ab9f-148e-4cb4-8acb-9fd9ca82d184"
+				variable="lob">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="10000ms"
 		enabled="True"
 		optional="False">
 			<comment>

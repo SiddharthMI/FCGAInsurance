@@ -48,6 +48,7 @@ namespace Sid_FCGAProject.WC_Product
             CityName = "Tampa";
             ZipcodeID = "33604";
             BusinessName = "AUTM FCGA-76765734";
+            StatusReason = "Business Name and Address";
         }
 
         /// <summary>
@@ -144,6 +145,18 @@ namespace Sid_FCGAProject.WC_Product
             set { _BusinessName = value; }
         }
 
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("52d3ea9d-4217-4999-9815-e17a34c6aa20")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -207,7 +220,10 @@ namespace Sid_FCGAProject.WC_Product
             repo.ApplicationUnderTest.TxtZipCode.PressKeys(ZipcodeID);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.UseAsIs' at Center.", repo.ApplicationUnderTest.MainContentHolder.UseAsIsInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(9));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MainContentHolder.UseAsIs' at Center.", repo.ApplicationUnderTest.MainContentHolder.UseAsIsInfo, new RecordItemIndex(10));
             repo.ApplicationUnderTest.MainContentHolder.UseAsIs.Click();
             Delay.Milliseconds(0);
             

@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public AgentBusinessStartDate()
         {
             BusinessStartDate = "07/01/2021";
+            StatusReason = "Business Start Date";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _BusinessStartDate; }
             set { _BusinessStartDate = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("8c64879a-3f77-4f6b-b0bb-308ee2eb27e2")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

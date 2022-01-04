@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="2d9639d1-b94a-4506-b38f-187ae1f6317b"
+		name="Status_Reason">
+			Pay Go
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

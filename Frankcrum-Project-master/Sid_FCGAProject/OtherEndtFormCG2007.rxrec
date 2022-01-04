@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sid_FCGAProject">
 	</codegen>
 	<variables>
+		<var
+		id="34a7646c-c8a2-4883-bd9d-9961ee0dbdb7"
+		name="Status_Reason">
+			CG2007 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

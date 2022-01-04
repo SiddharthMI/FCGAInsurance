@@ -41,6 +41,7 @@ namespace Sid_FCGAProject
         /// </summary>
         public UW_QuestionSubmit()
         {
+            Status_Reason = "Question Page";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace Sid_FCGAProject
         }
 
 #region Variables
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("d059385d-461f-46ba-82e5-8cf3aa6cf4ad")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
+        }
 
 #endregion
 

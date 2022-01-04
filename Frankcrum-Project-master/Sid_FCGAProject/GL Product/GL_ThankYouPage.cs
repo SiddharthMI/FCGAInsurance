@@ -118,48 +118,54 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LblCompanyName' at Center.", repo.ApplicationUnderTest.LblCompanyNameInfo, new RecordItemIndex(0));
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            //Delay.Duration(10000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LblCompanyName' at Center.", repo.ApplicationUnderTest.LblCompanyNameInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.LblCompanyName.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.LblCompanyName' and assigning its value to variable 'InsuredName'.", repo.ApplicationUnderTest.LblCompanyNameInfo, new RecordItemIndex(1));
-            InsuredName = repo.ApplicationUnderTest.LblCompanyName.Element.GetAttributeValueText("TagValue");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.LblCompanyName' and assigning its value to variable 'InsuredName'.", repo.ApplicationUnderTest.LblCompanyNameInfo, new RecordItemIndex(2));
+            InsuredName = repo.ApplicationUnderTest.LblCompanyName.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LblNumber' at Center.", repo.ApplicationUnderTest.LblNumberInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LblNumber' at Center.", repo.ApplicationUnderTest.LblNumberInfo, new RecordItemIndex(3));
             repo.ApplicationUnderTest.LblNumber.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.LblNumber' and assigning its value to variable 'GLPolicyNumber'.", repo.ApplicationUnderTest.LblNumberInfo, new RecordItemIndex(3));
-            GLPolicyNumber = repo.ApplicationUnderTest.LblNumber.Element.GetAttributeValueText("TagValue");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.LblNumber' and assigning its value to variable 'GLPolicyNumber'.", repo.ApplicationUnderTest.LblNumberInfo, new RecordItemIndex(4));
+            GLPolicyNumber = repo.ApplicationUnderTest.LblNumber.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LblxsNumber' at Center.", repo.ApplicationUnderTest.LblxsNumberInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LblxsNumber' at Center.", repo.ApplicationUnderTest.LblxsNumberInfo, new RecordItemIndex(5));
             repo.ApplicationUnderTest.LblxsNumber.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.LblNumber' and assigning its value to variable 'ExPolicyNumber'.", repo.ApplicationUnderTest.LblNumberInfo, new RecordItemIndex(5));
-            ExPolicyNumber = repo.ApplicationUnderTest.LblNumber.Element.GetAttributeValueText("TagValue");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.LblxsNumber' and assigning its value to variable 'ExPolicyNumber'.", repo.ApplicationUnderTest.LblxsNumberInfo, new RecordItemIndex(6));
+            ExPolicyNumber = repo.ApplicationUnderTest.LblxsNumber.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LnkDownloadEvidence' at Center.", repo.ApplicationUnderTest.LnkDownloadEvidenceInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.LnkDownloadEvidence.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LnkDownloadEvidence' at Center.", repo.ApplicationUnderTest.LnkDownloadEvidenceInfo, new RecordItemIndex(7));
+            //repo.ApplicationUnderTest.LnkDownloadEvidence.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(7));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(8));
+            //Delay.Duration(10000, false);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.EvidencePage' at Center.", repo.ApplicationUnderTest.EvidencePageInfo, new RecordItemIndex(8));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.EvidencePage' at Center.", repo.ApplicationUnderTest.EvidencePageInfo, new RecordItemIndex(9));
             //repo.ApplicationUnderTest.EvidencePage.Click();
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close3' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close3Info, new RecordItemIndex(9));
-            repo.HttpsQawinstonFwcinsComFWCPortalP.Close3.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close3' at Center.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close3Info, new RecordItemIndex(10));
+            //repo.HttpsQawinstonFwcinsComFWCPortalP.Close3.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExit' at Center.", repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExitInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExit' at Center.", repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExitInfo, new RecordItemIndex(11));
             repo.ApplicationUnderTest.UW_PolicyDetails.PolicyDetails_OffExit.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(12));
+            Delay.Duration(300, false);
             
         }
 

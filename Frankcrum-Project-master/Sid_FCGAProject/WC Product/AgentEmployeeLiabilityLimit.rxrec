@@ -28,6 +28,11 @@ mode="Global">
 		name="EmpLiabilityLimitID">
 			$100,000/$500,000/$100,000
 		</var>
+		<var
+		id="b2240f62-f3c0-406c-992d-6f9e0835cf11"
+		name="StatusReason">
+			EmpLiabilityLimit
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

@@ -103,19 +103,11 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.MyTable.GQNo6Yes.Click();
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Seach_Link' at Center.", repo.ApplicationUnderTest.Seach_LinkInfo, new RecordItemIndex(6));
-            //repo.ApplicationUnderTest.Seach_Link.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Seach_Link' at Center.", repo.ApplicationUnderTest.Seach_LinkInfo, new RecordItemIndex(7));
-            //repo.ApplicationUnderTest.Seach_Link.Click();
-            //Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MyTable.LabelTagNo1' at Center.", repo.ApplicationUnderTest.MyTable.LabelTagNo1Info, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MyTable.LabelTagNo1' at Center.", repo.ApplicationUnderTest.MyTable.LabelTagNo1Info, new RecordItemIndex(6));
             repo.ApplicationUnderTest.MyTable.LabelTagNo1.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave1' at Center.", repo.ApplicationUnderTest.BtnSave1Info, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSave1' at Center.", repo.ApplicationUnderTest.BtnSave1Info, new RecordItemIndex(7));
             repo.ApplicationUnderTest.BtnSave1.Click();
             Delay.Milliseconds(0);
             

@@ -96,12 +96,12 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.ConsentToRateCTR2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Txtsearch4' at Center.", repo.ApplicationUnderTest.Txtsearch4Info, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Txtsearch4.Click();
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '$GL_FWCI_CTRValue' on item 'ApplicationUnderTest.Txtsearch4'.", repo.ApplicationUnderTest.Txtsearch4Info, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Txtsearch4.Element.SetAttributeValue("Value", GL_FWCI_CTRValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$GL_FWCI_CTRValue' with focus on 'ApplicationUnderTest.Txtsearch4'.", repo.ApplicationUnderTest.Txtsearch4Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Txtsearch4.PressKeys(GL_FWCI_CTRValue);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Irpm' at Center.", repo.ApplicationUnderTest.IrpmInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Irpm.Click();
             Delay.Milliseconds(0);
             
         }

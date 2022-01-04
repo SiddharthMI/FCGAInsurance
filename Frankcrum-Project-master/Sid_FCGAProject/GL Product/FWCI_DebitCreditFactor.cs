@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.GL_Product
         public FWCI_DebitCreditFactor()
         {
             UW_FWCI_DeCreFactor = "1.23";
+            Status_Reason = "UW FWCI Debit/Credit Factor";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.GL_Product
         {
             get { return _UW_FWCI_DeCreFactor; }
             set { _UW_FWCI_DeCreFactor = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("147a527e-09ef-429d-ba9e-f12ab2e74460")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -92,8 +105,8 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            //Delay.Duration(10000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.IRPMEnabled' at Center.", repo.ApplicationUnderTest.IRPMEnabledInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.IRPMEnabled.Click();

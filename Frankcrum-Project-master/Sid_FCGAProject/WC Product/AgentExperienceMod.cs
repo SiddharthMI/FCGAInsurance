@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public AgentExperienceMod()
         {
             ExpModID = "1.89";
+            StatusReason = "Experience Mod";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _ExpModID; }
             set { _ExpModID = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("8fe9b330-71e4-4079-b015-735ed5e36cf4")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

@@ -33,6 +33,11 @@ mode="Global">
 		name="WCPolicyNumber">
 			0
 		</var>
+		<var
+		id="819cbfcb-22f5-4520-975b-19e1bacd2f17"
+		name="Status_Reason">
+			ThankYou Page
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -462,7 +467,7 @@ z61ZhBYCUs2XUfLngfSiigZLRRRQAUUUUAFFFFABRRRQB//Z
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="52;20"
 		movetime="300ms"
 		optional="False"
@@ -611,7 +616,7 @@ CiiigAooooAKKKKACiiigAooooA//9k=
 		</mouseitem>
 		<explicitdelayitem
 		duration="8000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -622,7 +627,7 @@ CiiigAooooAKKKKACiiigAooooA//9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -635,16 +640,16 @@ CiiigAooooAKKKKACiiigAooooA//9k=
 			<bindings>
 			</bindings>
 			<info
-			id="e8c36d62-6c91-49b8-9d8e-b3dc5e8be2f4"
+			id="a84ec84e-b87d-4b7c-b943-1afa01459fcd"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@title&gt;'BND_']/container[@accessiblename&gt;'BND_']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename&gt;'BND_']/button[@accessiblename='Close']
+					/form[@title&gt;'https://']/container[@accessiblename&gt;'https://']/container[@accessiblename='Google Chrome']//tabpagelist/container[1]/tabpage[@accessiblename&gt;'https://']/button[@accessiblename='Close']
 				</path>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -810,7 +815,7 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 			</helperscreenshot>
 		</mouseitem>
 		<explicitdelayitem
-		duration="10000ms"
+		duration="5000ms"
 		enabled="True"
 		optional="False">
 			<comment>

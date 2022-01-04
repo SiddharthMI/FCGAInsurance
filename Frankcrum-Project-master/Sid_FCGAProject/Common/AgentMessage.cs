@@ -105,53 +105,53 @@ namespace Sid_FCGAProject.Common
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtSearch1' at Center.", repo.ApplicationUnderTest.TxtSearch1Info, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.TxtSearch1.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtSearch1' at Center.", repo.ApplicationUnderTest.TxtSearch1Info, new RecordItemIndex(0));
+            //repo.ApplicationUnderTest.TxtSearch1.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$BusinessInsuredName' with focus on 'ApplicationUnderTest.TxtSearch1'.", repo.ApplicationUnderTest.TxtSearch1Info, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.TxtSearch1.PressKeys(BusinessInsuredName);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$BusinessInsuredName' with focus on 'ApplicationUnderTest.TxtSearch1'.", repo.ApplicationUnderTest.TxtSearch1Info, new RecordItemIndex(1));
+            //repo.ApplicationUnderTest.TxtSearch1.PressKeys(BusinessInsuredName);
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSearch' at Center.", repo.ApplicationUnderTest.BtnSearchInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.BtnSearch.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnSearch' at Center.", repo.ApplicationUnderTest.BtnSearchInfo, new RecordItemIndex(2));
+            //repo.ApplicationUnderTest.BtnSearch.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
+            //Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAction' at Center.", repo.ApplicationUnderTest.BtnActionInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.BtnAction.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BtnAction' at Center.", repo.ApplicationUnderTest.BtnActionInfo, new RecordItemIndex(4));
+            //repo.ApplicationUnderTest.BtnAction.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Message' at Center.", repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_MessageInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Message.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Message' at Center.", repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_MessageInfo, new RecordItemIndex(5));
+            //repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Message.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging' at Center.", repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_MessagingInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging' at Center.", repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_MessagingInfo, new RecordItemIndex(6));
+            //repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Agent_Message' with focus on 'ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging'.", repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_MessagingInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging.PressKeys(Agent_Message);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Agent_Message' with focus on 'ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging'.", repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_MessagingInfo, new RecordItemIndex(7));
+            //repo.ApplicationUnderTest.Agent_Record_Screen.AgentRecord_Action_Messaging.PressKeys(Agent_Message);
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
-            Delay.Duration(2000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
+            //Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AgentRecord_ActionSend' at Center.", repo.ApplicationUnderTest.AgentRecord_ActionSendInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.AgentRecord_ActionSend.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AgentRecord_ActionSend' at Center.", repo.ApplicationUnderTest.AgentRecord_ActionSendInfo, new RecordItemIndex(9));
+            //repo.ApplicationUnderTest.AgentRecord_ActionSend.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(10));
-            Delay.Duration(2000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(10));
+            //Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AgentMessageCloseLink' at Center.", repo.AgentMessageCloseLinkInfo, new RecordItemIndex(11));
-            repo.AgentMessageCloseLink.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AgentMessageCloseLink' at Center.", repo.AgentMessageCloseLinkInfo, new RecordItemIndex(11));
+            //repo.AgentMessageCloseLink.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(12));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(12));
+            //Delay.Duration(5000, false);
             
         }
 

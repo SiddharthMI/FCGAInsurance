@@ -79,8 +79,8 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            //Delay.Duration(10000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.NewQuoteTab' at Center.", repo.ApplicationUnderTest.NewQuoteTabInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.NewQuoteTab.Click();

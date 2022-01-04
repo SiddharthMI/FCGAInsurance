@@ -28,13 +28,18 @@ mode="Global">
 		name="BMPremium">
 			0
 		</var>
+		<var
+		id="8f1dd563-e8d6-45ae-855d-3f220b7cc532"
+		name="Status_Reason">
+			Benchmark Carrier Selection
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -330,7 +335,7 @@ UUAf/9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -496,7 +501,7 @@ PUlRSmCEqFMSbR0G0YFPop3YrIi+zQf88I/++BRUtFF2HKux/9k=
 		</mouseitem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -507,7 +512,7 @@ PUlRSmCEqFMSbR0G0YFPop3YrIi+zQf88I/++BRUtFF2HKux/9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -638,7 +643,7 @@ H7J/uL/M1DP5DA+Rs+0buNn3s55zV2ikBVWRYJphKQu47lz/ABcdvyoq1RQB/9k=
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="78;20"
 		movetime="300ms"
 		optional="False"
@@ -821,7 +826,7 @@ AH8NH268/wCfuf8A7+GjlDmO2orift15/wA/c/8A38NH268/5+5/+/ho5Q5jtqK4n7def8/c/wD3
 		</mouseitem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -832,7 +837,7 @@ AH8NH268/wCfuf8A7+GjlDmO2orift15/wA/c/8A38NH268/5+5/+/ho5Q5jtqK4n7def8/c/wD3
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -952,7 +957,7 @@ H7J/uL/M1DP5DA+Rs+0buNn3s55zV2ikBVWRYJphKQu47lz/ABcdvyoq1RQB/9k=
 		</mouseitem>
 		<explicitdelayitem
 		duration="2000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

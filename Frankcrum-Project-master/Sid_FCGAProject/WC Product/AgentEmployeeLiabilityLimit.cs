@@ -42,6 +42,7 @@ namespace Sid_FCGAProject.WC_Product
         public AgentEmployeeLiabilityLimit()
         {
             EmpLiabilityLimitID = "$100,000/$500,000/$100,000";
+            StatusReason = "EmpLiabilityLimit";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _EmpLiabilityLimitID; }
             set { _EmpLiabilityLimitID = value; }
+        }
+
+        string _StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable StatusReason.
+        /// </summary>
+        [TestVariable("b2240f62-f3c0-406c-992d-6f9e0835cf11")]
+        public string StatusReason
+        {
+            get { return _StatusReason; }
+            set { _StatusReason = value; }
         }
 
 #endregion

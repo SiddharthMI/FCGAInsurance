@@ -43,6 +43,7 @@ namespace Sid_FCGAProject.WC_Product
         {
             InsSubcontractorAmt = "4567";
             SubcontractTypeWork = "YES";
+            Status_Reason = "Agent Insured Subcontractor";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace Sid_FCGAProject.WC_Product
         {
             get { return _SubcontractTypeWork; }
             set { _SubcontractTypeWork = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("abc4c38e-c6a4-431d-b86d-5177e7e72cc8")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion

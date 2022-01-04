@@ -92,8 +92,8 @@ namespace Sid_FCGAProject.GL_Product
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
+            //Delay.Duration(10000, false);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtRefferal' at Center.", repo.ApplicationUnderTest.TxtRefferalInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.TxtRefferal.Click();
@@ -107,19 +107,14 @@ namespace Sid_FCGAProject.GL_Product
             repo.ApplicationUnderTest.BtnDone.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(4));
-            Delay.Duration(10000, false);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LnkSignOut' at Center.", repo.ApplicationUnderTest.LnkSignOutInfo, new RecordItemIndex(5));
-            //repo.ApplicationUnderTest.LnkSignOut.Click();
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(6));
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(4));
             //Delay.Duration(10000, false);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsQawinstonFwcinsComFWCPortalP.Close2' at CenterRight.", repo.HttpsQawinstonFwcinsComFWCPortalP.Close2Info, new RecordItemIndex(7));
-            //repo.HttpsQawinstonFwcinsComFWCPortalP.Close2.Click(Location.CenterRight);
-            //Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.TxtSearch1'", repo.ApplicationUnderTest.TxtSearch1Info, new ActionTimeout(15000), new RecordItemIndex(5));
+            repo.ApplicationUnderTest.TxtSearch1Info.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(6));
+            Delay.Duration(5000, false);
             
         }
 

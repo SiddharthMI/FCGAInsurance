@@ -42,87 +42,12 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="002f59d3-c3eb-4bb0-bb77-595283cc348c"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, labeltag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="1"
-				prefcap="labeltag"
-				rect="438,681,24,29"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						radio-label labletxt
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						labletxt radio-label
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						label
-					</attribute>
-					<attribute
-					name="for"
-					type="System.String">
-						radio_791399
-					</attribute>
-				</element>
+			id="a15b8923-db3c-47a1-b0c9-3e5d8ebf2e4a"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='qawinston.fwcins.com']//table[#'tblPaymentInfo']/tbody/tr[5]/?/?/label
+					/dom[@domain&lt;'fwcins.com']//table[#'tblPaymentInfo']//td[@innertext='Premium Finance']/ancestor-or-self::?/td/label
 				</path>
 			</info>
-			<helperscreenshot
-			guid="fab4cbe0-e892-4563-885a-48db5452dfa6">
-				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABRAG0DASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKM
-j1oAKKMj1oyPWgAooyPWjI9aACijI9aMj1oAKKMj1oyPWgAooyPWjI9aACikLAf/AKqN49/yoAWm
-HqafTD1NABRRRQAjEKpZiAAMkntUX2u2/wCfiL/vsUXn/HlP/wBc2/lVDTrC1msY5JItznOTuI7n
-3qW3eyNoQhyc0i/9rtv+fiL/AL7FH2u2/wCfiL/vsVD/AGXZf88f/Hm/xo/suy/54/8Ajzf40e8O
-1Hu/w/zJ0uIJGCpNGzHoAwJqWsj7PFb65AkK7VKE4yTzhq16ItvcmrCMbcvVBRRRVGQUUUUAPph6
-mn0w9TQAUUUUAQ3n/HlP/wBc2/lVPTWdrGGGI4Ygkt6DcauXn/HlP/1zb+VVNC/1Bz1xx+ZqftG3
-/Ll+v6MuCyh/i3OfUsaY6Na4dWLRfxA9qq6lBFM968kau0dqCpI6H5+n5VLPqlkyPEZSrFTgOjL+
-pFWYkU3/ACHrf/rmf/Zq0qyFdZNWs2Rg4MPVTkdGrXqI9TettH0/zCiiiqMAooooAfTD1NPph6mg
-AooooAhvP+PKf/rm38qoWTrb6fBcF0TqpDsAG5PH1rSlQSxPG2cMpU496zjpQt3Se1LPJG27Y5GG
-GMEex5qbPmubKUfZuLet7khkW+F99n+bfbKq89T89N1XTzPFcmKBWZo4wmAM5DEnH4GrViIpDJco
-nlvJ8si8cMpIP169at1RiYEESQeIPJiBEcZwq5zgFM/zJrcqhDbxyanc3WW3pLtA7fcUf1q/SStc
-0qSUlG3RBRRRTMwooooAfTD1NPpNvvQA2il2+9G33oASil2+9G33oAzrmC6t5/P08LhzmaI9GPqP
-f15HSnTT6jIAlvbiJj1eUrgfkT/Kr+33o2+9AFaygNvbKjndIfmkb+8x6n/PbFWKXb70bfegBKKX
-b70bfegBKKXb70bfegB1FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
-			</helperscreenshot>
 		</mouseitem>
 	</recorditems>
 	<repository

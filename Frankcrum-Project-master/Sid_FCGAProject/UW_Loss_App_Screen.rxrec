@@ -28,6 +28,11 @@ mode="Global">
 		name="UW_Note_Desc">
 			OK
 		</var>
+		<var
+		id="1602c126-c2a1-4579-a392-6b77a46f39dd"
+		name="Status_Reason">
+			Losses and Application Screen
+		</var>
 	</variables>
 	<recorditems>
 		<separatoritem

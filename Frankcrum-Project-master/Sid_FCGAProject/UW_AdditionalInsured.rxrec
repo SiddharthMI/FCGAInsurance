@@ -33,6 +33,11 @@ mode="Global">
 		name="UW_AdditionalInsuredFEINNo">
 			4545454545
 		</var>
+		<var
+		id="ab177fb7-0267-41f3-b6bf-4527d540b3a2"
+		name="Status_Reason">
+			UW Additional Insured
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem

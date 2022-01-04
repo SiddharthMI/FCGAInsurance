@@ -42,6 +42,7 @@ namespace Sid_FCGAProject
         public PremiumFinanced_Payment_method()
         {
             PaymentMethod = "All Island Credit Corp.";
+            Status_Reason = "Payment Method";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace Sid_FCGAProject
         {
             get { return _PaymentMethod; }
             set { _PaymentMethod = value; }
+        }
+
+        string _Status_Reason;
+
+        /// <summary>
+        /// Gets or sets the value of variable Status_Reason.
+        /// </summary>
+        [TestVariable("8af0b719-2c44-4f33-82f6-4605a42c3094")]
+        public string Status_Reason
+        {
+            get { return _Status_Reason; }
+            set { _Status_Reason = value; }
         }
 
 #endregion
@@ -117,6 +130,38 @@ namespace Sid_FCGAProject
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(6));
             Delay.Duration(20000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SelectDeposit' at Center.", repo.ApplicationUnderTest.SelectDepositInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.SelectDeposit.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at Center.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.Search.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$PaymentMethod' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(9));
+            repo.ApplicationUnderTest.Search.PressKeys(PaymentMethod);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(10));
+            repo.ApplicationUnderTest.Search.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Ranorex.AutomationHelpers.UserCodeCollections.WebLibrary.ReportFullPageScreenshot(repo.ApplicationUnderTest.SelfInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.PFPolicySubmit' at Center.", repo.ApplicationUnderTest.PFPolicySubmitInfo, new RecordItemIndex(12));
+            repo.ApplicationUnderTest.PFPolicySubmit.Click();
+            Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 20s.", new RecordItemIndex(13));
+            //Delay.Duration(20000, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.LblBusinessName'", repo.ApplicationUnderTest.LblBusinessNameInfo, new ActionTimeout(15000), new RecordItemIndex(14));
+            repo.ApplicationUnderTest.LblBusinessNameInfo.WaitForExists(15000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(15));
+            Delay.Duration(5000, false);
             
         }
 

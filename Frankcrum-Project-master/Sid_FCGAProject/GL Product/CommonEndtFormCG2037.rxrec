@@ -28,6 +28,11 @@ mode="Global">
 		name="CG2037_No">
 			1
 		</var>
+		<var
+		id="b5dca760-4538-4606-84cf-8897b591de80"
+		name="Status_Reason">
+			CG2037 Forms No
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
